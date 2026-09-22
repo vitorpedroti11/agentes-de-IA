@@ -1,0 +1,65 @@
+{
+  "prospeccao": {
+    "id": "AAAA-MM-DD_cidade_nichos",
+    "data": "AAAA-MM-DD",
+    "cidade": "Cidade/UF",
+    "regiao": "bairros pesquisados",
+    "nichos": ["restaurante", "colegio", "salao", "estetica", "dentista", "psicologo"],
+    "observacoes": "contexto curto (ex.: temporada de matrícula)",
+    "demonstracao": false
+  },
+  "leads": [
+    {
+      "id": "slug-unico-do-lead",
+      "nicho": "restaurante | colegio | salao | estetica | dentista | psicologo",
+      "nome_fantasia": "Nome como aparece no Google/Instagram",
+      "bairro": "Bairro",
+      "prioridade": "A | B",
+      "score": 0,
+      "score_detalhe": { "dor": 0, "capacidade": 0, "acesso": 0, "timing": 0 },
+      "cnpj": {
+        "numero": "00.000.000/0000-00",
+        "razao_social": "",
+        "situacao": "ATIVA",
+        "abertura": "AAAA-MM-DD",
+        "porte": "ME | EPP | MEI | Demais",
+        "cnae": "código - descrição",
+        "capital_social": 0,
+        "endereco": "",
+        "fonte": "URL da consulta"
+      },
+      "decisor": {
+        "nome": "Nome completo como está no QSA",
+        "primeiro_nome": "Como chamar na mensagem",
+        "qualificacao": "Sócio-Administrador | Titular | Diretor(a)",
+        "validado": false,
+        "fonte_validacao": "URL externa ao CNPJ que confirma que é o dono",
+        "outros_socios": [{ "nome": "", "qualificacao": "" }]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente | ruim | antigo | ok", "nota": "evidência curta" },
+        "instagram": { "url": "", "seguidores": 0, "ultimo_post": "AAAA-MM-DD", "status": "parado | fraco | ok", "nota": "evidência curta" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "" },
+        "anuncios": { "ativos": false, "fonte": "URL da Biblioteca de Anúncios", "observacao": "" }
+      },
+      "dores": ["dor observada com evidência"],
+      "produto": {
+        "recomendado": "Site | Pacote Inicial",
+        "valor": "R$ 1.000–1.500 | R$ 1.500/mês × 3",
+        "justificativa": "uma frase ligada à dor"
+      },
+      "gancho": "por que abordar agora",
+      "contato": { "whatsapp": "DDD+número da empresa", "instagram": "@perfil", "email": "", "melhor_horario": "" },
+      "mensagens": {
+        "whatsapp": "",
+        "instagram_dm": "",
+        "follow_up_d3": "",
+        "follow_up_d7": "",
+        "ligacao": "opcional: roteiro curto para ligação/visita"
+      },
+      "fontes": ["URL de cada dado usado"]
+    }
+  ],
+  "descartados": [{ "nome": "", "nicho": "", "motivo": "" }],
+  "proximo_passo": "Abordar ... hoje entre ...; follow-up D+3 em ..."
+}

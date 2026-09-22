@@ -1,0 +1,220 @@
+{
+  "prospeccao": {
+    "id": "exemplo-ficticio",
+    "data": "2026-09-22",
+    "cidade": "Cidade Exemplo/UF",
+    "regiao": "Centro e Jardim Modelo",
+    "nichos": ["restaurante", "colegio", "salao", "estetica", "dentista", "psicologo"],
+    "observacoes": "Temporada de matrícula 2027 aberta",
+    "demonstracao": true
+  },
+  "leads": [
+    {
+      "id": "colegio-horizonte",
+      "nicho": "colegio",
+      "nome_fantasia": "Colégio Horizonte (fictício)",
+      "bairro": "Jardim Modelo",
+      "prioridade": "A",
+      "score": 84,
+      "score_detalhe": { "dor": 32, "capacidade": 27, "acesso": 12, "timing": 13 },
+      "cnpj": {
+        "numero": "00.000.000/0001-01",
+        "razao_social": "ESCOLA HORIZONTE EXEMPLO LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2009-02-10",
+        "porte": "EPP",
+        "cnae": "8513-9/00 - Ensino fundamental",
+        "capital_social": 200000,
+        "endereco": "Rua Exemplo, 100, Jardim Modelo, Cidade Exemplo/UF",
+        "fonte": "exemplo"
+      },
+      "decisor": {
+        "nome": "Helena Exemplo da Silva",
+        "primeiro_nome": "Helena",
+        "qualificacao": "Sócio-Administrador",
+        "validado": true,
+        "fonte_validacao": "exemplo",
+        "outros_socios": [{ "nome": "Roberto Exemplo da Silva", "qualificacao": "Sócio" }]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "antigo", "nota": "Layout de 2016, sem página de matrícula, não abre bem no celular" },
+        "instagram": { "url": "", "seguidores": 2300, "ultimo_post": "2026-09-01", "status": "fraco", "nota": "Só avisos internos, nenhum post sobre matrícula 2027" },
+        "google": { "url": "", "nota": 4.7, "avaliacoes": 142, "observacao": "Pais elogiam acolhimento" },
+        "anuncios": { "ativos": false, "fonte": "", "observacao": "Nenhum anúncio na Biblioteca da Meta" }
+      },
+      "dores": [
+        "Temporada de matrícula sem nenhuma campanha",
+        "Site sem formulário de visita ou matrícula",
+        "Instagram fala com quem já é aluno, não com família nova"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "Três meses cobrem exatamente a janela de matrícula (out–dez) com tráfego para famílias do bairro; site entra como upsell no mês 2."
+      },
+      "gancho": "Matrícula 2027 começa agora e a escola não está anunciando",
+      "contato": { "whatsapp": "(00) 00000-0000", "instagram": "@colegiohorizonte.exemplo", "email": "", "melhor_horario": "9h–11h" },
+      "mensagens": {
+        "whatsapp": "Oi, Helena! Aqui é o Vitor, da Adspot. Vi que o Horizonte tem 4,7 no Google com mais de 140 avaliações, e os pais falam muito do acolhimento. Só que a matrícula 2027 está começando e hoje nem o site nem o Instagram falam com famílias novas do bairro. A gente monta a campanha de matrícula com vídeo e anúncio para pais da região. Posso te mostrar como ficaria para o Horizonte?",
+        "instagram_dm": "Oi, Helena! Vitor, da Adspot. Os pais elogiam muito o acolhimento do Horizonte no Google (4,7!). Tenho uma ideia de campanha de matrícula 2027 pra vocês, posso te mandar?",
+        "follow_up_d3": "Helena, uma ideia concreta: um vídeo de 30s de um dia no Horizonte, com a fala de uma professora, anunciado só para famílias com filhos em idade escolar num raio de 3 km. É o tipo de coisa que enche agenda de visita em outubro. Faz sentido conversar 15 min essa semana?",
+        "follow_up_d7": "Helena, fecho por aqui pra não te encher. Se quiser ver a campanha de matrícula montada para o Horizonte depois, é só me chamar. Boa temporada!",
+        "ligacao": "Pedir para falar com a Helena (direção). Abrir com o 4,7 no Google, perguntar como está a procura por matrícula 2027 comparada ao ano passado."
+      },
+      "fontes": ["exemplo"]
+    },
+    {
+      "id": "studio-bela",
+      "nicho": "salao",
+      "nome_fantasia": "Studio Bela (fictício)",
+      "bairro": "Centro",
+      "prioridade": "A",
+      "score": 78,
+      "score_detalhe": { "dor": 34, "capacidade": 20, "acesso": 15, "timing": 9 },
+      "cnpj": {
+        "numero": "00.000.000/0001-02",
+        "razao_social": "STUDIO BELA EXEMPLO LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2019-05-03",
+        "porte": "ME",
+        "cnae": "9602-5/01 - Cabeleireiros, manicure e pedicure",
+        "capital_social": 30000,
+        "endereco": "Av. Exemplo, 250, Centro, Cidade Exemplo/UF",
+        "fonte": "exemplo"
+      },
+      "decisor": {
+        "nome": "Marina Exemplo Souza",
+        "primeiro_nome": "Marina",
+        "qualificacao": "Sócio-Administrador",
+        "validado": true,
+        "fonte_validacao": "exemplo",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "Link da bio vai direto pro WhatsApp" },
+        "instagram": { "url": "", "seguidores": 1800, "ultimo_post": "2026-06-14", "status": "parado", "nota": "3 meses sem post, sem Reels de resultado" },
+        "google": { "url": "", "nota": 4.9, "avaliacoes": 186, "observacao": "Muitos elogios a coloração" },
+        "anuncios": { "ativos": false, "fonte": "", "observacao": "" }
+      },
+      "dores": ["Instagram parado desde junho", "Sem Reels mostrando o antes/depois da coloração", "Sem identidade visual no feed"],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "O trabalho é excelente (4,9) e visual, mas o perfil está parado; vídeo + organização do perfil + anúncio local resolvem a vitrine inteira."
+      },
+      "gancho": "Fim de ano é a maior temporada de salão",
+      "contato": { "whatsapp": "(00) 00000-0000", "instagram": "@studiobela.exemplo", "email": "", "melhor_horario": "14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Marina! Aqui é o Vitor, da Adspot. Vi que o Studio Bela tem 4,9 no Google com mais de 180 avaliações, e quase todas elogiando a coloração. Só que o Instagram não mostra isso: último post em junho e nenhum Reels de resultado. A gente organiza o perfil, grava e edita os vídeos e coloca anúncio para quem mora perto. Posso te mandar 3 ideias do que eu faria no perfil de vocês?",
+        "instagram_dm": "Oi, Marina! Vitor, da Adspot. 4,9 no Google é raro! Tenho 3 ideias de Reels pra mostrar a coloração de vocês, posso mandar?",
+        "follow_up_d3": "Marina, uma das ideias: um Reels de 15s com a transição da coloração, gravado no próprio salão, com a cliente contando o que pediu. Isso rodando com anúncio pra mulheres do Centro antes de novembro enche a agenda de fim de ano. Quer ver os outros dois?",
+        "follow_up_d7": "Marina, não vou mais te incomodar por aqui. Se quiser retomar as ideias pro Studio Bela mais perto do fim de ano, é só me chamar!"
+      },
+      "fontes": ["exemplo"]
+    },
+    {
+      "id": "odonto-sorriso",
+      "nicho": "dentista",
+      "nome_fantasia": "Odonto Sorriso Leve (fictício)",
+      "bairro": "Centro",
+      "prioridade": "B",
+      "score": 66,
+      "score_detalhe": { "dor": 30, "capacidade": 22, "acesso": 8, "timing": 6 },
+      "cnpj": {
+        "numero": "00.000.000/0001-03",
+        "razao_social": "CLINICA ODONTOLOGICA EXEMPLO LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2016-08-22",
+        "porte": "ME",
+        "cnae": "8630-5/04 - Atividade odontológica",
+        "capital_social": 80000,
+        "endereco": "Rua Exemplo, 45, sala 3, Centro, Cidade Exemplo/UF",
+        "fonte": "exemplo"
+      },
+      "decisor": {
+        "nome": "Paulo Exemplo Lima",
+        "primeiro_nome": "Paulo",
+        "qualificacao": "Sócio-Administrador",
+        "validado": false,
+        "fonte_validacao": "",
+        "outros_socios": [{ "nome": "Carla Exemplo Lima", "qualificacao": "Sócio" }]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "Nenhum site encontrado" },
+        "instagram": { "url": "", "seguidores": 950, "ultimo_post": "2026-09-10", "status": "fraco", "nota": "Posta, mas só arte de data comemorativa" },
+        "google": { "url": "", "nota": 4.6, "avaliacoes": 74, "observacao": "Perfil sem fotos da clínica" },
+        "anuncios": { "ativos": false, "fonte": "", "observacao": "" }
+      },
+      "dores": ["Sem site: paciente que pesquisa no Google não acha nada além do Maps", "Google Meu Negócio sem fotos"],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.500",
+        "justificativa": "A dor mais clara é não ser encontrado no Google; site com páginas por tratamento e botão de agendamento é a entrada certa."
+      },
+      "gancho": "Paciente pesquisa antes de ligar",
+      "contato": { "whatsapp": "(00) 00000-0000", "instagram": "@odontosorrisoleve.exemplo", "email": "", "melhor_horario": "12h–13h30" },
+      "mensagens": {
+        "whatsapp": "Oi, Dr. Paulo! Aqui é o Vitor, da Adspot. Vi que a Sorriso Leve tem 4,6 no Google com mais de 70 avaliações. Hoje, quem pesquisa dentista no Centro acha a clínica no mapa, mas não encontra um site pra conhecer os tratamentos e agendar. A gente cria sites para clínicas, com página por tratamento e agendamento pelo WhatsApp, dentro das regras do CFO. Posso te mostrar um modelo?",
+        "instagram_dm": "Oi, Dr. Paulo! Vitor, da Adspot. Montei uma ideia de site para a Sorriso Leve, com agendamento direto. Posso te mandar?",
+        "follow_up_d3": "Dr. Paulo, uma ideia simples: uma página só sobre clareamento, que é o que mais se pesquisa no Google na cidade, com foto real da clínica e botão de agendar. Quer que eu mande o rascunho?",
+        "follow_up_d7": "Dr. Paulo, fecho por aqui. Se quiser retomar o site da clínica mais pra frente, é só me chamar."
+      },
+      "fontes": ["exemplo"]
+    },
+    {
+      "id": "espaco-mente",
+      "nicho": "psicologo",
+      "nome_fantasia": "Espaço Mente Serena (fictício)",
+      "bairro": "Jardim Modelo",
+      "prioridade": "B",
+      "score": 57,
+      "score_detalhe": { "dor": 28, "capacidade": 14, "acesso": 11, "timing": 4 },
+      "cnpj": {
+        "numero": "00.000.000/0001-04",
+        "razao_social": "ANA EXEMPLO COSTA 00000000000",
+        "situacao": "ATIVA",
+        "abertura": "2022-03-15",
+        "porte": "MEI",
+        "cnae": "8650-0/03 - Atividades de psicologia e psicanálise",
+        "capital_social": 5000,
+        "endereco": "Rua Exemplo, 12, Jardim Modelo, Cidade Exemplo/UF",
+        "fonte": "exemplo"
+      },
+      "decisor": {
+        "nome": "Ana Exemplo Costa",
+        "primeiro_nome": "Ana",
+        "qualificacao": "Titular (MEI/EI)",
+        "validado": true,
+        "fonte_validacao": "exemplo",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "Atendimentos só por indicação e plataforma de agendamento" },
+        "instagram": { "url": "", "seguidores": 640, "ultimo_post": "2026-09-15", "status": "ok", "nota": "Conteúdo educativo bom e frequente" },
+        "google": { "url": "", "nota": 5.0, "avaliacoes": 21, "observacao": "" },
+        "anuncios": { "ativos": false, "fonte": "", "observacao": "" }
+      },
+      "dores": ["Sem site próprio, depende de plataforma de terceiros"],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000",
+        "justificativa": "MEI: o pacote mensal pesaria demais; o Instagram já é bom, falta um site próprio para quem chega pelo Google."
+      },
+      "gancho": "Instagram bom, sem casa própria na internet",
+      "contato": { "whatsapp": "(00) 00000-0000", "instagram": "@espacomenteserena.exemplo", "email": "", "melhor_horario": "entre sessões, 12h ou 18h" },
+      "mensagens": {
+        "whatsapp": "Oi, Ana! Aqui é o Vitor, da Adspot. Acompanhei seus conteúdos no Instagram, muito claros e cuidadosos. Reparei que você ainda não tem um site próprio, então quem te encontra pelo Google cai direto em plataforma de terceiros. A gente cria sites simples e éticos para psicólogas, com sua abordagem e agendamento direto. Faz sentido eu te mostrar um modelo?",
+        "instagram_dm": "Oi, Ana! Vitor, da Adspot. Gosto muito do seu conteúdo. Tenho um modelo de site pra psicólogas que combina com ele, posso te mandar?",
+        "follow_up_d3": "Ana, a ideia é uma página com quem você é, sua abordagem, para quem é a terapia e um botão de agendamento — sem depoimento de paciente nem promessa, tudo dentro do código do CFP. Quer ver o rascunho?",
+        "follow_up_d7": "Ana, fecho por aqui. Se quiser o site mais pra frente, é só me chamar. Sucesso nos atendimentos!"
+      },
+      "fontes": ["exemplo"]
+    }
+  ],
+  "descartados": [
+    { "nome": "Pizzaria Rede Exemplo (fictício)", "nicho": "restaurante", "motivo": "Franquia com marketing centralizado na franqueadora" },
+    { "nome": "Clínica Estética Exemplo (fictício)", "nicho": "estetica", "motivo": "Anúncios ativos há 8 meses e Reels profissionais semanais: já tem agência" },
+    { "nome": "Barbearia Exemplo (fictício)", "nicho": "salao", "motivo": "CNPJ com situação BAIXADA" }
+  ],
+  "proximo_passo": "Abordar Colégio Horizonte e Studio Bela hoje (9h–11h e 14h–17h); validar o Dr. Paulo antes de mandar; follow-up D+3 em 25/09."
+}
