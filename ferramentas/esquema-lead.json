@@ -34,11 +34,12 @@
         "qualificacao": "Sócio-Administrador | Titular | Diretor(a)",
         "validado": false,
         "fonte_validacao": "URL externa ao CNPJ que confirma que é o dono",
+        "instagram": "OBRIGATÓRIO: URL do Instagram pessoal/profissional do dono, ou \"não encontrado\"",
         "outros_socios": [{ "nome": "", "qualificacao": "" }]
       },
       "presenca": {
         "site": { "url": "", "status": "inexistente | ruim | antigo | ok", "nota": "evidência curta" },
-        "instagram": { "url": "", "seguidores": 0, "ultimo_post": "AAAA-MM-DD", "status": "parado | fraco | ok", "nota": "evidência curta" },
+        "instagram": { "url": "OBRIGATÓRIO: URL do perfil da empresa", "seguidores": 0, "publicacoes": 0, "ultimo_post": "AAAA-MM-DD", "status": "parado | fraco | ok | não encontrado", "nota": "evidência curta" },
         "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "" },
         "anuncios": { "ativos": "true | false | null (não verificado)", "fonte": "URL da Biblioteca de Anúncios", "observacao": "" }
       },

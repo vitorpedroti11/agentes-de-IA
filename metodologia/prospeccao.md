@@ -52,6 +52,8 @@ Dez leads verificados valem mais que cinquenta nomes copiados do Google Maps.
 
 ## 3. Diagnóstico de presença digital (a dor comprovada)
 
+> **Padrão da casa: todo lead sai com Instagram.** Dois campos obrigatórios: o **Instagram da empresa** (`presenca.instagram.url`) e o **Instagram do dono** (`decisor.instagram`). Buscar por `site:instagram.com "<nome fantasia>" <cidade>`, pelo nome do dono entre aspas e pelo link na bio/site/Facebook. Só depois dessas três buscas vale escrever **"não encontrado"**, e isso já é uma dor a registrar (clínica invisível no Instagram). Nunca deixar em branco.
+
 Para cada lead, verificar e **registrar a evidência** (link, data, número):
 
 1. **Site** — existe? Carrega no celular? Tem WhatsApp/agendamento? Visual de antes de 2020? HTTPS?

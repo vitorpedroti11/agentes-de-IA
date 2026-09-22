@@ -93,6 +93,11 @@ select.sel{border:1px solid var(--line);background:var(--surface);border-radius:
 .chev{transition:transform .2s;color:var(--ink-3)}
 .lead[open] .chev{transform:rotate(180deg)}
 
+.ig-row{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px;font-size:13px}
+.ig{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:999px;text-decoration:none;font-weight:600;border:1px solid transparent;background:linear-gradient(var(--surface),var(--surface)) padding-box,linear-gradient(45deg,#f58529,#dd2a7b,#8134af) border-box}
+.ig:hover{filter:brightness(.97)}
+.ig small{font-weight:500;color:var(--ink-3)}
+.ig.none{background:var(--bad-soft);color:var(--bad);border-color:transparent}
 .lead-body{display:none;border-top:1px solid var(--line);padding:16px;gap:16px;grid-template-columns:repeat(3,minmax(0,1fr))}
 .lead[open] .lead-body{display:grid}
 .panel{background:var(--surface-2);border-radius:12px;padding:14px;min-width:0}
@@ -321,12 +326,21 @@ section.block h2{font-size:18px;letter-spacing:-.01em;margin:0 0 10px}
   function card(l){
     var c = l.cnpj||{}, d = l.decisor||{}, pr = l.produto||{}, ct = l.contato||{}, s = st(l.id);
     var dono = d.nome ? '<strong>'+esc(d.nome)+'</strong> · '+esc(d.qualificacao||"") + (d.validado ? ' <span class="tag ok">✓ validado</span>' : ' <span class="tag warn">validar</span>') : '<span class="unverified">Dono não identificado</span>';
+    var igc = (l.presenca||{}).instagram || {};
+    function igHandle(u){ var m = String(u||"").match(/instagram\.com\/([^\/?#]+)/i); return m ? "@"+m[1] : String(u||""); }
+    function igUrl(v){ v = String(v||"").trim(); if (!v || /n[ãa]o encontrad/i.test(v) || P.demonstracao) return ""; if (/^https?:\/\//i.test(v)) return v; return "https://www.instagram.com/"+v.replace(/^@/,"")+"/"; }
+    var igEmpresa = igUrl(igc.url || ct.instagram), igDono = igUrl(d.instagram);
+    var igRow = '<div class="ig-row">'
+      + (P.demonstracao && (igc.url || ct.instagram) ? '<span class="ig">◎ '+esc(ct.instagram || igc.url)+'</span>' : igEmpresa ? '<a class="ig" target="_blank" rel="noopener" href="'+esc(igEmpresa)+'">◎ '+esc(igHandle(igEmpresa))+(igc.seguidores!=null?' <small>'+Number(igc.seguidores).toLocaleString("pt-BR")+' seg.</small>':'')+'</a>' : '<span class="ig none">◎ Instagram da empresa não encontrado</span>')
+      + (igDono && igDono !== igEmpresa ? '<a class="ig" target="_blank" rel="noopener" href="'+esc(igDono)+'">◎ '+esc(igHandle(igDono))+' <small>dono(a)</small></a>' : '')
+      + '</div>';
     var socios = (d.outros_socios||[]).map(function(x){ return '<li><b>'+esc(x.nome)+'</b><span>'+esc(x.qualificacao||"")+'</span></li>'; }).join("");
     var links = [
       url((((l.presenca||{}).google)||{}).url) && ['Google Maps', l.presenca.google.url],
       url((((l.presenca||{}).instagram)||{}).url) && ['Instagram', l.presenca.instagram.url],
       url(c.fonte) && ['Fonte CNPJ', c.fonte],
-      url(d.fonte_validacao) && ['Validação do dono', d.fonte_validacao]
+      url(d.fonte_validacao) && ['Validação do dono', d.fonte_validacao],
+      url(igUrl(d.instagram)) && igUrl(d.instagram) !== url((((l.presenca||{}).instagram)||{}).url) && ['Instagram do dono', igUrl(d.instagram)]
     ].filter(Boolean).map(function(x){ return '<a class="btn small" target="_blank" rel="noopener" href="'+esc(x[1])+'">'+esc(x[0])+' ↗</a>'; }).join("");
 
     var el = document.createElement("article");
@@ -335,7 +349,7 @@ section.block h2{font-size:18px;letter-spacing:-.01em;margin:0 0 10px}
       '<div class="lead-head" tabindex="0" role="button" aria-expanded="false">'
         + ring(l.score, l.prioridade)
         + '<div class="lead-title"><h3>'+esc(l.nome_fantasia || c.razao_social)+'</h3>'
-          + '<div class="owner">'+dono+'</div>'
+          + '<div class="owner">'+dono+'</div>' + igRow
           + '<div class="meta"><span class="tag prio-'+esc(l.prioridade)+'">'+esc(l.prioridade)+'</span><span class="tag">'+esc(nicho(l.nicho))+'</span>'
           + (l.bairro ? '<span class="tag">'+esc(l.bairro)+'</span>' : '')
           + (pr.recomendado ? '<span class="tag prod">'+esc(pr.recomendado)+(pr.valor?' · '+esc(pr.valor):'')+'</span>' : '')
@@ -411,10 +425,11 @@ section.block h2{font-size:18px;letter-spacing:-.01em;margin:0 0 10px}
     this.textContent = abrir ? "Recolher todos" : "Expandir todos";
   };
 
+  function igHandleCsv(u){ var m = String(u||"").match(/instagram\.com\/([^\/?#]+)/i); return m ? "@"+m[1] : String(u||""); }
   document.getElementById("exportCsv").onclick = function(){
-    var cols = ["Prioridade","Score","Empresa","Nicho","Bairro","Dono","Qualificação","Dono validado","CNPJ","Porte","Abertura","Produto","WhatsApp","Instagram","Status","Notas"];
+    var cols = ["Prioridade","Score","Empresa","Nicho","Bairro","Dono","Qualificação","Dono validado","CNPJ","Porte","Abertura","Produto","WhatsApp","Instagram da empresa","Instagram do dono","Status","Notas"];
     var rows = LEADS.map(function(l){ var c=l.cnpj||{}, d=l.decisor||{}, ct=l.contato||{}, s=st(l.id);
-      return [l.prioridade,l.score,l.nome_fantasia,nicho(l.nicho),l.bairro,d.nome,d.qualificacao,d.validado?"sim":"não",c.numero,c.porte,dataBr(c.abertura),(l.produto||{}).recomendado,ct.whatsapp,ct.instagram,s.status,s.notas]; });
+      return [l.prioridade,l.score,l.nome_fantasia,nicho(l.nicho),l.bairro,d.nome,d.qualificacao,d.validado?"sim":"não",c.numero,c.porte,dataBr(c.abertura),(l.produto||{}).recomendado,ct.whatsapp,igHandleCsv(((l.presenca||{}).instagram||{}).url)||ct.instagram||"não encontrado",igHandleCsv(d.instagram),s.status,s.notas]; });
     var csv = [cols].concat(rows).map(function(r){ return r.map(function(v){ return '"'+String(v==null?"":v).replace(/"/g,'""')+'"'; }).join(";"); }).join("\n");
     var a = document.createElement("a"); a.href = URL.createObjectURL(new Blob(["﻿"+csv],{type:"text/csv;charset=utf-8"}));
     a.download = "prospeccao-" + (P.cidade||"adspot").toLowerCase().replace(/\s+/g,"-") + "-" + (P.data||"") + ".csv"; a.click();

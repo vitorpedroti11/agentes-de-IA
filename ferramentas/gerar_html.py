@@ -34,6 +34,11 @@ def validar(dados):
             avisos.append(f"{nome}: sem CNPJ")
         if not (lead.get("decisor") or {}).get("nome"):
             avisos.append(f"{nome}: dono não identificado")
+        ig = (lead.get("presenca") or {}).get("instagram") or {}
+        if not ig.get("url") and "não encontrado" not in (ig.get("status") or ""):
+            avisos.append(f"{nome}: sem Instagram da empresa (preencher ou marcar status 'não encontrado' após buscar)")
+        if not (lead.get("decisor") or {}).get("instagram"):
+            avisos.append(f"{nome}: sem Instagram do dono (preencher ou 'não encontrado')")
         if not (lead.get("mensagens") or {}).get("whatsapp"):
             avisos.append(f"{nome}: sem mensagem de WhatsApp")
     return avisos

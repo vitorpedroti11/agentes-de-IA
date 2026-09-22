@@ -46,7 +46,8 @@
             "nome": "Maria Aparecida Marcondes de Oliveira",
             "qualificacao": "Sócia"
           }
-        ]
+        ],
+        "instagram": "https://www.instagram.com/dents_center/"
       },
       "presenca": {
         "site": {
@@ -59,7 +60,7 @@
           "seguidores": null,
           "ultimo_post": "",
           "status": "fraco",
-          "nota": "Dois perfis concorrendo (@dents_center e @dentscenter) + página no Facebook: marca fragmentada. Conferir data do último post"
+          "nota": "Perfil principal leva o nome da dona (\"Dent's Center - Dra Fabiana Marcondes\"); existe um segundo perfil @dentscenter + página no Facebook: marca fragmentada. Conferir data do último post"
         },
         "google": {
           "url": "",
@@ -135,7 +136,8 @@
         "qualificacao": "Sócia-Administradora (desde 20/07/2022)",
         "validado": true,
         "fonte_validacao": "https://www.instagram.com/drapaulagiuglio/",
-        "outros_socios": []
+        "outros_socios": [],
+        "instagram": "https://www.instagram.com/drapaulagiuglio/"
       },
       "presenca": {
         "site": {
@@ -148,7 +150,8 @@
           "seguidores": 157,
           "ultimo_post": "",
           "status": "fraco",
-          "nota": "157 seguidores e 5 publicações no perfil da clínica; a dentista também mantém um perfil pessoal (@drapaulagiuglio)"
+          "nota": "157 seguidores e 5 publicações no perfil da clínica; a dentista também mantém um perfil pessoal (@drapaulagiuglio)",
+          "publicacoes": 5
         },
         "google": {
           "url": "",
@@ -222,7 +225,8 @@
         "qualificacao": "Sócia-Administradora (QSA via cnpj.biz) · Responsável Técnica",
         "validado": true,
         "fonte_validacao": "https://www.boaconsulta.com/especialista/cristiane-regina-dias-lavrini-592c6d579333701fcb000dad",
-        "outros_socios": []
+        "outros_socios": [],
+        "instagram": "não encontrado"
       },
       "presenca": {
         "site": {
@@ -310,7 +314,8 @@
         "qualificacao": "Sócia-Administradora",
         "validado": true,
         "fonte_validacao": "https://www.guiamais.com.br/guarulhos-sp/dentistas-e-especialistas/dentistas/3351429144-6691194/camilla-jusevicius-arouche-alves-ferreira",
-        "outros_socios": []
+        "outros_socios": [],
+        "instagram": "não encontrado"
       },
       "presenca": {
         "site": {
@@ -323,7 +328,8 @@
           "seguidores": 3890,
           "ultimo_post": "",
           "status": "fraco",
-          "nota": "3.890 seguidores, mas só 108 publicações para mais de 14 anos de clínica"
+          "nota": "3.890 seguidores, mas só 108 publicações para mais de 14 anos de clínica",
+          "publicacoes": 108
         },
         "google": {
           "url": "",
@@ -402,7 +408,8 @@
             "nome": "Renan Yudi Kato",
             "qualificacao": "Sócio-Administrador (desde 07/11/2018)"
           }
-        ]
+        ],
+        "instagram": "não encontrado"
       },
       "presenca": {
         "site": {
@@ -414,8 +421,8 @@
           "url": "",
           "seguidores": null,
           "ultimo_post": "",
-          "status": "sem perfil encontrado",
-          "nota": "Nenhum perfil próprio encontrado na busca; só uma menção em post de terceiros"
+          "status": "não encontrado",
+          "nota": "3 buscas sem perfil próprio no Instagram; só página no Facebook (facebook.com/akatoodontologia)"
         },
         "google": {
           "url": "",
@@ -440,10 +447,10 @@
       },
       "gancho": "Clínica de 7 anos no Jardim Maia sem presença digital própria",
       "contato": {
-        "whatsapp": "",
+        "whatsapp": "(11) 2724-9090",
         "instagram": "",
         "email": "",
-        "melhor_horario": "Visita presencial ou ligação para a recepção"
+        "melhor_horario": "Telefone fixo da clínica (outro número listado: (11) 2600-2705) · confirmar se tem WhatsApp"
       },
       "mensagens": {
         "whatsapp": "Oi, Alex! Aqui é o Vitor, da Adspot. Procurei a Akato no Instagram e no Google e quase não encontrei a clínica, mesmo sendo uma clínica estabelecida no Jardim Maia. Hoje muito paciente escolhe dentista pelo celular antes de ligar. A gente cria a identidade da clínica, monta o perfil, grava os vídeos e anuncia para quem mora no bairro. Faz sentido eu te mostrar como ficaria a Akato?",
@@ -455,7 +462,8 @@
       "fontes": [
         "https://cnpja.com/en/office/31964858000108",
         "https://www.econodata.com.br/consulta-empresa/31964858000108-akato-odontologia-ltda",
-        "https://casadosdados.com.br/solucao/cnpj/akato-odontologia-ltda-31964858000108"
+        "https://casadosdados.com.br/solucao/cnpj/akato-odontologia-ltda-31964858000108",
+        "https://www.facebook.com/akatoodontologia/?locale=pt_BR"
       ]
     },
     {
@@ -488,7 +496,8 @@
         "qualificacao": "Administradora",
         "validado": true,
         "fonte_validacao": "https://www.instagram.com/dra_alineesteves/",
-        "outros_socios": []
+        "outros_socios": [],
+        "instagram": "https://www.instagram.com/dra_alineesteves/"
       },
       "presenca": {
         "site": {
@@ -501,7 +510,7 @@
           "seguidores": 3000,
           "ultimo_post": "",
           "status": "ok",
-          "nota": "Perfil pessoal ativo (implantes e lentes, 3 mil+ seguidores); a clínica não tem perfil próprio com identidade"
+          "nota": "A clínica não tem perfil próprio; a vitrine é o perfil profissional da dona (implantes e lentes, 3 mil+ seguidores)"
         },
         "google": {
           "url": "",
@@ -544,186 +553,19 @@
         "https://www.ident.com.br/dra.alineesteves",
         "https://www.facebook.com/alineestevesodontologia/"
       ]
-    },
-    {
-      "id": "dentista-do-povo",
-      "nicho": "dentista",
-      "nome_fantasia": "Clínica Dentista do Povo",
-      "bairro": "Vila Galvão",
-      "prioridade": "B",
-      "score": 56,
-      "score_detalhe": {
-        "dor": 22,
-        "capacidade": 18,
-        "acesso": 8,
-        "timing": 8
-      },
-      "cnpj": {
-        "numero": "15.226.258/0001-88",
-        "razao_social": "CLINICA DENTARIA NOVA GALVAO LTDA",
-        "situacao": "ATIVA",
-        "abertura": "2012-02-01",
-        "porte": "não confirmado",
-        "cnae": "8630-5/04 - Atividade odontológica",
-        "capital_social": null,
-        "endereco": "Rua Treze de Maio, 164, Vila Galvão, Guarulhos/SP, 07071-050",
-        "fonte": "https://www.econodata.com.br/consulta-empresa/15226258000188-clinica-dentaria-nova-galvao-ltda"
-      },
-      "decisor": {
-        "nome": "Joel de Assis Gouvea Junior",
-        "primeiro_nome": "Joel",
-        "qualificacao": "Administrador",
-        "validado": false,
-        "fonte_validacao": "",
-        "outros_socios": [
-          {
-            "nome": "Simone Puga da Silva",
-            "qualificacao": "Administradora"
-          }
-        ]
-      },
-      "presenca": {
-        "site": {
-          "url": "",
-          "status": "inexistente",
-          "nota": "Nenhum site encontrado; só Instagram e Facebook"
-        },
-        "instagram": {
-          "url": "https://www.instagram.com/dentistadopovo_guarulhos/",
-          "seguidores": 699,
-          "ultimo_post": "",
-          "status": "fraco",
-          "nota": "699 seguidores; o CNPJ tem filiais (0002 e 0003), então é uma operação com mais de uma unidade"
-        },
-        "google": {
-          "url": "",
-          "nota": null,
-          "avaliacoes": null,
-          "observacao": "Não verificado"
-        },
-        "anuncios": {
-          "ativos": null,
-          "fonte": "",
-          "observacao": "Conferir na Biblioteca de Anúncios da Meta"
-        }
-      },
-      "dores": [
-        "Operação com mais de uma unidade e só 699 seguidores",
-        "Posicionamento popular (\"do povo\") depende de volume, e volume vem de tráfego pago"
-      ],
-      "produto": {
-        "recomendado": "Pacote Inicial",
-        "valor": "R$ 1.500/mês × 3",
-        "justificativa": "Proposta de preço acessível só funciona com volume de agenda: tráfego local + vídeo + identidade padronizada entre as unidades."
-      },
-      "gancho": "Mais de uma unidade com perfil pequeno",
-      "contato": {
-        "whatsapp": "",
-        "instagram": "@dentistadopovo_guarulhos",
-        "email": "",
-        "melhor_horario": "Ligar na unidade e pedir o Joel ou a Simone"
-      },
-      "mensagens": {
-        "whatsapp": "Oi, Joel! Aqui é o Vitor, da Adspot. Vi que a Dentista do Povo é conhecida na Vila Galvão e atende em mais de uma unidade. Reparei que o Instagram tem cerca de 700 seguidores, pouco para o tamanho da operação, e para uma clínica com proposta acessível a agenda cheia vem de anúncio. A gente cuida da identidade, dos vídeos e do tráfego para quem mora perto de cada unidade. Faz sentido eu te mostrar como ficaria?",
-        "instagram_dm": "Olá! Aqui é o Vitor, da Adspot. Tenho uma ideia de campanha por bairro para as unidades da Dentista do Povo. Com quem eu falo sobre marketing?",
-        "follow_up_d3": "Joel, uma ideia concreta: um anúncio por unidade, com um vídeo curto da própria equipe, mostrado só para quem mora a até 2 km de cada endereço. Assim cada unidade enche a própria agenda. Quer conversar 15 minutos?",
-        "follow_up_d7": "Joel, fecho por aqui. Se quiser retomar a campanha das unidades mais pra frente, é só me chamar.",
-        "ligacao": "Ligar na unidade da Rua Treze de Maio, pedir para falar com o Joel ou a Simone, e confirmar quem decide sobre marketing."
-      },
-      "fontes": [
-        "https://www.econodata.com.br/consulta-empresa/15226258000188-clinica-dentaria-nova-galvao-ltda",
-        "https://casadosdados.com.br/solucao/cnpj/clinica-dentaria-nova-galvao-ltda-15226258000188",
-        "https://www.infoinvest.com.br/consulta-empresa/15226258000269-clinica-dentaria-nova-galvao-ltda",
-        "https://www.instagram.com/dentistadopovo_guarulhos/"
-      ]
-    },
-    {
-      "id": "atitud-odonto",
-      "nicho": "dentista",
-      "nome_fantasia": "Atitud Odonto",
-      "bairro": "Vila Augusta",
-      "prioridade": "B",
-      "score": 51,
-      "score_detalhe": {
-        "dor": 13,
-        "capacidade": 15,
-        "acesso": 8,
-        "timing": 15
-      },
-      "cnpj": {
-        "numero": "46.230.260/0002-35",
-        "razao_social": "IAH CLINICA ODONTOLOGICA LTDA",
-        "situacao": "ATIVA",
-        "abertura": "2024-09-25",
-        "porte": "ME (consta \"LTDA - ME\" no Serasa)",
-        "cnae": "8630-5/04 - Atividade odontológica",
-        "capital_social": null,
-        "endereco": "Av. Guarulhos, 1258, Vila Augusta, Guarulhos/SP, 07025-000",
-        "fonte": "https://www.econodata.com.br/consulta-empresa/46230260000235-iah-clinica-odontologica-ltda"
-      },
-      "decisor": {
-        "nome": "Igor Luis Picoli Neves",
-        "primeiro_nome": "Igor",
-        "qualificacao": "Administrador",
-        "validado": false,
-        "fonte_validacao": "",
-        "outros_socios": []
-      },
-      "presenca": {
-        "site": {
-          "url": "",
-          "status": "inexistente",
-          "nota": "Nenhum site encontrado"
-        },
-        "instagram": {
-          "url": "https://www.instagram.com/atitudodontogru/",
-          "seguidores": null,
-          "ultimo_post": "",
-          "status": "não verificado",
-          "nota": "Tem perfil; conferir tamanho e frequência"
-        },
-        "google": {
-          "url": "",
-          "nota": null,
-          "avaliacoes": null,
-          "observacao": "Não verificado"
-        },
-        "anuncios": {
-          "ativos": null,
-          "fonte": "",
-          "observacao": "Conferir na Biblioteca de Anúncios da Meta"
-        }
-      },
-      "dores": [
-        "Unidade de Guarulhos aberta há 1 ano: ainda construindo base de pacientes",
-        "Sem site"
-      ],
-      "produto": {
-        "recomendado": "Pacote Inicial",
-        "valor": "R$ 1.500/mês × 3",
-        "justificativa": "Unidade nova (filial) precisa de volume rápido: tráfego local + vídeo é o caminho mais curto."
-      },
-      "gancho": "Unidade de Guarulhos completando 1 ano",
-      "contato": {
-        "whatsapp": "",
-        "instagram": "@atitudodontogru",
-        "email": "",
-        "melhor_horario": "Direct no Instagram"
-      },
-      "mensagens": {
-        "whatsapp": "Oi, Igor! Aqui é o Vitor, da Adspot. Vi a unidade da Atitud Odonto na Avenida Guarulhos, e hoje ela ainda não tem site e aparece pouco para quem pesquisa dentista na Vila Augusta. A gente faz o vídeo, organiza o perfil e anuncia só para quem mora perto da clínica. Posso te mandar 3 ideias para a unidade?",
-        "instagram_dm": "Olá! Aqui é o Vitor, da Adspot. Tenho 3 ideias de campanha para a unidade da Vila Augusta. Com quem eu falo sobre isso?",
-        "follow_up_d3": "Igor, uma das ideias: uma campanha com vídeo da equipe e anúncio num raio de 2 km da clínica, levando para agendamento no WhatsApp. Faz sentido conversarmos?",
-        "follow_up_d7": "Igor, fecho por aqui. Se quiser retomar a campanha da unidade mais pra frente, é só me chamar."
-      },
-      "fontes": [
-        "https://www.econodata.com.br/consulta-empresa/46230260000235-iah-clinica-odontologica-ltda",
-        "https://empresas.serasaexperian.com.br/consulta-gratis/IAH-CLINICA-ODONTOLOGICA-LTDA-ME-46230260000235",
-        "https://www.instagram.com/atitudodontogru/"
-      ]
     }
   ],
   "descartados": [
+    {
+      "nome": "Clínica Dentista do Povo (Vila Galvão)",
+      "nicho": "dentista",
+      "motivo": "Rede nacional: perfis @dentistadopovo_bauru, _campinas, _jundiai, _betim, cascavel… e o sócio Joel aparece ligado à unidade de Bauru. Marketing da rede."
+    },
+    {
+      "nome": "Atitud Odonto (Vila Augusta)",
+      "nicho": "dentista",
+      "motivo": "Instagram ativo (@atitudodontogru, com posts recentes) e a marca tem outra unidade em Itaberaba (SP): dor baixa e possível rede. Pontuação caiu para 48."
+    },
     {
       "nome": "Iarossi Hospital Odontológico",
       "nicho": "dentista",
@@ -780,5 +622,5 @@
       "motivo": "CNAE principal é médico (policlínica), odontologia é secundária."
     }
   ],
-  "proximo_passo": "Hoje: conferir no celular o último post e a Biblioteca de Anúncios da Dent's Center, PG e Doutor Quality (2 min cada) e abordar essas três entre 12h e 13h30. Amanhã: CJ e Aline Esteves; ligar para Akato e Dentista do Povo para confirmar o decisor. Follow-up D+3 em 25/09."
+  "proximo_passo": "Hoje: conferir no celular o último post e a Biblioteca de Anúncios da Dent's Center, PG e Doutor Quality (2 min cada) e abordar essas três entre 12h e 13h30 (Direct para PG e Aline Esteves, que respondem pelo perfil pessoal). Amanhã: CJ e Aline Esteves; ligar para a Akato e pedir o Alex ou o Renan. Follow-up D+3 em 25/09."
 }
