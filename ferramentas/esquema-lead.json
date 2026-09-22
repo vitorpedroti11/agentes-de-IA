@@ -40,7 +40,7 @@
         "site": { "url": "", "status": "inexistente | ruim | antigo | ok", "nota": "evidência curta" },
         "instagram": { "url": "", "seguidores": 0, "ultimo_post": "AAAA-MM-DD", "status": "parado | fraco | ok", "nota": "evidência curta" },
         "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "" },
-        "anuncios": { "ativos": false, "fonte": "URL da Biblioteca de Anúncios", "observacao": "" }
+        "anuncios": { "ativos": "true | false | null (não verificado)", "fonte": "URL da Biblioteca de Anúncios", "observacao": "" }
       },
       "dores": ["dor observada com evidência"],
       "produto": {

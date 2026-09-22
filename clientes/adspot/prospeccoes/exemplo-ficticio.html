@@ -287,11 +287,11 @@ section.block h2{font-size:18px;letter-spacing:-.01em;margin:0 0 10px}
   }
 
   function checkItem(nivel, titulo, detalhe, link){
-    var ic = nivel==="bad" ? "✕" : nivel==="mid" ? "!" : "✓";
+    var ic = nivel==="bad" ? "✕" : nivel==="mid" ? "?" : "✓";
     var t = link ? '<a href="'+esc(link)+'" target="_blank" rel="noopener">'+esc(titulo)+'</a>' : esc(titulo);
     return '<div class="check"><span class="ic '+nivel+'">'+ic+'</span><div>'+t+(detalhe?'<small>'+esc(detalhe)+'</small>':'')+'</div></div>';
   }
-  function nivel(s){ s = String(s||"").toLowerCase(); return /inexist|parad|ruim|fraco|sem|nao|não|incomplet/.test(s) ? "bad" : /regular|medio|médio|antigo/.test(s) ? "mid" : "good"; }
+  function nivel(s){ s = String(s||"").toLowerCase(); if (!s || /verificad|confirmad/.test(s)) return "mid"; return /inexist|parad|ruim|fraco|sem|nao|não|incomplet/.test(s) ? "bad" : /regular|medio|médio|antigo/.test(s) ? "mid" : "good"; }
 
   function presenca(l){
     var p = l.presenca || {}, s = p.site||{}, ig = p.instagram||{}, g = p.google||{}, ad = p.anuncios||{};
@@ -300,7 +300,9 @@ section.block h2{font-size:18px;letter-spacing:-.01em;margin:0 0 10px}
     var igd = [ig.seguidores!=null ? Number(ig.seguidores).toLocaleString("pt-BR")+" seguidores" : "", ig.ultimo_post ? "último post "+dataBr(ig.ultimo_post) : "", ig.nota].filter(Boolean).join(" · ");
     h += checkItem(nivel(ig.status), "Instagram: " + (ig.status||"—"), igd, url(ig.url));
     if (g.nota != null) h += checkItem(g.nota >= 4.3 ? "good" : g.nota >= 4 ? "mid" : "bad", "Google: " + String(g.nota).replace(".",",") + " ★ (" + (g.avaliacoes||0) + " avaliações)", g.observacao, url(g.url));
-    h += checkItem(ad.ativos ? "good" : "bad", ad.ativos ? "Anunciando na Meta" : "Sem anúncios ativos", ad.observacao, url(ad.fonte));
+    else h += checkItem("mid", "Google: não verificado", g.observacao && !/^não verificado$/i.test(g.observacao) ? g.observacao : "", url(g.url));
+    if (ad.ativos == null) h += checkItem("mid", "Anúncios: não verificado", ad.observacao, url(ad.fonte));
+    else h += checkItem(ad.ativos ? "good" : "bad", ad.ativos ? "Anunciando na Meta" : "Sem anúncios ativos", ad.observacao, url(ad.fonte));
     return h;
   }
 

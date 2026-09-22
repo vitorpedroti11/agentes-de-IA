@@ -74,6 +74,8 @@ Ordem de tentativa:
 3. Busca: `"<nome fantasia>" "<cidade>" CNPJ`.
 4. Buscadores públicos de CNPJ por nome fantasia + município (cnpj.biz, casadosdados.com.br, cnpja.com, econodata).
 5. Conferir: o endereço do CNPJ bate com o do Google Maps? Se não bater, **não usar**.
+6. **Sinais de que já tem agência:** site com dezenas de páginas de SEO por bairro/tratamento ("clínica odontológica no <bairro> em <cidade>"), 500+ posts ou 10 mil+ seguidores. Vai para descartados.
+7. **Filial (CNPJ com final /0002, /0003…) com matriz em outra cidade** = rede: descartar. Filiais na mesma cidade = operação local com várias unidades: ponto a favor.
 
 ### 4.2 Consulta
 `python3 ferramentas/consulta_cnpj.py <cnpj> [<cnpj> ...]` — consulta BrasilAPI (com fallback para CNPJ.ws e ReceitaWS) e devolve razão social, situação, abertura, porte, CNAE, capital social, endereço, contatos e **QSA (quadro de sócios)**.
@@ -105,6 +107,10 @@ Ordem de tentativa:
 | **Capacidade** | 30 | ME/EPP (10) · ≥ 2 anos (8) · nota ≥ 4,3 e 50+ avaliações (7) · capital ≥ 50 mil ou 2+ unidades (5) |
 | **Acesso ao decisor** | 15 | Dono identificado no QSA (8) · dono validado fora do CNPJ (4) · canal direto (WhatsApp/Instagram pessoal) (3) |
 | **Timing** | 15 | Temporada do nicho (colégio set–jan, estética set–dez, restaurante datas comemorativas) (8) · inauguração/nova unidade/reforma recente (7) |
+
+**Pontuação provisória:** item que não deu para verificar (ex.: anúncios, último post) vale **metade** dos pontos e o lead leva o aviso "confirmar antes de enviar". Item confirmado como ausente vale zero; confirmado como dor vale cheio.
+
+**Timing de dentista:** set–dez (13º salário + festas → clareamento, lentes, implante). Hipótese a validar com as respostas.
 
 **Prioridade A** ≥ 70 · abordar em até 48h · **B** 50–69 · abordar na semana · **C** < 50 · não entra na lista (vai para a seção "descartados" com o motivo).
 
@@ -153,6 +159,7 @@ Por que falha: não cita o nome, não prova que olhou o negócio, lista serviço
 - Prometer resultado ("vou dobrar seu faturamento").
 - Preço na primeira mensagem.
 - Mesmo texto para dois leads.
+- Tempo de abertura tirado do CNPJ ("desde 2012", "7 anos"). Só citar tempo de casa se a própria clínica divulgar (site, bio).
 
 ---
 
