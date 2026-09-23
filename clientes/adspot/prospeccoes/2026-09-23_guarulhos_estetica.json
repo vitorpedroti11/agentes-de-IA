@@ -1,0 +1,150 @@
+{
+  "prospeccao": {
+    "id": "2026-09-23_guarulhos_estetica",
+    "data": "2026-09-23",
+    "cidade": "Guarulhos/SP",
+    "regiao": "Centro, Parque Renato Maia, Vila Augusta, Vila Galvão, Jardim Barbosa, Gopoúva",
+    "nichos": ["estetica"],
+    "observacoes": "Objetivo: Pacote Inicial · nicho saturado em Guarulhos (franquias e perfis fortes) · pontuação provisória: conferir Instagram da clínica e Biblioteca de Anúncios antes de enviar",
+    "demonstracao": false
+  },
+  "leads": [
+    {
+      "id": "uemura-estetica",
+      "nicho": "estetica",
+      "nome_fantasia": "Uemura Estética Avançada",
+      "bairro": "Parque Renato Maia",
+      "prioridade": "B",
+      "score": 64,
+      "score_detalhe": { "dor": 17, "capacidade": 24, "acesso": 15, "timing": 8 },
+      "cnpj": {
+        "numero": "32.405.972/0001-52",
+        "razao_social": "UEMURA ESTETICA LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2019-01-10",
+        "porte": "EPP (consta \"LTDA - EPP\" no Serasa)",
+        "cnae": "9602-5/02 - Atividades de estética e outros serviços de cuidados com a beleza",
+        "capital_social": null,
+        "endereco": "Av. Dr. Renato de Andrade Maia, 1043, Parque Renato Maia, Guarulhos/SP, 07114-000",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/32405972000152-uemura-estetica-ltda"
+      },
+      "decisor": {
+        "nome": "Debora Regina Adashi Uemura",
+        "primeiro_nome": "Débora",
+        "qualificacao": "Sócia-Administradora · biomédica esteta (CRBM-SP 29574)",
+        "validado": true,
+        "fonte_validacao": "https://www.instagram.com/debora_uemura_bm/",
+        "instagram": "https://www.instagram.com/debora_uemura_bm/",
+        "outros_socios": [{ "nome": "Carlos Issao Uemura", "qualificacao": "Sócio-Administrador" }]
+      },
+      "presenca": {
+        "site": { "url": "https://www.uemuraestetica.com.br/", "status": "ok", "nota": "Site com páginas por tratamento (facial, estrias, lipocavitação); o site não é a dor" },
+        "instagram": { "url": "https://www.instagram.com/uemura_estetica/", "seguidores": null, "publicacoes": null, "ultimo_post": "", "status": "fraco", "nota": "Números do perfil da clínica não verificados. O perfil da dona tem 2.266 seguidores e 534 posts, pouco para quem divulga 20 anos de harmonização numa cidade onde concorrentes têm de 13 mil a 83 mil" },
+        "google": { "url": "", "nota": null, "avaliacoes": null, "observacao": "Não verificado; Facebook com 1.853 curtidas e 892 check-ins" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "Conferir na Biblioteca de Anúncios da Meta" }
+      },
+      "dores": [
+        "20 anos de harmonização (divulgado pela própria clínica) e um Instagram muito menor que o de concorrentes mais novos da cidade",
+        "Harmonização é ticket alto: sem vídeo e sem anúncio, o paciente novo vai para quem aparece mais"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "EPP com procedimento de ticket alto e site já pronto: o que falta é vídeo, posicionamento e tráfego pago. Um paciente de harmonização paga o mês de mídia."
+      },
+      "gancho": "Autoridade real (20 anos, formação no Japão e na Tailândia) com alcance pequeno no Instagram; set–dez é temporada de estética",
+      "contato": { "whatsapp": "(11) 98829-2520", "instagram": "@uemura_estetica", "email": "contato@uemuraestetica.com.br", "melhor_horario": "10h–12h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Dra. Débora! Aqui é o Vitor, da Adspot. Vi no site da Uemura que você tem mais de 20 anos de harmonização facial, com formação no Japão e na Tailândia, e isso é raro em Guarulhos. Reparei que o seu Instagram ainda não mostra esse peso: pouco mais de 2 mil seguidores, enquanto clínicas da cidade com bem menos tempo de mercado passam de dezenas de milhares. A gente grava e edita os vídeos, organiza o perfil e anuncia para quem mora perto da Renato Maia. Posso te mandar 3 ideias do que eu faria no perfil da Uemura?",
+        "instagram_dm": "Oi, Dra. Débora! Vitor, da Adspot. 20 anos de harmonização com formação no Japão é uma história que o Instagram ainda não conta. Tenho 3 ideias de vídeo para isso, posso te mandar?",
+        "follow_up_d3": "Dra. Débora, uma das ideias: uma série \"20 anos de harmonização\" em que você explica, em 30 segundos cada, o que mudou na técnica e por que naturalidade importa, sem antes e depois e sem promessa de resultado, anunciada para mulheres de 30 a 55 anos da região do Maia. Faz sentido conversarmos 15 minutos?",
+        "follow_up_d7": "Dra. Débora, fecho por aqui pra não incomodar. Se quiser retomar os vídeos da Uemura mais perto do fim de ano, é só me chamar!",
+        "ligacao": "Ligar no fixo (11) 4372-9250 e pedir a Dra. Débora. Abrir com os 20 anos e a formação no Japão e perguntar de onde vem hoje a maior parte das pacientes novas."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/32405972000152-uemura-estetica-ltda",
+        "https://empresas.serasaexperian.com.br/consulta-gratis/UEMURA-ESTETICA-LTDA-EPP-32405972000152",
+        "https://www.uemuraestetica.com.br/",
+        "https://www.uemuraestetica.com.br/conta-e-localizacao-uemura-estetica-estetica-guarulhos/",
+        "https://www.instagram.com/uemura_estetica/",
+        "https://www.instagram.com/debora_uemura_bm/",
+        "https://www.facebook.com/uemuraestetica/"
+      ]
+    },
+    {
+      "id": "manoela-barreto",
+      "nicho": "estetica",
+      "nome_fantasia": "Dra. Manoela Barreto Estética Avançada",
+      "bairro": "Centro",
+      "prioridade": "B",
+      "score": 58,
+      "score_detalhe": { "dor": 15, "capacidade": 20, "acesso": 15, "timing": 8 },
+      "cnpj": {
+        "numero": "34.583.681/0001-80",
+        "razao_social": "MD CENTRO DE BELEZA E CURSOS LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2019-08-19",
+        "porte": "ME",
+        "cnae": "9602-5/02 - Atividades de estética e outros serviços de cuidados com a beleza",
+        "capital_social": null,
+        "endereco": "Av. Salgado Filho, 252, sala 402, Centro, Guarulhos/SP, 07115-000",
+        "fonte": "https://consultacnpj.com/cnpj/manoela-barreto-de-lima-servicos-de-estetica-e-comercio-de-cosmeticos-dra-manoela-barreto-estetica-avancada-34583681000180"
+      },
+      "decisor": {
+        "nome": "Manoela Barreto de Lima",
+        "primeiro_nome": "Manoela",
+        "qualificacao": "Dona (a razão social anterior levava o nome dela) · biomédica (CRBM 37602)",
+        "validado": true,
+        "fonte_validacao": "https://www.instagram.com/dra.manoelabarreto/",
+        "instagram": "https://www.instagram.com/dra.manoelabarreto/",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "https://doutoramanoelabarreto.com.br/", "status": "ok", "nota": "Tem site; e-mail de contato é @gmail" },
+        "instagram": { "url": "https://www.instagram.com/dra.manoelabarreto/", "seguidores": 4777, "publicacoes": 825, "ultimo_post": "", "status": "fraco", "nota": "A marca da clínica é o perfil pessoal: 825 posts e 4.777 seguidores. Muito conteúdo para pouco alcance, sinal de que falta distribuição (anúncio)" },
+        "google": { "url": "", "nota": null, "avaliacoes": null, "observacao": "Não verificado" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "Conferir na Biblioteca de Anúncios da Meta" }
+      },
+      "dores": [
+        "Posta muito (825 publicações) e cresce pouco (4,7 mil): o conteúdo não chega em quem ainda não a conhece",
+        "Clínica e cursos na mesma marca pessoal, sem identidade própria"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "Ela já produz conteúdo; o pacote entra com edição profissional, identidade e tráfego pago para distribuir o que já existe."
+      },
+      "gancho": "Muito conteúdo, pouco alcance: o problema é distribuição, não produção",
+      "contato": { "whatsapp": "", "instagram": "@dra.manoelabarreto", "email": "manoelabarretodelima@gmail.com", "melhor_horario": "Direct no Instagram ou fixo (11) 2382-3353" },
+      "mensagens": {
+        "whatsapp": "Oi, Dra. Manoela! Aqui é o Vitor, da Adspot. Vi que você já tem mais de 800 publicações no Instagram, uma consistência que pouca gente tem. Mesmo assim o perfil está em 4,7 mil seguidores, sinal de que o conteúdo não está chegando em quem ainda não te conhece. É aí que entra o anúncio: a gente edita os vídeos que você já faz, organiza o perfil e coloca para rodar para quem mora perto da Salgado Filho. Posso te mandar 3 ideias?",
+        "instagram_dm": "Oi, Dra. Manoela! Vitor, da Adspot. 800 posts é muita dedicação! Tenho 3 ideias para esse conteúdo chegar em quem ainda não te conhece. Posso te mandar?",
+        "follow_up_d3": "Dra. Manoela, uma das ideias: pegar os 5 vídeos que mais engajaram no seu perfil, reeditar no padrão da clínica e anunciar para mulheres de 25 a 50 anos num raio de 5 km do Centro, com botão direto para o WhatsApp. Sem promessa de resultado, só mostrando o seu trabalho. Faz sentido conversarmos 15 minutos?",
+        "follow_up_d7": "Dra. Manoela, fecho por aqui. Se quiser colocar o seu conteúdo para rodar mais pra frente, é só me chamar. Sucesso!"
+      },
+      "fontes": [
+        "https://consultacnpj.com/cnpj/manoela-barreto-de-lima-servicos-de-estetica-e-comercio-de-cosmeticos-dra-manoela-barreto-estetica-avancada-34583681000180",
+        "https://empresas.serasaexperian.com.br/consulta-gratis/MD-CENTRO-DE-BELEZA-E-CURSOS-LTDA-ME-34583681000180",
+        "https://www.instagram.com/dra.manoelabarreto/",
+        "https://doutoramanoelabarreto.com.br/",
+        "https://www.fresha.com/lvp/dra-manoela-barreto-estetica-avancada-avenida-salgado-filho-JQbX7X"
+      ]
+    }
+  ],
+  "descartados": [
+    { "nome": "GiO Estética · Clínica Virtuosa · Estetic Face · Hamonir · AD Clinic · Maislaser · Bestlaser · Royal Face · Emporium da Beleza", "nicho": "estetica", "motivo": "Franquias ou redes com marketing central (Virtuosa tem 145+ unidades; Estética e Laser Praça8 e LCS são unidades de GiO e Estetic Face)." },
+    { "nome": "Carla Lenzi Estética (@lenziestetica)", "nicho": "estetica", "motivo": "83 mil seguidores e 910 posts: vitrine forte. CNPJ também não localizado." },
+    { "nome": "Instituto Esculpindo Faces", "nicho": "estetica", "motivo": "63 mil seguidores. Donas: Claudislania Maria da Silva e Sisley Nunes de Vasconcelos (CNPJ 42.837.186/0001-88)." },
+    { "nome": "Estética Maia (@esteticamaia_guarulhos)", "nicho": "estetica", "motivo": "13 mil seguidores." },
+    { "nome": "Dra. Amanda Reis", "nicho": "estetica", "motivo": "13 mil seguidores e 4,9 no Google com 65 avaliações; empresa em nome da pessoa (capacidade incerta)." },
+    { "nome": "Clínica Atual Estética", "nicho": "estetica", "motivo": "8 mil seguidores e 1.156 posts: perfil ativo. Dona: Simone de Oliveira Magalhães (@smagalhaesatual)." },
+    { "nome": "Estética Silvana Araújo", "nicho": "estetica", "motivo": "Site com dezenas de páginas de SEO por bairro e tratamento: já investe em marketing. Quadro de sócios veio inconsistente na busca." },
+    { "nome": "Fit Estética Avançada", "nicho": "estetica", "motivo": "Endereço do CNPJ (Rua Santo Antônio, 43) não bate com o da clínica (Rua Tapajós, 295): CNPJ não confirmado." },
+    { "nome": "BM Esthetic (Jardim Barbosa)", "nicho": "estetica", "motivo": "CNPJ 29.109.518/0001-40 (ME, 2017) encontrado, mas o quadro de sócios e os números do Instagram (@bm.esthetic) não foram localizados. Pontuação 44: reavaliar com o QSA." },
+    { "nome": "Dra. Francine Rosa · Dra. Francilene Melo · Essenza (Amanda Faustino) · Juliana Lopes Estética · Savedra Estética", "nicho": "estetica", "motivo": "CNPJ em Guarulhos não localizado nesta rodada. Perfis pequenos, que podem ser bons leads se o CNPJ aparecer (@francinerosa tem 2.646 seguidores e 103 posts)." },
+    { "nome": "Clínica & Estética Glamour's · H B Clínica de Estética · Clínica Estética Bosque Maia", "nicho": "estetica", "motivo": "CNPJ baixado ou inativo." },
+    { "nome": "Studio Ma · Estetic & Hair · Esthetic Center · Instituto Invest", "nicho": "estetica", "motivo": "CNAE de outro nicho (salão, odontologia ou ensino)." },
+    { "nome": "S.M Estética Avançada", "nicho": "estetica", "motivo": "Empresa individual com 131 seguidores: capacidade incerta para o Pacote." }
+  ],
+  "proximo_passo": "Hoje: conferir no celular o Instagram @uemura_estetica e a Biblioteca de Anúncios das duas clínicas; abordar a Dra. Débora pelo WhatsApp (10h–12h) e a Dra. Manoela pelo Direct. Follow-up D+3 em 26/09. Para ter volume no nicho, ampliar para outras cidades do Alto Tietê ou ofertar só o Site para as clínicas pequenas sem CNPJ localizado."
+}

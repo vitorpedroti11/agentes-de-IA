@@ -14,6 +14,11 @@
 - 2026-09-22 · Vitor pediu: **Instagram sempre, como padrão** (empresa + dono) · é o canal principal da abordagem e a vitrine que o Pacote vende · como aplicar: preencher `presenca.instagram.url` e `decisor.instagram` em todo lead; "não encontrado" só depois de 3 buscas.
 - 2026-09-22 · Buscar o Instagram revelou que "Dentista do Povo" é rede nacional (Bauru, Campinas, Jundiaí…), o que o CNPJ local não mostrava · como aplicar: pesquisar o nome fantasia no Instagram antes de pontuar; vários perfis `@marca_cidade` = rede → descartar.
 
+- 2026-09-23 · Estética em Guarulhos é nicho saturado: franquias (GiO, Virtuosa, Estetic Face, Hamonir, AD Clinic, Maislaser, Bestlaser, Royal Face, Emporium da Beleza) e independentes com 10 mil+ seguidores · de ~35 candidatos, só 2 passaram · como aplicar: em estética, mapear 4x a quantidade pedida e checar franquia pelo nome antes de buscar CNPJ; avisar o Vitor cedo quando o nicho não render volume.
+- 2026-09-23 · Muitas esteticistas usam CNPJ em nome próprio (razão = nome da pessoa) ou nenhum CNPJ encontrável por nome fantasia · como aplicar: buscar `"<nome da profissional>" CNPJ Guarulhos`; se a razão for o nome da pessoa, tratar como empresa individual (capacidade incerta → oferta de Site).
+- 2026-09-23 · Gancho que funciona em estética: comparar a autoridade real (anos, formação) com o tamanho do Instagram frente a concorrentes locais, sem citar nomes · hipótese a validar com as respostas.
+
 ## Histórico de prospecções
 <!-- data · cidade · nichos · nº de leads A/B · arquivo -->
 - 2026-09-22 · Guarulhos/SP · dentista · 1 A + 5 B, 13 descartados (Dentista do Povo saiu por ser rede nacional; Atitud saiu com Instagram ativo) · `clientes/adspot/prospeccoes/2026-09-22_guarulhos_dentista.html`
+- 2026-09-23 · Guarulhos/SP · estética · 0 A + 2 B, 13 grupos descartados (nicho saturado) · `clientes/adspot/prospeccoes/2026-09-23_guarulhos_estetica.html`

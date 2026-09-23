@@ -254,7 +254,8 @@ section.block h2{font-size:18px;letter-spacing:-.01em;margin:0 0 10px}
   Array.from(new Set(LEADS.map(function(l){return l.nicho;}))).forEach(function(n){ chip(document.getElementById("chipsNicho"), nicho(n), n, F.nicho); });
   Array.from(new Set(LEADS.map(function(l){return (l.produto||{}).recomendado;}).filter(Boolean))).forEach(function(p){ var o=document.createElement("option"); o.value=p; o.textContent=p; document.getElementById("fProduto").appendChild(o); });
   STATUS.forEach(function(s){ var o=document.createElement("option"); o.value=s; o.textContent=s; document.getElementById("fStatus").appendChild(o); });
-  document.getElementById("q").oninput = function(e){ F.q = e.target.value.toLowerCase(); render(); };
+  function semAcento(t){ return String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase(); }
+  document.getElementById("q").oninput = function(e){ F.q = semAcento(e.target.value); render(); };
   document.getElementById("fProduto").onchange = function(e){ F.produto = e.target.value; render(); };
   document.getElementById("fStatus").onchange = function(e){ F.status = e.target.value; render(); };
   document.getElementById("ordem").onchange = function(e){ F.ordem = e.target.value; render(); };
@@ -267,7 +268,7 @@ section.block h2{font-size:18px;letter-spacing:-.01em;margin:0 0 10px}
     if (F.status && st(l.id).status !== F.status) return false;
     if (F.q){
       var c = l.cnpj||{}, d = l.decisor||{};
-      var hay = [l.nome_fantasia, c.razao_social, c.numero, c.endereco, l.bairro, d.nome, nicho(l.nicho)].join(" ").toLowerCase();
+      var hay = [l.nome_fantasia, c.razao_social, c.numero, c.endereco, l.bairro, d.nome, nicho(l.nicho)].join(" "); hay = semAcento(hay);
       if (hay.indexOf(F.q) < 0) return false;
     }
     return true;
