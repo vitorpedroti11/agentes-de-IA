@@ -13,3 +13,4 @@
 
 ## Histórico de trabalho
 <!-- data · cliente · o que foi feito (cadastro/conteúdo/semana/mês/ideias) -->
+- 2026-09-23 · ALLENZA · cadastro do perfil completo (moda feminina, rebranding de Alline Coelho, atendimento só por WhatsApp em todo o Brasil, sem loja física). Ainda sem conteúdo gerado.
