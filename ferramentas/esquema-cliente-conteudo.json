@@ -1,0 +1,98 @@
+{
+  "cliente": {
+    "id": "slug-do-cliente (minúsculas, sem acento, com hífen)",
+    "nome": "Nome da empresa",
+    "segmento": "Nicho/segmento",
+    "produtos_servicos": "O que vende",
+    "publico_alvo": "Para quem",
+    "diferenciais": "O que separa do concorrente",
+    "objetivos": "O que a conta quer (seguidores, vendas, autoridade, agendamento...)",
+    "tom_de_voz": "Como o cliente fala",
+    "identidade_visual": "Cores, fontes, referências visuais",
+    "palavras_usar": ["palavra ou expressão da marca"],
+    "palavras_evitar": ["palavra ou expressão que a marca nunca usa"],
+    "informacoes_importantes": "História, datas, particularidades que mudam o texto",
+    "criado_em": "AAAA-MM-DD",
+    "atualizado_em": "AAAA-MM-DD"
+  },
+  "conteudos": [
+    {
+      "id": "slug-unico",
+      "tipo": "post | carrossel | reel | stories | legenda | roteiro",
+      "titulo": "Nome interno do conteúdo",
+      "pilar": "autoridade | educacao | engajamento | branding | prova_social | vendas | conversao",
+      "status": "ideia | aprovado | desenvolvido | publicado | descartado",
+      "data_criacao": "AAAA-MM-DD",
+      "semana_id": "id da semana, ou null",
+      "mes_id": "AAAA-MM do planejamento mensal, ou null",
+
+      "post": { "titulo": "", "texto_arte": "", "direcionamento_visual": "", "legenda": "", "cta": "" },
+      "carrossel": {
+        "slides": [{ "numero": 1, "conteudo": "", "direcionamento_visual": "" }],
+        "cta": "",
+        "legenda": ""
+      },
+      "reel": {
+        "gancho": "",
+        "roteiro": [{ "cena": 1, "visual": "", "fala": "", "texto_tela": "" }],
+        "cta": "",
+        "legenda": ""
+      },
+      "stories": {
+        "sequencia": [{ "numero": 1, "objetivo": "", "conteudo": "", "cta": "" }]
+      },
+      "legenda": { "texto": "" },
+      "roteiro": {
+        "cenas": [{ "numero": 1, "visual": "", "fala": "", "texto_tela": "" }]
+      }
+    }
+  ],
+  "semanas": [
+    {
+      "id": "AAAA-MM-DD (segunda-feira da semana)",
+      "data_inicio": "AAAA-MM-DD",
+      "briefing": "o pedido original, ex.: 3 posts, 2 reels, stories de segunda a sexta",
+      "status": "planejamento | aprovado | desenvolvido",
+      "itens": [
+        {
+          "id": "slug-unico",
+          "dia": "segunda | terca | quarta | quinta | sexta | sabado | domingo",
+          "tipo": "post | carrossel | reel | stories",
+          "pilar": "autoridade | educacao | engajamento | branding | prova_social | vendas | conversao",
+          "ideia_resumo": "1-2 linhas, não é o conteúdo pronto",
+          "cta_previsto": "",
+          "conteudo_id": "id em 'conteudos' quando desenvolvido, senão null",
+          "status": "ideia | aprovado | desenvolvido"
+        }
+      ]
+    }
+  ],
+  "planejamento_mensal": [
+    {
+      "mes": "AAAA-MM",
+      "itens": [
+        {
+          "id": "slug-unico",
+          "dia": "AAAA-MM-DD",
+          "formato": "post | carrossel | reel | stories",
+          "tema": "",
+          "objetivo": "",
+          "ideia": "1-2 linhas",
+          "cta": "",
+          "pilar": "autoridade | educacao | engajamento | branding | prova_social | vendas | conversao",
+          "conteudo_id": "id em 'conteudos' quando desenvolvido, senão null"
+        }
+      ]
+    }
+  ],
+  "banco_ideias": [
+    {
+      "id": "slug-unico",
+      "tipo": "post | carrossel | reel | stories",
+      "pilar": "autoridade | educacao | engajamento | branding | prova_social | vendas | conversao",
+      "ideia": "1-2 linhas",
+      "usada": false,
+      "data_criacao": "AAAA-MM-DD"
+    }
+  ]
+}

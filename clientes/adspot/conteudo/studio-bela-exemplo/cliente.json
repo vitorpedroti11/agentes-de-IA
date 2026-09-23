@@ -1,0 +1,139 @@
+{
+  "cliente": {
+    "id": "studio-bela-exemplo",
+    "nome": "Studio Bela (fictício)",
+    "segmento": "Salão de beleza",
+    "produtos_servicos": "Coloração, corte, escova, tratamento capilar, manicure e pedicure",
+    "publico_alvo": "Mulheres de 25 a 50 anos, classe B/C, moradoras do Centro, que valorizam cuidado pessoal e indicam para amigas",
+    "diferenciais": "Coloração autoral (mistura de tons feita na hora, sem fórmula de caixinha) e café oferecido durante o atendimento",
+    "objetivos": "Encher a agenda de terça a sexta (segunda e sábado já lotam sozinhos) e virar referência em coloração no Centro",
+    "tom_de_voz": "Próxima e calorosa, como uma amiga que entende de cabelo. Frases curtas, emojis com moderação (no máximo 2 por legenda), nunca formal",
+    "identidade_visual": "Paleta terracota e bege, tipografia manuscrita nos destaques, fotos com luz natural (nunca flash direto)",
+    "palavras_usar": ["transformação", "seu jeito", "combina com você", "vem tomar um café"],
+    "palavras_evitar": ["promoção imperdível", "corre que acaba", "beauty", "diva", "queridas"],
+    "informacoes_importantes": "A dona é a Marina, cabeleireira há 12 anos. O salão fechou 3 meses para reforma em 2025 e reabriu maior. Não fazer joke sobre preço nem comparar com salão popular.",
+    "criado_em": "2026-09-23",
+    "atualizado_em": "2026-09-23",
+    "demonstracao": true
+  },
+  "conteudos": [
+    {
+      "id": "post-coloracao-autoral",
+      "tipo": "post",
+      "titulo": "A coloração não sai de fórmula pronta",
+      "pilar": "autoridade",
+      "status": "desenvolvido",
+      "data_criacao": "2026-09-10",
+      "semana_id": null,
+      "mes_id": "2026-09",
+      "post": {
+        "titulo": "A coloração não sai de fórmula pronta",
+        "texto_arte": "Cada cor é misturada na sua frente. Nada de caixinha.",
+        "direcionamento_visual": "Foto da Marina misturando as tintas na tigela, mão em primeiro plano, luz natural da janela do salão",
+        "legenda": "Antes de qualquer coloração, a gente olha pro seu cabelo, pra sua pele e conversa sobre o que combina com você. Só depois a mistura sai da tigela — nunca de caixinha pronta. Isso é o que muda o resultado. Quer marcar um horário pra ver a sua cor? Manda mensagem que a gente combina um horário com café incluso.",
+        "cta": "Manda mensagem no direct e marca seu horário"
+      },
+      "fontes": []
+    },
+    {
+      "id": "reel-antes-depois-ana",
+      "tipo": "reel",
+      "titulo": "Antes e depois da Ana",
+      "pilar": "prova_social",
+      "status": "desenvolvido",
+      "data_criacao": "2026-09-15",
+      "semana_id": null,
+      "mes_id": "2026-09",
+      "reel": {
+        "gancho": "Ela chegou pedindo pra \"só dar uma leve amenizada\" no ruivo",
+        "roteiro": [
+          { "cena": 1, "visual": "Ana sentada na cadeira, cabelo ruivo desbotado, olhando no espelho meio insegura", "fala": "(texto na tela, sem fala) \"só uma amenizada\", ela disse", "texto_tela": "\"só uma amenizada\" 👀" },
+          { "cena": 2, "visual": "Sequência rápida da Marina misturando os tons na tigela", "fala": "Marina: cada mistura é pensada pro tom de pele e pro cabelo de cada uma", "texto_tela": "" },
+          { "cena": 3, "visual": "Processo de aplicação, still de detalhe da escova aplicando", "fala": "", "texto_tela": "40 minutos depois..." },
+          { "cena": 4, "visual": "Reveal: Ana se olhando no espelho, sorrindo, virando a cabeça pro cabelo balançar", "fala": "Ana: nossa, ficou exatamente o que eu queria e nem sabia", "texto_tela": "isso não é fórmula de caixinha" }
+        ],
+        "cta": "Quer sua transformação? Manda mensagem e marca um horário",
+        "legenda": "A Ana pediu \"só uma leve amenizada\". A gente ouviu, olhou o tom de pele dela e sugeriu um caminho diferente. O resultado tá no vídeo. Vem tomar um café e contar o que você quer mudar — a gente ajuda a achar o seu jeito."
+      },
+      "fontes": []
+    },
+    {
+      "id": "carrossel-cuidados-pos-coloracao",
+      "tipo": "carrossel",
+      "titulo": "3 cuidados depois da coloração",
+      "pilar": "educacao",
+      "status": "aprovado",
+      "data_criacao": "2026-09-18",
+      "semana_id": null,
+      "mes_id": "2026-09",
+      "carrossel": {
+        "slides": [
+          { "numero": 1, "conteudo": "Acabou de colorir? 3 coisas que fazem a cor durar mais", "direcionamento_visual": "Capa com fundo terracota, tipografia manuscrita" },
+          { "numero": 2, "conteudo": "1. Espera 48h pra lavar. A cor ainda está fixando", "direcionamento_visual": "Foto de um relógio estilizado ou calendário simples" },
+          { "numero": 3, "conteudo": "2. Água morna, nunca quente. Água quente abre a cutícula e a cor escapa", "direcionamento_visual": "Foto do chuveiro do salão, still" },
+          { "numero": 4, "conteudo": "3. Shampoo sem sulfato pelo menos 2x por semana", "direcionamento_visual": "Foto de produtos usados no salão, sobre a bancada" },
+          { "numero": 5, "conteudo": "Guarda esse carrossel pra lembrar depois do seu próximo horário", "direcionamento_visual": "Fundo terracota com o logo, mesma linha da capa" }
+        ],
+        "cta": "Salva esse post e manda pra quem também colore o cabelo",
+        "legenda": "Separei os 3 cuidados que mais faço questão de explicar depois de uma coloração aqui no salão. Guarda esse carrossel — ele te ajuda a fazer a cor durar bem mais."
+      },
+      "fontes": []
+    },
+    {
+      "id": "reel-mitos-coloracao",
+      "tipo": "reel",
+      "titulo": "3 mitos sobre coloração",
+      "pilar": "educacao",
+      "status": "ideia",
+      "data_criacao": "2026-09-22",
+      "semana_id": null,
+      "mes_id": null,
+      "reel": { "gancho": "", "roteiro": [], "cta": "", "legenda": "" },
+      "fontes": []
+    }
+  ],
+  "semanas": [
+    {
+      "id": "2026-09-29",
+      "data_inicio": "2026-09-29",
+      "briefing": "3 posts, 2 reels, stories de segunda a sexta",
+      "status": "planejamento",
+      "itens": [
+        { "id": "sem-seg-story", "dia": "segunda", "tipo": "stories", "pilar": "branding", "ideia_resumo": "Bastidor: chegada no salão, café passando, preparo do dia", "cta_previsto": "Enquete: café puro ou com leite?", "conteudo_id": null, "status": "ideia" },
+        { "id": "sem-ter-reel", "dia": "terca", "tipo": "reel", "pilar": "prova_social", "ideia_resumo": "Antes/depois de uma cliente que trocou de morena pra ruiva acobreada", "cta_previsto": "Manda mensagem e marca horário", "conteudo_id": null, "status": "aprovado" },
+        { "id": "sem-ter-story", "dia": "terca", "tipo": "stories", "pilar": "engajamento", "ideia_resumo": "Caixinha de perguntas: \"qual sua dúvida sobre coloração?\"", "cta_previsto": "Responde a caixinha", "conteudo_id": null, "status": "ideia" },
+        { "id": "sem-qua-post", "dia": "quarta", "tipo": "post", "pilar": "educacao", "ideia_resumo": "Diferença entre tonalizante e coloração definitiva, explicada simples", "cta_previsto": "Salva esse post", "conteudo_id": null, "status": "ideia" },
+        { "id": "sem-qua-story", "dia": "quarta", "tipo": "stories", "pilar": "branding", "ideia_resumo": "Reposta das dúvidas da caixinha de terça", "cta_previsto": "Marca horário pra tirar a dúvida na prática", "conteudo_id": null, "status": "ideia" },
+        { "id": "sem-qui-post", "dia": "quinta", "tipo": "post", "pilar": "autoridade", "ideia_resumo": "Como a Marina decide o tom certo pra cada tom de pele", "cta_previsto": "Manda mensagem e marca horário", "conteudo_id": null, "status": "ideia" },
+        { "id": "sem-qui-story", "dia": "quinta", "tipo": "stories", "pilar": "engajamento", "ideia_resumo": "Enquete: qual cor vocês têm mais vontade de experimentar", "cta_previsto": "Vota na enquete", "conteudo_id": null, "status": "ideia" },
+        { "id": "sem-sex-reel", "dia": "sexta", "tipo": "reel", "pilar": "conversao", "ideia_resumo": "Agenda de outubro abrindo: como funciona marcar horário e o que perguntar na consulta de cor", "cta_previsto": "Manda mensagem e já garante o horário de outubro", "conteudo_id": null, "status": "ideia" },
+        { "id": "sem-sex-post", "dia": "sexta", "tipo": "post", "pilar": "vendas", "ideia_resumo": "Pacote de coloração + tratamento capilar de outubro", "cta_previsto": "Manda mensagem pra saber o valor e as vagas", "conteudo_id": null, "status": "ideia" },
+        { "id": "sem-sex-story", "dia": "sexta", "tipo": "stories", "pilar": "branding", "ideia_resumo": "Fechamento da semana: bastidor do salão sendo arrumado pro fim de semana", "cta_previsto": "", "conteudo_id": null, "status": "ideia" }
+      ]
+    }
+  ],
+  "planejamento_mensal": [
+    {
+      "mes": "2026-10",
+      "itens": [
+        { "id": "mes-01", "dia": "2026-10-01", "formato": "post", "tema": "Agenda de outubro abrindo", "objetivo": "Conversão", "ideia": "Chamada para marcar horário de outubro antes que lote", "cta": "Manda mensagem e garante o horário", "pilar": "conversao", "conteudo_id": null },
+        { "id": "mes-03", "dia": "2026-10-03", "formato": "stories", "tema": "Bastidor de sábado cheio", "objetivo": "Branding", "ideia": "Sequência mostrando o salão em ritmo de sábado", "cta": "", "pilar": "branding", "conteudo_id": null },
+        { "id": "mes-06", "dia": "2026-10-06", "formato": "reel", "tema": "Como cuidar do cabelo colorido no calor", "objetivo": "Educação", "ideia": "3 dicas rápidas pra outubro mais quente", "cta": "Salva esse vídeo", "pilar": "educacao", "conteudo_id": null },
+        { "id": "mes-09", "dia": "2026-10-09", "formato": "carrossel", "tema": "Antes de decidir a cor, pergunte isso a si mesma", "objetivo": "Autoridade", "ideia": "Perguntas que a Marina faz na consulta de cor", "cta": "Comenta qual pergunta te fez pensar", "pilar": "autoridade", "conteudo_id": null },
+        { "id": "mes-13", "dia": "2026-10-13", "formato": "post", "tema": "Depoimento da cliente Fernanda", "objetivo": "Prova social", "ideia": "Print do depoimento real + foto do resultado, com autorização", "cta": "Manda mensagem e marca seu horário", "pilar": "prova_social", "conteudo_id": null },
+        { "id": "mes-16", "dia": "2026-10-16", "formato": "stories", "tema": "Enquete sobre próxima tendência de outono", "objetivo": "Engajamento", "ideia": "Enquete com 2 opções de tom para testar interesse", "cta": "Vota na enquete", "pilar": "engajamento", "conteudo_id": null },
+        { "id": "mes-20", "dia": "2026-10-20", "formato": "reel", "tema": "Um dia inteiro no Studio Bela", "objetivo": "Branding", "ideia": "Vlog curto de um dia de trabalho, do café ao último horário", "cta": "Comenta se quer ver mais bastidor assim", "pilar": "branding", "conteudo_id": null },
+        { "id": "mes-24", "dia": "2026-10-24", "formato": "post", "tema": "Pacote de fim de mês: coloração + tratamento", "objetivo": "Vendas", "ideia": "Oferta do combo de outubro com condição especial", "cta": "Manda mensagem pra saber o valor", "pilar": "vendas", "conteudo_id": null },
+        { "id": "mes-28", "dia": "2026-10-28", "formato": "stories", "tema": "Últimas vagas de outubro", "objetivo": "Conversão", "ideia": "Contagem regressiva de vagas do mês", "cta": "Marca antes que feche", "pilar": "conversao", "conteudo_id": null }
+      ]
+    }
+  ],
+  "banco_ideias": [
+    { "id": "ideia-01", "tipo": "reel", "pilar": "prova_social", "ideia": "Cliente antiga (5+ anos de casa) contando por que nunca trocou de salão", "usada": false, "data_criacao": "2026-09-20" },
+    { "id": "ideia-02", "tipo": "reel", "pilar": "educacao", "ideia": "O que perguntar antes de fazer luzes pela primeira vez", "usada": false, "data_criacao": "2026-09-20" },
+    { "id": "ideia-03", "tipo": "post", "pilar": "autoridade", "ideia": "Os 3 tons que mais pedem no Centro e por que nem sempre combinam com todo mundo", "usada": false, "data_criacao": "2026-09-20" },
+    { "id": "ideia-04", "tipo": "stories", "pilar": "engajamento", "ideia": "Quiz rápido: qual tom combina com seu estilo (leva pro direct)", "usada": false, "data_criacao": "2026-09-20" },
+    { "id": "ideia-05", "tipo": "reel", "pilar": "branding", "ideia": "Como a Marina começou: 12 anos de carreira em 30 segundos", "usada": true, "data_criacao": "2026-08-05" },
+    { "id": "ideia-06", "tipo": "carrossel", "pilar": "educacao", "ideia": "Diferença entre tonalizante e coloração definitiva", "usada": true, "data_criacao": "2026-08-10" }
+  ]
+}

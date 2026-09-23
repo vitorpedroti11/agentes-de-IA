@@ -2,13 +2,13 @@
 
 Agentes do Claude Code da Adspot, montados no padrão de quatro arquivos: **agente, método, estado e memória**.
 
-| Peça | Arquivo |
-|---|---|
-| O agente | `.claude/agents/prospector-adspot.md` |
-| O método | `metodologia/prospeccao.md` |
-| O estado | `clientes/adspot/oferta.md` |
-| A memória | `.claude/agent-memory/prospector-adspot/MEMORY.md` |
-| Ferramentas | `ferramentas/consulta_cnpj.py`, `ferramentas/gerar_html.py`, `ferramentas/modelo-prospeccao.html` |
+| Peça | Prospector Adspot | Conteúdo Adspot |
+|---|---|---|
+| O agente | `.claude/agents/prospector-adspot.md` | `.claude/agents/conteudo-adspot.md` |
+| O método | `metodologia/prospeccao.md` | `metodologia/conteudo.md` |
+| O estado | `clientes/adspot/oferta.md` | `clientes/adspot/conteudo/<cliente>/cliente.json` (um por cliente da agência) |
+| A memória | `.claude/agent-memory/prospector-adspot/MEMORY.md` | `.claude/agent-memory/conteudo-adspot/MEMORY.md` |
+| Ferramentas | `ferramentas/consulta_cnpj.py`, `ferramentas/gerar_html.py`, `ferramentas/modelo-prospeccao.html` | `ferramentas/gerar_conteudo_html.py`, `ferramentas/modelo-conteudo.html` |
 
 ## Prospector Adspot
 
@@ -37,3 +37,31 @@ Preencha em `clientes/adspot/oferta.md`: região de atuação, Instagram/WhatsAp
 
 ### Refinamento
 Toda correção vira regra escrita: fato da Adspot → `oferta.md`; método → `metodologia/prospeccao.md`; jeito do agente trabalhar → memória do agente.
+
+## Conteúdo Adspot
+
+Cadastra clientes da agência com o perfil completo de marca (segmento, produtos, público, diferenciais, objetivos, tom de voz, identidade visual, palavras a usar/evitar, informações importantes) e usa esse perfil sempre que aquele cliente for selecionado. Cria posts, carrosséis, Reels, stories, legendas e roteiros; monta e desenvolve semanas e meses de conteúdo balanceados pelos sete pilares (autoridade, educação, engajamento, branding, prova social, vendas, conversão); mantém banco de ideias e histórico por cliente para nunca repetir gancho, tema ou CTA. A entrega é um painel único em HTML, no mesmo padrão visual do prospector, com Dashboard, Clientes, Criar Conteúdo, Criar Semana, Planejamento, Banco de Ideias e Histórico.
+
+### Como usar
+```
+@conteudo-adspot cadastre o cliente <nome> com [perfil...]
+@conteudo-adspot crie um reel para <cliente> sobre [tema]
+@conteudo-adspot crie uma semana para <cliente> com 3 posts, 2 reels e stories de segunda a sexta
+@conteudo-adspot desenvolva a semana completa / desenvolva o conteúdo de <dia>
+@conteudo-adspot planejamento mensal de <mês> para <cliente>
+@conteudo-adspot me dê 20 ideias de reels para <cliente>
+```
+
+O resultado fica em `clientes/adspot/conteudo/<cliente>/cliente.json` (um por cliente) e no painel único `clientes/adspot/conteudo/painel.html`, que junta todos os clientes. Veja o formato em `clientes/adspot/conteudo/studio-bela-exemplo/cliente.json` (dados fictícios).
+
+**Importante:** o painel HTML não gera conteúdo sozinho — é o agente, aqui no chat, quem escreve. Os botões "🪄" do painel montam o pedido certo e copiam para você colar na conversa com o `@conteudo-adspot`; depois que o agente responde, ele já grava o resultado no `cliente.json` e regenera o painel. O painel guarda no navegador (localStorage) o cliente selecionado, aprovações e cadastros feitos direto na tela — cadastro feito só na tela precisa ser confirmado ao agente para virar arquivo no repositório (o botão "Copiar JSON do cliente" existe para isso).
+
+### Ferramentas avulsas
+```
+python3 ferramentas/gerar_conteudo_html.py                                 # junta clientes/adspot/conteudo/*/cliente.json no painel
+python3 ferramentas/gerar_conteudo_html.py --pagina saida.html             # + versão para publicar (celular)
+```
+Só usa a biblioteca padrão do Python 3.
+
+### Refinamento
+Fato de um cliente específico → dentro do `cliente.json` dele; método (pilares, formatos, regras de repetição) → `metodologia/conteudo.md`; jeito do agente trabalhar → memória do agente.
