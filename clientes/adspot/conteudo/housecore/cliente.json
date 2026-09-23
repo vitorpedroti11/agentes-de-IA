@@ -1,0 +1,22 @@
+{
+  "cliente": {
+    "id": "housecore",
+    "nome": "HouseCore",
+    "segmento": "Mercado imobiliário / tecnologia para o mercado imobiliário",
+    "produtos_servicos": "Ecossistema e plataforma voltada para corretores parceiros e imobiliárias, com áreas de Jurídico com IA, Educação, Marketing Inteligente, Leads Qualificados, Fornecedores, Comunidade, Financeiro e IA Comercial. Serviço contratado com a Adspot: desenvolvimento do novo site da HouseCore.",
+    "publico_alvo": "Corretores de imóveis, corretores parceiros e imobiliárias.",
+    "diferenciais": "Não é só uma plataforma — é um ecossistema completo de tecnologia, conhecimento, conexões, oportunidades e estrutura para o corretor parceiro e a imobiliária crescerem. Pilares da marca: Apoiar, Conectar, Inovar, Transformar. Benefícios destacados: mais produtividade, mais visibilidade, mais oportunidades, mais liberdade, mais resultados.",
+    "objetivos": "Objetivo atual do projeto com a Adspot: desenvolvimento do novo site da HouseCore.",
+    "tom_de_voz": "Ainda não informado — definir no briefing do site.",
+    "identidade_visual": "Azul-marinho / azul muito escuro como cor predominante, dourado como cor de destaque, branco para contraste. Aparência premium, corporativa, tecnológica e profissional. Elementos visuais relacionados a tecnologia, conexões, mercado imobiliário e crescimento. Logo HouseCore com símbolo HC.",
+    "palavras_usar": ["ecossistema", "corretores parceiros", "liberdade", "profissionalismo", "performance", "tecnologia que conecta, pessoas que transformam"],
+    "palavras_evitar": [],
+    "informacoes_importantes": "Missão: transformar a vida de corretores parceiros e imobiliárias, oferecendo soluções inteligentes, conhecimento, conexões e oportunidades para que vendam mais, melhor e com liberdade. Visão: ser o maior ecossistema de desenvolvimento do mercado imobiliário da América Latina, impulsionando milhões de negócios através da inovação, tecnologia e conexões. Propósito: dar aos corretores parceiros e imobiliárias a estrutura necessária para crescer com liberdade, profissionalismo e alta performance. Posicionamento: \"Tecnologia que conecta. Pessoas que transformam.\" — a HouseCore deve ser apresentada como mais do que uma plataforma, um ecossistema voltado ao desenvolvimento e crescimento dos profissionais do mercado imobiliário. Dados institucionais apresentados: +10.000 corretores parceiros, +1.500 imobiliárias, presença em todo o Brasil. Não inventar preços, planos, contatos, endereços ou funcionalidades que não tenham sido informados. Cadastro preparado para receber depois: briefing do site, estrutura do site, páginas, textos, referências e demais informações do projeto — ainda não definidos.\n\nReferência de marca recebida (one-pager/apresentação institucional): confirma a identidade visual já cadastrada (navy predominante, dourado de destaque, branco de contraste, logo HC) e traz um mockup de dashboard/app com módulos ilustrativos (Leads, Imóveis, Marketing, Contratos, Academia, Financeiro, Fornecedores, Comunidade) — isso é material de referência visual do ecossistema, não uma lista confirmada de funcionalidades do site a ser desenvolvido; validar com o Vitor no briefing antes de usar como estrutura do site.",
+    "criado_em": "2026-09-23",
+    "atualizado_em": "2026-09-23"
+  },
+  "conteudos": [],
+  "semanas": [],
+  "planejamento_mensal": [],
+  "banco_ideias": []
+}

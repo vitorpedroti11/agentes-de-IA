@@ -14,3 +14,4 @@
 ## Histórico de trabalho
 <!-- data · cliente · o que foi feito (cadastro/conteúdo/semana/mês/ideias) -->
 - 2026-09-23 · ALLENZA · cadastro do perfil completo (moda feminina, rebranding de Alline Coelho, atendimento só por WhatsApp em todo o Brasil, sem loja física). Ainda sem conteúdo gerado.
+- 2026-09-23 · HOUSECORE · cadastro do perfil completo (ecossistema/plataforma para corretores parceiros e imobiliárias; serviço contratado é desenvolvimento de site, não conteúdo recorrente). Tom de voz ainda não informado. Cadastro deixado preparado para receber depois: briefing do site, estrutura, páginas, textos e referências — nada disso foi inventado. Recebida uma peça de apresentação (one-pager institucional) confirmando a identidade visual e mostrando um mockup de dashboard com módulos ilustrativos — registrado como referência em `informacoes_importantes`, sem tratar como lista confirmada de funcionalidades do site.
