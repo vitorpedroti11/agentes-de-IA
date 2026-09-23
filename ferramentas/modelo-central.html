@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ADSPOT AI</title>
+<meta name="theme-color" content="#16151a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f5f3ef; --surface:#ffffff; --surface-2:#f0ede7; --line:#e2ddd3; --ink:#16151a; --ink-2:#55525c; --ink-3:#8c8894;
+  --accent:#ff5a1f; --accent-ink:#ffffff; --accent-soft:#ffe6db;
+  --a:#16a34a; --a-soft:#dcf5e3; --b:#d97706; --b-soft:#fdf0d5; --c:#6b7280; --c-soft:#eceef1;
+  --p:#7c3aed; --p-soft:#ede4fd;
+  --bad:#dc2626; --bad-soft:#fde4e4;
+  --shadow:0 1px 2px rgba(20,18,30,.05),0 6px 24px -12px rgba(20,18,30,.18);
+  --radius:14px; --mono:"JetBrains Mono",ui-monospace,monospace;
+  --sidebar-w:230px; --topbar-h:56px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f0f13; --surface:#18181e; --surface-2:#202028; --line:#2c2c36; --ink:#f2f0ec; --ink-2:#b4b1bb; --ink-3:#7c7985;
+    --accent:#ff6a33; --accent-soft:#3a1d12; --a-soft:#10301b; --b-soft:#35270c; --c-soft:#26272d; --p-soft:#2a1f42; --bad-soft:#3a1515;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 28px -14px rgba(0,0,0,.7);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f0f13; --surface:#18181e; --surface-2:#202028; --line:#2c2c36; --ink:#f2f0ec; --ink-2:#b4b1bb; --ink-3:#7c7985;
+  --accent:#ff6a33; --accent-soft:#3a1d12; --a-soft:#10301b; --b-soft:#35270c; --c-soft:#26272d; --p-soft:#2a1f42; --bad-soft:#3a1515;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 28px -14px rgba(0,0,0,.7);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 "Inter Tight",system-ui,-apple-system,Segoe UI,sans-serif;-webkit-font-smoothing:antialiased;overflow:hidden}
+a{color:inherit}
+button,select,input{font:inherit;color:inherit}
+h1,h2,h3{text-wrap:balance}
+
+.shell{display:flex;height:100vh;height:100dvh}
+
+/* barra lateral (desktop) / gaveta (celular) */
+.sidebar{width:var(--sidebar-w);flex:none;background:var(--surface);border-right:1px solid var(--line);display:flex;flex-direction:column;padding:16px 12px;gap:4px;overflow-y:auto}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.01em;font-size:17px;padding:6px 8px 16px}
+.brand .dot{width:28px;height:28px;border-radius:9px;background:var(--accent);display:grid;place-items:center;color:var(--accent-ink);font-weight:800;font-size:14px;flex:none}
+.navitem{display:flex;align-items:center;gap:10px;padding:11px 12px;border-radius:10px;border:0;background:transparent;color:var(--ink-2);font-size:14px;font-weight:600;text-align:left;cursor:pointer;width:100%;min-height:44px}
+.navitem:hover{background:var(--surface-2)}
+.navitem[aria-current="true"]{background:var(--accent-soft);color:var(--accent)}
+.navitem .ic{width:20px;text-align:center;flex:none}
+.navitem .em{margin-left:auto;font-size:11px;padding:2px 7px;border-radius:999px;background:var(--surface-2);color:var(--ink-3)}
+.sidebar-footer{margin-top:auto;padding:10px 8px;font-size:12px;color:var(--ink-3)}
+
+.backdrop{position:fixed;inset:0;background:rgba(10,9,12,.45);z-index:19;display:none}
+.backdrop.show{display:block}
+
+/* coluna principal */
+.main{flex:1;min-width:0;display:flex;flex-direction:column;height:100%}
+.topbar{height:var(--topbar-h);flex:none;display:flex;align-items:center;gap:10px;padding:0 14px;padding-top:env(safe-area-inset-top,0px);border-bottom:1px solid var(--line);background:var(--surface)}
+.topbar .titulo{font-weight:700;font-size:15px;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.iconbtn{width:38px;height:38px;border-radius:10px;border:1px solid var(--line);background:var(--surface);display:none;align-items:center;justify-content:center;cursor:pointer;flex:none;font-size:18px}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:8px 12px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:600;text-decoration:none;white-space:nowrap;min-height:38px}
+.btn[hidden]{display:none}
+.btn:hover{border-color:var(--ink-3)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn.small{padding:6px 10px;font-size:13px;min-height:34px}
+.btn:focus-visible,.navitem:focus-visible,.iconbtn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.viewport{flex:1;min-height:0;overflow-y:auto}
+.pad{max-width:1080px;margin:0 auto;padding:20px 20px 60px}
+.view{display:none}
+.view.active{display:block}
+
+h1.page{font-size:22px;letter-spacing:-.01em;margin:0 0 4px}
+.lead{color:var(--ink-2);font-size:14px;margin:0 0 20px;max-width:64ch}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-bottom:8px}
+.card-agente{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:10px}
+.card-agente .ic{width:42px;height:42px;border-radius:11px;display:grid;place-items:center;font-size:20px;background:var(--accent-soft);color:var(--accent)}
+.card-agente h3{margin:0;font-size:16px}
+.card-agente p{margin:0;color:var(--ink-2);font-size:13px;flex:1}
+.card-agente .stats{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--ink-3)}
+.card-agente .stats b{color:var(--ink);font-variant-numeric:tabular-nums}
+.card-agente.futuro{opacity:.55}
+.card-agente.futuro .ic{background:var(--c-soft);color:var(--c)}
+.tag-em-breve{font-size:11px;font-weight:700;background:var(--c-soft);color:var(--c);border-radius:999px;padding:2px 9px;align-self:flex-start}
+
+.hint{background:var(--surface-2);border:1px solid var(--line);border-radius:12px;padding:11px 14px;font-size:13px;color:var(--ink-2);margin-bottom:16px}
+.hint code{font-family:var(--mono);font-size:12px;background:var(--surface);border:1px solid var(--line);border-radius:5px;padding:1px 5px}
+
+.lista-prospeccoes{display:flex;flex-direction:column;gap:10px}
+.item-prosp{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;box-shadow:var(--shadow);display:flex;align-items:center;gap:12px;text-align:left;cursor:pointer;width:100%}
+.item-prosp:hover{border-color:var(--ink-3)}
+.item-prosp .txt{flex:1;min-width:0}
+.item-prosp h4{margin:0 0 4px;font-size:15px}
+.item-prosp .meta{font-size:13px;color:var(--ink-2)}
+.item-prosp .tag{font-size:11px;padding:2px 8px;border-radius:999px;background:var(--surface-2);color:var(--ink-2);border:1px solid var(--line);margin-right:4px;display:inline-block}
+.item-prosp .tag.a{background:var(--a-soft);color:var(--a);border-color:transparent;font-weight:700}
+.item-prosp .tag.demo{background:var(--b-soft);color:var(--b);border-color:transparent}
+.item-prosp .seta{color:var(--ink-3);flex:none}
+
+.moldura{position:fixed;inset:0;top:calc(var(--topbar-h) + env(safe-area-inset-top,0px));background:var(--bg);display:flex;flex-direction:column;z-index:1;left:0}
+.moldura.inline{position:static;inset:auto;height:calc(100vh - var(--topbar-h) - 20px);height:calc(100dvh - var(--topbar-h) - 20px)}
+.moldura-topo{display:flex;align-items:center;gap:8px;padding:10px 14px;border-bottom:1px solid var(--line);background:var(--surface);flex:none}
+.moldura iframe{flex:1;width:100%;border:0;background:var(--surface)}
+
+.stub{background:var(--surface);border:1px dashed var(--line);border-radius:var(--radius);padding:28px 20px;text-align:center;color:var(--ink-3)}
+.stub h3{color:var(--ink-2);margin:0 0 6px}
+
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%) translateY(20px);opacity:0;background:var(--ink);color:var(--bg);padding:9px 16px;border-radius:10px;font-size:14px;transition:.2s;pointer-events:none;z-index:40;max-width:90vw;text-align:center}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+@media (max-width:900px){
+  .sidebar{position:fixed;left:0;top:0;bottom:0;z-index:20;transform:translateX(-100%);transition:transform .18s ease;box-shadow:var(--shadow);padding-top:calc(16px + env(safe-area-inset-top,0px))}
+  .sidebar.open{transform:translateX(0)}
+  .iconbtn.menu{display:flex}
+  .pad{padding:16px 14px 50px}
+  .cards{grid-template-columns:1fr}
+  h1.page{font-size:19px}
+  .item-prosp{padding:12px}
+}
+</style>
+</head>
+<body>
+<div class="backdrop" id="backdrop"></div>
+<div class="shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand"><div class="dot">A</div>ADSPOT AI</div>
+    <button class="navitem" data-nav="dashboard"><span class="ic">▦</span> Dashboard</button>
+    <button class="navitem" data-nav="prospeccao"><span class="ic">🔎</span> Agente de Prospecção</button>
+    <button class="navitem" data-nav="conteudo"><span class="ic">✎</span> Agente de Criação de Conteúdo</button>
+    <button class="navitem" data-nav="clientes"><span class="ic">◍</span> Clientes</button>
+    <button class="navitem" data-nav="config"><span class="ic">⚙</span> Configurações</button>
+    <div class="sidebar-footer">Central Adspot · agentes rodam no Claude Code</div>
+  </aside>
+
+  <div class="main">
+    <div class="topbar">
+      <button class="iconbtn menu" id="btnMenu" aria-label="Abrir menu">☰</button>
+      <div class="titulo" id="tituloTopo">Dashboard</div>
+      <button class="btn small" id="btnDashboardTopo" hidden>← Dashboard</button>
+      <button class="iconbtn" id="btnTema" aria-label="Alternar tema" style="display:flex">◐</button>
+    </div>
+    <div class="viewport">
+
+      <section class="view" data-view="dashboard"><div class="pad" id="viewDashboard"></div></section>
+
+      <section class="view" data-view="prospeccao">
+        <div class="pad" id="viewProspeccaoGrid"></div>
+        <div class="pad moldura inline" id="moldProspeccao" hidden>
+          <div class="moldura-topo">
+            <button class="btn small" id="btnVoltarListas">← Ver todas as listas</button>
+            <span id="tituloListaAtual" style="font-size:13px;color:var(--ink-2)"></span>
+          </div>
+          <div id="frameHostProspeccao" style="flex:1;display:flex;min-height:0"></div>
+        </div>
+      </section>
+
+      <section class="view" data-view="conteudo">
+        <div class="pad" style="padding-bottom:0" id="viewConteudoAviso"></div>
+        <div class="moldura inline" style="margin:0 20px 20px;max-width:1080px" id="moldConteudo">
+          <div id="frameHostConteudo" style="flex:1;display:flex;min-height:0"></div>
+        </div>
+      </section>
+
+      <section class="view" data-view="config"><div class="pad" id="viewConfig"></div></section>
+
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script id="dados" type="application/json">/*__DADOS__*/</script>
+<script>
+(function(){
+"use strict";
+function esc(v){ return String(v==null?"":v).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+function toast(t){ var el=document.getElementById("toast"); el.textContent=t; el.classList.add("show"); clearTimeout(toast._t); toast._t=setTimeout(function(){el.classList.remove("show");},2400); }
+function dataBr(s){ var m=String(s||"").match(/^(\d{4})-(\d{2})-(\d{2})/); return m ? m[3]+"/"+m[2]+"/"+m[1] : (s||""); }
+
+var raw = document.getElementById("dados").textContent.trim();
+var M = {prospeccao:[], conteudo:null};
+try { M = JSON.parse(raw); } catch(e){}
+
+var NICHOS = {restaurante:"Restaurante",colegio:"Colégio",salao:"Salão",estetica:"Estética",dentista:"Dentista",psicologo:"Psicólogo",automotivo:"Automotivo"};
+
+/* tema (independente do tema salvo pelos agentes internos) */
+var root = document.documentElement;
+try { var t = localStorage.getItem("adspot-theme"); if (t) root.setAttribute("data-theme", t); } catch(e){}
+document.getElementById("btnTema").onclick = function(){
+  var dark = root.getAttribute("data-theme") ? root.getAttribute("data-theme")==="dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  var n = dark ? "light":"dark"; root.setAttribute("data-theme", n); try{ localStorage.setItem("adspot-theme", n); }catch(e){}
+};
+
+/* menu lateral (celular) */
+var sidebar = document.getElementById("sidebar"), backdrop = document.getElementById("backdrop");
+function abrirMenu(){ sidebar.classList.add("open"); backdrop.classList.add("show"); }
+function fecharMenu(){ sidebar.classList.remove("open"); backdrop.classList.remove("show"); }
+document.getElementById("btnMenu").onclick = abrirMenu;
+backdrop.onclick = fecharMenu;
+
+var TITULOS = {dashboard:"Dashboard", prospeccao:"Agente de Prospecção", conteudo:"Agente de Criação de Conteúdo", config:"Configurações"};
+var estado = { view: "dashboard", listaAtual: null };
+
+function irPara(navId){
+  var view = navId;
+  if (navId === "clientes"){
+    toast("A área de Clientes fica dentro do Conteúdo Adspot — abrindo lá");
+    view = "conteudo";
+  }
+  estado.view = view;
+  document.querySelectorAll(".navitem").forEach(function(b){ b.setAttribute("aria-current", String(b.dataset.nav===navId)); });
+  document.querySelectorAll(".view").forEach(function(v){ v.classList.toggle("active", v.dataset.view===view); });
+  document.getElementById("tituloTopo").textContent = (navId==="clientes" ? "Clientes" : TITULOS[view]) || "ADSPOT AI";
+  document.getElementById("btnDashboardTopo").hidden = (view === "dashboard");
+  fecharMenu();
+  window.scrollTo(0,0);
+  if (view === "prospeccao") renderProspeccaoGrid();
+  if (view === "conteudo") abrirConteudo();
+}
+document.querySelectorAll(".navitem").forEach(function(b){ b.onclick = function(){ irPara(b.dataset.nav); }; });
+document.getElementById("btnDashboardTopo").onclick = function(){ irPara("dashboard"); };
+
+/* ---------- Dashboard ---------- */
+function renderDashboard(){
+  var box = document.getElementById("viewDashboard");
+  var totalLeads = M.prospeccao.reduce(function(s,p){ return s+p.total_leads; }, 0);
+  var qtdListas = M.prospeccao.length;
+  var conteudo = M.conteudo;
+
+  var html = '<h1 class="page">Dashboard</h1><p class="lead">Escolha o agente que você quer usar. Cada um abre com a interface e os dados dele — nada foi recriado aqui, a central só reúne o acesso.</p>';
+  html += '<div class="cards">';
+
+  html += '<div class="card-agente"><div class="ic">🔎</div><h3>Agente de Prospecção</h3>'
+    + '<p>Listas de leads por nicho e cidade, com o dono pelo CNPJ, Instagram e mensagens prontas para WhatsApp e Direct.</p>'
+    + '<div class="stats"><span><b>'+qtdListas+'</b> lista(s)</span><span><b>'+totalLeads+'</b> leads no total</span></div>'
+    + '<button class="btn primary" data-abrir="prospeccao">Abrir agente</button></div>';
+
+  html += '<div class="card-agente"><div class="ic">✎</div><h3>Agente de Criação de Conteúdo</h3>'
+    + '<p>Clientes com perfil de marca, criação de posts/reels/carrosséis/stories, planejamento semanal e mensal, banco de ideias e histórico.</p>'
+    + '<div class="stats">' + (conteudo ? '<span><b>'+conteudo.total_clientes+'</b> cliente(s)</span><span><b>'+conteudo.total_conteudos+'</b> conteúdo(s)</span>' : '<span>painel ainda não gerado</span>') + '</div>'
+    + '<button class="btn primary" data-abrir="conteudo"'+(conteudo?'':' disabled')+'>Abrir agente</button></div>';
+
+  ["Agente de Atendimento","Agente de Métricas","Agente Financeiro"].forEach(function(nome){
+    html += '<div class="card-agente futuro"><span class="tag-em-breve">Em breve</span><div class="ic">◌</div><h3>'+nome+'</h3>'
+      + '<p>Ainda não existe neste repositório. A central já está preparada para receber novos agentes aqui.</p>'
+      + '<button class="btn small" disabled>Indisponível</button></div>';
+  });
+  html += '</div>';
+  box.innerHTML = html;
+  box.querySelectorAll("[data-abrir]").forEach(function(b){ b.onclick = function(){ irPara(b.dataset.abrir); }; });
+}
+
+/* ---------- Prospecção ---------- */
+var framesProspeccao = {};
+function renderProspeccaoGrid(){
+  var box = document.getElementById("viewProspeccaoGrid");
+  document.getElementById("moldProspeccao").hidden = true;
+  box.hidden = false;
+  if (!M.prospeccao.length){
+    box.innerHTML = '<h1 class="page">Agente de Prospecção</h1><div class="stub"><h3>Nenhuma prospecção ainda</h3>Peça no chat: <code>@prospector-adspot prospecte 10 leads de [nicho] em [cidade]</code></div>';
+    return;
+  }
+  var html = '<h1 class="page">Agente de Prospecção</h1><p class="lead">Cada prospecção é uma lista própria, gerada pelo agente no chat. Escolha uma para abrir.</p>';
+  html += '<div class="hint">💬 Para gerar uma lista nova, peça no chat do Claude Code: <code>@prospector-adspot prospecte leads de [nicho] em [cidade]</code>. Depois de gerada, ela aparece aqui automaticamente (é só rodar de novo <code>gerar_central.py</code>).</div>';
+  html += '<div class="lista-prospeccoes">' + M.prospeccao.map(function(p, i){
+    var nichos = (p.nichos||[]).map(function(n){return NICHOS[n]||n;}).join(", ");
+    return '<button class="item-prosp" data-abrir-lista="'+i+'"><div class="txt">'
+      + '<h4>'+esc(p.titulo)+'</h4>'
+      + '<div class="meta">'+esc(p.cidade)+(nichos?' · '+esc(nichos):'')+(p.data?' · '+dataBr(p.data):'')+'</div>'
+      + '<div style="margin-top:6px">'
+        + (p.prioridade_a ? '<span class="tag a">'+p.prioridade_a+' prioridade A</span>' : '')
+        + '<span class="tag">'+p.total_leads+' leads</span>'
+        + (p.demonstracao ? '<span class="tag demo">exemplo</span>' : '')
+      + '</div></div><span class="seta">→</span></button>';
+  }).join("") + '</div>';
+  box.innerHTML = html;
+  box.querySelectorAll("[data-abrir-lista]").forEach(function(b){
+    b.onclick = function(){ abrirLista(M.prospeccao[+b.dataset.abrirLista]); };
+  });
+}
+function abrirLista(item){
+  document.getElementById("viewProspeccaoGrid").hidden = true;
+  var mold = document.getElementById("moldProspeccao");
+  mold.hidden = false;
+  document.getElementById("tituloListaAtual").textContent = item.titulo;
+  var host = document.getElementById("frameHostProspeccao");
+  host.innerHTML = "";
+  var frame = framesProspeccao[item.arquivo];
+  if (!frame){
+    frame = document.createElement("iframe");
+    frame.src = item.arquivo;
+    frame.title = item.titulo;
+    framesProspeccao[item.arquivo] = frame;
+  }
+  host.appendChild(frame);
+}
+document.getElementById("btnVoltarListas").onclick = function(){
+  document.getElementById("viewProspeccaoGrid").hidden = false;
+  document.getElementById("moldProspeccao").hidden = true;
+};
+
+/* ---------- Conteúdo ---------- */
+var frameConteudo = null;
+function abrirConteudo(){
+  var avisoBox = document.getElementById("viewConteudoAviso");
+  if (!M.conteudo){
+    avisoBox.innerHTML = '<h1 class="page">Agente de Criação de Conteúdo</h1>'
+      + '<div class="stub"><h3>Painel ainda não gerado</h3>Rode <code>python3 ferramentas/gerar_conteudo_html.py</code> e depois <code>gerar_central.py</code> de novo.</div>';
+    document.getElementById("moldConteudo").hidden = true;
+    return;
+  }
+  avisoBox.innerHTML = '<h1 class="page" style="margin-bottom:2px">Agente de Criação de Conteúdo</h1>'
+    + '<p class="lead" style="margin-bottom:12px">A aba <b>Clientes</b> do menu abre aqui dentro — use o menu do próprio painel abaixo para navegar entre Dashboard, Clientes, Criar Conteúdo, Criar Semana, Planejamento, Banco de Ideias e Histórico.</p>';
+  var host = document.getElementById("frameHostConteudo");
+  if (!frameConteudo){
+    frameConteudo = document.createElement("iframe");
+    frameConteudo.src = M.conteudo.arquivo;
+    frameConteudo.title = "Conteúdo Adspot";
+    host.appendChild(frameConteudo);
+  }
+}
+
+/* ---------- Configurações (stub) ---------- */
+function renderConfig(){
+  document.getElementById("viewConfig").innerHTML =
+    '<h1 class="page">Configurações</h1><p class="lead">Estrutura inicial, para funcionalidades futuras. As configurações de cada agente continuam dentro dele.</p>'
+    + '<div class="stub"><h3>Em construção</h3>Nada configurável aqui ainda.</div>';
+}
+
+renderDashboard();
+renderConfig();
+irPara("dashboard");
+})();
+</script>
+</body>
+</html>

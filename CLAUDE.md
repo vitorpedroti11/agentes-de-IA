@@ -2,6 +2,30 @@
 
 Agentes do Claude Code da Adspot, montados no padrão de quatro arquivos: **agente, método, estado e memória**.
 
+## ADSPOT AI — central única
+
+`central/adspot-ai.html` é uma página central que reúne os agentes já existentes num só lugar — Dashboard, Agente de Prospecção, Agente de Criação de Conteúdo, Clientes e Configurações, com menu lateral no computador e menu hambúrguer no celular. Ela **não recria nem altera nenhum agente**: cada agente abre dentro da central com a própria interface e os próprios dados (via iframe), exatamente como já funcionava sozinho. Clientes hoje só redireciona para a área de clientes que já existe dentro do Conteúdo Adspot. Configurações é só uma estrutura inicial, ainda sem funcionalidade. Há também 3 cards "Em breve" (Atendimento, Métricas, Financeiro) só para mostrar que a central já está preparada para receber novos agentes no futuro — nenhum deles foi desenvolvido.
+
+### Como abrir
+Basta abrir `central/adspot-ai.html` direto no navegador (duplo clique ou `Ctrl/Cmd+O`). Para acessar pelo celular sem publicar nada, sirva a pasta do repositório numa rede local:
+```
+python3 -m http.server 8000   # rodar na raiz do repositório
+```
+e abrir, no navegador do celular (mesma rede Wi‑Fi), `http://<IP do computador>:8000/central/adspot-ai.html`.
+
+### Regenerar
+Sempre que uma prospecção nova for gerada (`gerar_html.py`) ou o painel de conteúdo for atualizado (`gerar_conteudo_html.py`), rode de novo:
+```
+python3 ferramentas/gerar_central.py
+```
+Isso só lê os `.html` que os dois agentes já geram — não mexe em nenhum `.json` de origem nem nos templates dos agentes.
+
+### Adicionar um novo agente no futuro
+1. Criar o agente normalmente (padrão dos 4 arquivos) com sua própria entrega em HTML.
+2. Em `ferramentas/gerar_central.py`, adicionar uma função que leia essa entrega (como `dados_conteudo()` já faz) e inclua os dados no `manifesto`.
+3. Em `ferramentas/modelo-central.html`, trocar um dos cards "Em breve" por um card real (mesmo padrão dos dois já existentes) e adicionar a view/iframe dele.
+4. Rodar `python3 ferramentas/gerar_central.py` de novo.
+
 | Peça | Prospector Adspot | Conteúdo Adspot |
 |---|---|---|
 | O agente | `.claude/agents/prospector-adspot.md` | `.claude/agents/conteudo-adspot.md` |
