@@ -1,0 +1,8 @@
+# Cloudflare Pages: cabeçalhos de segurança básicos para todo o site.
+# Não afeta os agentes (a central continua podendo embutir as próprias páginas via iframe,
+# já que X-Frame-Options SAMEORIGIN permite mesma origem).
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Robots-Tag: noindex, nofollow

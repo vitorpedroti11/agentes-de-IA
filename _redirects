@@ -1,0 +1,3 @@
+# Cloudflare Pages: abrir a ADSPOT AI direto na raiz do domínio (link único).
+# Não altera nenhum arquivo dos agentes — só um redirecionamento de rota.
+/   /central/adspot-ai.html   200
