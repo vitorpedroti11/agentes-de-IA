@@ -18,6 +18,12 @@
 - 2026-09-23 · Muitas esteticistas usam CNPJ em nome próprio (razão = nome da pessoa) ou nenhum CNPJ encontrável por nome fantasia · como aplicar: buscar `"<nome da profissional>" CNPJ Guarulhos`; se a razão for o nome da pessoa, tratar como empresa individual (capacidade incerta → oferta de Site).
 - 2026-09-23 · Gancho que funciona em estética: comparar a autoridade real (anos, formação) com o tamanho do Instagram frente a concorrentes locais, sem citar nomes · hipótese a validar com as respostas.
 
+- 2026-09-23 · Vitor pediu: **HTML para acessar no celular, como padrão** · a abordagem é feita no telefone · como aplicar: não mexer no layout mobile do modelo; gerar sempre com `--pagina`, publicar como página privada e entregar o link. Na página publicada downloads são bloqueados, por isso a planilha vai para a área de transferência ("Copiar planilha").
+
+## Páginas publicadas (atualizar o mesmo link ao refazer a lista)
+- Dentistas em Guarulhos → https://claude.ai/artifact/TubffLDRXwXNQpQYXjyZjD
+- Estética em Guarulhos → https://claude.ai/artifact/1D6F1EQJwzFNip82o1Uwgb
+
 ## Histórico de prospecções
 <!-- data · cidade · nichos · nº de leads A/B · arquivo -->
 - 2026-09-22 · Guarulhos/SP · dentista · 1 A + 5 B, 13 descartados (Dentista do Povo saiu por ser rede nacional; Atitud saiu com Instagram ativo) · `clientes/adspot/prospeccoes/2026-09-22_guarulhos_dentista.html`

@@ -174,3 +174,5 @@ python3 ferramentas/gerar_html.py clientes/adspot/prospeccoes/<arquivo>.json
 ```
 
 O HTML é a entrega. O JSON é a fonte da verdade (reprocessável, versionável).
+
+**Padrão celular:** a página é pensada primeiro para o celular, porque a abordagem acontece no WhatsApp e no Instagram do telefone. Cada lead mostra, sem precisar abrir, os botões **WhatsApp** (abre a conversa com a mensagem pronta), **Direct** (copia a mensagem e abre o Direct do dono ou da clínica) e **Ligar**. Os filtros ficam recolhidos em "Filtros"; ao abrir um lead, a abordagem aparece primeiro. "Copiar planilha" copia a lista para colar no Google Sheets ou no Excel. Para abrir no celular, publicar com `--pagina` e usar o link da página.

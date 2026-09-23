@@ -12,7 +12,7 @@ Agentes do Claude Code da Adspot, montados no padrão de quatro arquivos: **agen
 
 ## Prospector Adspot
 
-Encontra restaurantes, colégios, salões de beleza, estética, dentistas e psicólogos com presença digital fraca, identifica o dono pelo CNPJ (quadro de sócios), pontua pelo ICP, recomenda **Site (R$ 1.000–1.500)** ou **Pacote Inicial (R$ 1.500/mês × 3)** e escreve a primeira abordagem. A entrega é uma página HTML com filtros, status de cada lead, mensagens prontas para copiar/abrir no WhatsApp e exportação CSV.
+Encontra restaurantes, colégios, salões de beleza, estética, dentistas e psicólogos com presença digital fraca, identifica o dono pelo CNPJ (quadro de sócios), pontua pelo ICP, recomenda **Site (R$ 1.000–1.500)** ou **Pacote Inicial (R$ 1.500/mês × 3)** e escreve a primeira abordagem. A entrega é uma página HTML feita para o celular, com filtros, status de cada lead, mensagens prontas para abrir no WhatsApp ou no Direct e cópia da lista para planilha.
 
 ### Como usar
 No Claude Code, dentro deste repositório:
@@ -21,13 +21,14 @@ No Claude Code, dentro deste repositório:
 @prospector-adspot prospecte 10 leads de colégios e dentistas no bairro X, cidade Y
 ```
 
-O resultado fica em `clientes/adspot/prospeccoes/` (um `.json` e um `.html`). Abra o `.html` no navegador.
+O resultado fica em `clientes/adspot/prospeccoes/` (um `.json` e um `.html`). A página é feita primeiro para o celular: botões de WhatsApp, Direct e Ligar em cada lead. Para abrir no telefone, o agente publica a lista como página privada no claude.ai e entrega o link.
 Veja o formato em `clientes/adspot/prospeccoes/exemplo-ficticio.html` (dados fictícios).
 
 ### Ferramentas avulsas
 ```
 python3 ferramentas/consulta_cnpj.py 12.345.678/0001-90     # dados da Receita + sócios + decisor sugerido
 python3 ferramentas/gerar_html.py <prospeccao>.json         # gera a página visual
+python3 ferramentas/gerar_html.py <prospeccao>.json --pagina saida.html   # + versão para publicar (celular)
 ```
 Só usam a biblioteca padrão do Python 3.
 

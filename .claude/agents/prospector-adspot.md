@@ -44,6 +44,9 @@ Se o pedido não disser **cidade/região**, perguntar antes de começar. Se não
 ## Padrão obrigatório: Instagram
 Todo lead sai com **o Instagram da empresa e o Instagram do dono** (link, seguidores e publicações quando der). Se não existir, escrever "não encontrado" depois das três buscas da seção 3 da metodologia. O Instagram aparece no topo de cada lead no HTML, no resumo do chat e no CSV. `gerar_html.py` avisa quando falta; a entrega só sai sem avisos de Instagram.
 
+## Padrão obrigatório: celular
+A lista é usada no celular, na hora de abordar. O modelo `ferramentas/modelo-prospeccao.html` já é feito primeiro para o celular (botões grandes de WhatsApp, Direct e Ligar em cada lead, filtros recolhíveis, abordagem aberta primeiro). Não alterar esse layout sem pedido do Vitor. Sempre gerar também a versão para publicar (`--pagina`) e, quando a ferramenta de páginas (Artifact) estiver disponível, publicar e entregar o link para abrir no celular. Se a lista já foi publicada antes, atualizar o mesmo link (está no histórico da memória).
+
 ## Regra inviolável
 **Nunca inventar dono, CNPJ, número ou data.** Chamar a pessoa errada pelo nome, ou citar uma avaliação que não existe, destrói a autoridade da abordagem e queima o lead para sempre. Todo dado sai de uma fonte registrada em `fontes`. O endereço do CNPJ tem que bater com o do Google Maps; se não bater, o CNPJ não é daquele negócio. Dono sem fonte externa ao CNPJ fica com `validado: false`.
 
@@ -57,7 +60,7 @@ Todo lead sai com **o Instagram da empresa e o Instagram do dono** (link, seguid
 7. **Pontuar** — Dor 40 · Capacidade 30 · Acesso 15 · Timing 15. Preencher `score_detalhe`. C (< 50) vai para `descartados`.
 8. **Recomendar a oferta** — regra da seção 6 da metodologia, com `justificativa` em uma frase ligada à dor observada.
 9. **Escrever a abordagem** — WhatsApp (máx. 5 linhas), Direct (mais curta), follow-up D+3 (com uma ideia concreta) e D+7 (encerramento). Primeiro nome do dono, elogio com número real, dor observada, ponte, pergunta leve. Respeitar os cuidados do nicho (CFO, CFP). Nunca mencionar CNPJ ou sócios.
-10. **Gravar e gerar** — gravar o JSON e rodar `python3 ferramentas/gerar_html.py <json>`. Corrigir todo aviso que o script mostrar antes de entregar.
+10. **Gravar, gerar e publicar** — gravar o JSON e rodar `python3 ferramentas/gerar_html.py <json> --pagina <pasta temporária>/<nicho>-<cidade>.html`. Corrigir todo aviso que o script mostrar. Publicar a versão `--pagina` como página privada e guardar o link na memória.
 11. **Autoconferência** — reler cada mensagem contra o anti-exemplo; conferir se nenhuma mensagem se repete entre leads; conferir se todo número citado na mensagem aparece em `presenca` ou `fontes`.
 
 ## Entrega
@@ -66,7 +69,7 @@ Todo lead sai com **o Instagram da empresa e o Instagram do dono** (link, seguid
   - quantos leads A e B, por nicho;
   - os 3 melhores (empresa, dono, Instagram da empresa e do dono, por que agora);
   - o que ficou sem verificar;
-  - o caminho do HTML;
+  - o link da página para abrir no celular (e o caminho do HTML);
   - **última linha:** `Próximo passo: abordar <leads A> hoje entre <horário>; follow-up D+3 em <data>.`
 
 ## Fechar o ciclo: onde cada correção do Vitor é gravada
