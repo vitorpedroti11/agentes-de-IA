@@ -1,0 +1,785 @@
+{
+  "prospeccao": {
+    "id": "2026-09-23_guarulhos_revendas",
+    "titulo": "Lojas de Carros em Guarulhos",
+    "data": "2026-09-23",
+    "cidade": "Guarulhos/SP",
+    "regiao": "Timóteo Penteado (Vila Hulda), Vila Galvão, Ponte Grande, Vila Flórida, Centro, Auto Shopping Internacional",
+    "nichos": [
+      "automotivo"
+    ],
+    "observacoes": "Revendas de carros usados e seminovos · objetivo: Pacote Inicial · a dor é giro de estoque · conferir Instagram e Biblioteca de Anúncios antes de enviar",
+    "demonstracao": false
+  },
+  "leads": [
+    {
+      "id": "valcar",
+      "nicho": "automotivo",
+      "nome_fantasia": "Valcar Multimarcas",
+      "bairro": "Vila Galvão",
+      "prioridade": "B",
+      "score": 60,
+      "score_detalhe": {
+        "dor": 18,
+        "capacidade": 23,
+        "acesso": 11,
+        "timing": 8
+      },
+      "cnpj": {
+        "numero": "01.919.338/0001-04",
+        "razao_social": "RCD MULTIMARCAS COMERCIO DE VEICULOS LTDA",
+        "situacao": "ATIVA",
+        "abertura": "1997-06-23",
+        "porte": "não confirmado",
+        "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados",
+        "capital_social": null,
+        "endereco": "Av. Dona Eugênia Machado da Silva, 60, Vila Galvão, Guarulhos/SP, 07071-070",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/01919338000104-rcd-multimarcas-comercio-de-veiculos-ltda"
+      },
+      "decisor": {
+        "nome": "Rafael Rebecchi",
+        "primeiro_nome": "Rafael",
+        "qualificacao": "Administrador (QSA)",
+        "validado": false,
+        "fonte_validacao": "",
+        "instagram": "não encontrado",
+        "outros_socios": [
+          {
+            "nome": "Daniela Rebecchi Tavares",
+            "qualificacao": "Sócia"
+          }
+        ]
+      },
+      "presenca": {
+        "site": {
+          "url": "https://valcarmulti.com.br/",
+          "status": "ok",
+          "nota": "Tem site com estoque"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/valcar.multimarcas/",
+          "seguidores": 1933,
+          "publicacoes": 1482,
+          "ultimo_post": "",
+          "status": "fraco",
+          "nota": "1.482 publicações e só 1.933 seguidores: posta muito e alcança pouco"
+        },
+        "google": {
+          "url": "",
+          "nota": null,
+          "avaliacoes": null,
+          "observacao": "Não verificado"
+        },
+        "anuncios": {
+          "ativos": null,
+          "fonte": "",
+          "observacao": "Conferir na Biblioteca de Anúncios da Meta"
+        }
+      },
+      "dores": [
+        "Quase 1.500 posts para menos de 2 mil seguidores: o estoque não chega em quem procura carro",
+        "Cerca de 90 carros anunciados em portal (Mobiauto): estoque grande para girar"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "Revenda com estoque grande e conteúdo constante, mas sem alcance: vídeo padronizado por carro + tráfego para compradores da região giram o pátio."
+      },
+      "gancho": "Out–dez: 13º salário e troca de carro; a loja diz ter mais de 30 anos de mercado",
+      "contato": {
+        "whatsapp": "",
+        "instagram": "@valcar.multimarcas",
+        "email": "",
+        "melhor_horario": "Direct no Instagram ou ligação para a loja, 10h–12h"
+      },
+      "mensagens": {
+        "whatsapp": "Oi, Rafael! Aqui é o Vitor, da Adspot. Vi que a Valcar tem perto de 90 carros anunciados nos portais, um estoque grande para uma loja da Vila Galvão, e que vocês postam com frequência no Instagram. O que falta é o carro chegar em quem ainda não conhece a loja: o perfil está abaixo de 2 mil seguidores. A gente monta anúncio por modelo, com vídeo curto de cada carro, para compradores da região. Posso te mandar 3 ideias para dar giro nesse pátio?",
+        "instagram_dm": "Olá! Aqui é o Vitor, da Adspot. A Valcar tem um estoque grande e posta muito; tenho 3 ideias para esses carros chegarem em quem ainda não conhece a loja. Com quem eu falo?",
+        "follow_up_d3": "Rafael, uma das ideias: separar o estoque por faixa de preço (até 40 mil, 40 a 70, acima de 70) e anunciar cada faixa para um público diferente da região, com o vídeo dos carros daquela faixa. Quem tem 13º para trocar de carro vê só o que cabe no bolso. Faz sentido conversarmos 15 minutos?",
+        "follow_up_d7": "Rafael, fecho por aqui pra não atrapalhar a loja. Se quiser separar o estoque em campanhas mais perto do fim de ano, é só me chamar!",
+        "ligacao": "Ligar na loja e pedir o Rafael. Perguntar quais faixas de preço giram mais devagar no pátio."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/01919338000104-rcd-multimarcas-comercio-de-veiculos-ltda",
+        "https://cnpj.biz/01919338000104",
+        "https://www.instagram.com/valcar.multimarcas/",
+        "https://valcarmulti.com.br/",
+        "https://www.mobiauto.com.br/comprar/estoque/valcar-multimarcas-21602"
+      ]
+    },
+    {
+      "id": "horizoncar",
+      "nicho": "automotivo",
+      "nome_fantasia": "Horizoncar Veículos",
+      "bairro": "Vila Hermínia (Auto Shopping Internacional)",
+      "prioridade": "B",
+      "score": 58,
+      "score_detalhe": {
+        "dor": 14,
+        "capacidade": 24,
+        "acesso": 12,
+        "timing": 8
+      },
+      "cnpj": {
+        "numero": "08.619.044/0001-06",
+        "razao_social": "HORIZONCAR COMERCIO DE VEICULOS LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2006-11-06",
+        "porte": "EPP (consta \"LTDA - EPP\" no Reclame Aqui)",
+        "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados",
+        "capital_social": null,
+        "endereco": "Av. Anton Philips, 1, Vila Hermínia, Guarulhos/SP (Auto Shopping Internacional)",
+        "fonte": "https://cnpj.biz/08619044000106"
+      },
+      "decisor": {
+        "nome": "Alvaro Augusto Ochoa",
+        "primeiro_nome": "Alvaro",
+        "qualificacao": "Sócio-Administrador (QSA)",
+        "validado": false,
+        "fonte_validacao": "",
+        "instagram": "não encontrado",
+        "outros_socios": [
+          {
+            "nome": "Cristiane Gandolpho Ochoa",
+            "qualificacao": "Sócia-Administradora"
+          }
+        ]
+      },
+      "presenca": {
+        "site": {
+          "url": "https://horizoncar.com.br/",
+          "status": "ok",
+          "nota": "Site de estoque em plataforma de revendas"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/horizoncarsp/",
+          "seguidores": null,
+          "publicacoes": null,
+          "ultimo_post": "",
+          "status": "não verificado",
+          "nota": "Perfil existe; números não verificados"
+        },
+        "google": {
+          "url": "",
+          "nota": null,
+          "avaliacoes": null,
+          "observacao": "Não verificado"
+        },
+        "anuncios": {
+          "ativos": null,
+          "fonte": "",
+          "observacao": "Conferir na Biblioteca de Anúncios da Meta"
+        }
+      },
+      "dores": [
+        "Mais de 60 carros em estoque dentro de um shopping com outras 600+ ofertas: precisa se destacar das lojas vizinhas",
+        "Presença no Instagram pouco visível nas buscas"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "EPP com estoque grande num ambiente de concorrência direta: identidade própria e anúncio por carro tiram a loja da vala comum do shopping."
+      },
+      "gancho": "Concorrência dentro do próprio Auto Shopping: quem anuncia leva o comprador antes dele chegar",
+      "contato": {
+        "whatsapp": "",
+        "instagram": "@horizoncarsp",
+        "email": "",
+        "melhor_horario": "Visita no Auto Shopping ou Direct"
+      },
+      "mensagens": {
+        "whatsapp": "Oi, Alvaro! Aqui é o Vitor, da Adspot. Vi que a Horizoncar tem mais de 60 carros no Auto Shopping Internacional, que reúne centenas de ofertas no mesmo lugar. Nesse cenário, quem ganha é a loja que o comprador já conhece antes de entrar no shopping. A gente cria a identidade, grava um vídeo padrão por carro e anuncia para quem está procurando carro na região. Posso te mandar 3 ideias para a Horizoncar se destacar das lojas vizinhas?",
+        "instagram_dm": "Olá! Aqui é o Vitor, da Adspot. Tenho 3 ideias para a Horizoncar chegar ao comprador antes dele entrar no Auto Shopping. Com quem eu falo?",
+        "follow_up_d3": "Alvaro, uma das ideias: anúncio por carro com o botão \"agendar visita no Auto Shopping\", mostrado só para quem pesquisou o modelo nos últimos dias e mora a até 15 km. O comprador chega já procurando a sua loja. Faz sentido conversarmos 15 minutos?",
+        "follow_up_d7": "Alvaro, fecho por aqui. Se quiser montar os anúncios do estoque mais perto do fim de ano, é só me chamar!"
+      },
+      "fontes": [
+        "https://cnpj.biz/08619044000106",
+        "https://www.reclameaqui.com.br/auto-shopping-internaciona-de-guarulhos/horizoncar-comercio-de-veiculos-ltda-epp_OlhsBbPl807wcAzf/",
+        "https://horizoncar.com.br/",
+        "https://www.instagram.com/horizoncarsp/",
+        "https://autoshoppinginternacional.com.br/"
+      ]
+    },
+    {
+      "id": "premium-multimarcas",
+      "nicho": "automotivo",
+      "nome_fantasia": "Premium Multimarcas",
+      "bairro": "Vila Hulda",
+      "prioridade": "B",
+      "score": 56,
+      "score_detalhe": {
+        "dor": 18,
+        "capacidade": 17,
+        "acesso": 13,
+        "timing": 8
+      },
+      "cnpj": {
+        "numero": "31.590.662/0001-92",
+        "razao_social": "AUTO PREMIUM COMERCIO DE VEICULOS LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2018-09-24",
+        "porte": "não confirmado",
+        "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados",
+        "capital_social": null,
+        "endereco": "Av. Dr. Timóteo Penteado, 2019, Vila Hulda, Guarulhos/SP",
+        "fonte": "https://inteligen.com.br/empresa/premium-multimarcas-auto-premium-comercio-de-veiculos-ltda-31590662000192"
+      },
+      "decisor": {
+        "nome": "Alex Lopes",
+        "primeiro_nome": "Alex",
+        "qualificacao": "Dono (segundo cadastro público; confirmar no QSA)",
+        "validado": false,
+        "fonte_validacao": "",
+        "instagram": "não encontrado",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": {
+          "url": "",
+          "status": "inexistente",
+          "nota": "Só portais (iCarros, Mobiauto, NaPista)"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/premium.multimarcas2019/",
+          "seguidores": 948,
+          "publicacoes": 324,
+          "ultimo_post": "",
+          "status": "fraco",
+          "nota": "948 seguidores e 324 posts"
+        },
+        "google": {
+          "url": "",
+          "nota": null,
+          "avaliacoes": null,
+          "observacao": "Não verificado"
+        },
+        "anuncios": {
+          "ativos": null,
+          "fonte": "",
+          "observacao": "Conferir na Biblioteca de Anúncios da Meta"
+        }
+      },
+      "dores": [
+        "Menos de mil seguidores numa avenida cheia de revendas (Timóteo Penteado)",
+        "Sem site próprio: depende dos portais, que cobram por anúncio e mostram o concorrente ao lado"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "Loja na avenida mais disputada de revendas da cidade com vitrine pequena: identidade, vídeos do estoque e tráfego direto tiram a dependência dos portais."
+      },
+      "gancho": "Na Timóteo Penteado há uma revenda do lado da outra: vence quem o comprador já viu no celular",
+      "contato": {
+        "whatsapp": "(11) 93277-1620",
+        "instagram": "@premium.multimarcas2019",
+        "email": "",
+        "melhor_horario": "10h–12h"
+      },
+      "mensagens": {
+        "whatsapp": "Oi, Alex! Aqui é o Vitor, da Adspot. Vi a Premium Multimarcas na Timóteo Penteado, uma avenida com revenda uma do lado da outra. Reparei que o Instagram de vocês ainda está abaixo de mil seguidores e que o estoque aparece mais nos portais, onde o carro do vizinho fica ao lado do seu. A gente grava um vídeo padrão por carro e anuncia direto para quem procura carro na região. Posso te mandar 3 ideias?",
+        "instagram_dm": "Oi! Aqui é o Vitor, da Adspot. Tenho 3 ideias para a Premium vender mais direto pelo Instagram, sem depender dos portais. Posso mandar?",
+        "follow_up_d3": "Alex, uma das ideias: um vídeo de 20 segundos por carro com preço e condição, anunciado para quem mora a até 15 km e pesquisou aquele modelo. O contato cai no seu WhatsApp, não no portal. Faz sentido conversarmos 15 minutos?",
+        "follow_up_d7": "Alex, fecho por aqui. Se quiser montar os anúncios do estoque mais perto do fim de ano, é só me chamar!"
+      },
+      "fontes": [
+        "https://inteligen.com.br/empresa/premium-multimarcas-auto-premium-comercio-de-veiculos-ltda-31590662000192",
+        "https://www.instagram.com/premium.multimarcas2019/",
+        "https://www.mobiauto.com.br/comprar/estoque/premium-multimarcas-25273",
+        "https://www.icarros.com.br/ache/estoque.jsp?id=1983720"
+      ]
+    },
+    {
+      "id": "melo-multimarcas",
+      "nicho": "automotivo",
+      "nome_fantasia": "Melo Multimarcas",
+      "bairro": "Vila Flórida",
+      "prioridade": "B",
+      "score": 54,
+      "score_detalhe": {
+        "dor": 14,
+        "capacidade": 21,
+        "acesso": 11,
+        "timing": 8
+      },
+      "cnpj": {
+        "numero": "05.859.703/0001-93",
+        "razao_social": "MARCOS MELO COMERCIO DE VEICULOS LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2003-07-22",
+        "porte": "ME",
+        "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados",
+        "capital_social": null,
+        "endereco": "Av. Otávio Braga de Mesquita, 2266, Vila Flórida, Guarulhos/SP, 07191-000",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/05859703000193-MARCOS-MELO-COMERCIO-DE-VEICULOS-LTDA"
+      },
+      "decisor": {
+        "nome": "Marcos Melo",
+        "primeiro_nome": "Marcos",
+        "qualificacao": "Nome na razão social; quadro de sócios não localizado (confirmar)",
+        "validado": false,
+        "fonte_validacao": "",
+        "instagram": "não encontrado",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": {
+          "url": "https://melomultimarcas.com.br/",
+          "status": "ok",
+          "nota": "Tem site"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/melomultimarcas1/",
+          "seguidores": 3140,
+          "publicacoes": null,
+          "ultimo_post": "",
+          "status": "fraco",
+          "nota": "3.140 seguidores"
+        },
+        "google": {
+          "url": "",
+          "nota": null,
+          "avaliacoes": null,
+          "observacao": "Não verificado"
+        },
+        "anuncios": {
+          "ativos": null,
+          "fonte": "",
+          "observacao": "Conferir na Biblioteca de Anúncios da Meta"
+        }
+      },
+      "dores": [
+        "Revenda antiga com perfil de 3 mil seguidores: alcance baixo para o tempo de mercado"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "ME consolidada com site pronto: o que falta é vídeo de estoque e anúncio para compradores da região."
+      },
+      "gancho": "Out–dez: 13º e troca de carro",
+      "contato": {
+        "whatsapp": "(11) 2401-1769",
+        "instagram": "@melomultimarcas1",
+        "email": "",
+        "melhor_horario": "10h–12h · confirmar se o número tem WhatsApp"
+      },
+      "mensagens": {
+        "whatsapp": "Oi, Marcos! Aqui é o Vitor, da Adspot. Vi que a Melo Multimarcas já tem site e Instagram com mais de 3 mil seguidores, o que é uma boa base. Para uma revenda com a estrada de vocês, dá para ir bem além: com vídeo padrão de cada carro e anúncio para quem procura carro na região, o estoque gira mais rápido. Posso te mandar 3 ideias para a Melo no fim de ano?",
+        "instagram_dm": "Olá! Aqui é o Vitor, da Adspot. Tenho 3 ideias para o estoque da Melo chegar em mais compradores da região. Com quem eu falo?",
+        "follow_up_d3": "Marcos, uma das ideias: uma campanha de fim de ano com os 10 carros de melhor preço, um vídeo curto de cada, anunciada para quem mora a até 15 km da Otávio Braga de Mesquita. Faz sentido conversarmos 15 minutos?",
+        "follow_up_d7": "Marcos, fecho por aqui. Se quiser montar os anúncios mais perto do fim de ano, é só me chamar!",
+        "ligacao": "Ligar e perguntar pelo Marcos para confirmar que é o dono antes de mandar a mensagem."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/05859703000193-MARCOS-MELO-COMERCIO-DE-VEICULOS-LTDA",
+        "https://empresasdobrasil.com/empresa/melo-multimarcas-05859703000193",
+        "https://www.instagram.com/melomultimarcas1/",
+        "https://melomultimarcas.com.br/"
+      ]
+    },
+    {
+      "id": "ers-automoveis",
+      "nicho": "automotivo",
+      "nome_fantasia": "ERS Automóveis",
+      "bairro": "Centro",
+      "prioridade": "B",
+      "score": 53,
+      "score_detalhe": {
+        "dor": 16,
+        "capacidade": 18,
+        "acesso": 11,
+        "timing": 8
+      },
+      "cnpj": {
+        "numero": "33.101.713/0001-09",
+        "razao_social": "ERS COMERCIO DE VEICULOS SOCIEDADE LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2019-03-21",
+        "porte": "não confirmado",
+        "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados",
+        "capital_social": null,
+        "endereco": "Av. Salgado Filho, 2120, sala 1522, Centro, Guarulhos/SP",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/33101713000109-ers-comercio-de-veiculos-sociedade-ltda"
+      },
+      "decisor": {
+        "nome": "Rodrigo Silva Seraphim",
+        "primeiro_nome": "Rodrigo",
+        "qualificacao": "Administrador (QSA)",
+        "validado": false,
+        "fonte_validacao": "",
+        "instagram": "não encontrado",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": {
+          "url": "https://ersautomoveis.com.br/",
+          "status": "ok",
+          "nota": "Site de estoque em plataforma de revendas"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/ersautomoveis/",
+          "seguidores": 1449,
+          "publicacoes": null,
+          "ultimo_post": "",
+          "status": "fraco",
+          "nota": "1.449 seguidores"
+        },
+        "google": {
+          "url": "",
+          "nota": null,
+          "avaliacoes": null,
+          "observacao": "Não verificado"
+        },
+        "anuncios": {
+          "ativos": null,
+          "fonte": "",
+          "observacao": "Conferir na Biblioteca de Anúncios da Meta"
+        }
+      },
+      "dores": [
+        "Atende em sala comercial, sem pátio na rua: o comprador só chega pelo digital",
+        "Instagram com 1,4 mil seguidores"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "Sem vitrine física, o Instagram e o anúncio são a loja: identidade, vídeo de estoque e tráfego são o núcleo do negócio."
+      },
+      "gancho": "Loja sem pátio na rua: o digital é a vitrine inteira",
+      "contato": {
+        "whatsapp": "",
+        "instagram": "@ersautomoveis",
+        "email": "",
+        "melhor_horario": "Direct no Instagram"
+      },
+      "mensagens": {
+        "whatsapp": "Oi, Rodrigo! Aqui é o Vitor, da Adspot. Vi que a ERS atende numa sala na Salgado Filho, então o comprador chega em vocês pelo celular, não passando na frente de um pátio. Isso faz do Instagram a vitrine inteira da loja, e hoje ele está com 1,4 mil seguidores. A gente cria a identidade, grava um vídeo padrão por carro e anuncia para quem procura carro na região. Posso te mandar 3 ideias?",
+        "instagram_dm": "Oi! Aqui é o Vitor, da Adspot. Como a ERS vende sem pátio na rua, o Instagram é a vitrine inteira. Tenho 3 ideias para ele trazer mais comprador, posso mandar?",
+        "follow_up_d3": "Rodrigo, uma das ideias: anúncio por carro com vídeo de 20 segundos e botão direto para o WhatsApp, mostrado para quem mora a até 15 km e pesquisou aquele modelo. Faz sentido conversarmos 15 minutos?",
+        "follow_up_d7": "Rodrigo, fecho por aqui. Se quiser montar os anúncios mais perto do fim de ano, é só me chamar!"
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/33101713000109-ers-comercio-de-veiculos-sociedade-ltda",
+        "https://empresas.serasaexperian.com.br/consulta-gratis/ERS-COMERCIO-DE-VEICULOS-SOCIEDADE-LTDA-33101713000109",
+        "https://www.instagram.com/ersautomoveis/",
+        "https://ersautomoveis.com.br/"
+      ]
+    },
+    {
+      "id": "stock-car",
+      "nicho": "automotivo",
+      "nome_fantasia": "Stock Car Multimarcas",
+      "bairro": "Ponte Grande",
+      "prioridade": "B",
+      "score": 52,
+      "score_detalhe": {
+        "dor": 14,
+        "capacidade": 19,
+        "acesso": 11,
+        "timing": 8
+      },
+      "cnpj": {
+        "numero": "60.681.418/0001-33",
+        "razao_social": "STOCK MULTIMARCAS COMERCIO DE VEICULOS LTDA",
+        "situacao": "ATIVA",
+        "abertura": "1989-06-20",
+        "porte": "não confirmado",
+        "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados",
+        "capital_social": null,
+        "endereco": "Av. Guarulhos, 3714, Ponte Grande, Guarulhos/SP",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/60681418000133-STOCK-MULTIMARCAS-COMERCIO-DE-VEICULOS-LTDA"
+      },
+      "decisor": {
+        "nome": "Fabio Andretta",
+        "primeiro_nome": "Fabio",
+        "qualificacao": "Sócio-Administrador (QSA)",
+        "validado": false,
+        "fonte_validacao": "",
+        "instagram": "não encontrado",
+        "outros_socios": [
+          {
+            "nome": "Erbio Andretta",
+            "qualificacao": "Sócio-Administrador"
+          }
+        ]
+      },
+      "presenca": {
+        "site": {
+          "url": "https://www.stockcarmultimarcas1989.com.br/",
+          "status": "ok",
+          "nota": "Tem site próprio; e-mail de contato é @gmail"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/stockcar_multimarcas/",
+          "seguidores": 3832,
+          "publicacoes": 996,
+          "ultimo_post": "",
+          "status": "fraco",
+          "nota": "996 publicações e 3.832 seguidores: posta muito e alcança pouco. Falta distribuição (anúncio), não conteúdo"
+        },
+        "google": {
+          "url": "",
+          "nota": null,
+          "avaliacoes": null,
+          "observacao": "Não verificado"
+        },
+        "anuncios": {
+          "ativos": null,
+          "fonte": "",
+          "observacao": "Conferir na Biblioteca de Anúncios da Meta"
+        }
+      },
+      "dores": [
+        "35 anos de tradição (divulgado no Instagram) e só 3,8 mil seguidores depois de quase mil posts",
+        "Revenda vive de girar estoque: carro publicado sem anúncio fica parado no pátio"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "Já produzem conteúdo; o pacote entra com vídeo de estoque padronizado, identidade e tráfego pago para quem está procurando carro na região."
+      },
+      "gancho": "Out–dez: 13º salário e fim de ano são época de troca de carro",
+      "contato": {
+        "whatsapp": "(11) 2421-3050",
+        "instagram": "@stockcar_multimarcas",
+        "email": "stockcarmultimarcas1989@gmail.com",
+        "melhor_horario": "Fixo da loja, 10h–12h · confirmar se tem WhatsApp"
+      },
+      "mensagens": {
+        "whatsapp": "Oi, Fabio! Aqui é o Vitor, da Adspot. Vi que a Stock Car tem 35 anos de tradição na Avenida Guarulhos e quase mil publicações no Instagram, uma consistência que pouca revenda tem. Mesmo assim o perfil está em 3,8 mil seguidores, sinal de que os carros não estão chegando em quem está procurando. A gente padroniza os vídeos do estoque e anuncia cada carro para compradores da região. Posso te mandar 3 ideias para girar o estoque no fim de ano?",
+        "instagram_dm": "Olá! Aqui é o Vitor, da Adspot. 35 anos de Stock Car e quase mil posts: tenho 3 ideias para esse estoque chegar em mais compradores da região. Com quem eu falo?",
+        "follow_up_d3": "Fabio, uma das ideias: um vídeo de 20 segundos por carro, sempre no mesmo padrão (volta no carro, painel, preço e condição), anunciado só para quem mora a até 15 km da loja e pesquisou carro nos últimos dias. É o que mais gira estoque em revenda. Faz sentido conversarmos 15 minutos?",
+        "follow_up_d7": "Fabio, fecho por aqui. Se quiser montar os anúncios do estoque mais perto do fim de ano, é só me chamar!",
+        "ligacao": "Ligar na loja e pedir o Fabio ou o Erbio. Perguntar quantos dias em média um carro fica no pátio e de onde vem a maioria dos compradores."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/60681418000133-STOCK-MULTIMARCAS-COMERCIO-DE-VEICULOS-LTDA",
+        "https://www.instagram.com/stockcar_multimarcas/",
+        "https://www.stockcarmultimarcas1989.com.br/",
+        "https://www.facebook.com/p/Stock-Car-Multimarcas-100063747214238/",
+        "https://www.mobiauto.com.br/comprar/estoque/stock-car-multimarcas-19977"
+      ]
+    },
+    {
+      "id": "marques-multimarcas",
+      "nicho": "automotivo",
+      "nome_fantasia": "Marques Multimarcas",
+      "bairro": "Vila Hulda",
+      "prioridade": "B",
+      "score": 52,
+      "score_detalhe": {
+        "dor": 12,
+        "capacidade": 21,
+        "acesso": 11,
+        "timing": 8
+      },
+      "cnpj": {
+        "numero": "49.477.892/0001-05",
+        "razao_social": "MARQUES AUTOMOVEIS E UTILITARIOS LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2023-02-06",
+        "porte": "EPP (consta \"LTDA - EPP\" no Serasa)",
+        "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados",
+        "capital_social": null,
+        "endereco": "Av. Dr. Timóteo Penteado, 2188, Guarulhos/SP, 07094-000",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/49477892000105-marques-automoveis-e-utilitarios-ltda"
+      },
+      "decisor": {
+        "nome": "Cristian Deivis Gomes Marques",
+        "primeiro_nome": "Cristian",
+        "qualificacao": "Administrador (QSA)",
+        "validado": false,
+        "fonte_validacao": "",
+        "instagram": "não encontrado",
+        "outros_socios": [
+          {
+            "nome": "Luciano Gomes Marques",
+            "qualificacao": "Administrador"
+          },
+          {
+            "nome": "Marques Participações LTDA",
+            "qualificacao": "Sócia (holding)"
+          }
+        ]
+      },
+      "presenca": {
+        "site": {
+          "url": "https://marquesutilitarios.com.br/",
+          "status": "ok",
+          "nota": "Tem site com estoque"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/marquesutilitarios/",
+          "seguidores": null,
+          "publicacoes": null,
+          "ultimo_post": "",
+          "status": "não verificado",
+          "nota": "Perfil @marquesutilitarios; números não verificados. O Instagram cita o número 2042 da avenida (CNPJ: 2188), conferir"
+        },
+        "google": {
+          "url": "",
+          "nota": null,
+          "avaliacoes": null,
+          "observacao": "Não verificado"
+        },
+        "anuncios": {
+          "ativos": null,
+          "fonte": "",
+          "observacao": "Conferir na Biblioteca de Anúncios da Meta"
+        }
+      },
+      "dores": [
+        "EPP em expansão (tem filial) com vitrine digital ainda pouco visível nas buscas"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "Empresa em crescimento, com estrutura e holding: tráfego por carro e identidade forte acompanham a expansão."
+      },
+      "gancho": "Loja em crescimento: marketing precisa acompanhar o estoque",
+      "contato": {
+        "whatsapp": "(11) 93487-7836",
+        "instagram": "@marquesutilitarios",
+        "email": "",
+        "melhor_horario": "10h–12h"
+      },
+      "mensagens": {
+        "whatsapp": "Oi, Cristian! Aqui é o Vitor, da Adspot. Vi a Marques Multimarcas na Timóteo Penteado e o estoque de carros e utilitários no site de vocês. Com tanta revenda na mesma avenida, quem aparece primeiro no celular do comprador leva a visita. A gente grava um vídeo padrão por carro, organiza o perfil e anuncia para quem procura carro ou utilitário na região. Posso te mandar 3 ideias?",
+        "instagram_dm": "Olá! Aqui é o Vitor, da Adspot. Tenho 3 ideias para o estoque da Marques chegar em mais compradores da região. Com quem eu falo?",
+        "follow_up_d3": "Cristian, uma das ideias: uma campanha só de utilitários para quem tem comércio ou faz entrega na região, com vídeo mostrando a caçamba ou o baú e o preço. É um público que decide rápido. Faz sentido conversarmos 15 minutos?",
+        "follow_up_d7": "Cristian, fecho por aqui. Se quiser montar os anúncios mais perto do fim de ano, é só me chamar!"
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/49477892000105-marques-automoveis-e-utilitarios-ltda",
+        "https://empresas.serasaexperian.com.br/consulta-gratis/MARQUES-AUTOMOVEIS-E-UTILITARIOS-LTDA-49477892000296",
+        "https://marquesutilitarios.com.br/",
+        "https://www.instagram.com/marquesutilitarios/"
+      ]
+    },
+    {
+      "id": "accar",
+      "nicho": "automotivo",
+      "nome_fantasia": "Accar Multimarcas",
+      "bairro": "Vila Hulda",
+      "prioridade": "B",
+      "score": 51,
+      "score_detalhe": {
+        "dor": 10,
+        "capacidade": 22,
+        "acesso": 11,
+        "timing": 8
+      },
+      "cnpj": {
+        "numero": "17.115.185/0001-82",
+        "razao_social": "CM22 COMERCIO DE AUTOMOVEIS LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2012-10-24",
+        "porte": "não confirmado",
+        "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados",
+        "capital_social": null,
+        "endereco": "Av. Dr. Timóteo Penteado, 2243, Guarulhos/SP, 07094-000",
+        "fonte": "https://econodata.com.br/consulta-empresa/17115185000182-CM22-COMERCIO-DE-AUTOMOVEIS-LTDA"
+      },
+      "decisor": {
+        "nome": "Edmarcio Marcelo Albanez",
+        "primeiro_nome": "Edmarcio",
+        "qualificacao": "Administrador (QSA)",
+        "validado": false,
+        "fonte_validacao": "",
+        "instagram": "não encontrado",
+        "outros_socios": [
+          {
+            "nome": "Rejane Souza Albanez",
+            "qualificacao": "Administradora"
+          }
+        ]
+      },
+      "presenca": {
+        "site": {
+          "url": "",
+          "status": "não confirmado",
+          "nota": "Estoque em portais (iCarros, Mobiauto)"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/accarmultimarcas/",
+          "seguidores": 4501,
+          "publicacoes": null,
+          "ultimo_post": "",
+          "status": "ok",
+          "nota": "4.501 seguidores; o melhor perfil entre as lojas da lista"
+        },
+        "google": {
+          "url": "",
+          "nota": null,
+          "avaliacoes": null,
+          "observacao": "Não verificado"
+        },
+        "anuncios": {
+          "ativos": null,
+          "fonte": "",
+          "observacao": "Conferir na Biblioteca de Anúncios da Meta"
+        }
+      },
+      "dores": [
+        "Perfil razoável (4,5 mil), mas sem anúncio a loja depende de quem já a segue"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "Já tem base no Instagram; o pacote entra forte no tráfego pago por carro e na padronização dos vídeos."
+      },
+      "gancho": "Base de seguidores pronta para virar venda com anúncio",
+      "contato": {
+        "whatsapp": "(11) 4574-7004",
+        "instagram": "@accarmultimarcas",
+        "email": "",
+        "melhor_horario": "10h–12h · confirmar se o número tem WhatsApp"
+      },
+      "mensagens": {
+        "whatsapp": "Oi, Edmarcio! Aqui é o Vitor, da Adspot. Vi que a Accar já tem mais de 4,5 mil seguidores no Instagram, uma das maiores bases entre as lojas da Timóteo Penteado. O próximo passo é fazer o estoque chegar em quem ainda não segue vocês: vídeo padrão por carro e anúncio para compradores da região. Posso te mandar 3 ideias para o fim de ano?",
+        "instagram_dm": "Olá! Aqui é o Vitor, da Adspot. A Accar já tem uma base boa no Instagram; tenho 3 ideias para ela virar mais venda com anúncio. Com quem eu falo?",
+        "follow_up_d3": "Edmarcio, uma das ideias: anunciar para pessoas parecidas com quem já comprou na Accar (o Instagram permite isso com a base de vocês), com um vídeo de 20 segundos por carro. Faz sentido conversarmos 15 minutos?",
+        "follow_up_d7": "Edmarcio, fecho por aqui. Se quiser montar os anúncios mais perto do fim de ano, é só me chamar!"
+      },
+      "fontes": [
+        "https://econodata.com.br/consulta-empresa/17115185000182-CM22-COMERCIO-DE-AUTOMOVEIS-LTDA",
+        "https://www.instagram.com/accarmultimarcas/",
+        "https://www.icarros.com.br/ache/estoque.jsp?id=271885",
+        "https://www.mobiauto.com.br/comprar/estoque/accar-multimarcas-278"
+      ]
+    }
+  ],
+  "descartados": [
+    {
+      "nome": "Localiza Seminovos · Movida Seminovos · Original Seminovos · Vigorito",
+      "nicho": "automotivo",
+      "motivo": "Redes e grupos de concessionárias com marketing central."
+    },
+    {
+      "nome": "Falcão Multimarcas",
+      "nicho": "automotivo",
+      "motivo": "45 mil seguidores: vitrine forte."
+    },
+    {
+      "nome": "Maxxivel Multimarcas",
+      "nicho": "automotivo",
+      "motivo": "11 mil seguidores. Dono: Alexsandro do Carmo Brandão (CNPJ 07.659.631/0001-66)."
+    },
+    {
+      "nome": "Viana Automóveis",
+      "nicho": "automotivo",
+      "motivo": "Titular não localizado e endereço com número diferente (CNPJ 444, loja 410). Instagram com 5,3 mil. Reavaliar com o quadro de sócios."
+    },
+    {
+      "nome": "Autorequintte",
+      "nicho": "automotivo",
+      "motivo": "CNPJ não localizado."
+    },
+    {
+      "nome": "Chicar's Veículos · MK Multimarcas · GM Car · Grif Car · Vip Car",
+      "nicho": "automotivo",
+      "motivo": "Não pesquisados a fundo nesta rodada; ficam para a próxima lista."
+    }
+  ],
+  "proximo_passo": "Hoje (10h–12h): Valcar e Horizoncar, os estoques maiores, pelo Direct ou ligando na loja; Premium pelo WhatsApp. Amanhã: Stock Car, Melo, ERS, Marques e Accar. Follow-up D+3 em 26/09. Semana que vem: completar Chicar's, MK, GM Car e Grif Car."
+}

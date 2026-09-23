@@ -27,6 +27,8 @@ NICHOS_PLURAL = {
 
 def titulo(dados):
     p = dados.get("prospeccao") or {}
+    if p.get("titulo"):
+        return p["titulo"]
     nichos = [NICHOS_PLURAL.get(n, n) for n in p.get("nichos") or []]
     cidade = (p.get("cidade") or "").split("/")[0].strip()
     nome = " e ".join(nichos) if 0 < len(nichos) <= 2 else "Leads"

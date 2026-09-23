@@ -1,6 +1,7 @@
 {
   "prospeccao": {
     "id": "AAAA-MM-DD_cidade_nichos",
+    "titulo": "opcional: nome da página (ex.: Lojas de Carros em Guarulhos); sem ele, vira <Nicho> em <Cidade>",
     "data": "AAAA-MM-DD",
     "cidade": "Cidade/UF",
     "regiao": "bairros pesquisados",

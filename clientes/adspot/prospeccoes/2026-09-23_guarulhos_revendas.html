@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lojas de Carros em Guarulhos</title>
+<meta name="theme-color" content="#16151a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f5f3ef; --surface:#ffffff; --surface-2:#f0ede7; --line:#e2ddd3; --ink:#16151a; --ink-2:#55525c; --ink-3:#8c8894;
+  --accent:#ff5a1f; --accent-ink:#ffffff; --accent-soft:#ffe6db;
+  --a:#16a34a; --a-soft:#dcf5e3; --b:#d97706; --b-soft:#fdf0d5; --c:#6b7280; --c-soft:#eceef1;
+  --bad:#dc2626; --bad-soft:#fde4e4; --ok:#16a34a;
+  --shadow:0 1px 2px rgba(20,18,30,.05),0 6px 24px -12px rgba(20,18,30,.18);
+  --radius:14px; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f0f13; --surface:#18181e; --surface-2:#202028; --line:#2c2c36; --ink:#f2f0ec; --ink-2:#b4b1bb; --ink-3:#7c7985;
+    --accent:#ff6a33; --accent-soft:#3a1d12; --a-soft:#10301b; --b-soft:#35270c; --c-soft:#26272d; --bad-soft:#3a1515;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 28px -14px rgba(0,0,0,.7);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f0f13; --surface:#18181e; --surface-2:#202028; --line:#2c2c36; --ink:#f2f0ec; --ink-2:#b4b1bb; --ink-3:#7c7985;
+  --accent:#ff6a33; --accent-soft:#3a1d12; --a-soft:#10301b; --b-soft:#35270c; --c-soft:#26272d; --bad-soft:#3a1515;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 28px -14px rgba(0,0,0,.7);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 "Inter Tight",system-ui,-apple-system,Segoe UI,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button,select,input,textarea{font:inherit;color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+
+/* Topo */
+header.top{padding:28px 0 18px;border-bottom:1px solid var(--line);margin-bottom:22px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:-.01em}
+.brand .dot{width:26px;height:26px;border-radius:8px;background:var(--accent);display:grid;place-items:center;color:var(--accent-ink);font-weight:800;font-size:14px}
+.top-row{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
+h1{font-size:clamp(26px,4vw,38px);line-height:1.1;letter-spacing:-.03em;margin:14px 0 6px;font-weight:800}
+.sub{color:var(--ink-2);margin:0}
+.top-actions{display:flex;gap:8px;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:8px 12px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:500;text-decoration:none;white-space:nowrap}
+.btn:hover{border-color:var(--ink-3)}
+.btn:focus-visible,.chip:focus-visible,.tab:focus-visible,.qa:focus-visible,.lead-head:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn.small{padding:5px 9px;font-size:13px}
+.demo-banner{background:var(--b-soft);border:1px solid var(--b);color:var(--ink);border-radius:12px;padding:10px 14px;margin:0 0 18px;font-size:14px}
+
+/* KPIs */
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:18px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow)}
+.kpi .v{font-size:28px;font-weight:800;letter-spacing:-.02em;line-height:1.1;font-variant-numeric:tabular-nums}
+.kpi .l{color:var(--ink-2);font-size:13px}
+.kpi.accent .v{color:var(--accent)}
+
+.pipeline{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px}
+.pipe{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:13px;color:var(--ink-2)}
+.pipe b{color:var(--ink);font-variant-numeric:tabular-nums}
+
+/* Filtros */
+.filters{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);padding:12px 0;margin-bottom:10px;border-bottom:1px solid var(--line)}
+.filters-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.search{flex:1 1 220px;min-width:0;border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:8px 12px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 11px;font-size:13px;cursor:pointer;user-select:none}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+select.sel{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:7px 10px;font-size:14px;max-width:100%}
+.count{color:var(--ink-3);font-size:13px;margin:6px 0 12px}
+
+/* Leads */
+.lead{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);margin-bottom:10px;box-shadow:var(--shadow);overflow:hidden}
+.lead-head{display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center;padding:14px 16px;cursor:pointer}
+.lead-head:hover{background:var(--surface-2)}
+.score{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;position:relative;flex:none}
+.score svg{position:absolute;inset:0;transform:rotate(-90deg)}
+.score span{font-weight:800;font-size:16px;font-variant-numeric:tabular-nums}
+.lead-title{min-width:0}
+.lead-title h3{margin:0;font-size:17px;letter-spacing:-.01em;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.owner{color:var(--ink-2);font-size:14px;margin-top:2px}
+.owner strong{color:var(--ink)}
+.meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.tag{font-size:12px;padding:2px 8px;border-radius:999px;background:var(--surface-2);color:var(--ink-2);border:1px solid var(--line);white-space:nowrap}
+.tag.prio-A{background:var(--a-soft);color:var(--a);border-color:transparent;font-weight:700}
+.tag.prio-B{background:var(--b-soft);color:var(--b);border-color:transparent;font-weight:700}
+.tag.prio-C{background:var(--c-soft);color:var(--c);border-color:transparent;font-weight:700}
+.tag.prod{background:var(--accent-soft);color:var(--accent);border-color:transparent;font-weight:600}
+.tag.ok{color:var(--ok)}
+.tag.warn{color:var(--bad)}
+.head-right{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.status-sel{font-size:13px;padding:5px 8px;border-radius:8px;border:1px solid var(--line);background:var(--surface)}
+.chev{transition:transform .2s;color:var(--ink-3)}
+.lead[open] .chev{transform:rotate(180deg)}
+
+.ig-row{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px;font-size:13px}
+.ig{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:999px;text-decoration:none;font-weight:600;border:1px solid transparent;background:linear-gradient(var(--surface),var(--surface)) padding-box,linear-gradient(45deg,#f58529,#dd2a7b,#8134af) border-box}
+.ig:hover{filter:brightness(.97)}
+.ig small{font-weight:500;color:var(--ink-3)}
+.ig.none{background:var(--bad-soft);color:var(--bad);border-color:transparent}
+.lead-body{display:none;border-top:1px solid var(--line);padding:16px;gap:16px;grid-template-columns:repeat(3,minmax(0,1fr))}
+.lead[open] .lead-body{display:grid}
+.panel{background:var(--surface-2);border-radius:12px;padding:14px;min-width:0}
+.panel h4{margin:0 0 10px;font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-3);font-weight:700}
+dl.kv{margin:0;display:grid;grid-template-columns:auto 1fr;gap:5px 12px;font-size:14px}
+dl.kv dt{color:var(--ink-3)}
+dl.kv dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.mono{font-family:var(--mono);font-size:13px}
+.socios{margin:10px 0 0;padding:0;list-style:none;font-size:13px}
+.socios li{padding:6px 0;border-top:1px dashed var(--line)}
+.socios li b{display:block;color:var(--ink)}
+.socios li span{color:var(--ink-3)}
+.check{display:flex;gap:8px;align-items:flex-start;font-size:14px;padding:6px 0;border-top:1px dashed var(--line)}
+.check:first-of-type{border-top:0}
+.check .ic{flex:none;width:20px;height:20px;border-radius:6px;display:grid;place-items:center;font-size:12px;font-weight:800}
+.ic.bad{background:var(--bad-soft);color:var(--bad)}
+.ic.mid{background:var(--b-soft);color:var(--b)}
+.ic.good{background:var(--a-soft);color:var(--a)}
+.check small{display:block;color:var(--ink-3)}
+ul.dores{margin:10px 0 0;padding-left:18px;font-size:14px}
+ul.dores li{margin:3px 0}
+.why{font-size:14px;color:var(--ink-2);margin:6px 0 0}
+.tabs{display:flex;gap:4px;flex-wrap:wrap;margin-bottom:8px}
+.tab{border:0;background:transparent;border-radius:8px;padding:5px 9px;font-size:13px;cursor:pointer;color:var(--ink-2)}
+.tab[aria-selected="true"]{background:var(--surface);color:var(--ink);font-weight:600;box-shadow:var(--shadow)}
+.msg{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px;font-size:14px;white-space:pre-wrap;min-height:90px}
+.msg-actions{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.links{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+textarea.notes{width:100%;margin-top:12px;border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:8px 10px;font-size:14px;min-height:60px;resize:vertical}
+.fontes{grid-column:1/-1;font-size:12px;color:var(--ink-3);overflow-wrap:anywhere}
+.fontes a{color:var(--ink-3)}
+.unverified{color:var(--bad);font-weight:600}
+
+section.block{margin:28px 0}
+section.block h2{font-size:18px;letter-spacing:-.01em;margin:0 0 10px}
+.desc-list{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:4px 16px}
+.desc-list div{padding:10px 0;border-top:1px solid var(--line);font-size:14px}
+.desc-list div:first-child{border-top:0}
+.desc-list span{color:var(--ink-3)}
+.next{background:var(--ink);color:var(--bg);border-radius:var(--radius);padding:18px 20px;margin:28px 0 40px}
+.next b{color:var(--accent)}
+.empty{padding:40px;text-align:center;color:var(--ink-3)}
+.toast{position:fixed;left:50%;bottom:calc(22px + env(safe-area-inset-bottom,0px));transform:translateX(-50%) translateY(20px);opacity:0;background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:10px;font-size:14px;transition:.2s;pointer-events:none;z-index:20}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* Ações rápidas: sempre visíveis, sem abrir o lead */
+.quick{display:flex;gap:8px;flex-wrap:wrap;padding:0 16px 14px}
+.qa{flex:1 1 0;min-width:0;min-height:44px;display:inline-flex;align-items:center;justify-content:center;gap:6px;border-radius:12px;border:1px solid var(--line);background:var(--surface-2);color:var(--ink);font-weight:600;font-size:14px;text-decoration:none;cursor:pointer;white-space:nowrap;padding:0 10px}
+.qa.wa{background:#1f9d55;border-color:#1f9d55;color:#fff}
+.qa.dm{background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af);border-color:transparent;color:#fff}
+.qa svg{width:18px;height:18px;flex:none}
+.btn-filtros{display:none}
+.phone{font-variant-numeric:tabular-nums;user-select:all}
+
+@media (max-width:900px){.lead-body{grid-template-columns:1fr}}
+@media (max-width:560px){
+  header.top{padding:18px 0 14px;margin-bottom:14px}
+  h1{font-size:22px;letter-spacing:-.02em;margin:10px 0 4px}
+  .sub{font-size:13px}
+  .top-actions{width:100%}
+  .top-actions .btn{flex:1 1 0;justify-content:center;min-height:40px;padding:8px}
+  .kpis{grid-template-columns:repeat(2,1fr);gap:8px}
+  .kpi{padding:10px 12px}
+  .kpi .v{font-size:22px}
+  .kpi:last-child:nth-child(odd){grid-column:1/-1}
+  .filters{padding:10px 0}
+  .search,select.sel,textarea.notes,.status-sel{font-size:16px}
+  .search{min-height:44px}
+  .btn-filtros{display:inline-flex;min-height:44px}
+  #filtrosExtra{display:none;margin-top:8px}
+  .filters.aberto #filtrosExtra{display:block}
+  #filtrosExtra .filters-row{margin-top:8px}
+  select.sel{flex:1 1 45%;min-height:44px}
+  .chip{padding:8px 12px;font-size:14px}
+  .lead-head{grid-template-columns:auto 1fr;padding:12px;gap:12px}
+  .head-right{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center}
+  .status-sel{flex:1;min-height:40px;margin-right:10px}
+  .score{width:44px;height:44px}
+  .quick{padding:0 12px 12px}
+  .lead-body{padding:12px;gap:12px}
+  .lead-body .panel:nth-child(3){order:-1}
+  .panel{padding:12px}
+  .tabs{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .tab{flex:none;padding:8px 12px;font-size:14px}
+  .msg{font-size:15px}
+  .msg-actions .btn,.links .btn{min-height:40px}
+  dl.kv{grid-template-columns:1fr;gap:0}
+  dl.kv dt{margin-top:8px;font-size:12px}
+  .next{margin-bottom:24px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="top-row">
+      <div class="brand"><div class="dot">A</div>Adspot · Prospecção</div>
+      <div class="top-actions">
+        <button class="btn" id="toggleAll">Expandir todos</button>
+        <button class="btn" id="copiarPlanilha">Copiar planilha</button>
+        <button class="btn" id="theme" aria-label="Alternar tema">◐ Tema</button>
+      </div>
+    </div>
+    <h1 id="titulo">Prospecção</h1>
+    <p class="sub" id="subtitulo"></p>
+  </header>
+
+  <div id="demo"></div>
+  <div class="kpis" id="kpis"></div>
+  <div class="pipeline" id="pipeline"></div>
+
+  <div class="filters">
+    <div class="filters-row">
+      <input class="search" id="q" type="search" placeholder="Buscar empresa, dono, bairro, CNPJ…" aria-label="Buscar">
+      <button class="btn btn-filtros" id="btnFiltros" aria-expanded="false" aria-controls="filtrosExtra">Filtros</button>
+    </div>
+    <div id="filtrosExtra">
+    <div class="filters-row">
+      <select class="sel" id="fProduto"><option value="">Todos os produtos</option></select>
+      <select class="sel" id="fStatus"><option value="">Todos os status</option></select>
+      <select class="sel" id="ordem">
+        <option value="score">Maior pontuação</option>
+        <option value="nome">Nome (A–Z)</option>
+        <option value="nicho">Nicho</option>
+      </select>
+    </div>
+    <div class="filters-row" style="margin-top:8px">
+      <div class="chips" id="chipsPrio"></div>
+      <div class="chips" id="chipsNicho"></div>
+    </div>
+    </div>
+  </div>
+
+  <div class="count" id="count"></div>
+  <div id="lista"></div>
+
+  <section class="block" id="descartadosWrap" hidden>
+    <h2>Descartados e por quê</h2>
+    <div class="desc-list" id="descartados"></div>
+  </section>
+
+  <div class="next" id="proximo"></div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script id="dados" type="application/json">{"prospeccao": {"id": "2026-09-23_guarulhos_revendas", "titulo": "Lojas de Carros em Guarulhos", "data": "2026-09-23", "cidade": "Guarulhos/SP", "regiao": "Timóteo Penteado (Vila Hulda), Vila Galvão, Ponte Grande, Vila Flórida, Centro, Auto Shopping Internacional", "nichos": ["automotivo"], "observacoes": "Revendas de carros usados e seminovos · objetivo: Pacote Inicial · a dor é giro de estoque · conferir Instagram e Biblioteca de Anúncios antes de enviar", "demonstracao": false}, "leads": [{"id": "valcar", "nicho": "automotivo", "nome_fantasia": "Valcar Multimarcas", "bairro": "Vila Galvão", "prioridade": "B", "score": 60, "score_detalhe": {"dor": 18, "capacidade": 23, "acesso": 11, "timing": 8}, "cnpj": {"numero": "01.919.338/0001-04", "razao_social": "RCD MULTIMARCAS COMERCIO DE VEICULOS LTDA", "situacao": "ATIVA", "abertura": "1997-06-23", "porte": "não confirmado", "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados", "capital_social": null, "endereco": "Av. Dona Eugênia Machado da Silva, 60, Vila Galvão, Guarulhos/SP, 07071-070", "fonte": "https://www.econodata.com.br/consulta-empresa/01919338000104-rcd-multimarcas-comercio-de-veiculos-ltda"}, "decisor": {"nome": "Rafael Rebecchi", "primeiro_nome": "Rafael", "qualificacao": "Administrador (QSA)", "validado": false, "fonte_validacao": "", "instagram": "não encontrado", "outros_socios": [{"nome": "Daniela Rebecchi Tavares", "qualificacao": "Sócia"}]}, "presenca": {"site": {"url": "https://valcarmulti.com.br/", "status": "ok", "nota": "Tem site com estoque"}, "instagram": {"url": "https://www.instagram.com/valcar.multimarcas/", "seguidores": 1933, "publicacoes": 1482, "ultimo_post": "", "status": "fraco", "nota": "1.482 publicações e só 1.933 seguidores: posta muito e alcança pouco"}, "google": {"url": "", "nota": null, "avaliacoes": null, "observacao": "Não verificado"}, "anuncios": {"ativos": null, "fonte": "", "observacao": "Conferir na Biblioteca de Anúncios da Meta"}}, "dores": ["Quase 1.500 posts para menos de 2 mil seguidores: o estoque não chega em quem procura carro", "Cerca de 90 carros anunciados em portal (Mobiauto): estoque grande para girar"], "produto": {"recomendado": "Pacote Inicial", "valor": "R$ 1.500/mês × 3", "justificativa": "Revenda com estoque grande e conteúdo constante, mas sem alcance: vídeo padronizado por carro + tráfego para compradores da região giram o pátio."}, "gancho": "Out–dez: 13º salário e troca de carro; a loja diz ter mais de 30 anos de mercado", "contato": {"whatsapp": "", "instagram": "@valcar.multimarcas", "email": "", "melhor_horario": "Direct no Instagram ou ligação para a loja, 10h–12h"}, "mensagens": {"whatsapp": "Oi, Rafael! Aqui é o Vitor, da Adspot. Vi que a Valcar tem perto de 90 carros anunciados nos portais, um estoque grande para uma loja da Vila Galvão, e que vocês postam com frequência no Instagram. O que falta é o carro chegar em quem ainda não conhece a loja: o perfil está abaixo de 2 mil seguidores. A gente monta anúncio por modelo, com vídeo curto de cada carro, para compradores da região. Posso te mandar 3 ideias para dar giro nesse pátio?", "instagram_dm": "Olá! Aqui é o Vitor, da Adspot. A Valcar tem um estoque grande e posta muito; tenho 3 ideias para esses carros chegarem em quem ainda não conhece a loja. Com quem eu falo?", "follow_up_d3": "Rafael, uma das ideias: separar o estoque por faixa de preço (até 40 mil, 40 a 70, acima de 70) e anunciar cada faixa para um público diferente da região, com o vídeo dos carros daquela faixa. Quem tem 13º para trocar de carro vê só o que cabe no bolso. Faz sentido conversarmos 15 minutos?", "follow_up_d7": "Rafael, fecho por aqui pra não atrapalhar a loja. Se quiser separar o estoque em campanhas mais perto do fim de ano, é só me chamar!", "ligacao": "Ligar na loja e pedir o Rafael. Perguntar quais faixas de preço giram mais devagar no pátio."}, "fontes": ["https://www.econodata.com.br/consulta-empresa/01919338000104-rcd-multimarcas-comercio-de-veiculos-ltda", "https://cnpj.biz/01919338000104", "https://www.instagram.com/valcar.multimarcas/", "https://valcarmulti.com.br/", "https://www.mobiauto.com.br/comprar/estoque/valcar-multimarcas-21602"]}, {"id": "horizoncar", "nicho": "automotivo", "nome_fantasia": "Horizoncar Veículos", "bairro": "Vila Hermínia (Auto Shopping Internacional)", "prioridade": "B", "score": 58, "score_detalhe": {"dor": 14, "capacidade": 24, "acesso": 12, "timing": 8}, "cnpj": {"numero": "08.619.044/0001-06", "razao_social": "HORIZONCAR COMERCIO DE VEICULOS LTDA", "situacao": "ATIVA", "abertura": "2006-11-06", "porte": "EPP (consta \"LTDA - EPP\" no Reclame Aqui)", "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados", "capital_social": null, "endereco": "Av. Anton Philips, 1, Vila Hermínia, Guarulhos/SP (Auto Shopping Internacional)", "fonte": "https://cnpj.biz/08619044000106"}, "decisor": {"nome": "Alvaro Augusto Ochoa", "primeiro_nome": "Alvaro", "qualificacao": "Sócio-Administrador (QSA)", "validado": false, "fonte_validacao": "", "instagram": "não encontrado", "outros_socios": [{"nome": "Cristiane Gandolpho Ochoa", "qualificacao": "Sócia-Administradora"}]}, "presenca": {"site": {"url": "https://horizoncar.com.br/", "status": "ok", "nota": "Site de estoque em plataforma de revendas"}, "instagram": {"url": "https://www.instagram.com/horizoncarsp/", "seguidores": null, "publicacoes": null, "ultimo_post": "", "status": "não verificado", "nota": "Perfil existe; números não verificados"}, "google": {"url": "", "nota": null, "avaliacoes": null, "observacao": "Não verificado"}, "anuncios": {"ativos": null, "fonte": "", "observacao": "Conferir na Biblioteca de Anúncios da Meta"}}, "dores": ["Mais de 60 carros em estoque dentro de um shopping com outras 600+ ofertas: precisa se destacar das lojas vizinhas", "Presença no Instagram pouco visível nas buscas"], "produto": {"recomendado": "Pacote Inicial", "valor": "R$ 1.500/mês × 3", "justificativa": "EPP com estoque grande num ambiente de concorrência direta: identidade própria e anúncio por carro tiram a loja da vala comum do shopping."}, "gancho": "Concorrência dentro do próprio Auto Shopping: quem anuncia leva o comprador antes dele chegar", "contato": {"whatsapp": "", "instagram": "@horizoncarsp", "email": "", "melhor_horario": "Visita no Auto Shopping ou Direct"}, "mensagens": {"whatsapp": "Oi, Alvaro! Aqui é o Vitor, da Adspot. Vi que a Horizoncar tem mais de 60 carros no Auto Shopping Internacional, que reúne centenas de ofertas no mesmo lugar. Nesse cenário, quem ganha é a loja que o comprador já conhece antes de entrar no shopping. A gente cria a identidade, grava um vídeo padrão por carro e anuncia para quem está procurando carro na região. Posso te mandar 3 ideias para a Horizoncar se destacar das lojas vizinhas?", "instagram_dm": "Olá! Aqui é o Vitor, da Adspot. Tenho 3 ideias para a Horizoncar chegar ao comprador antes dele entrar no Auto Shopping. Com quem eu falo?", "follow_up_d3": "Alvaro, uma das ideias: anúncio por carro com o botão \"agendar visita no Auto Shopping\", mostrado só para quem pesquisou o modelo nos últimos dias e mora a até 15 km. O comprador chega já procurando a sua loja. Faz sentido conversarmos 15 minutos?", "follow_up_d7": "Alvaro, fecho por aqui. Se quiser montar os anúncios do estoque mais perto do fim de ano, é só me chamar!"}, "fontes": ["https://cnpj.biz/08619044000106", "https://www.reclameaqui.com.br/auto-shopping-internaciona-de-guarulhos/horizoncar-comercio-de-veiculos-ltda-epp_OlhsBbPl807wcAzf/", "https://horizoncar.com.br/", "https://www.instagram.com/horizoncarsp/", "https://autoshoppinginternacional.com.br/"]}, {"id": "premium-multimarcas", "nicho": "automotivo", "nome_fantasia": "Premium Multimarcas", "bairro": "Vila Hulda", "prioridade": "B", "score": 56, "score_detalhe": {"dor": 18, "capacidade": 17, "acesso": 13, "timing": 8}, "cnpj": {"numero": "31.590.662/0001-92", "razao_social": "AUTO PREMIUM COMERCIO DE VEICULOS LTDA", "situacao": "ATIVA", "abertura": "2018-09-24", "porte": "não confirmado", "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados", "capital_social": null, "endereco": "Av. Dr. Timóteo Penteado, 2019, Vila Hulda, Guarulhos/SP", "fonte": "https://inteligen.com.br/empresa/premium-multimarcas-auto-premium-comercio-de-veiculos-ltda-31590662000192"}, "decisor": {"nome": "Alex Lopes", "primeiro_nome": "Alex", "qualificacao": "Dono (segundo cadastro público; confirmar no QSA)", "validado": false, "fonte_validacao": "", "instagram": "não encontrado", "outros_socios": []}, "presenca": {"site": {"url": "", "status": "inexistente", "nota": "Só portais (iCarros, Mobiauto, NaPista)"}, "instagram": {"url": "https://www.instagram.com/premium.multimarcas2019/", "seguidores": 948, "publicacoes": 324, "ultimo_post": "", "status": "fraco", "nota": "948 seguidores e 324 posts"}, "google": {"url": "", "nota": null, "avaliacoes": null, "observacao": "Não verificado"}, "anuncios": {"ativos": null, "fonte": "", "observacao": "Conferir na Biblioteca de Anúncios da Meta"}}, "dores": ["Menos de mil seguidores numa avenida cheia de revendas (Timóteo Penteado)", "Sem site próprio: depende dos portais, que cobram por anúncio e mostram o concorrente ao lado"], "produto": {"recomendado": "Pacote Inicial", "valor": "R$ 1.500/mês × 3", "justificativa": "Loja na avenida mais disputada de revendas da cidade com vitrine pequena: identidade, vídeos do estoque e tráfego direto tiram a dependência dos portais."}, "gancho": "Na Timóteo Penteado há uma revenda do lado da outra: vence quem o comprador já viu no celular", "contato": {"whatsapp": "(11) 93277-1620", "instagram": "@premium.multimarcas2019", "email": "", "melhor_horario": "10h–12h"}, "mensagens": {"whatsapp": "Oi, Alex! Aqui é o Vitor, da Adspot. Vi a Premium Multimarcas na Timóteo Penteado, uma avenida com revenda uma do lado da outra. Reparei que o Instagram de vocês ainda está abaixo de mil seguidores e que o estoque aparece mais nos portais, onde o carro do vizinho fica ao lado do seu. A gente grava um vídeo padrão por carro e anuncia direto para quem procura carro na região. Posso te mandar 3 ideias?", "instagram_dm": "Oi! Aqui é o Vitor, da Adspot. Tenho 3 ideias para a Premium vender mais direto pelo Instagram, sem depender dos portais. Posso mandar?", "follow_up_d3": "Alex, uma das ideias: um vídeo de 20 segundos por carro com preço e condição, anunciado para quem mora a até 15 km e pesquisou aquele modelo. O contato cai no seu WhatsApp, não no portal. Faz sentido conversarmos 15 minutos?", "follow_up_d7": "Alex, fecho por aqui. Se quiser montar os anúncios do estoque mais perto do fim de ano, é só me chamar!"}, "fontes": ["https://inteligen.com.br/empresa/premium-multimarcas-auto-premium-comercio-de-veiculos-ltda-31590662000192", "https://www.instagram.com/premium.multimarcas2019/", "https://www.mobiauto.com.br/comprar/estoque/premium-multimarcas-25273", "https://www.icarros.com.br/ache/estoque.jsp?id=1983720"]}, {"id": "melo-multimarcas", "nicho": "automotivo", "nome_fantasia": "Melo Multimarcas", "bairro": "Vila Flórida", "prioridade": "B", "score": 54, "score_detalhe": {"dor": 14, "capacidade": 21, "acesso": 11, "timing": 8}, "cnpj": {"numero": "05.859.703/0001-93", "razao_social": "MARCOS MELO COMERCIO DE VEICULOS LTDA", "situacao": "ATIVA", "abertura": "2003-07-22", "porte": "ME", "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados", "capital_social": null, "endereco": "Av. Otávio Braga de Mesquita, 2266, Vila Flórida, Guarulhos/SP, 07191-000", "fonte": "https://www.econodata.com.br/consulta-empresa/05859703000193-MARCOS-MELO-COMERCIO-DE-VEICULOS-LTDA"}, "decisor": {"nome": "Marcos Melo", "primeiro_nome": "Marcos", "qualificacao": "Nome na razão social; quadro de sócios não localizado (confirmar)", "validado": false, "fonte_validacao": "", "instagram": "não encontrado", "outros_socios": []}, "presenca": {"site": {"url": "https://melomultimarcas.com.br/", "status": "ok", "nota": "Tem site"}, "instagram": {"url": "https://www.instagram.com/melomultimarcas1/", "seguidores": 3140, "publicacoes": null, "ultimo_post": "", "status": "fraco", "nota": "3.140 seguidores"}, "google": {"url": "", "nota": null, "avaliacoes": null, "observacao": "Não verificado"}, "anuncios": {"ativos": null, "fonte": "", "observacao": "Conferir na Biblioteca de Anúncios da Meta"}}, "dores": ["Revenda antiga com perfil de 3 mil seguidores: alcance baixo para o tempo de mercado"], "produto": {"recomendado": "Pacote Inicial", "valor": "R$ 1.500/mês × 3", "justificativa": "ME consolidada com site pronto: o que falta é vídeo de estoque e anúncio para compradores da região."}, "gancho": "Out–dez: 13º e troca de carro", "contato": {"whatsapp": "(11) 2401-1769", "instagram": "@melomultimarcas1", "email": "", "melhor_horario": "10h–12h · confirmar se o número tem WhatsApp"}, "mensagens": {"whatsapp": "Oi, Marcos! Aqui é o Vitor, da Adspot. Vi que a Melo Multimarcas já tem site e Instagram com mais de 3 mil seguidores, o que é uma boa base. Para uma revenda com a estrada de vocês, dá para ir bem além: com vídeo padrão de cada carro e anúncio para quem procura carro na região, o estoque gira mais rápido. Posso te mandar 3 ideias para a Melo no fim de ano?", "instagram_dm": "Olá! Aqui é o Vitor, da Adspot. Tenho 3 ideias para o estoque da Melo chegar em mais compradores da região. Com quem eu falo?", "follow_up_d3": "Marcos, uma das ideias: uma campanha de fim de ano com os 10 carros de melhor preço, um vídeo curto de cada, anunciada para quem mora a até 15 km da Otávio Braga de Mesquita. Faz sentido conversarmos 15 minutos?", "follow_up_d7": "Marcos, fecho por aqui. Se quiser montar os anúncios mais perto do fim de ano, é só me chamar!", "ligacao": "Ligar e perguntar pelo Marcos para confirmar que é o dono antes de mandar a mensagem."}, "fontes": ["https://www.econodata.com.br/consulta-empresa/05859703000193-MARCOS-MELO-COMERCIO-DE-VEICULOS-LTDA", "https://empresasdobrasil.com/empresa/melo-multimarcas-05859703000193", "https://www.instagram.com/melomultimarcas1/", "https://melomultimarcas.com.br/"]}, {"id": "ers-automoveis", "nicho": "automotivo", "nome_fantasia": "ERS Automóveis", "bairro": "Centro", "prioridade": "B", "score": 53, "score_detalhe": {"dor": 16, "capacidade": 18, "acesso": 11, "timing": 8}, "cnpj": {"numero": "33.101.713/0001-09", "razao_social": "ERS COMERCIO DE VEICULOS SOCIEDADE LTDA", "situacao": "ATIVA", "abertura": "2019-03-21", "porte": "não confirmado", "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados", "capital_social": null, "endereco": "Av. Salgado Filho, 2120, sala 1522, Centro, Guarulhos/SP", "fonte": "https://www.econodata.com.br/consulta-empresa/33101713000109-ers-comercio-de-veiculos-sociedade-ltda"}, "decisor": {"nome": "Rodrigo Silva Seraphim", "primeiro_nome": "Rodrigo", "qualificacao": "Administrador (QSA)", "validado": false, "fonte_validacao": "", "instagram": "não encontrado", "outros_socios": []}, "presenca": {"site": {"url": "https://ersautomoveis.com.br/", "status": "ok", "nota": "Site de estoque em plataforma de revendas"}, "instagram": {"url": "https://www.instagram.com/ersautomoveis/", "seguidores": 1449, "publicacoes": null, "ultimo_post": "", "status": "fraco", "nota": "1.449 seguidores"}, "google": {"url": "", "nota": null, "avaliacoes": null, "observacao": "Não verificado"}, "anuncios": {"ativos": null, "fonte": "", "observacao": "Conferir na Biblioteca de Anúncios da Meta"}}, "dores": ["Atende em sala comercial, sem pátio na rua: o comprador só chega pelo digital", "Instagram com 1,4 mil seguidores"], "produto": {"recomendado": "Pacote Inicial", "valor": "R$ 1.500/mês × 3", "justificativa": "Sem vitrine física, o Instagram e o anúncio são a loja: identidade, vídeo de estoque e tráfego são o núcleo do negócio."}, "gancho": "Loja sem pátio na rua: o digital é a vitrine inteira", "contato": {"whatsapp": "", "instagram": "@ersautomoveis", "email": "", "melhor_horario": "Direct no Instagram"}, "mensagens": {"whatsapp": "Oi, Rodrigo! Aqui é o Vitor, da Adspot. Vi que a ERS atende numa sala na Salgado Filho, então o comprador chega em vocês pelo celular, não passando na frente de um pátio. Isso faz do Instagram a vitrine inteira da loja, e hoje ele está com 1,4 mil seguidores. A gente cria a identidade, grava um vídeo padrão por carro e anuncia para quem procura carro na região. Posso te mandar 3 ideias?", "instagram_dm": "Oi! Aqui é o Vitor, da Adspot. Como a ERS vende sem pátio na rua, o Instagram é a vitrine inteira. Tenho 3 ideias para ele trazer mais comprador, posso mandar?", "follow_up_d3": "Rodrigo, uma das ideias: anúncio por carro com vídeo de 20 segundos e botão direto para o WhatsApp, mostrado para quem mora a até 15 km e pesquisou aquele modelo. Faz sentido conversarmos 15 minutos?", "follow_up_d7": "Rodrigo, fecho por aqui. Se quiser montar os anúncios mais perto do fim de ano, é só me chamar!"}, "fontes": ["https://www.econodata.com.br/consulta-empresa/33101713000109-ers-comercio-de-veiculos-sociedade-ltda", "https://empresas.serasaexperian.com.br/consulta-gratis/ERS-COMERCIO-DE-VEICULOS-SOCIEDADE-LTDA-33101713000109", "https://www.instagram.com/ersautomoveis/", "https://ersautomoveis.com.br/"]}, {"id": "stock-car", "nicho": "automotivo", "nome_fantasia": "Stock Car Multimarcas", "bairro": "Ponte Grande", "prioridade": "B", "score": 52, "score_detalhe": {"dor": 14, "capacidade": 19, "acesso": 11, "timing": 8}, "cnpj": {"numero": "60.681.418/0001-33", "razao_social": "STOCK MULTIMARCAS COMERCIO DE VEICULOS LTDA", "situacao": "ATIVA", "abertura": "1989-06-20", "porte": "não confirmado", "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados", "capital_social": null, "endereco": "Av. Guarulhos, 3714, Ponte Grande, Guarulhos/SP", "fonte": "https://www.econodata.com.br/consulta-empresa/60681418000133-STOCK-MULTIMARCAS-COMERCIO-DE-VEICULOS-LTDA"}, "decisor": {"nome": "Fabio Andretta", "primeiro_nome": "Fabio", "qualificacao": "Sócio-Administrador (QSA)", "validado": false, "fonte_validacao": "", "instagram": "não encontrado", "outros_socios": [{"nome": "Erbio Andretta", "qualificacao": "Sócio-Administrador"}]}, "presenca": {"site": {"url": "https://www.stockcarmultimarcas1989.com.br/", "status": "ok", "nota": "Tem site próprio; e-mail de contato é @gmail"}, "instagram": {"url": "https://www.instagram.com/stockcar_multimarcas/", "seguidores": 3832, "publicacoes": 996, "ultimo_post": "", "status": "fraco", "nota": "996 publicações e 3.832 seguidores: posta muito e alcança pouco. Falta distribuição (anúncio), não conteúdo"}, "google": {"url": "", "nota": null, "avaliacoes": null, "observacao": "Não verificado"}, "anuncios": {"ativos": null, "fonte": "", "observacao": "Conferir na Biblioteca de Anúncios da Meta"}}, "dores": ["35 anos de tradição (divulgado no Instagram) e só 3,8 mil seguidores depois de quase mil posts", "Revenda vive de girar estoque: carro publicado sem anúncio fica parado no pátio"], "produto": {"recomendado": "Pacote Inicial", "valor": "R$ 1.500/mês × 3", "justificativa": "Já produzem conteúdo; o pacote entra com vídeo de estoque padronizado, identidade e tráfego pago para quem está procurando carro na região."}, "gancho": "Out–dez: 13º salário e fim de ano são época de troca de carro", "contato": {"whatsapp": "(11) 2421-3050", "instagram": "@stockcar_multimarcas", "email": "stockcarmultimarcas1989@gmail.com", "melhor_horario": "Fixo da loja, 10h–12h · confirmar se tem WhatsApp"}, "mensagens": {"whatsapp": "Oi, Fabio! Aqui é o Vitor, da Adspot. Vi que a Stock Car tem 35 anos de tradição na Avenida Guarulhos e quase mil publicações no Instagram, uma consistência que pouca revenda tem. Mesmo assim o perfil está em 3,8 mil seguidores, sinal de que os carros não estão chegando em quem está procurando. A gente padroniza os vídeos do estoque e anuncia cada carro para compradores da região. Posso te mandar 3 ideias para girar o estoque no fim de ano?", "instagram_dm": "Olá! Aqui é o Vitor, da Adspot. 35 anos de Stock Car e quase mil posts: tenho 3 ideias para esse estoque chegar em mais compradores da região. Com quem eu falo?", "follow_up_d3": "Fabio, uma das ideias: um vídeo de 20 segundos por carro, sempre no mesmo padrão (volta no carro, painel, preço e condição), anunciado só para quem mora a até 15 km da loja e pesquisou carro nos últimos dias. É o que mais gira estoque em revenda. Faz sentido conversarmos 15 minutos?", "follow_up_d7": "Fabio, fecho por aqui. Se quiser montar os anúncios do estoque mais perto do fim de ano, é só me chamar!", "ligacao": "Ligar na loja e pedir o Fabio ou o Erbio. Perguntar quantos dias em média um carro fica no pátio e de onde vem a maioria dos compradores."}, "fontes": ["https://www.econodata.com.br/consulta-empresa/60681418000133-STOCK-MULTIMARCAS-COMERCIO-DE-VEICULOS-LTDA", "https://www.instagram.com/stockcar_multimarcas/", "https://www.stockcarmultimarcas1989.com.br/", "https://www.facebook.com/p/Stock-Car-Multimarcas-100063747214238/", "https://www.mobiauto.com.br/comprar/estoque/stock-car-multimarcas-19977"]}, {"id": "marques-multimarcas", "nicho": "automotivo", "nome_fantasia": "Marques Multimarcas", "bairro": "Vila Hulda", "prioridade": "B", "score": 52, "score_detalhe": {"dor": 12, "capacidade": 21, "acesso": 11, "timing": 8}, "cnpj": {"numero": "49.477.892/0001-05", "razao_social": "MARQUES AUTOMOVEIS E UTILITARIOS LTDA", "situacao": "ATIVA", "abertura": "2023-02-06", "porte": "EPP (consta \"LTDA - EPP\" no Serasa)", "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados", "capital_social": null, "endereco": "Av. Dr. Timóteo Penteado, 2188, Guarulhos/SP, 07094-000", "fonte": "https://www.econodata.com.br/consulta-empresa/49477892000105-marques-automoveis-e-utilitarios-ltda"}, "decisor": {"nome": "Cristian Deivis Gomes Marques", "primeiro_nome": "Cristian", "qualificacao": "Administrador (QSA)", "validado": false, "fonte_validacao": "", "instagram": "não encontrado", "outros_socios": [{"nome": "Luciano Gomes Marques", "qualificacao": "Administrador"}, {"nome": "Marques Participações LTDA", "qualificacao": "Sócia (holding)"}]}, "presenca": {"site": {"url": "https://marquesutilitarios.com.br/", "status": "ok", "nota": "Tem site com estoque"}, "instagram": {"url": "https://www.instagram.com/marquesutilitarios/", "seguidores": null, "publicacoes": null, "ultimo_post": "", "status": "não verificado", "nota": "Perfil @marquesutilitarios; números não verificados. O Instagram cita o número 2042 da avenida (CNPJ: 2188), conferir"}, "google": {"url": "", "nota": null, "avaliacoes": null, "observacao": "Não verificado"}, "anuncios": {"ativos": null, "fonte": "", "observacao": "Conferir na Biblioteca de Anúncios da Meta"}}, "dores": ["EPP em expansão (tem filial) com vitrine digital ainda pouco visível nas buscas"], "produto": {"recomendado": "Pacote Inicial", "valor": "R$ 1.500/mês × 3", "justificativa": "Empresa em crescimento, com estrutura e holding: tráfego por carro e identidade forte acompanham a expansão."}, "gancho": "Loja em crescimento: marketing precisa acompanhar o estoque", "contato": {"whatsapp": "(11) 93487-7836", "instagram": "@marquesutilitarios", "email": "", "melhor_horario": "10h–12h"}, "mensagens": {"whatsapp": "Oi, Cristian! Aqui é o Vitor, da Adspot. Vi a Marques Multimarcas na Timóteo Penteado e o estoque de carros e utilitários no site de vocês. Com tanta revenda na mesma avenida, quem aparece primeiro no celular do comprador leva a visita. A gente grava um vídeo padrão por carro, organiza o perfil e anuncia para quem procura carro ou utilitário na região. Posso te mandar 3 ideias?", "instagram_dm": "Olá! Aqui é o Vitor, da Adspot. Tenho 3 ideias para o estoque da Marques chegar em mais compradores da região. Com quem eu falo?", "follow_up_d3": "Cristian, uma das ideias: uma campanha só de utilitários para quem tem comércio ou faz entrega na região, com vídeo mostrando a caçamba ou o baú e o preço. É um público que decide rápido. Faz sentido conversarmos 15 minutos?", "follow_up_d7": "Cristian, fecho por aqui. Se quiser montar os anúncios mais perto do fim de ano, é só me chamar!"}, "fontes": ["https://www.econodata.com.br/consulta-empresa/49477892000105-marques-automoveis-e-utilitarios-ltda", "https://empresas.serasaexperian.com.br/consulta-gratis/MARQUES-AUTOMOVEIS-E-UTILITARIOS-LTDA-49477892000296", "https://marquesutilitarios.com.br/", "https://www.instagram.com/marquesutilitarios/"]}, {"id": "accar", "nicho": "automotivo", "nome_fantasia": "Accar Multimarcas", "bairro": "Vila Hulda", "prioridade": "B", "score": 51, "score_detalhe": {"dor": 10, "capacidade": 22, "acesso": 11, "timing": 8}, "cnpj": {"numero": "17.115.185/0001-82", "razao_social": "CM22 COMERCIO DE AUTOMOVEIS LTDA", "situacao": "ATIVA", "abertura": "2012-10-24", "porte": "não confirmado", "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados", "capital_social": null, "endereco": "Av. Dr. Timóteo Penteado, 2243, Guarulhos/SP, 07094-000", "fonte": "https://econodata.com.br/consulta-empresa/17115185000182-CM22-COMERCIO-DE-AUTOMOVEIS-LTDA"}, "decisor": {"nome": "Edmarcio Marcelo Albanez", "primeiro_nome": "Edmarcio", "qualificacao": "Administrador (QSA)", "validado": false, "fonte_validacao": "", "instagram": "não encontrado", "outros_socios": [{"nome": "Rejane Souza Albanez", "qualificacao": "Administradora"}]}, "presenca": {"site": {"url": "", "status": "não confirmado", "nota": "Estoque em portais (iCarros, Mobiauto)"}, "instagram": {"url": "https://www.instagram.com/accarmultimarcas/", "seguidores": 4501, "publicacoes": null, "ultimo_post": "", "status": "ok", "nota": "4.501 seguidores; o melhor perfil entre as lojas da lista"}, "google": {"url": "", "nota": null, "avaliacoes": null, "observacao": "Não verificado"}, "anuncios": {"ativos": null, "fonte": "", "observacao": "Conferir na Biblioteca de Anúncios da Meta"}}, "dores": ["Perfil razoável (4,5 mil), mas sem anúncio a loja depende de quem já a segue"], "produto": {"recomendado": "Pacote Inicial", "valor": "R$ 1.500/mês × 3", "justificativa": "Já tem base no Instagram; o pacote entra forte no tráfego pago por carro e na padronização dos vídeos."}, "gancho": "Base de seguidores pronta para virar venda com anúncio", "contato": {"whatsapp": "(11) 4574-7004", "instagram": "@accarmultimarcas", "email": "", "melhor_horario": "10h–12h · confirmar se o número tem WhatsApp"}, "mensagens": {"whatsapp": "Oi, Edmarcio! Aqui é o Vitor, da Adspot. Vi que a Accar já tem mais de 4,5 mil seguidores no Instagram, uma das maiores bases entre as lojas da Timóteo Penteado. O próximo passo é fazer o estoque chegar em quem ainda não segue vocês: vídeo padrão por carro e anúncio para compradores da região. Posso te mandar 3 ideias para o fim de ano?", "instagram_dm": "Olá! Aqui é o Vitor, da Adspot. A Accar já tem uma base boa no Instagram; tenho 3 ideias para ela virar mais venda com anúncio. Com quem eu falo?", "follow_up_d3": "Edmarcio, uma das ideias: anunciar para pessoas parecidas com quem já comprou na Accar (o Instagram permite isso com a base de vocês), com um vídeo de 20 segundos por carro. Faz sentido conversarmos 15 minutos?", "follow_up_d7": "Edmarcio, fecho por aqui. Se quiser montar os anúncios mais perto do fim de ano, é só me chamar!"}, "fontes": ["https://econodata.com.br/consulta-empresa/17115185000182-CM22-COMERCIO-DE-AUTOMOVEIS-LTDA", "https://www.instagram.com/accarmultimarcas/", "https://www.icarros.com.br/ache/estoque.jsp?id=271885", "https://www.mobiauto.com.br/comprar/estoque/accar-multimarcas-278"]}], "descartados": [{"nome": "Localiza Seminovos · Movida Seminovos · Original Seminovos · Vigorito", "nicho": "automotivo", "motivo": "Redes e grupos de concessionárias com marketing central."}, {"nome": "Falcão Multimarcas", "nicho": "automotivo", "motivo": "45 mil seguidores: vitrine forte."}, {"nome": "Maxxivel Multimarcas", "nicho": "automotivo", "motivo": "11 mil seguidores. Dono: Alexsandro do Carmo Brandão (CNPJ 07.659.631/0001-66)."}, {"nome": "Viana Automóveis", "nicho": "automotivo", "motivo": "Titular não localizado e endereço com número diferente (CNPJ 444, loja 410). Instagram com 5,3 mil. Reavaliar com o quadro de sócios."}, {"nome": "Autorequintte", "nicho": "automotivo", "motivo": "CNPJ não localizado."}, {"nome": "Chicar's Veículos · MK Multimarcas · GM Car · Grif Car · Vip Car", "nicho": "automotivo", "motivo": "Não pesquisados a fundo nesta rodada; ficam para a próxima lista."}], "proximo_passo": "Hoje (10h–12h): Valcar e Horizoncar, os estoques maiores, pelo Direct ou ligando na loja; Premium pelo WhatsApp. Amanhã: Stock Car, Melo, ERS, Marques e Accar. Follow-up D+3 em 26/09. Semana que vem: completar Chicar's, MK, GM Car e Grif Car."}</script>
+<script>
+(function(){
+  "use strict";
+  var raw = document.getElementById("dados").textContent.trim();
+  var D = {};
+  try { D = JSON.parse(raw); } catch (e) { D = {prospeccao:{}, leads:[]}; }
+  var P = D.prospeccao || {}, LEADS = D.leads || [];
+  var KEY = "adspot-prosp:" + (P.id || P.data + "-" + P.cidade);
+  var STATUS = ["Não abordado","Mensagem enviada","Respondeu","Reunião marcada","Proposta enviada","Fechado","Perdido","Não contatar"];
+  var NICHOS = {restaurante:"Restaurante",colegio:"Colégio",salao:"Salão de beleza",estetica:"Estética",dentista:"Dentista",psicologo:"Psicólogo",automotivo:"Automotivo"};
+
+  function load(){ try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch(e){ return {}; } }
+  function save(s){ try { localStorage.setItem(KEY, JSON.stringify(s)); } catch(e){} }
+  var state = load();
+  function st(id){ return (state[id] = state[id] || {status:STATUS[0], notas:""}); }
+
+  function esc(v){ return String(v == null ? "" : v).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+  function url(u){ u = String(u || ""); return /^https?:\/\//i.test(u) ? u : ""; }
+  function brl(n){ return n == null || n === "" ? "—" : Number(n).toLocaleString("pt-BR",{style:"currency",currency:"BRL",maximumFractionDigits:0}); }
+  function dataBr(s){ if(!s) return "—"; var m = String(s).match(/^(\d{4})-(\d{2})-(\d{2})/); return m ? m[3]+"/"+m[2]+"/"+m[1] : s; }
+  function idade(s){ var m = String(s||"").match(/^(\d{4})-(\d{2})/); if(!m) return ""; var ref = P.data ? new Date(P.data) : new Date(); var a = (ref.getFullYear()-(+m[1])) + (ref.getMonth()+1-(+m[2]))/12; return a < 1 ? Math.max(0,Math.round(a*12))+" meses" : Math.floor(a)+" anos"; }
+  function nicho(n){ return NICHOS[n] || n || "—"; }
+  function toast(t){ var el = document.getElementById("toast"); el.textContent = t; el.classList.add("show"); clearTimeout(toast._t); toast._t = setTimeout(function(){ el.classList.remove("show"); }, 1600); }
+  function copy(t, msg){ msg = msg || "Copiado"; var p; try { p = navigator.clipboard.writeText(t); } catch(e){ p = Promise.reject(e); } Promise.resolve(p).then(function(){ toast(msg); }, function(){ var ta=document.createElement("textarea"); ta.value=t; ta.setAttribute("readonly",""); ta.style.position="fixed"; ta.style.opacity="0"; document.body.appendChild(ta); ta.select(); try{ document.execCommand("copy"); toast(msg); }catch(e){ toast("Não foi possível copiar"); } ta.remove(); }); }
+  function valorProduto(l){ var p = (l.produto||{}).recomendado || ""; return /pacote/i.test(p) ? 4500 : /site/i.test(p) ? 1250 : 0; }
+
+  /* Tema */
+  var root = document.documentElement;
+  try { var t = localStorage.getItem("adspot-theme"); if (t) root.setAttribute("data-theme", t); } catch(e){}
+  document.getElementById("theme").onclick = function(){
+    var dark = root.getAttribute("data-theme") ? root.getAttribute("data-theme") === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+    var n = dark ? "light" : "dark"; root.setAttribute("data-theme", n); try { localStorage.setItem("adspot-theme", n); } catch(e){}
+  };
+
+  /* Cabeçalho */
+  var nichosTxt = (P.nichos||[]).map(nicho).join(" · ");
+  document.getElementById("titulo").textContent = "Prospecção — " + (P.cidade || "sem cidade") + (P.regiao ? " · " + P.regiao : "");
+  document.getElementById("subtitulo").textContent = [dataBr(P.data), nichosTxt, P.observacoes].filter(Boolean).join("  ·  ");
+  if (P.demonstracao) document.getElementById("demo").innerHTML = '<div class="demo-banner"><b>Demonstração com dados fictícios.</b> Empresas, pessoas e CNPJs abaixo não existem. Serve só para mostrar o formato da entrega.</div>';
+
+  /* Filtros */
+  var F = {q:"", prio:{}, nicho:{}, produto:"", status:"", ordem:"score"};
+  function chip(container, label, key, bag){
+    var b = document.createElement("button"); b.className = "chip"; b.textContent = label; b.setAttribute("aria-pressed","false");
+    b.onclick = function(){ bag[key] = !bag[key]; b.setAttribute("aria-pressed", bag[key] ? "true":"false"); render(); };
+    container.appendChild(b);
+  }
+  ["A","B","C"].forEach(function(p){ if (LEADS.some(function(l){return l.prioridade===p;})) chip(document.getElementById("chipsPrio"), "Prioridade "+p, p, F.prio); });
+  Array.from(new Set(LEADS.map(function(l){return l.nicho;}))).forEach(function(n){ chip(document.getElementById("chipsNicho"), nicho(n), n, F.nicho); });
+  Array.from(new Set(LEADS.map(function(l){return (l.produto||{}).recomendado;}).filter(Boolean))).forEach(function(p){ var o=document.createElement("option"); o.value=p; o.textContent=p; document.getElementById("fProduto").appendChild(o); });
+  STATUS.forEach(function(s){ var o=document.createElement("option"); o.value=s; o.textContent=s; document.getElementById("fStatus").appendChild(o); });
+  function semAcento(t){ return String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase(); }
+  document.getElementById("q").oninput = function(e){ F.q = semAcento(e.target.value); render(); };
+  document.getElementById("fProduto").onchange = function(e){ F.produto = e.target.value; render(); };
+  document.getElementById("fStatus").onchange = function(e){ F.status = e.target.value; render(); };
+  document.getElementById("ordem").onchange = function(e){ F.ordem = e.target.value; render(); };
+
+  document.getElementById("btnFiltros").onclick = function(){
+    var f = document.querySelector(".filters"), ab = !f.classList.contains("aberto");
+    f.classList.toggle("aberto", ab); this.setAttribute("aria-expanded", String(ab));
+    var n = Object.keys(F.prio).filter(function(k){return F.prio[k];}).length + Object.keys(F.nicho).filter(function(k){return F.nicho[k];}).length + (F.produto?1:0) + (F.status?1:0);
+    this.textContent = ab ? "Fechar" : (n ? "Filtros ("+n+")" : "Filtros");
+  };
+
+  function anyOn(bag){ return Object.keys(bag).some(function(k){return bag[k];}); }
+  function passa(l){
+    if (anyOn(F.prio) && !F.prio[l.prioridade]) return false;
+    if (anyOn(F.nicho) && !F.nicho[l.nicho]) return false;
+    if (F.produto && (l.produto||{}).recomendado !== F.produto) return false;
+    if (F.status && st(l.id).status !== F.status) return false;
+    if (F.q){
+      var c = l.cnpj||{}, d = l.decisor||{};
+      var hay = [l.nome_fantasia, c.razao_social, c.numero, c.endereco, l.bairro, d.nome, nicho(l.nicho)].join(" "); hay = semAcento(hay);
+      if (hay.indexOf(F.q) < 0) return false;
+    }
+    return true;
+  }
+
+  /* KPIs */
+  function kpis(){
+    var a = LEADS.filter(function(l){return l.prioridade==="A";}).length;
+    var b = LEADS.filter(function(l){return l.prioridade==="B";}).length;
+    var val = LEADS.filter(function(l){return (l.decisor||{}).validado;}).length;
+    var pot = LEADS.reduce(function(s,l){return s+valorProduto(l);},0);
+    var items = [["Leads qualificados", LEADS.length, ""],["Prioridade A", a, "accent"],["Prioridade B", b, ""],["Donos validados", val + "/" + LEADS.length, ""],["Potencial em proposta", brl(pot), ""]];
+    document.getElementById("kpis").innerHTML = items.map(function(i){ return '<div class="kpi '+i[2]+'"><div class="v">'+esc(i[1])+'</div><div class="l">'+esc(i[0])+'</div></div>'; }).join("");
+    var cont = {}; LEADS.forEach(function(l){ var s = st(l.id).status; cont[s] = (cont[s]||0)+1; });
+    document.getElementById("pipeline").innerHTML = STATUS.filter(function(s){return cont[s];}).map(function(s){ return '<span class="pipe">'+esc(s)+' <b>'+cont[s]+'</b></span>'; }).join("");
+  }
+
+  function ring(score, prio){
+    var r = 22, c = 2*Math.PI*r, pct = Math.max(0,Math.min(100,+score||0))/100;
+    var col = prio==="A" ? "var(--a)" : prio==="B" ? "var(--b)" : "var(--c)";
+    return '<div class="score" title="Pontuação '+esc(score)+'/100"><svg viewBox="0 0 52 52"><circle cx="26" cy="26" r="'+r+'" fill="none" stroke="var(--line)" stroke-width="5"/><circle cx="26" cy="26" r="'+r+'" fill="none" stroke="'+col+'" stroke-width="5" stroke-linecap="round" stroke-dasharray="'+(c*pct)+' '+c+'"/></svg><span>'+esc(score)+'</span></div>';
+  }
+
+  function checkItem(nivel, titulo, detalhe, link){
+    var ic = nivel==="bad" ? "✕" : nivel==="mid" ? "?" : "✓";
+    var t = link ? '<a href="'+esc(link)+'" target="_blank" rel="noopener">'+esc(titulo)+'</a>' : esc(titulo);
+    return '<div class="check"><span class="ic '+nivel+'">'+ic+'</span><div>'+t+(detalhe?'<small>'+esc(detalhe)+'</small>':'')+'</div></div>';
+  }
+  function nivel(s){ s = String(s||"").toLowerCase(); if (!s || /verificad|confirmad/.test(s)) return "mid"; return /inexist|parad|ruim|fraco|sem|nao|não|incomplet/.test(s) ? "bad" : /regular|medio|médio|antigo/.test(s) ? "mid" : "good"; }
+
+  function presenca(l){
+    var p = l.presenca || {}, s = p.site||{}, ig = p.instagram||{}, g = p.google||{}, ad = p.anuncios||{};
+    var h = "";
+    h += checkItem(nivel(s.status), "Site: " + (s.status||"—"), s.nota || s.url, url(s.url));
+    var igd = [ig.seguidores!=null ? Number(ig.seguidores).toLocaleString("pt-BR")+" seguidores" : "", ig.ultimo_post ? "último post "+dataBr(ig.ultimo_post) : "", ig.nota].filter(Boolean).join(" · ");
+    h += checkItem(nivel(ig.status), "Instagram: " + (ig.status||"—"), igd, url(ig.url));
+    if (g.nota != null) h += checkItem(g.nota >= 4.3 ? "good" : g.nota >= 4 ? "mid" : "bad", "Google: " + String(g.nota).replace(".",",") + " ★ (" + (g.avaliacoes||0) + " avaliações)", g.observacao, url(g.url));
+    else h += checkItem("mid", "Google: não verificado", g.observacao && !/^não verificado$/i.test(g.observacao) ? g.observacao : "", url(g.url));
+    if (ad.ativos == null) h += checkItem("mid", "Anúncios: não verificado", ad.observacao, url(ad.fonte));
+    else h += checkItem(ad.ativos ? "good" : "bad", ad.ativos ? "Anunciando na Meta" : "Sem anúncios ativos", ad.observacao, url(ad.fonte));
+    return h;
+  }
+
+  function mensagens(l){
+    var m = l.mensagens || {};
+    var tipos = [["whatsapp","WhatsApp"],["instagram_dm","Direct"],["follow_up_d3","Follow-up D+3"],["follow_up_d7","Follow-up D+7"],["ligacao","Ligação/visita"]].filter(function(t){return m[t[0]];});
+    if (!tipos.length) return '<p class="why">Sem mensagens.</p>';
+    return '<div class="tabs" role="tablist">' + tipos.map(function(t,i){ return '<button class="tab" role="tab" data-k="'+t[0]+'" aria-selected="'+(i===0)+'">'+t[1]+'</button>'; }).join("") + '</div>'
+      + '<div class="msg" data-msg>'+esc(m[tipos[0][0]])+'</div>'
+      + '<div class="msg-actions"><button class="btn small" data-copy>Copiar</button>'
+      + (waNum(l) ? '<a class="btn small primary" data-wa target="_blank" rel="noopener" href="#">Abrir no WhatsApp</a>' : '')
+      + '</div>';
+  }
+  function waNum(l){ var n = String(((l.contato||{}).whatsapp)||"").replace(/\D/g,""); if (!n) return ""; return n.length <= 11 ? "55"+n : n; }
+
+  function card(l){
+    var c = l.cnpj||{}, d = l.decisor||{}, pr = l.produto||{}, ct = l.contato||{}, s = st(l.id);
+    var dono = d.nome ? '<strong>'+esc(d.nome)+'</strong> · '+esc(d.qualificacao||"") + (d.validado ? ' <span class="tag ok">✓ validado</span>' : ' <span class="tag warn">validar</span>') : '<span class="unverified">Dono não identificado</span>';
+    var igc = (l.presenca||{}).instagram || {};
+    function igHandle(u){ var m = String(u||"").match(/instagram\.com\/([^\/?#]+)/i); return m ? "@"+m[1] : String(u||""); }
+    function igUrl(v){ v = String(v||"").trim(); if (!v || /n[ãa]o encontrad/i.test(v) || P.demonstracao) return ""; if (/^https?:\/\//i.test(v)) return v; return "https://www.instagram.com/"+v.replace(/^@/,"")+"/"; }
+    var igEmpresa = igUrl(igc.url || ct.instagram), igDono = igUrl(d.instagram);
+    var igRow = '<div class="ig-row">'
+      + (P.demonstracao && (igc.url || ct.instagram) ? '<span class="ig">◎ '+esc(ct.instagram || igc.url)+'</span>' : igEmpresa ? '<a class="ig" target="_blank" rel="noopener" href="'+esc(igEmpresa)+'">◎ '+esc(igHandle(igEmpresa))+(igc.seguidores!=null?' <small>'+Number(igc.seguidores).toLocaleString("pt-BR")+' seg.</small>':'')+'</a>' : '<span class="ig none">◎ Instagram da empresa não encontrado</span>')
+      + (igDono && igDono !== igEmpresa ? '<a class="ig" target="_blank" rel="noopener" href="'+esc(igDono)+'">◎ '+esc(igHandle(igDono))+' <small>dono(a)</small></a>' : '')
+      + '</div>';
+    var socios = (d.outros_socios||[]).map(function(x){ return '<li><b>'+esc(x.nome)+'</b><span>'+esc(x.qualificacao||"")+'</span></li>'; }).join("");
+    var links = [
+      url((((l.presenca||{}).google)||{}).url) && ['Google Maps', l.presenca.google.url],
+      url((((l.presenca||{}).instagram)||{}).url) && ['Instagram', l.presenca.instagram.url],
+      url(c.fonte) && ['Fonte CNPJ', c.fonte],
+      url(d.fonte_validacao) && ['Validação do dono', d.fonte_validacao],
+      url(igUrl(d.instagram)) && igUrl(d.instagram) !== url((((l.presenca||{}).instagram)||{}).url) && ['Instagram do dono', igUrl(d.instagram)]
+    ].filter(Boolean).map(function(x){ return '<a class="btn small" target="_blank" rel="noopener" href="'+esc(x[1])+'">'+esc(x[0])+' ↗</a>'; }).join("");
+
+    var ICON_WA = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6-.3.4c-.1.1-.2.3 0 .5.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.1.1.6-.1 1.2z"/></svg>';
+    var ICON_IG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>';
+    var ICON_TEL = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>';
+    var dmAlvo = igDono || igEmpresa;
+    var telNum = String(ct.whatsapp||"").replace(/\D/g,"");
+    var quick = '<div class="quick">'
+      + (waNum(l) && (l.mensagens||{}).whatsapp ? '<a class="qa wa" data-qwa target="_blank" rel="noopener" href="https://wa.me/'+waNum(l)+'?text='+encodeURIComponent(l.mensagens.whatsapp)+'">'+ICON_WA+'WhatsApp</a>' : '')
+      + (dmAlvo ? '<a class="qa dm" data-qdm target="_blank" rel="noopener" href="https://ig.me/m/'+esc(igHandle(dmAlvo).replace(/^@/,""))+'">'+ICON_IG+'Direct</a>' : '')
+      + (telNum ? '<a class="qa" href="tel:+55'+telNum+'" title="'+esc(ct.whatsapp)+'">'+ICON_TEL+'Ligar</a>' : '')
+      + '</div>';
+    if (quick === '<div class="quick"></div>') quick = '';
+
+    var el = document.createElement("article");
+    el.className = "lead"; el.dataset.id = l.id;
+    el.innerHTML =
+      '<div class="lead-head" tabindex="0" role="button" aria-expanded="false">'
+        + ring(l.score, l.prioridade)
+        + '<div class="lead-title"><h3>'+esc(l.nome_fantasia || c.razao_social)+'</h3>'
+          + '<div class="owner">'+dono+'</div>' + igRow
+          + '<div class="meta"><span class="tag prio-'+esc(l.prioridade)+'">'+esc(l.prioridade)+'</span><span class="tag">'+esc(nicho(l.nicho))+'</span>'
+          + (l.bairro ? '<span class="tag">'+esc(l.bairro)+'</span>' : '')
+          + (pr.recomendado ? '<span class="tag prod">'+esc(pr.recomendado)+(pr.valor?' · '+esc(pr.valor):'')+'</span>' : '')
+          + '</div></div>'
+        + '<div class="head-right"><select class="status-sel" aria-label="Status">'+STATUS.map(function(x){return '<option'+(x===s.status?' selected':'')+'>'+esc(x)+'</option>';}).join("")+'</select><span class="chev">▾</span></div>'
+      + '</div>'
+      + quick
+      + '<div class="lead-body">'
+        + '<div class="panel"><h4>Empresa · CNPJ</h4><dl class="kv">'
+          + '<dt>CNPJ</dt><dd class="mono">'+esc(c.numero||"—")+'</dd>'
+          + '<dt>Razão social</dt><dd>'+esc(c.razao_social||"—")+'</dd>'
+          + '<dt>Situação</dt><dd>'+esc(c.situacao||"—")+'</dd>'
+          + '<dt>Abertura</dt><dd>'+esc(dataBr(c.abertura))+(c.abertura?' <span style="color:var(--ink-3)">('+esc(idade(c.abertura))+')</span>':'')+'</dd>'
+          + '<dt>Porte</dt><dd>'+esc(c.porte||"—")+'</dd>'
+          + '<dt>Capital</dt><dd>'+esc(brl(c.capital_social))+'</dd>'
+          + '<dt>CNAE</dt><dd>'+esc(c.cnae||"—")+'</dd>'
+          + '<dt>Endereço</dt><dd>'+esc(c.endereco||"—")+'</dd>'
+          + '<dt>Contato</dt><dd>'+([ct.whatsapp ? '<span class="phone">'+esc(ct.whatsapp)+'</span>' : '', esc(ct.instagram), esc(ct.email)].filter(Boolean).join(" · ") || "—")+'</dd>'
+          + (ct.melhor_horario ? '<dt>Horário</dt><dd>'+esc(ct.melhor_horario)+'</dd>' : '')
+        + '</dl>'
+        + (socios ? '<h4 style="margin-top:14px">Quadro de sócios</h4><ul class="socios">'+socios+'</ul>' : '')
+        + '</div>'
+        + '<div class="panel"><h4>Presença digital · a dor</h4>'+presenca(l)
+          + ((l.dores||[]).length ? '<ul class="dores">'+l.dores.map(function(x){return '<li>'+esc(x)+'</li>';}).join("")+'</ul>' : '')
+          + (pr.justificativa ? '<h4 style="margin-top:14px">Por que '+esc(pr.recomendado||"esta oferta")+'</h4><p class="why">'+esc(pr.justificativa)+'</p>' : '')
+          + (l.score_detalhe ? '<p class="why" style="font-size:13px">Dor '+esc(l.score_detalhe.dor)+'/40 · Capacidade '+esc(l.score_detalhe.capacidade)+'/30 · Acesso '+esc(l.score_detalhe.acesso)+'/15 · Timing '+esc(l.score_detalhe.timing)+'/15</p>' : '')
+        + '</div>'
+        + '<div class="panel"><h4>Abordagem</h4>'+mensagens(l)
+          + (l.gancho ? '<p class="why"><b>Gancho:</b> '+esc(l.gancho)+'</p>' : '')
+          + '<div class="links">'+links+'</div>'
+          + '<textarea class="notes" placeholder="Anotações (salvas neste navegador)">'+esc(s.notas)+'</textarea>'
+        + '</div>'
+        + ((l.fontes||[]).length ? '<div class="fontes">Fontes: '+l.fontes.map(function(f){ var u=url(f); return u ? '<a href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(u)+'</a>' : esc(f); }).join(" · ")+'</div>' : '')
+      + '</div>';
+
+    var head = el.querySelector(".lead-head");
+    function toggle(){ var o = el.hasAttribute("open"); if (o) el.removeAttribute("open"); else el.setAttribute("open",""); head.setAttribute("aria-expanded", String(!o)); }
+    head.addEventListener("click", function(e){ if (e.target.closest("select")) return; toggle(); });
+    head.addEventListener("keydown", function(e){ if ((e.key==="Enter"||e.key===" ") && !e.target.closest("select")){ e.preventDefault(); toggle(); } });
+    el.querySelector(".status-sel").onchange = function(e){ st(l.id).status = e.target.value; save(state); kpis(); };
+    el.querySelector(".notes").oninput = function(e){ st(l.id).notas = e.target.value; save(state); };
+
+    var atual = Object.keys(l.mensagens||{})[0];
+    var tabs = el.querySelectorAll(".tab"), box = el.querySelector("[data-msg]"), wa = el.querySelector("[data-wa]");
+    if (tabs.length) atual = tabs[0].dataset.k;
+    function setWa(){ if (wa) wa.href = "https://wa.me/"+waNum(l)+"?text="+encodeURIComponent((l.mensagens||{})[atual]||""); }
+    tabs.forEach(function(t){ t.onclick = function(){ tabs.forEach(function(x){x.setAttribute("aria-selected","false");}); t.setAttribute("aria-selected","true"); atual = t.dataset.k; box.textContent = l.mensagens[atual]; setWa(); }; });
+    setWa();
+    var cp = el.querySelector("[data-copy]"); if (cp) cp.onclick = function(){ copy((l.mensagens||{})[atual]||""); };
+    function marcarEnviado(){ var s2 = st(l.id); if (s2.status === STATUS[0]) { s2.status = STATUS[1]; save(state); el.querySelector(".status-sel").value = STATUS[1]; kpis(); } }
+    var qwa = el.querySelector("[data-qwa]"); if (qwa) qwa.addEventListener("click", marcarEnviado);
+    var qdm = el.querySelector("[data-qdm]"); if (qdm) qdm.addEventListener("click", function(){
+      var txt = (l.mensagens||{}).instagram_dm || (l.mensagens||{}).whatsapp || "";
+      if (txt) copy(txt, "Mensagem copiada: cole no Direct");
+      marcarEnviado();
+    });
+    if (wa) wa.addEventListener("click", function(){ var s2 = st(l.id); if (s2.status === STATUS[0]) { s2.status = STATUS[1]; save(state); el.querySelector(".status-sel").value = STATUS[1]; kpis(); } });
+    return el;
+  }
+
+  var lista = document.getElementById("lista");
+  var cards = {};
+  LEADS.forEach(function(l, i){ if (!l.id) l.id = "lead-"+i; cards[l.id] = card(l); });
+
+  function render(){
+    var arr = LEADS.filter(passa).slice();
+    arr.sort(function(a,b){
+      if (F.ordem === "nome") return String(a.nome_fantasia).localeCompare(String(b.nome_fantasia),"pt-BR");
+      if (F.ordem === "nicho") return String(a.nicho).localeCompare(String(b.nicho)) || (b.score - a.score);
+      return (b.score||0) - (a.score||0);
+    });
+    lista.innerHTML = "";
+    arr.forEach(function(l){ lista.appendChild(cards[l.id]); });
+    if (!arr.length) lista.innerHTML = '<div class="empty">Nenhum lead com esses filtros.</div>';
+    document.getElementById("count").textContent = arr.length + " de " + LEADS.length + " leads";
+  }
+
+  document.getElementById("toggleAll").onclick = function(){
+    var abrir = this.textContent.indexOf("Expandir") === 0;
+    Object.keys(cards).forEach(function(k){ if (abrir) cards[k].setAttribute("open",""); else cards[k].removeAttribute("open"); });
+    this.textContent = abrir ? "Recolher todos" : "Expandir todos";
+  };
+
+  function igHandleCsv(u){ var m = String(u||"").match(/instagram\.com\/([^\/?#]+)/i); return m ? "@"+m[1] : String(u||""); }
+  document.getElementById("copiarPlanilha").onclick = function(){
+    var cols = ["Prioridade","Score","Empresa","Nicho","Bairro","Dono","Qualificação","Dono validado","CNPJ","Porte","Abertura","Produto","WhatsApp","Instagram da empresa","Instagram do dono","Status","Notas"];
+    var rows = LEADS.map(function(l){ var c=l.cnpj||{}, d=l.decisor||{}, ct=l.contato||{}, s=st(l.id);
+      return [l.prioridade,l.score,l.nome_fantasia,nicho(l.nicho),l.bairro,d.nome,d.qualificacao,d.validado?"sim":"não",c.numero,c.porte,dataBr(c.abertura),(l.produto||{}).recomendado,ct.whatsapp,igHandleCsv(((l.presenca||{}).instagram||{}).url)||ct.instagram||"não encontrado",igHandleCsv(d.instagram),s.status,s.notas]; });
+    var tsv = [cols].concat(rows).map(function(r){ return r.map(function(v){ return String(v==null?"":v).replace(/[\t\n]+/g," "); }).join("\t"); }).join("\n");
+    copy(tsv, "Planilha copiada: cole no Google Sheets ou Excel");
+  };
+
+  var desc = D.descartados || [];
+  if (desc.length){
+    document.getElementById("descartadosWrap").hidden = false;
+    document.getElementById("descartados").innerHTML = desc.map(function(x){ return '<div><b>'+esc(x.nome)+'</b> <span>· '+esc(nicho(x.nicho))+'</span><br><span>'+esc(x.motivo)+'</span></div>'; }).join("");
+  }
+  var prox = document.getElementById("proximo");
+  if (D.proximo_passo) prox.innerHTML = '<b>Próximo passo →</b> ' + esc(D.proximo_passo); else prox.remove();
+
+  kpis(); render();
+})();
+</script>
+</body>
+</html>
