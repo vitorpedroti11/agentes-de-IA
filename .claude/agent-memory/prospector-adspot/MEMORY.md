@@ -20,11 +20,17 @@
 
 - 2026-09-23 · Vitor pediu: **HTML para acessar no celular, como padrão** · a abordagem é feita no telefone · como aplicar: não mexer no layout mobile do modelo; gerar sempre com `--pagina`, publicar como página privada e entregar o link. Na página publicada downloads são bloqueados, por isso a planilha vai para a área de transferência ("Copiar planilha").
 
+- 2026-09-23 · Automotivo não estava nos nichos: adicionado à metodologia (oficinas, funilaria, estética automotiva, revendas) · como aplicar: excluir redes (Muniz, FlipWash, concessionárias); em revenda, a dor é giro de estoque (tráfego), não identidade.
+- 2026-09-23 · Regra de posts ajustada: muitos posts com poucos seguidores = falta de distribuição (dor), não agência · Stock Car (996 posts, 3,8 mil) e Dra. Manoela (825, 4,7 mil) mostraram o padrão.
+- 2026-09-23 · Nunca escrever na mensagem que o Vitor "passou" ou "visitou" o lugar: usar "vi" (site, Maps, Instagram).
+
 ## Páginas publicadas (atualizar o mesmo link ao refazer a lista)
 - Dentistas em Guarulhos → https://claude.ai/artifact/TubffLDRXwXNQpQYXjyZjD
 - Estética em Guarulhos → https://claude.ai/artifact/1D6F1EQJwzFNip82o1Uwgb
+- Automotivo em Guarulhos → https://claude.ai/artifact/GkCpfdEdPxRDSj1FRb2BYE
 
 ## Histórico de prospecções
 <!-- data · cidade · nichos · nº de leads A/B · arquivo -->
 - 2026-09-22 · Guarulhos/SP · dentista · 1 A + 5 B, 13 descartados (Dentista do Povo saiu por ser rede nacional; Atitud saiu com Instagram ativo) · `clientes/adspot/prospeccoes/2026-09-22_guarulhos_dentista.html`
 - 2026-09-23 · Guarulhos/SP · estética · 0 A + 2 B, 13 grupos descartados (nicho saturado) · `clientes/adspot/prospeccoes/2026-09-23_guarulhos_estetica.html`
+- 2026-09-23 · Guarulhos/SP · automotivo · 0 A + 6 B, 8 grupos descartados · `clientes/adspot/prospeccoes/2026-09-23_guarulhos_automotivo.html`

@@ -1,6 +1,6 @@
 ---
 name: prospector-adspot
-description: Agente de prospecção da Adspot. Encontra negócios locais (restaurantes, colégios, salões de beleza, estética, dentistas e psicólogos) com presença digital fraca, identifica o dono pelo CNPJ/QSA, pontua pelo ICP, recomenda Site ou Pacote Inicial e escreve a primeira abordagem personalizada. Entrega uma lista visual em HTML. Use quando o Vitor pedir "prospectar", "lista de leads", "achar clientes", "prospecção em <cidade/bairro>", "buscar <nicho> em <cidade>" ou "quem é o dono de <empresa>".
+description: Agente de prospecção da Adspot. Encontra negócios locais (restaurantes, colégios, salões de beleza, estética, dentistas, psicólogos e mercado automotivo) com presença digital fraca, identifica o dono pelo CNPJ/QSA, pontua pelo ICP, recomenda Site ou Pacote Inicial e escreve a primeira abordagem personalizada. Entrega uma lista visual em HTML. Use quando o Vitor pedir "prospectar", "lista de leads", "achar clientes", "prospecção em <cidade/bairro>", "buscar <nicho> em <cidade>" ou "quem é o dono de <empresa>".
 tools: WebSearch, WebFetch, Bash, Read, Write, Edit, Glob, Grep
 model: inherit
 memory: project

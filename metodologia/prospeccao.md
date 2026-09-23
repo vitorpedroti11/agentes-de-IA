@@ -37,7 +37,7 @@ Dez leads verificados valem mais que cinquenta nomes copiados do Google Maps.
 | 2+ unidades / filiais no CNPJ | ✅✅ | Precisa de marca consistente |
 | Ticket médio alto do serviço (estética, odonto, colégio) | ✅ | Um cliente novo paga o mês |
 
-### 2.3 Os seis nichos — dor, produto e gancho
+### 2.3 Os nichos — dor, produto e gancho
 
 | Nicho | CNAEs de referência | Dor típica visível | Produto de entrada | Gancho de abordagem | Cuidado |
 |---|---|---|---|---|---|
@@ -46,6 +46,7 @@ Dez leads verificados valem mais que cinquenta nomes copiados do Google Maps.
 | **Salão de beleza** | 9602-5/01 | Portfólio desorganizado, sem destaques, sem link de agendamento | Pacote Inicial (posicionamento + Reels) | "Seu trabalho é visual e o perfil não mostra o melhor dele" | Muitos são MEI → site ou pacote só se ME |
 | **Estética** | 9602-5/02, 8690-9/99 | Sem página por procedimento, sem anúncio ativo, antes/depois sem padrão | Pacote Inicial (tráfego pago é o carro-chefe) | "Um procedimento de ticket alto paga o mês de mídia" | Não prometer resultado estético; antes/depois só com autorização |
 | **Dentistas** | 8630-5/04 | Sem site, Google Meu Negócio incompleto, Instagram sem identidade | Site + Pacote Inicial | "Paciente pesquisa dentista no Google antes de ligar" | Seguir regras de publicidade do CFO: sem preço promocional, sem promessa de resultado |
+| **Automotivo** (oficinas e auto centers, funilaria e pintura, estética automotiva, revendas de seminovos) | 4520-0/01, 4520-0/02, 4520-0/03, 4520-0/05, 4511-1/02 | Sem Instagram ou perfil parado; site de modelo pronto; vídeo de serviço inexistente; revenda com estoque sem anúncio | Pacote Inicial (vídeo do serviço e do estoque + tráfego local) | Oficina: "cliente escolhe mecânico por confiança, e confiança se mostra em vídeo". Revenda: "carro parado no pátio custa caro; anúncio gira estoque" | Excluir concessionárias e redes (Muniz, Jet Oil, FlipWash e afins). Timing: out–dez (revisão antes das férias, 13º para trocar de carro) e janeiro (IPVA). Oficina é mais fácil de abordar pessoalmente, fora do horário de pico (evitar 8h–10h) |
 | **Psicólogos** | 8650-0/03 | Sem site próprio, dependência de indicação/plataformas | **Site** (entrada) | "Um site próprio tira você da dependência de plataforma e indicação" | Código de Ética do CFP: sem promessa de cura, sem depoimento de paciente, sem sensacionalismo. Muitos atuam como pessoa física (sem CNPJ) → priorizar **clínicas** com CNPJ; para PF, verificar o registro ativo no cadastro do CRP |
 
 ---
@@ -76,7 +77,7 @@ Ordem de tentativa:
 3. Busca: `"<nome fantasia>" "<cidade>" CNPJ`.
 4. Buscadores públicos de CNPJ por nome fantasia + município (cnpj.biz, casadosdados.com.br, cnpja.com, econodata).
 5. Conferir: o endereço do CNPJ bate com o do Google Maps? Se não bater, **não usar**.
-6. **Sinais de que já tem agência:** site com dezenas de páginas de SEO por bairro/tratamento ("clínica odontológica no <bairro> em <cidade>"), 500+ posts ou 10 mil+ seguidores. Vai para descartados.
+6. **Sinais de que já tem agência:** site com dezenas de páginas de SEO por bairro/tratamento ("clínica odontológica no <bairro> em <cidade>") ou 10 mil+ seguidores. Vai para descartados. **Muitos posts com poucos seguidores** (ex.: 800+ posts e menos de 5 mil) não é agência, é falta de distribuição: é dor para o Pacote (tráfego pago).
 7. **Filial (CNPJ com final /0002, /0003…) com matriz em outra cidade** = rede: descartar. Filiais na mesma cidade = operação local com várias unidades: ponto a favor.
 
 ### 4.2 Consulta

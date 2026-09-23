@@ -21,6 +21,7 @@ PRIORIDADES = {"A", "B", "C"}
 NICHOS_PLURAL = {
     "restaurante": "Restaurantes", "colegio": "Colégios", "salao": "Salões",
     "estetica": "Estética", "dentista": "Dentistas", "psicologo": "Psicólogos",
+    "automotivo": "Automotivo",
 }
 
 

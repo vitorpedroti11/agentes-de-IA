@@ -11,7 +11,7 @@
   "leads": [
     {
       "id": "slug-unico-do-lead",
-      "nicho": "restaurante | colegio | salao | estetica | dentista | psicologo",
+      "nicho": "restaurante | colegio | salao | estetica | dentista | psicologo | automotivo",
       "nome_fantasia": "Nome como aparece no Google/Instagram",
       "bairro": "Bairro",
       "prioridade": "A | B",
