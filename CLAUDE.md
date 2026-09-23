@@ -15,13 +15,13 @@ python3 -m http.server 8000   # rodar na raiz do repositório
 ```
 e abrir, no navegador do celular (mesma rede Wi‑Fi), `http://<IP do computador>:8000/central/adspot-ai.html`.
 
-### Publicação online (Cloudflare Pages)
-O site é 100% estático (HTML/JS/Python só localmente) — por isso usa **Cloudflare Pages**, não Workers (Workers é para lógica de servidor/API, que este projeto não tem). Fluxo:
-- Cloudflare Pages está conectado ao repositório do GitHub; todo `git push` na branch de produção gera um novo deploy automático (~1 min), sem precisar de nenhuma máquina ligada.
+### Publicação online (Cloudflare)
+O site é 100% estático (HTML/JS/Python só localmente, sem lógica de servidor) — por isso é publicado como **assets estáticos no Cloudflare** (projeto "agentes-de-ia" em Workers & Pages), sem nenhum código de servidor: `wrangler.toml` só aponta a raiz do repositório como pasta de arquivos (`[assets] directory = "."`). Fluxo:
+- O projeto está conectado ao repositório do GitHub; todo `git push` na branch de produção gera um novo deploy automático, sem precisar de nenhuma máquina ligada.
 - `_redirects` faz a raiz do domínio (`/`) abrir `central/adspot-ai.html` direto — link único.
 - `_headers` e `robots.txt` deixam o site fora de buscadores e com cabeçalhos básicos de segurança.
 - O acesso é restrito por **Cloudflare Access** (login só para o e-mail autorizado) — nenhuma chave de API ou token fica exposta no frontend (o projeto não usa nenhuma).
-- Preparado para futuramente trocar o domínio `*.pages.dev` por `ai.adspot.com.br` nas configurações do projeto no Cloudflare Pages (Custom domains), sem mudar nada no repositório.
+- Preparado para futuramente trocar o domínio `*.workers.dev` por `ai.adspot.com.br` nas configurações do projeto no Cloudflare (aba Domains), sem mudar nada no repositório.
 
 ### Regenerar
 Sempre que uma prospecção nova for gerada (`gerar_html.py`) ou o painel de conteúdo for atualizado (`gerar_conteudo_html.py`), rode de novo:

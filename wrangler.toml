@@ -1,0 +1,10 @@
+# Configuração mínima do Cloudflare Workers (hospedagem de site estático,
+# "assets only" — sem nenhum código de servidor). Não altera nem substitui
+# nenhum agente: só diz ao Cloudflare para publicar os arquivos do
+# repositório como estão. _redirects/_headers na raiz continuam valendo.
+name = "agentes-de-ia"
+compatibility_date = "2024-09-25"
+
+[assets]
+directory = "."
+not_found_handling = "404-page"
