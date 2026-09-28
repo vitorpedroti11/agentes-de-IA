@@ -1,0 +1,83 @@
+{
+  "prospeccao": {
+    "id": "2026-09-28_brasil_estetica-alto-padrao-2",
+    "titulo": "Estética de Alto Padrão pelo Brasil (continuação 2 — atividade recente + pontuação honesta)",
+    "data": "2026-09-28",
+    "cidade": "Brasil (várias cidades pequenas/médias)",
+    "regiao": "Serra Talhada/PE",
+    "observacoes": "Entrega parcial e transparente: o pedido era 5 leads novos, mas só 1 passou por todos os critérios com segurança nesta rodada. Vivant Estética (Petrolina/PE), reaproveitada da rodada anterior, foi reavaliada e segue descartada pelo mesmo motivo (conflito de endereço não resolvido). Instituto Auzira Rodrigues segue descartado por presença digital forte demais. Um candidato (Clínica Vivare, Alagoinhas/BA) foi descartado por um NOVO conflito de endereço do mesmo tipo do caso Vivant (número e bairro diferentes entre CNPJ e Instagram). Um segundo candidato (Clinispa, São Miguel dos Campos/AL) foi descartado por não ter sido possível confirmar a situação cadastral ATIVA em nenhuma fonte separada da Receita nesta sessão — optou-se por não arriscar. Nicho de estética avançada é dominado por franquias regionais/nacionais (Botoclinic, Damaface, GIO, BotoPremium, Espaço Facial, Royal Face) em praticamente toda cidade média pesquisada.",
+    "demonstracao": false
+  },
+  "leads": [
+    {
+      "id": "bem-estar-centro-de-estetica-serra-talhada-pe",
+      "nicho": "estetica",
+      "nome_fantasia": "Bem-Estar — Centro de Estética e Saúde",
+      "bairro": "Nossa Senhora da Penha — Serra Talhada/PE",
+      "prioridade": "B",
+      "score": 58,
+      "score_detalhe": { "dor": 26, "capacidade": 13, "acesso": 11, "timing": 8 },
+      "cnpj": {
+        "numero": "22.779.001/0001-19",
+        "razao_social": "Anna Carolina Inácio de Sá",
+        "situacao": "ATIVA",
+        "abertura": "2015-07-03",
+        "porte": "Empresário Individual (porte formal não confirmado)",
+        "cnae": "9602-5/02 - Atividades de estética e outros serviços de cuidados com a beleza",
+        "capital_social": 0,
+        "endereco": "Rua Conselheiro João Nunes de Souza, 606, Nossa Senhora da Penha, Serra Talhada/PE, 56.912-410",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/22779001000119-anna-carolina-inacio-de-sa (via busca; consulta_cnpj.py retornou 403 nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "Anna Carolina Inácio de Sá",
+        "primeiro_nome": "Anna Carolina",
+        "qualificacao": "Titular",
+        "validado": false,
+        "fonte_validacao": "razão social é o próprio nome da titular (padrão de Empresário Individual); não encontrada fonte externa que confirme diretamente — validado false pela regra da metodologia",
+        "instagram": "não encontrado",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "nenhum site encontrado em nenhuma busca — só Instagram e Facebook" },
+        "instagram": { "url": "https://www.instagram.com/bemestarestetica_st/", "seguidores": 0, "publicacoes": 0, "ultimo_post": "", "status": "fraco", "nota": "perfil ativo e indexado; a unidade irmã em Triunfo/PE (@bemestarestetica_triunfo) tem 2.508 seguidores, mas os números exatos da unidade de Serra Talhada não foram confirmados — pontuado como provisório" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não localizado nas buscas — provisório" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "não verificado (Biblioteca de Anúncios não acessível nesta sessão)" }
+      },
+      "dores": [
+        "Nenhum site encontrado para o Centro de Estética Bem-Estar — presença só em Instagram e Facebook, apesar de 10 anos de CNPJ ativo e duas unidades — fonte: buscas cruzadas",
+        "Número de seguidores e frequência de posts do perfil de Serra Talhada não confirmados (a unidade irmã em Triunfo tem 2.508 seguidores) — provisório",
+        "Google Meu Negócio não localizado nas buscas — provisório"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "Duas unidades ativas há 10 anos (Serra Talhada e Triunfo) mas nenhum site e presença de Instagram sem identidade confirmada — o pacote organiza o perfil e leva tráfego pago pros dois públicos"
+      },
+      "gancho": "10 anos de CNPJ ativo e duas unidades — Serra Talhada e Triunfo —, mas nenhum site: só Instagram e Facebook pra representar as duas operações",
+      "contato": { "whatsapp": "", "instagram": "@bemestarestetica_st", "email": "", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Anna Carolina! Aqui é o Vitor, da Adspot. Vi que o Bem-Estar já tem 10 anos de casa e duas unidades, em Serra Talhada e Triunfo — mas não encontrei nenhum site, só Instagram. Isso deixa as duas operações sem aparecer no Google. A gente organiza o perfil e monta uma presença que sustente as duas unidades. Posso te mandar uma ideia?",
+        "instagram_dm": "Oi, Anna Carolina! Vitor, da Adspot. Vi as duas unidades do Bem-Estar (Serra Talhada e Triunfo) mas não achei site — só Instagram. Posso te mandar uma ideia de como organizar isso?",
+        "follow_up_d3": "Anna Carolina, separei uma ideia: um perfil mais organizado e anúncio direcionado pras duas cidades, já que vocês têm duas unidades. Quer que eu te mostre?",
+        "follow_up_d7": "Fecho por aqui. Se quiser organizar a presença digital das duas unidades mais pra frente, é só chamar.",
+        "ligacao": "Perguntar por Anna Carolina; mencionar as duas unidades (Serra Talhada e Triunfo) sem site."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/22779001000119-anna-carolina-inacio-de-sa (via busca)",
+        "https://www.instagram.com/bemestarestetica_st/",
+        "https://www.instagram.com/bemestarestetica_triunfo/",
+        "https://redeharmoniza.com/profissional/centro-de-bem-estar/"
+      ]
+    }
+  ],
+  "descartados": [
+    { "nome": "Vivant Estética (Ubia Maria Torres Santos, Petrolina/PE)", "nicho": "estetica", "motivo": "reaproveitada da rodada anterior; o conflito de endereço entre o CNPJ (Rua Irmã Jerônima 234) e outra fonte (Av. Pres. Tancredo Neves 52) segue sem solução após nova tentativa de busca nesta rodada — não bateu com segurança, não forçado" },
+    { "nome": "Instituto Auzira Rodrigues (Petrolina/PE)", "nicho": "estetica", "motivo": "mantém site próprio e cerca de 30 mil seguidores — presença digital já forte, dor não é digital" },
+    { "nome": "Clínica Vivare / Vivare Estética Ltda (Alagoinhas/BA)", "nicho": "estetica", "motivo": "conflito de endereço entre o CNPJ localizado (Vivare Estética Ltda, Av. Luís Viana 751, Centro) e o endereço declarado no Instagram da clínica (@clinicavivareestetica, Av. Luís Viana 739, Jardim Petrolar) — número e bairro diferentes; existe ainda uma terceira empresa de nome parecido ('Clínica Vivare Saúde & Bem Estar', outros sócios) na mesma cidade — risco alto de vincular o CNPJ errado à marca, não forçado" },
+    { "nome": "Clinispa (Maria Aparecida Viturino Moraes, São Miguel dos Campos/AL)", "nicho": "estetica", "motivo": "CNPJ localizado (36.707.844/0001-14, aberto em 2020) e decisor identificado, mas não foi possível confirmar a situação cadastral ATIVA em nenhuma fonte separada da Receita (o `consulta_cnpj.py` está bloqueado nesta sessão); havia também um CNPJ homônimo mais antigo já INAPTA para o mesmo nome fantasia, o que aumentou a cautela — descartado por não arriscar contato sem confirmar a situação" },
+    { "nome": "Camila Borges do Nascimento (Camaçari/BA)", "nicho": "estetica", "motivo": "CNAE registrado é de salão de beleza/manicure, não estética avançada — não se enquadra com segurança no nicho de estética de alto padrão" },
+    { "nome": "Harmony Estética Avançada / L'Harmonie Estética Avançada", "nicho": "estetica", "motivo": "não foi possível confirmar a cidade exata de nenhuma das duas marcas nas buscas — risco de vincular o CNPJ errado" },
+    { "nome": "Botoclinic, Damaface, GIO, BotoPremium, Espaço Facial, Royal Face, JK Estética Avançada, Centro Odontológico Odonto Chueh (referência cruzada)", "nicho": "estetica", "motivo": "franquias/redes nacionais ou regionais com marketing centralizado, presentes em praticamente toda cidade média pesquisada (Arcoverde/PE, Serra Talhada/PE, Pesqueira/PE, Camaçari/BA) — mesma regra de rede da metodologia" }
+  ],
+  "proximo_passo": "Abordar Bem-Estar Centro de Estética (Serra Talhada/PE) hoje entre 9h e 11h ou 14h e 17h; follow-up D+3 em 2026-10-01. Nicho de estética de alto padrão precisa de uma nova rodada com mais cidades para completar a cota de 5."
+}

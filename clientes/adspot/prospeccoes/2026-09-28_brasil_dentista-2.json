@@ -1,0 +1,144 @@
+{
+  "prospeccao": {
+    "id": "2026-09-28_brasil_dentista-2",
+    "titulo": "Dentistas pelo Brasil (continuação 2 — atividade recente + pontuação honesta)",
+    "data": "2026-09-28",
+    "cidade": "Brasil (várias cidades pequenas/médias)",
+    "regiao": "Estância/SE, Itamaraju/BA",
+    "observacoes": "Continuação da prospecção de dentistas com critério ajustado pelo Vitor: julgar atividade recente das redes sociais com o que o WebSearch conseguir trazer (sem exigir data exata confirmada por WebFetch, que está bloqueado nesta sessão) e calcular a pontuação da seção 5 de verdade, com itens não verificados valendo metade dos pontos e aviso 'confirmar antes de enviar'. Candidato pré-mapeado da rodada anterior (Ita Sorriso, Itabaiana/SE) foi reavaliado e descartado: o sócio-administrador Fábio Chueh também comanda outra clínica maior na mesma cidade (Odonto Chueh, 9.495 seguidores, site com SEO extenso), o que compromete a dor real. Muitos candidatos em Sergipe (Itabaiana, Lagarto, Nossa Senhora da Glória, São Cristóvão) esbarraram em marcas regionais com múltiplas unidades (UP Odonto, Dental Ita, Dental Clinic) que se enquadram na regra de rede/franquia.",
+    "demonstracao": false
+  },
+  "leads": [
+    {
+      "id": "prime-odontomed-estancia-se",
+      "nicho": "dentista",
+      "nome_fantasia": "Prime Odontomed",
+      "bairro": "Centro — Estância/SE",
+      "prioridade": "B",
+      "score": 64,
+      "score_detalhe": { "dor": 22, "capacidade": 23, "acesso": 11, "timing": 8 },
+      "cnpj": {
+        "numero": "18.552.173/0001-88",
+        "razao_social": "Dente Vitta Ltda",
+        "situacao": "ATIVA",
+        "abertura": "2013-07-24",
+        "porte": "ME",
+        "cnae": "8630-5/04 - Atividade odontológica",
+        "capital_social": 0,
+        "endereco": "Travessa Francisco Pires, 30, Centro, Estância/SE, 49.200-000",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/18552173000188-dente-vitta-ltda (via busca; consulta_cnpj.py retornou 403 nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "Bianka Brito Neves",
+        "primeiro_nome": "Bianka",
+        "qualificacao": "Administrador",
+        "validado": false,
+        "fonte_validacao": "não encontrado após 3 buscas — sem fonte externa ao CNPJ",
+        "instagram": "não encontrado",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "primeodontomed.com.br", "status": "ruim", "nota": "domínio próprio existe mas mostra só 'Página em construção' (Wix), sem conteúdo real; contato só por e-mail pessoal (primeodontomed1@gmail.com) — confirmado em duas buscas" },
+        "instagram": { "url": "https://www.instagram.com/primeodontomed.estancia/", "seguidores": 5599, "publicacoes": 791, "ultimo_post": "", "status": "fraco", "nota": "5.599 seguidores e 791 publicações confirmados via busca; data do último post e frequência recente não verificadas (WebFetch bloqueado) — pontuado como provisório" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não encontrado no diretório Solutudo ('empresa ainda sem avaliações'); Google Meu Negócio não verificado diretamente — provisório" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "Biblioteca de Anúncios da Meta não acessível nesta sessão (WebFetch bloqueado) — não verificado" }
+      },
+      "dores": [
+        "Site institucional em domínio próprio (primeodontomed.com.br) mostra apenas 'Página em construção' feita no Wix, sem nenhuma informação — fonte: busca ao domínio",
+        "Sem avaliações localizadas no diretório Solutudo, indício de Google Meu Negócio pouco trabalhado — fonte: solutudo.com.br",
+        "Atividade recente do Instagram (frequência/data do último post) não confirmada apesar de 5.599 seguidores — pontuado como provisório, não como dor confirmada"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000–1.500",
+        "justificativa": "O domínio já existe mas está parado numa página de construção do Wix — resolver isso é a dor mais barata e visível antes de qualquer outra frente"
+      },
+      "gancho": "Atende em Estância e Aracaju com quase 5.600 seguidores no Instagram, mas o site institucional próprio está preso numa página de 'em construção' há tempo — quem busca 'dentista Estância' no Google não encontra nada da clínica",
+      "contato": { "whatsapp": "", "instagram": "@primeodontomed.estancia", "email": "primeodontomed1@gmail.com", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Bianka! Aqui é o Vitor, da Adspot. Vi que a Prime Odontomed tem quase 5.600 seguidores no Instagram, então o trabalho já tem público — só que o site (primeodontomed.com.br) ainda está numa página de 'em construção', sem nenhuma informação pra quem procura vocês no Google. A gente monta um site simples com endereço, horários e WhatsApp direto. Faz sentido eu te mandar uma ideia de como ficaria?",
+        "instagram_dm": "Oi, Bianka! Vitor, da Adspot. Vi que o site de vocês ainda tá em construção — trabalho com isso, montando sites pra clínica que já tem público no Instagram. Posso te mandar uma ideia?",
+        "follow_up_d3": "Bianka, separei uma ideia rápida: uma página só com endereço, horários, WhatsApp e um botão de agendamento — resolve o site em construção sem enrolação. Quer que eu te mande?",
+        "follow_up_d7": "Fecho por aqui, Bianka. Se quiser tirar o site da página de construção mais pra frente, é só chamar.",
+        "ligacao": "Perguntar por Bianka; mencionar que o site oficial está parado em 'página em construção' e oferecer mandar uma proposta simples por WhatsApp."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/18552173000188-dente-vitta-ltda (via busca)",
+        "https://www.instagram.com/primeodontomed.estancia/",
+        "primeodontomed.com.br",
+        "https://www.solutudo.com.br/empresas/se/estancia/odontologia/prime-odontomed-estancia-22839492"
+      ]
+    },
+    {
+      "id": "dentista-de-todos-itamaraju-ba",
+      "nicho": "dentista",
+      "nome_fantasia": "Dentista de Todos!",
+      "bairro": "Centro — Itamaraju/BA",
+      "prioridade": "B",
+      "score": 53,
+      "score_detalhe": { "dor": 26, "capacidade": 8, "acesso": 11, "timing": 8 },
+      "cnpj": {
+        "numero": "36.861.454/0001-02",
+        "razao_social": "A L Scalzer Leão Clínica Odontológica Ltda",
+        "situacao": "ATIVA",
+        "abertura": "2020-04-03",
+        "porte": "não verificado",
+        "cnae": "8630-5/04 - Atividade odontológica",
+        "capital_social": 0,
+        "endereco": "Rua J J Seabra, 40 A, Centro, Itamaraju/BA, 45.836-000",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/36861454000102-a-l-scalzer-leao-clinica-odontologica-ltda (via busca; consulta_cnpj.py retornou 403 nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "Andre Luiz Scalzer Leão",
+        "primeiro_nome": "André",
+        "qualificacao": "Administrador",
+        "validado": false,
+        "fonte_validacao": "um diretório listou 'André Luiz Scalzer Leão — Protético Dentário em Itamaraju-BA', mas não é claro se é a mesma atuação/pessoa responsável pela clínica; não considerado fonte externa suficiente",
+        "instagram": "não encontrado",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "nenhum domínio próprio encontrado em nenhuma busca — só Instagram e Facebook" },
+        "instagram": { "url": "https://www.instagram.com/dentistadetodos.itamaraju/", "seguidores": 0, "publicacoes": 0, "ultimo_post": "", "status": "fraco", "nota": "perfil ativo e indexado, mas número de seguidores, publicações e data do último post não confirmados nas buscas — pontuado como provisório" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "nenhuma avaliação do Google localizada — provisório" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "não verificado (Biblioteca de Anúncios não acessível nesta sessão)" }
+      },
+      "dores": [
+        "Nenhum site encontrado em nenhuma busca — a clínica só aparece no Instagram e Facebook, apesar de CNPJ ativo desde 2020 — fonte: buscas cruzadas",
+        "Google Meu Negócio/avaliações não localizados nas buscas — provisório",
+        "Atividade recente do Instagram (seguidores, frequência, último post) não confirmada — provisório"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000–1.500",
+        "justificativa": "Sem nenhum site localizável e presença no Instagram sem dados de atividade confirmados — um site simples resolve a dor mais visível: aparecer no Google para quem busca dentista em Itamaraju"
+      },
+      "gancho": "CNPJ ativo há mais de 5 anos, mas a clínica não aparece em nenhuma busca fora do Instagram e do Facebook — quem procura 'dentista Itamaraju' no Google não encontra a Dentista de Todos",
+      "contato": { "whatsapp": "", "instagram": "@dentistadetodos.itamaraju", "email": "", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, André! Aqui é o Vitor, da Adspot. Vi que a Dentista de Todos atende em Itamaraju há alguns anos, mas não encontrei nenhum site da clínica — só Instagram e Facebook. Isso deixa vocês de fora de quem pesquisa 'dentista em Itamaraju' direto no Google. A gente monta um site simples com endereço, horários e WhatsApp. Faz sentido eu te mandar uma ideia?",
+        "instagram_dm": "Oi, André! Vitor, da Adspot. Não encontrei site da Dentista de Todos, só Instagram — monto sites simples pra clínica aparecer no Google também. Posso te mandar uma ideia rápida?",
+        "follow_up_d3": "André, separei uma ideia: uma página simples com endereço, horários e um botão de WhatsApp já resolveria a clínica não aparecer no Google. Quer que eu te mostre como ficaria?",
+        "follow_up_d7": "Fecho por aqui, André. Se quiser colocar a Dentista de Todos no Google mais pra frente, é só chamar.",
+        "ligacao": "Perguntar por André; mencionar que não encontrou site da clínica nas buscas e oferecer mandar uma proposta simples."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/36861454000102-a-l-scalzer-leao-clinica-odontologica-ltda (via busca)",
+        "https://www.instagram.com/dentistadetodos.itamaraju/",
+        "https://cadeodentista.com.br/clinica/dentista-de-todos-itamaraju-ba"
+      ]
+    }
+  ],
+  "descartados": [
+    { "nome": "Ita Sorriso / Ita Cirurgiões Dentistas Associados (Itabaiana/SE)", "nicho": "dentista", "motivo": "candidato pré-mapeado na rodada anterior; nesta rodada, o sócio-administrador Fábio Roberto Chueh dos Santos foi confirmado como também administrador de outra clínica maior na mesma cidade (Odonto Chueh, 9.495 seguidores, site com SEO extenso listando dezenas de tratamentos/cidades) — sinal de que ele já produz marketing digital profissional, o que compromete a dor real (mesmo padrão do Instituto Barros, registrado na memória do agente)" },
+    { "nome": "UP Odonto Glória (Nossa Senhora da Glória/SE)", "nicho": "dentista", "motivo": "rede regional com unidades em Itabaiana, Aracaju, Nossa Senhora do Socorro e Nossa Senhora da Glória, todas sob o mesmo domínio central clinicasupodonto.com.br — marketing centralizado, mesma regra de franquia/rede da metodologia" },
+    { "nome": "Odonto Sempre+ (Lagarto/SE)", "nicho": "dentista", "motivo": "Instagram pequeno e promissor (750 seguidores, 136 publicações), mas não foi possível localizar o CNPJ da clínica em nenhuma fonte após várias buscas — sem CNPJ, não entra na lista" },
+    { "nome": "Clínica Unique (Simão Dias/SE)", "nicho": "dentista", "motivo": "Instagram pequeno (1.566 seguidores), mas não foi possível localizar um CNPJ correspondente ao nome fantasia nas buscas" },
+    { "nome": "Cia de Dentistas / Companhia de Dentistas (São Miguel dos Campos/AL)", "nicho": "dentista", "motivo": "um dos sócios do CNPJ é 'D. Mais Jab Holding Ltda' (empresa holding), e a marca 'Cia de Dentistas' aparece em várias cidades (Rio de Janeiro, Maceió, Arapiraca) — sinal de rede/franquia com estrutura corporativa, não decisão local" },
+    { "nome": "Cliniodonto (Palmeira dos Índios/AL)", "nicho": "dentista", "motivo": "CNPJ antigo (1998) listado com atividade principal de enfermagem, não odontologia especificamente, e vários profissionais citados sem clareza de quem é o decisor — dado cadastral confuso demais para confirmar com segurança" },
+    { "nome": "Ame Odonto (Cruz das Almas/BA)", "nicho": "dentista", "motivo": "CNPJ localizado (48.349.789/0001-17, ATIVA), mas o nome do sócio-administrador não foi encontrado em nenhuma busca — sem decisor identificado, não entra na lista" },
+    { "nome": "Dental Clinic Integrada (São Cristóvão/SE)", "nicho": "dentista", "motivo": "a marca 'Dental Clinic' aparece com CNPJs diferentes em pelo menos duas cidades de Sergipe (São Cristóvão e Capela) — padrão de rede regional, mesma regra de franquia" },
+    { "nome": "DNTBRAS São Cristóvão (São Cristóvão/SE)", "nicho": "dentista", "motivo": "opera sob a bandeira 'O Sorriso do Brasil' (EPAO) — rede nacional com marketing centralizado" }
+  ],
+  "proximo_passo": "Abordar Prime Odontomed (Estância/SE) e Dentista de Todos (Itamaraju/BA) hoje entre 9h e 11h ou 14h e 17h; follow-up D+3 em 2026-10-01."
+}

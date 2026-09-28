@@ -1,0 +1,143 @@
+{
+  "prospeccao": {
+    "id": "2026-09-28_brasil_imobiliaria-3",
+    "titulo": "Imobiliárias pelo Brasil (continuação 3 — atividade recente + pontuação honesta)",
+    "data": "2026-09-28",
+    "cidade": "Brasil (várias cidades pequenas/médias)",
+    "regiao": "Araripina/PE, Ribeira do Pombal/BA",
+    "observacoes": "Continuação com critério ajustado: julgar atividade recente das redes com o que o WebSearch trouxer e pontuar a seção 5 de verdade, com itens não verificados valendo metade dos pontos. Nicho seguiu extremamente saturado — dezenas de cidades pesquisadas (Ouricuri/PE, Floresta/PE, Gravatá/PE, Timbaúba/PE, Salgueiro/PE, Petrolândia/PE, Ipirá/BA, Propriá/SE, Barra dos Coqueiros/SE, Euclides da Cunha/BA, Campo Maior/PI, Oeiras/PI, Palmeira dos Índios/AL, Coruripe/AL, Nossa Senhora do Socorro/SE) tinham só corretores autônomos sem CNPJ rastreável, imobiliárias que já têm site, ou homônimos de empresas em outros estados — só 2 candidatos passaram por todos os critérios com segurança.",
+    "demonstracao": false
+  },
+  "leads": [
+    {
+      "id": "move-imobiliaria-araripina-pe",
+      "nicho": "imobiliaria",
+      "nome_fantasia": "Move Imobiliária",
+      "bairro": "Centro — Araripina/PE",
+      "prioridade": "B",
+      "score": 55,
+      "score_detalhe": { "dor": 26, "capacidade": 18, "acesso": 11, "timing": 0 },
+      "cnpj": {
+        "numero": "30.665.191/0001-71",
+        "razao_social": "Move Serviços Administrativos e Corretagem Ltda - ME",
+        "situacao": "ATIVA",
+        "abertura": "2018-06-11",
+        "porte": "ME",
+        "cnae": "82.11-3-00 (serviços combinados de escritório, na Receita) — atividade real confirmada como intermediação na compra/venda e avaliação de imóveis, pelo nome fantasia, Instagram e Facebook",
+        "capital_social": 0,
+        "endereco": "Rua João Rodrigues Granja, 26, Quadra 06, Lote 26, Centro, Araripina/PE, 56.280-000",
+        "fonte": "https://empresas.serasaexperian.com.br/consulta-gratis/MOVE-SERVICOS-ADMINISTRATIVOS-E-CORRETAGEM-LTDA-ME-30665191000171 (via busca; consulta_cnpj.py retornou 403 nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "Breno Luiz Teles de Souza",
+        "primeiro_nome": "Breno",
+        "qualificacao": "Sócio-Administrador",
+        "validado": false,
+        "fonte_validacao": "não encontrado após 3 buscas — sem fonte externa ao CNPJ",
+        "instagram": "não encontrado",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "o domínio moveimobiliaria.com.br pertence a outra imobiliária, no Rio de Janeiro (CNPJ diferente) — confirmado comparando os dois CNPJs; a Move de Araripina não tem site próprio" },
+        "instagram": { "url": "https://www.instagram.com/moveimobiliaria/", "seguidores": 1110, "publicacoes": 52, "ultimo_post": "", "status": "fraco", "nota": "1.110 seguidores e 52 publicações confirmados via busca; data do último post não verificada — pontuado como provisório" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não localizado nas buscas — provisório" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "não verificado (Biblioteca de Anúncios não acessível nesta sessão)" }
+      },
+      "dores": [
+        "Sem site próprio — o domínio moveimobiliaria.com.br pertence a uma imobiliária diferente, no Rio de Janeiro; quem busca 'Move Imobiliária' no Google cai na empresa errada — fonte: comparação de CNPJs",
+        "Catálogo de imóveis existe só dentro do Instagram (52 publicações, 1.110 seguidores) — fonte: instagram.com/moveimobiliaria",
+        "Google Meu Negócio não localizado nas buscas — provisório"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000–1.500",
+        "justificativa": "Catálogo de imóveis já existe no Instagram; falta um site que coloque esses imóveis no Google, já que o domínio com o nome da marca está ocupado por outra imobiliária"
+      },
+      "gancho": "CNPJ próprio desde 2018 e catálogo ativo no Instagram, mas o nome 'Move Imobiliária' no Google leva pra uma empresa diferente no Rio de Janeiro — quem procura vocês em Araripina pode nem achar",
+      "contato": { "whatsapp": "", "instagram": "@moveimobiliaria", "email": "", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Breno! Aqui é o Vitor, da Adspot. Vi o catálogo de imóveis da Move no Instagram — mas quando busquei 'Move Imobiliária' no Google, o site que aparece é de uma imobiliária do Rio de Janeiro, não a de vocês em Araripina. Um site próprio resolveria isso e colocaria os imóveis de vocês no Google certo. Posso te mandar uma ideia?",
+        "instagram_dm": "Oi, Breno! Vitor, da Adspot. Busquei 'Move Imobiliária' no Google e caiu numa empresa do Rio, não na de vocês — um site próprio resolve. Posso te mandar uma ideia rápida?",
+        "follow_up_d3": "Breno, separei uma ideia: um site simples com os imóveis que já estão no Instagram, pra aparecer certo no Google pra Araripina. Quer ver como ficaria?",
+        "follow_up_d7": "Fecho por aqui, Breno. Se quiser resolver essa confusão no Google mais pra frente, é só chamar.",
+        "ligacao": "Perguntar por Breno; mencionar a confusão do nome no Google com a imobiliária do Rio de Janeiro."
+      },
+      "fontes": [
+        "https://empresas.serasaexperian.com.br/consulta-gratis/MOVE-SERVICOS-ADMINISTRATIVOS-E-CORRETAGEM-LTDA-ME-30665191000171 (via busca)",
+        "https://www.instagram.com/moveimobiliaria/",
+        "moveimobiliaria.com.br (empresa diferente, Rio de Janeiro)"
+      ]
+    },
+    {
+      "id": "galpao-imobiliaria-ribeira-do-pombal-ba",
+      "nicho": "imobiliaria",
+      "nome_fantasia": "Galpão Imobiliária",
+      "bairro": "Centro — Ribeira do Pombal/BA",
+      "prioridade": "B",
+      "score": 60,
+      "score_detalhe": { "dor": 26, "capacidade": 23, "acesso": 11, "timing": 0 },
+      "cnpj": {
+        "numero": "16.185.381/0001-60",
+        "razao_social": "Galpão Imobiliária Ltda",
+        "situacao": "ATIVA",
+        "abertura": "1987-08-19",
+        "porte": "ME",
+        "cnae": "6821-8/01 - Corretagem na compra e venda e avaliação de imóveis",
+        "capital_social": 80000,
+        "endereco": "Rua Manoel Francisco Cruz, 2, Centro, Ribeira do Pombal/BA, 48.400-000",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/16185381000160-galpao-imobiliaria-ltda (via busca; consulta_cnpj.py retornou 403 nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "José Domingos de Almeida Neto",
+        "primeiro_nome": "José Domingos",
+        "qualificacao": "Administrador",
+        "validado": false,
+        "fonte_validacao": "não encontrado após 3 buscas — sem fonte externa ao CNPJ",
+        "instagram": "não encontrado",
+        "outros_socios": [{ "nome": "Joselita Costa Santos", "qualificacao": "Administrador" }]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "nenhum site encontrado em nenhuma busca — só Instagram (CRECI PJ 1298BA) e Facebook" },
+        "instagram": { "url": "https://www.instagram.com/galpao_imobiliaria_/", "seguidores": 2264, "publicacoes": 77, "ultimo_post": "", "status": "fraco", "nota": "2.264 seguidores e apenas 77 publicações para uma empresa de quase 40 anos — confirmado via busca; data do último post não verificada, pontuado como provisório" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não localizado nas buscas — provisório" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "não verificado (Biblioteca de Anúncios não acessível nesta sessão)" }
+      },
+      "dores": [
+        "Nenhum site institucional encontrado — imobiliária ativa desde 1987, mas presença digital só em Instagram e Facebook — fonte: buscas cruzadas",
+        "Apenas 77 publicações no Instagram para quase 40 anos de mercado — catálogo de imóveis pouco explorado digitalmente — fonte: instagram.com/galpao_imobiliaria_",
+        "Google Meu Negócio não localizado nas buscas — provisório"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000–1.500",
+        "justificativa": "Quase 40 anos de mercado e nenhum site — o catálogo de imóveis fica preso no Instagram e não aparece pra quem busca imobiliária em Ribeira do Pombal no Google"
+      },
+      "gancho": "Quase 40 anos de CNPJ ativo (desde 1987) e nenhum site — a tradição da Galpão não aparece no Google",
+      "contato": { "whatsapp": "", "instagram": "@galpao_imobiliaria_", "email": "", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, José Domingos! Aqui é o Vitor, da Adspot. Vi que a Galpão Imobiliária atua em Ribeira do Pombal há quase 40 anos, mas não encontrei nenhum site da empresa — só Instagram, com 77 publicações. Um site simples colocaria o catálogo de vocês no Google, pra quem busca imóvel na cidade. Faz sentido eu te mandar uma ideia?",
+        "instagram_dm": "Oi! Vitor, da Adspot. Vi que a Galpão tem quase 40 anos de mercado mas não achei site — só Instagram. Um site simples resolve isso. Posso mandar uma ideia?",
+        "follow_up_d3": "José Domingos, separei uma ideia: um site com os imóveis que já estão no Instagram, pra aparecer no Google pra quem procura imobiliária em Ribeira do Pombal. Quer ver como ficaria?",
+        "follow_up_d7": "Fecho por aqui. Se quiser colocar a Galpão no Google mais pra frente, é só chamar.",
+        "ligacao": "Perguntar por José Domingos ou Joselita; mencionar os quase 40 anos de mercado sem site."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/16185381000160-galpao-imobiliaria-ltda (via busca)",
+        "https://www.instagram.com/galpao_imobiliaria_/",
+        "https://www.solutudo.com.br/empresas/ba/ribeira-pombal/imobiliarias-corretores-de-imoveis/galpao-15956765"
+      ]
+    }
+  ],
+  "descartados": [
+    { "nome": "Dicas Imobiliárias (Ouricuri/PE)", "nicho": "imobiliaria", "motivo": "já tem site próprio ativo (telmaimoveis.com.br) com dezenas de imóveis listados — sem dor de vitrine digital" },
+    { "nome": "Imobiliária Alta Floresta / floresta IMOBILIÁRIA (Floresta/PE)", "nicho": "imobiliaria", "motivo": "os dois nomes localizados nas buscas são homônimos de empresas em outras cidades/países (Alta Floresta/MT e uma imobiliária de Portugal) — não foi possível confirmar com segurança um CNPJ correspondente à cidade de Floresta/PE" },
+    { "nome": "Imobiliárias em Gravatá e Timbaúba/PE (Olga Corretora, Maria Corretora, Timbaúba Imóveis, HB Imobiliária)", "nicho": "imobiliaria", "motivo": "todas já têm site próprio ou seguidores/estrutura muito acima do perfil de dor (Olga Corretora 46K, Maria Corretora 26K seguidores)" },
+    { "nome": "Intermédia Imobiliária / DO CAMPO Imobiliária (Campo Maior/PI)", "nicho": "imobiliaria", "motivo": "não foi possível localizar CNPJ correspondente em nenhuma busca" },
+    { "nome": "Lions Imobiliária (Campo Maior/PI)", "nicho": "imobiliaria", "motivo": "já tem site próprio (imobiliarialions.com.br) — sem dor de vitrine digital" },
+    { "nome": "J.C. Empreendimentos Imobiliários (Euclides da Cunha/BA)", "nicho": "imobiliaria", "motivo": "CNAE de compra e venda de imóveis próprios (incorporadora/investidora, não corretora de intermediação), capital social muito alto (R$ 1,76 milhão) e nenhum Instagram localizado — perfil não bate com o nicho de vitrine digital fraca" },
+    { "nome": "Companhia de Dentistas... (referência cruzada)", "nicho": "imobiliaria", "motivo": "N/A — item de controle, ignorar" },
+    { "nome": "Clínica Vivare Rinascere / Vivare Estética / Clínica Vivare Saúde & Bem Estar (Alagoinhas/BA)", "nicho": "imobiliaria", "motivo": "N/A — item de controle cruzado com estética, ignorar" },
+    { "nome": "Imobiliárias com site já pronto em cidades diversas (Propriá/SE, Barra dos Coqueiros/SE, Nossa Senhora do Socorro/SE, Palmeira dos Índios/AL, Coruripe/AL, Ipirá/BA, Salgueiro/PE, Petrolândia/PE, Oeiras/PI)", "nicho": "imobiliaria", "motivo": "nessas cidades, os candidatos localizados eram só corretores autônomos sem CNPJ de empresa rastreável (Grezia Gonçalves, Jônatas Lima, Heloísa Correia etc.) ou nomes que redirecionavam para empresas homônimas em outros estados (Imobiliária Bruna Maria/SP, Invista Imóveis/RS) — não foi possível confirmar com segurança nenhum candidato novo nessas cidades" }
+  ],
+  "proximo_passo": "Abordar Move Imobiliária (Araripina/PE) e Galpão Imobiliária (Ribeira do Pombal/BA) hoje entre 9h e 11h ou 14h e 17h; follow-up D+3 em 2026-10-01."
+}
