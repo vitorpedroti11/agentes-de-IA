@@ -1,0 +1,327 @@
+{
+  "prospeccao": {
+    "id": "2026-09-28_brasil_imobiliaria-2",
+    "titulo": "Imobiliárias pelo Brasil — 2ª leva",
+    "data": "2026-09-28",
+    "cidade": "Brasil (várias cidades)",
+    "regiao": "Patos/PB, São Bento do Una/PE, Itapetinga/BA, Caicó/RN, Serrinha/BA — continuação da prospecção de 2026-09-28 (arquivo 2026-09-28_brasil_imobiliaria.json), evitando repetir empresas e as cidades já cobertas (Volta Redonda/RJ, Belo Jardim/PE, Santa Cruz do Capibaribe/PE, Surubim/PE, Cacoal/RO, Itabuna/BA, Bezerros/PE, Caruaru/PE, Barra Mansa/RJ, Ipatinga/MG, Cupira/PE, Toritama/PE)",
+    "observacoes": "Pedido do Vitor: mais 5 imobiliárias em qualquer lugar do Brasil, priorizando quem não tem site funcional (produto Site). Mapeados candidatos em mais de 30 cidades (PB, PE, BA, RN, MG, GO, PA, RO, PI, RS, TO); a maioria das imobiliárias de porte médio já usa algum site pronto de portal — os 5 leads abaixo restaram sem site funcional após checar site, Instagram e CNPJ. Nesta sessão as APIs de CNPJ (consulta_cnpj.py) continuaram bloqueadas pelo proxy de rede (mesmo diagnóstico de 2026-09-22/28); os dados de CNPJ/QSA vieram de buscas (trechos indexados de Econodata, Serasa Experian e Casa dos Dados) em vez da consulta direta — cada dado tem a URL de origem em 'fontes' e os itens não confirmados diretamente (nota Google, anúncios ativos, porte exato, último post) estão como não verificados, valendo metade dos pontos.",
+    "demonstracao": false
+  },
+  "leads": [
+    {
+      "id": "izidro-imoveis-patos",
+      "nicho": "imobiliaria",
+      "nome_fantasia": "Izidro Imóveis",
+      "bairro": "Centro — Patos/PB",
+      "prioridade": "B",
+      "score": 54,
+      "score_detalhe": { "dor": 25, "capacidade": 18, "acesso": 11, "timing": 0 },
+      "cnpj": {
+        "numero": "00.853.508/0001-32",
+        "razao_social": "Imobiliária Izidro Ltda",
+        "situacao": "ATIVA",
+        "abertura": "1995-10-13",
+        "porte": "não verificado (provável ME)",
+        "cnae": "6821-8/01 - Corretagem na compra e venda e avaliação de imóveis",
+        "capital_social": 0,
+        "endereco": "Patos - PB (endereço completo não verificado nesta sessão)",
+        "fonte": "https://cnpj.biz/00853508000132 (busca web; API de CNPJ bloqueada nesta sessão)"
+      },
+      "decisor": {
+        "nome": "Izidro Soares de Oliveira",
+        "primeiro_nome": "Izidro",
+        "qualificacao": "Administrador (sócio junto com Ary Gustavo Xavier Guedes Soares)",
+        "validado": true,
+        "fonte_validacao": "https://www.instagram.com/izidroimoveis/ — perfil e marca usam o nome \"Izidro\", batendo com o QSA (Izidro Soares de Oliveira)",
+        "instagram": "não encontrado (perfil pessoal; só o da empresa)",
+        "outros_socios": [
+          { "nome": "Ary Gustavo Xavier Guedes Soares", "qualificacao": "Sócio" }
+        ]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "nenhum site encontrado após 3 buscas — só Instagram (28/09/2026)" },
+        "instagram": { "url": "https://www.instagram.com/izidroimoveis/", "seguidores": 1677, "publicacoes": 0, "ultimo_post": "não verificado", "status": "fraco", "nota": "bio cita \"mais de 40 anos de experiência\" em Patos-PB; 1.677 seguidores é pouco para o tempo de casa" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta sessão" },
+        "anuncios": { "ativos": "null (não verificado)", "fonte": "", "observacao": "Biblioteca de Anúncios da Meta não verificada nesta sessão" }
+      },
+      "dores": [
+        "30 anos de CNPJ (aberto em 1995) e mais de 40 anos de atuação do corretor, mas nenhum site — catálogo de imóveis só existe em posts soltos",
+        "1.677 seguidores no Instagram é pouco frente ao tempo de mercado, sinal de baixa distribuição"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.500 (catálogo de imóveis + contato)",
+        "justificativa": "mais de 40 anos de experiência em Patos sem nenhum site deixa a Izidro Imóveis invisível para quem pesquisa imóvel no Google"
+      },
+      "gancho": "mais de 40 anos cuidando de imóveis em Patos e nenhum site — só o Instagram, com pouco mais de 1.600 seguidores",
+      "contato": { "whatsapp": "não encontrado (contato indicado é pelo Direct do Instagram)", "instagram": "@izidroimoveis", "email": "", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Izidro! Aqui é o Vitor, da Adspot. Vi que a Izidro Imóveis já soma mais de 40 anos cuidando de imóveis em Patos. Só que sem site, o catálogo de imóveis fica só nos posts do Instagram — quem procura pelo Google acaba não encontrando vocês. A gente monta um site simples com os imóveis organizados. Posso te mandar uma ideia?",
+        "instagram_dm": "Oi, Izidro! Vitor, da Adspot. Mais de 40 anos de Izidro Imóveis e ainda sem site — dá pra resolver com um catálogo online. Posso te mostrar uma ideia?",
+        "follow_up_d3": "Izidro, voltando aqui: pensei num site simples só com os imóveis que já estão no Instagram, organizados por bairro e valor — ajuda quem chega pelo Google. Faz sentido eu te mandar o modelo?",
+        "follow_up_d7": "Izidro, fecho por aqui — se depois fizer sentido ter um site pro catálogo, é só chamar.",
+        "ligacao": "Perguntar por Izidro Soares de Oliveira; citar os mais de 40 anos de experiência; oferecer mandar 3 ideias pelo Direct."
+      },
+      "fontes": [
+        "https://cnpj.biz/00853508000132",
+        "https://www.instagram.com/izidroimoveis/"
+      ]
+    },
+    {
+      "id": "andrade-almeida-sao-bento-do-una",
+      "nicho": "imobiliaria",
+      "nome_fantasia": "Andrade, Almeida & Valença Imobiliária",
+      "bairro": "Centro — São Bento do Una/PE",
+      "prioridade": "B",
+      "score": 51,
+      "score_detalhe": { "dor": 22, "capacidade": 18, "acesso": 11, "timing": 0 },
+      "cnpj": {
+        "numero": "27.730.297/0001-05",
+        "razao_social": "Andrade, Almeida & Valença Imobiliária Ltda",
+        "situacao": "ATIVA",
+        "abertura": "2017-05-15",
+        "porte": "não verificado (provável ME)",
+        "cnae": "6821-8/01 - Corretagem na compra e venda e avaliação de imóveis",
+        "capital_social": 0,
+        "endereco": "Praça Cônego João Rodrigues de Melo, 25 - Centro, São Bento do Una - PE, 55.370-000",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/27730297000105-ANDRADE-ALMEIDA-VALENCA-IMOBILIARIA-LTDA (busca web; API de CNPJ bloqueada nesta sessão)"
+      },
+      "decisor": {
+        "nome": "Cybelle Braga de Almeida",
+        "primeiro_nome": "Cybelle",
+        "qualificacao": "Administradora",
+        "validado": false,
+        "fonte_validacao": "não encontrada fonte externa ao CNPJ nesta rodada — confirmar antes de abordar",
+        "instagram": "não encontrado",
+        "outros_socios": [
+          { "nome": "Carlos André Valença Fernandes Lima", "qualificacao": "Sócio" }
+        ]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "nenhum site encontrado após 3 buscas (28/09/2026)" },
+        "instagram": { "url": "https://www.instagram.com/andradealmeidaimobiliaria/", "seguidores": 0, "publicacoes": 0, "ultimo_post": "não verificado", "status": "fraco", "nota": "perfil identificado na bio como \"Caixa Aqui\" (correspondente bancário) além da imobiliária — sinal de que o Instagram é usado mais para o serviço de correspondente Caixa do que como vitrine de imóveis; seguidores não verificados" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta sessão" },
+        "anuncios": { "ativos": "null (não verificado)", "fonte": "", "observacao": "Biblioteca de Anúncios da Meta não verificada nesta sessão" }
+      },
+      "dores": [
+        "8 anos de CNPJ sem nenhum site — nenhum catálogo de imóveis pesquisável",
+        "o Instagram da imobiliária está identificado como \"Caixa Aqui\" (serviço de correspondente bancário), não como vitrine de imóveis — quem procura casa não vê o portfólio"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.500 (catálogo de imóveis + contato)",
+        "justificativa": "sem site e com o Instagram ocupado pelo serviço de correspondente Caixa, a imobiliária não tem hoje nenhuma vitrine própria de imóveis"
+      },
+      "gancho": "8 anos de imobiliária em São Bento do Una e o único canal digital é uma conta voltada para o correspondente Caixa, não para os imóveis à venda",
+      "contato": { "whatsapp": "não encontrado (contato indicado é pelo Direct do Instagram)", "instagram": "@andradealmeidaimobiliaria", "email": "", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Cybelle! Aqui é o Vitor, da Adspot. Vi que a Andrade, Almeida & Valença já soma 8 anos em São Bento do Una. Reparei que o Instagram de vocês hoje fala mais do Caixa Aqui do que dos imóveis, e não existe um site com o catálogo. A gente monta um site simples com os imóveis organizados. Posso te mandar uma ideia?",
+        "instagram_dm": "Oi, Cybelle! Vitor, da Adspot. 8 anos de imobiliária e o catálogo de imóveis ainda não tem um espaço próprio — dá pra resolver com um site simples. Posso te mostrar uma ideia?",
+        "follow_up_d3": "Cybelle, voltando aqui: um site com os imóveis por bairro e valor ajudaria bastante quem procura pelo Google, sem misturar com o serviço do Caixa Aqui. Faz sentido eu te mandar o modelo?",
+        "follow_up_d7": "Cybelle, fecho por aqui — se depois fizer sentido ter um site pro catálogo, é só chamar.",
+        "ligacao": "Perguntar por Cybelle Braga de Almeida; citar os 8 anos da imobiliária; oferecer mandar 3 ideias pelo Direct."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/27730297000105-ANDRADE-ALMEIDA-VALENCA-IMOBILIARIA-LTDA",
+        "https://www.instagram.com/andradealmeidaimobiliaria/"
+      ]
+    },
+    {
+      "id": "vava-imoveis-itapetinga",
+      "nicho": "imobiliaria",
+      "nome_fantasia": "Vavá Imóveis",
+      "bairro": "Centro — Itapetinga/BA",
+      "prioridade": "B",
+      "score": 50,
+      "score_detalhe": { "dor": 21, "capacidade": 18, "acesso": 11, "timing": 0 },
+      "cnpj": {
+        "numero": "42.055.038/0001-01",
+        "razao_social": "Vavá Imobiliária & Corretora de Seguros Ltda",
+        "situacao": "ATIVA",
+        "abertura": "1992-09-18",
+        "porte": "não verificado (provável ME)",
+        "cnae": "corretagem de seguros (CNAE principal registrado) — nome fantasia e CRECI/BA 09605 indicam que a empresa também atua como imobiliária",
+        "capital_social": 0,
+        "endereco": "Rua Mariano Campos, 122 - Centro, Itapetinga - BA, 45.700-000",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/42055038000101-vava-imobiliaria-corretora-de-seguros-ltda (busca web; API de CNPJ bloqueada nesta sessão)"
+      },
+      "decisor": {
+        "nome": "não identificado no QSA nesta rodada",
+        "primeiro_nome": "não identificado",
+        "qualificacao": "não verificado",
+        "validado": false,
+        "fonte_validacao": "não encontrada — QSA não veio nos resumos de busca desta sessão; confirmar antes de abordar",
+        "instagram": "não encontrado",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "nenhum site encontrado após 3 buscas — só listagens de guia comercial (28/09/2026)" },
+        "instagram": { "url": "https://www.instagram.com/vavaimoveis/", "seguidores": 1875, "publicacoes": 5, "ultimo_post": "não verificado", "status": "parado", "nota": "apenas 5 publicações para 1.875 seguidores — perfil praticamente parado" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta sessão" },
+        "anuncios": { "ativos": "null (não verificado)", "fonte": "", "observacao": "Biblioteca de Anúncios da Meta não verificada nesta sessão" }
+      },
+      "dores": [
+        "mais de 30 anos de empresa (aberta em 1992) e o Instagram tem só 5 publicações — perfil parado",
+        "nenhum site encontrado para o catálogo de imóveis"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.500 (catálogo de imóveis + contato)",
+        "justificativa": "mais de 30 anos de tradição em Itapetinga sem site e com o Instagram praticamente parado (5 posts) deixa a imobiliária invisível no Google"
+      },
+      "gancho": "mais de 30 anos de casa em Itapetinga, Instagram com só 5 posts e nenhum site — o catálogo de imóveis não existe em lugar nenhum pesquisável",
+      "contato": { "whatsapp": "(77) 3261-6000 (telefone da empresa; WhatsApp não confirmado)", "instagram": "@vavaimoveis", "email": "", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi! Aqui é o Vitor, da Adspot. Vi que a Vavá Imóveis já soma mais de 30 anos em Itapetinga. Só que o Instagram tem só 5 publicações e não encontrei nenhum site — quem procura imóvel pelo Google acaba não encontrando vocês. A gente monta um site simples com o catálogo organizado. Posso te mandar uma ideia?",
+        "instagram_dm": "Oi! Vitor, da Adspot. Mais de 30 anos de Vavá Imóveis e ainda sem site — dá pra resolver com um catálogo online. Posso te mostrar uma ideia?",
+        "follow_up_d3": "Voltando aqui: um site com os imóveis organizados por bairro e valor ajudaria bastante quem procura pelo Google, sem depender só do Instagram. Faz sentido eu mandar o modelo?",
+        "follow_up_d7": "Fecho por aqui — se depois fizer sentido ter um site pro catálogo da Vavá Imóveis, é só chamar.",
+        "ligacao": "Perguntar pelo responsável da Vavá Imóveis; citar os mais de 30 anos de casa; oferecer mandar 3 ideias por WhatsApp. Confirmar o nome do decisor antes da ligação — não veio no QSA desta rodada."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/42055038000101-vava-imobiliaria-corretora-de-seguros-ltda",
+        "https://www.instagram.com/vavaimoveis/"
+      ]
+    },
+    {
+      "id": "imobiliaria-caico",
+      "nicho": "imobiliaria",
+      "nome_fantasia": "Imobiliária Caicó",
+      "bairro": "Centro — Caicó/RN",
+      "prioridade": "B",
+      "score": 52,
+      "score_detalhe": { "dor": 22, "capacidade": 19, "acesso": 11, "timing": 0 },
+      "cnpj": {
+        "numero": "25.064.484/0001-63",
+        "razao_social": "Gabriel J G do Amaral",
+        "situacao": "ATIVA",
+        "abertura": "2016-06-23",
+        "porte": "não verificado (provável EI/ME)",
+        "cnae": "6821-8/02 - Corretagem no aluguel de imóveis",
+        "capital_social": 0,
+        "endereco": "Rua Renato Dantas, 977 - Centro, Caicó - RN, 59.300-000",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/25064484000163-gabriel-j-g-do-amaral (busca web; API de CNPJ bloqueada nesta sessão)"
+      },
+      "decisor": {
+        "nome": "Gabriel J. G. do Amaral",
+        "primeiro_nome": "Gabriel",
+        "qualificacao": "Titular (empresa individual)",
+        "validado": false,
+        "fonte_validacao": "não encontrada fonte externa ao CNPJ nesta rodada — confirmar antes de abordar",
+        "instagram": "não encontrado",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "nenhum site encontrado após 3 buscas — só Instagram e guias comerciais (28/09/2026)" },
+        "instagram": { "url": "https://www.instagram.com/imobiliariacaico/", "seguidores": 4744, "publicacoes": 0, "ultimo_post": "não verificado", "status": "ok", "nota": "CRECI/RN 6501-J; perfil com público relevante (quase 4.700 seguidores) mas sem site" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta sessão" },
+        "anuncios": { "ativos": "null (não verificado)", "fonte": "", "observacao": "Biblioteca de Anúncios da Meta não verificada nesta sessão" }
+      },
+      "dores": [
+        "9 anos de CNPJ e quase 4.700 seguidores no Instagram, mas nenhum site — a audiência já existe e não vira catálogo pesquisável",
+        "quem procura \"imobiliária Caicó\" no Google não encontra um site próprio"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.500 (catálogo de imóveis + contato)",
+        "justificativa": "quase 4.700 seguidores mostram audiência real; falta um site para transformar isso em catálogo de imóveis pesquisável no Google"
+      },
+      "gancho": "quase 4.700 seguidores no Instagram em Caicó, mas nenhum site — a audiência já está formada, falta só o catálogo",
+      "contato": { "whatsapp": "não encontrado (contato indicado é pelo Direct do Instagram)", "instagram": "@imobiliariacaico", "email": "", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Gabriel! Aqui é o Vitor, da Adspot. Vi que a Imobiliária Caicó já tem quase 4.700 seguidores no Instagram — um público e tanto. Só que sem site, esse catálogo de imóveis some entre os posts, e quem chega pelo Google não encontra vocês. A gente monta um site com os imóveis organizados. Posso te mandar uma ideia?",
+        "instagram_dm": "Oi, Gabriel! Vitor, da Adspot. Quase 4.700 seguidores e ainda sem site — dá pra transformar isso num catálogo online. Posso te mostrar uma ideia?",
+        "follow_up_d3": "Gabriel, voltando aqui: com quase 4.700 seguidores, um site simples já ajudaria a organizar os imóveis por bairro e valor, sem depender só do feed. Faz sentido eu te mandar o modelo?",
+        "follow_up_d7": "Gabriel, fecho por aqui — se depois fizer sentido ter um site pro catálogo, é só chamar.",
+        "ligacao": "Perguntar por Gabriel do Amaral; citar os quase 4.700 seguidores no Instagram; oferecer mandar 3 ideias pelo Direct."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/25064484000163-gabriel-j-g-do-amaral",
+        "https://www.instagram.com/imobiliariacaico/"
+      ]
+    },
+    {
+      "id": "imobiliaria-violeta-serrinha",
+      "nicho": "imobiliaria",
+      "nome_fantasia": "Imobiliária Violeta",
+      "bairro": "Centro — Serrinha/BA",
+      "prioridade": "B",
+      "score": 53,
+      "score_detalhe": { "dor": 21, "capacidade": 21, "acesso": 11, "timing": 0 },
+      "cnpj": {
+        "numero": "16.161.663/0001-28",
+        "razao_social": "Violeta Imobiliária Construções e Incorporações Ltda",
+        "situacao": "ATIVA",
+        "abertura": "1987-07-10",
+        "porte": "não verificado (provável ME/EPP)",
+        "cnae": "4110-7/00 - Incorporação de empreendimentos imobiliários",
+        "capital_social": 0,
+        "endereco": "Avenida Valdete Carneiro, Serrinha - BA, 48.700-000",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/16161663000128-violeta-imobiliaria-construcoes-e-incorporacoes-ltda (busca web; API de CNPJ bloqueada nesta sessão)"
+      },
+      "decisor": {
+        "nome": "Divaldo José Matos de Lima",
+        "primeiro_nome": "Divaldo",
+        "qualificacao": "Administrador (junto com Carlos Matos de Lima)",
+        "validado": false,
+        "fonte_validacao": "encontrado registro de \"Divaldo Lima\" como corretor de imóveis em busca geral, coerente com a função, mas sem um perfil de rede social que confirme ser a mesma pessoa do QSA — confirmar antes de abordar",
+        "instagram": "não encontrado",
+        "outros_socios": [
+          { "nome": "Carlos Matos de Lima", "qualificacao": "Administrador" }
+        ]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "nenhum site encontrado após 3 buscas (28/09/2026)" },
+        "instagram": { "url": "https://www.instagram.com/violetaimobiliaria/", "seguidores": 4787, "publicacoes": 298, "ultimo_post": "não verificado", "status": "ok", "nota": "bio cita \"mais de 30 anos transformando vidas\", coerente com a abertura do CNPJ em 1987" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta sessão" },
+        "anuncios": { "ativos": "null (não verificado)", "fonte": "", "observacao": "Biblioteca de Anúncios da Meta não verificada nesta sessão" }
+      },
+      "dores": [
+        "38 anos de empresa (fundada em 1987) e quase 4.800 seguidores no Instagram, mas nenhum site — o catálogo de imóveis vive só no feed",
+        "quem pesquisa \"imobiliária Serrinha\" no Google não encontra um site da Violeta"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.500 (catálogo de imóveis + contato)",
+        "justificativa": "38 anos de tradição e quase 4.800 seguidores mostram audiência e capacidade reais; falta um site para virar catálogo pesquisável no Google"
+      },
+      "gancho": "38 anos de história em Serrinha e quase 4.800 seguidores no Instagram, mas nenhum site — o catálogo de imóveis nunca saiu do feed",
+      "contato": { "whatsapp": "não encontrado (contato indicado é pelo Direct do Instagram)", "instagram": "@violetaimobiliaria", "email": "", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Divaldo! Aqui é o Vitor, da Adspot. Vi que a Imobiliária Violeta já soma 38 anos em Serrinha e quase 4.800 seguidores no Instagram. Só que sem site, o catálogo de imóveis fica só nos posts — quem chega pelo Google não encontra vocês. A gente monta um site com os imóveis organizados. Posso te mandar uma ideia?",
+        "instagram_dm": "Oi! Vitor, da Adspot. 38 anos de Imobiliária Violeta e quase 4.800 seguidores, mas ainda sem site — dá pra resolver com um catálogo online. Posso te mostrar uma ideia?",
+        "follow_up_d3": "Voltando aqui: com quase 4.800 seguidores, um site simples já ajudaria a organizar os imóveis por bairro e valor, sem depender só do feed. Faz sentido eu mandar o modelo?",
+        "follow_up_d7": "Fecho por aqui — se depois fizer sentido ter um site pro catálogo da Violeta, é só chamar.",
+        "ligacao": "Perguntar por Divaldo José Matos de Lima; citar os 38 anos da Violeta e os quase 4.800 seguidores; oferecer mandar 3 ideias pelo Direct. Confirmar se quem atende é mesmo o Divaldo antes de citar o nome."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/16161663000128-violeta-imobiliaria-construcoes-e-incorporacoes-ltda",
+        "https://www.instagram.com/violetaimobiliaria/"
+      ]
+    }
+  ],
+  "descartados": [
+    { "nome": "Mano Imóveis / Monte Sinai / Casa Livre Imobiliária", "nicho": "imobiliaria", "motivo": "Garanhuns/PE — as três já têm site próprio funcionando (manoimoveis.com.br, montesinaiimoveis.com.br, casalivreimobiliaria.com.br)" },
+    { "nome": "Carvalho Imobiliária / Brandão Imobiliária / Invest / Conquiste Imóveis", "nicho": "imobiliaria", "motivo": "Arapiraca/AL — todas com site próprio já em funcionamento" },
+    { "nome": "Nova Patos / Fênix / Patos City / Home Sweet Home", "nicho": "imobiliaria", "motivo": "Patos/PB — todas com site próprio (Fênix e Home Sweet Home compartilham o mesmo portal patos-pb.com.br) ou sem CNPJ localizável" },
+    { "nome": "Melo Imobiliária / Vital Imóveis / Sobral Imóveis", "nicho": "imobiliaria", "motivo": "Sobral/CE — todas com site próprio já em funcionamento" },
+    { "nome": "Daniel Imóveis / Nova Somar / Gerais Imobiliária / Residencial Imobiliária", "nicho": "imobiliaria", "motivo": "Divinópolis/MG — todas com site próprio já em funcionamento" },
+    { "nome": "Cerrado / Rei dos Imóveis / Eldorado / Classe A / Batista", "nicho": "imobiliaria", "motivo": "Rondonópolis/MT — todas com site próprio já em funcionamento" },
+    { "nome": "Morar Imobiliária", "nicho": "imobiliaria", "motivo": "Rondonópolis/MT — sem site, mas não foi possível localizar o CNPJ em nenhuma fonte após várias buscas; sem confirmação do dono, não entra na lista" },
+    { "nome": "Sadda Imobiliária / MC Imóveis / Metta Imobiliária", "nicho": "imobiliaria", "motivo": "Imperatriz/MA — Sadda tem site próprio; MC Imóveis só teve localizado um CNPJ com situação \"Baixada\" (inativo), que pode não ser o correto; Metta não teve CNPJ localizável em Imperatriz" },
+    { "nome": "Vis Imobiliária / Imobiliária Parnaíba / Vert Imóveis", "nicho": "imobiliaria", "motivo": "Parnaíba/PI — todas com site próprio já em funcionamento" },
+    { "nome": "Lia Imóveis", "nicho": "imobiliaria", "motivo": "Luziânia/GO — sem site, mas não foi possível localizar o CNPJ (corretora atua com CRECI-GO 19283 sem razão social localizável); sem CNPJ, não entra na lista" },
+    { "nome": "Foco Negócios Imobiliários (Marcelo Freitas Matos)", "nicho": "imobiliaria", "motivo": "Luziânia/GO — corretor individual (CRECI 29.507-GO) sem CNPJ de empresa localizável nas buscas" },
+    { "nome": "Fidare Imobiliária / Canuto Imóveis", "nicho": "imobiliaria", "motivo": "Montes Claros/MG e Juazeiro do Norte/CE — ambas com site próprio já em funcionamento" },
+    { "nome": "Imobiliária Guanambi / Prime Imobiliária / Bastos & Souza / Tatiana Mendes", "nicho": "imobiliaria", "motivo": "Guanambi/BA — todas com site próprio já em funcionamento" },
+    { "nome": "Imobiliária Colibri / JC Negócios Imobiliários", "nicho": "imobiliaria", "motivo": "Picos/PI — ambas com site próprio já em funcionamento" },
+    { "nome": "Marcos Imóveis / Efetive Imobiliária", "nicho": "imobiliaria", "motivo": "Vitória de Santo Antão/PE e Currais Novos/RN — ambas com site próprio já em funcionamento" },
+    { "nome": "Serrinha Negócios Imobiliários / Ramos Santiago Corretor de Imóveis", "nicho": "imobiliaria", "motivo": "Serrinha/BA — sem site, mas sem CNPJ localizável em nenhuma das duas (Serrinha Negócios é corretora autônoma; Ramos Santiago não teve CNPJ encontrado)" },
+    { "nome": "Makro Imobiliária / Habitar Assessoria / Solidus Imobiliária", "nicho": "imobiliaria", "motivo": "Xinguara/PA e Tucumã/PA — todas com site próprio já em funcionamento" },
+    { "nome": "Pedro Maia Imóveis", "nicho": "imobiliaria", "motivo": "Jequié/BA — corretor individual sem CNPJ localizável" },
+    { "nome": "Imobiliária Bom Jesus / Ricardo Imóveis / Ennio Franklin", "nicho": "imobiliaria", "motivo": "Bom Jesus da Lapa/BA — nenhuma das três teve CNPJ correspondente à cidade localizado nas buscas (só CNPJs de mesmo nome em outras cidades)" },
+    { "nome": "MG Imóveis / Maurício Oliveira / Edson Imóveis / Zumach / Adibravi", "nicho": "imobiliaria", "motivo": "já entregues na prospecção de 2026-09-28 (arquivo 2026-09-28_brasil_imobiliaria.json) — não repetir" }
+  ],
+  "proximo_passo": "Abordar Gabriel (Imobiliária Caicó) e Divaldo (Imobiliária Violeta) hoje entre 9h e 11h pelo Direct do Instagram; Izidro (Izidro Imóveis) e a Andrade Almeida (São Bento do Una) hoje entre 14h e 17h; Vavá Imóveis (confirmar o nome do decisor antes) na sequência; follow-up D+3 em 2026-10-01."
+}

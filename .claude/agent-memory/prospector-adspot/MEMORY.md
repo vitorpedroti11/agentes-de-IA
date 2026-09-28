@@ -32,7 +32,10 @@
 - Estética em Guarulhos → https://claude.ai/artifact/1D6F1EQJwzFNip82o1Uwgb
 - Automotivo em Guarulhos → https://claude.ai/artifact/GkCpfdEdPxRDSj1FRb2BYE
 - Lojas de Carros em Guarulhos → https://claude.ai/artifact/LBJQ8sYgUujMPqmfQwz9Zi
-- Imobiliárias pelo Brasil (2026-09-28) → ainda não publicada (ferramenta de páginas/Artifact não estava disponível para este agente nesta sessão); abrir o HTML local pelo caminho do arquivo
+- Imobiliárias pelo Brasil (2026-09-28, 1ª leva) → ainda não publicada (ferramenta de páginas/Artifact não estava disponível para este agente nesta sessão); abrir o HTML local pelo caminho do arquivo
+- Imobiliárias pelo Brasil (2026-09-28, 2ª leva) → ainda não publicada (mesmo motivo); HTML local em `clientes/adspot/prospeccoes/2026-09-28_brasil_imobiliaria-2.html`
+- Dentistas pelo Brasil (2026-09-28) → ainda não publicada (mesmo motivo); HTML local em `clientes/adspot/prospeccoes/2026-09-28_brasil_dentista.html`
+- Estética de Alto Padrão pelo Brasil (2026-09-28) → ainda não publicada (mesmo motivo); HTML local em `clientes/adspot/prospeccoes/2026-09-28_brasil_estetica-alto-padrao.html`
 
 ## Histórico de prospecções
 <!-- data · cidade · nichos · nº de leads A/B · arquivo -->
@@ -41,6 +44,15 @@
 - 2026-09-23 · Guarulhos/SP · automotivo · 0 A + 6 B, 8 grupos descartados · `clientes/adspot/prospeccoes/2026-09-23_guarulhos_automotivo.html`
 - 2026-09-23 · Guarulhos/SP · revendas de carros · 0 A + 8 B, 6 grupos descartados · `clientes/adspot/prospeccoes/2026-09-23_guarulhos_revendas.html`
 - 2026-09-28 · Brasil (várias cidades) · imobiliária (nicho novo) · 0 A + 5 B, 7 grupos descartados · `clientes/adspot/prospeccoes/2026-09-28_brasil_imobiliaria.html`
+- 2026-09-28 · Brasil (várias cidades) · imobiliária (2ª leva) · 0 A + 5 B, 20 grupos descartados · `clientes/adspot/prospeccoes/2026-09-28_brasil_imobiliaria-2.html`
+- 2026-09-28 · Brasil (várias cidades) · dentista · 0 A + 5 B, 10 grupos descartados (redes/franquias: Vamos Sorrir, Volte a Sorrir, OdontoCompany) · `clientes/adspot/prospeccoes/2026-09-28_brasil_dentista.html`
+- 2026-09-28 · Brasil (várias cidades) · estética de alto padrão · 0 A + 1 B, entrega parcial (pedido era 5) — orçamento de busca da sessão se esgotou no meio da checagem deste nicho · `clientes/adspot/prospeccoes/2026-09-28_brasil_estetica-alto-padrao.html`
+
+## Aprendizados (continuação 2)
+- 2026-09-28 · O `WebSearch` tem um limite de buscas por sessão (aqui, 200) que se esgota rápido quando 3 prospecções (15 leads) são pedidas na mesma sessão, porque cada lead de nicho saturado (imobiliária, dentista) consome 4 a 8 buscas até achar um candidato sem site com CNPJ localizável · como aplicar: em pedidos de múltiplos lotes na mesma sessão, avisar o Vitor cedo se o ritmo de buscas por lead estiver alto e priorizar terminar um lote inteiro (5 leads) antes de começar o próximo; se o orçamento acabar no meio de um lote, entregar o que foi verificado com transparência total (nunca completar os 5 inventando dado) e registrar exatamente quais candidatos ficaram mapeados mas não verificados, para reaproveitar na próxima rodada.
+- 2026-09-28 · Em cidades médias/grandes (Divinópolis, Guanambi, Anápolis, Petrolina, Caruaru), imobiliárias e clínicas de estética avançada de porte médio quase sempre já têm site próprio · em cidades bem menores ou com nichos ainda mais pulverizados (Patos/PB, Caicó/RN, Serrinha/BA, Marabá/PA, São Bento do Una/PE) a taxa de "sem site" é bem maior · como aplicar: priorizar cidades de porte pequeno/médio (30–80 mil habitantes) para imobiliária, dentista e estética quando o pedido for "qualquer lugar do Brasil".
+- 2026-09-28 · Um sócio-administrador com conta pessoal de Instagram muito grande (dezenas de milhares de seguidores) ao lado de uma clínica que ele administra é sinal de que a pessoa já produz conteúdo profissional — mesmo que o Instagram *da clínica* pareça fraco, a dor real é questionável · como aplicar: descartar ou marcar como \"confirmar antes de enviar\" quando o decisor tiver marca pessoal forte, em vez de pontuar só pela conta da empresa.
+- 2026-09-28 · Empresas registradas com CNAE de um ramo (ex.: corretagem de seguros) mas que operam também como imobiliária/clínica sob o mesmo nome fantasia (ex.: \"Vavá Imobiliária & Corretora de Seguros\") ainda contam para o nicho, desde que o nome fantasia, o CRECI/CRO e o Instagram confirmem a atividade — registrar isso como observação no `cnae` do lead, em vez de descartar só pelo código.
 
 ## Aprendizados (continuação)
 - 2026-09-28 · Nesta sessão as APIs de CNPJ (`consulta_cnpj.py`) e o WebFetch direto em páginas de CNPJ/redes sociais estavam bloqueados pelo proxy de rede (erro 403/EGRESS_BLOCKED em quase todo domínio, incluindo Instagram, Facebook, econodata, cnpj.biz, casadosdados) · só o WebSearch funcionava · como aplicar: quando isso acontecer, usar WebSearch com o número do CNPJ entre aspas + "sócio administrador quadro societário" — os resumos de busca de Econodata/Serasa/Casa dos Dados costumam trazer o QSA mesmo sem abrir a página; sempre registrar que a fonte é um resultado de busca, não a consulta direta.

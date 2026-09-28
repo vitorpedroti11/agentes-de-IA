@@ -1,0 +1,80 @@
+{
+  "prospeccao": {
+    "id": "2026-09-28_brasil_estetica-alto-padrao",
+    "titulo": "Estética de Alto Padrão pelo Brasil",
+    "data": "2026-09-28",
+    "cidade": "Brasil (várias cidades)",
+    "regiao": "Garanhuns/PE (lead entregue); Petrolina/PE, Caruaru/PE e Itapetinga/BA mapeados, sem lead qualificado nesta rodada",
+    "observacoes": "Pedido do Vitor: 5 clínicas de estética de alto padrão (ticket alto, harmonização facial, botox, bioestimuladores — não salão de beleza simples). ENTREGA PARCIAL: só 1 lead qualificado nesta rodada, não os 5 pedidos. Motivo registrado com transparência: o orçamento de buscas na web (WebSearch) desta sessão se esgotou (limite de 200 buscas) no meio da checagem do nicho de estética, depois de já ter sido usado nas prospecções de imobiliárias e dentistas feitas na mesma sessão. Mapeados candidatos em Garanhuns/PE, Caruaru/PE, Petrolina/PE e Itapetinga/BA (ver 'descartados' para o que foi encontrado e por que não entrou): a maioria das clínicas de estética avançada de porte médio já tem site próprio (Clínica Velar, Clínica Longue Vie, Dr. Jessica Omena, em Caruaru) ou é rede/franquia (BotoEsthetic, GIO Estética Avançada), e os candidatos restantes em Petrolina não tiveram CNPJ localizável nas buscas feitas antes do limite. Recomenda-se uma nova rodada dedicada só a este nicho, com orçamento de busca fresco, para completar os 4 leads que faltam. Nesta sessão as APIs de CNPJ (consulta_cnpj.py) continuaram bloqueadas pelo proxy de rede; o CNPJ do lead entregue veio de busca web (Econodata), não da consulta direta.",
+    "demonstracao": false
+  },
+  "leads": [
+    {
+      "id": "essencielle-fisioestetica-garanhuns",
+      "nicho": "estetica",
+      "nome_fantasia": "Essencielle Fisioestética",
+      "bairro": "Heliópolis — Garanhuns/PE",
+      "prioridade": "B",
+      "score": 55,
+      "score_detalhe": { "dor": 22, "capacidade": 22, "acesso": 11, "timing": 0 },
+      "cnpj": {
+        "numero": "37.430.110/0001-01",
+        "razao_social": "Clínica Essencialle Fisioestética Ltda",
+        "situacao": "ATIVA",
+        "abertura": "2020-06-16",
+        "porte": "não verificado (provável ME)",
+        "cnae": "9602-5/02 - Atividades de estética e outros serviços de cuidados com a beleza",
+        "capital_social": 0,
+        "endereco": "Avenida Gonçalves Maia, 89 - Heliópolis, Garanhuns - PE, 55.296-270",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/37430110000101-CLINICA-ESSENCIALLE-FISIOESTETICA-LTDA (busca web; API de CNPJ bloqueada nesta sessão)"
+      },
+      "decisor": {
+        "nome": "Synara Polyanna Oliveira Ferreira",
+        "primeiro_nome": "Synara",
+        "qualificacao": "Sócia-Administradora (junto com Renato Bezerra Alves, também administrador)",
+        "validado": true,
+        "fonte_validacao": "Instagram da clínica (@essenciallefisioestetica) apresenta \"Dra. Synara Polyanna\", fisioterapeuta dermatofuncional, como responsável técnica — nome bate com o QSA (Synara Polyanna Oliveira Ferreira)",
+        "instagram": "não encontrado (perfil pessoal; só o da clínica)",
+        "outros_socios": [
+          { "nome": "Renato Bezerra Alves", "qualificacao": "Administrador" }
+        ]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "nenhum site encontrado após 3 buscas — só Instagram e Facebook (28/09/2026)" },
+        "instagram": { "url": "https://www.instagram.com/essenciallefisioestetica/", "seguidores": 2620, "publicacoes": 0, "ultimo_post": "não verificado", "status": "fraco", "nota": "bio anuncia estética facial e corporal, depilação a laser, pós-operatório e botox — portfólio de ticket alto (botox é procedimento injetável, não salão de beleza simples)" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta sessão" },
+        "anuncios": { "ativos": "null (não verificado)", "fonte": "", "observacao": "Biblioteca de Anúncios da Meta não verificada nesta sessão" }
+      },
+      "dores": [
+        "5 anos de clínica com portfólio de ticket alto (botox, pós-operatório, estética corporal), mas sem nenhum site",
+        "2.620 seguidores é pouco para o tipo de procedimento injetável oferecido — sinal de que o tráfego pago ainda não entrou"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "procedimento injetável de ticket alto (botox) paga o mês de mídia; a clínica precisa de tráfego pago e vídeos de antes/depois (com autorização) para converter esse público em agendamento"
+      },
+      "gancho": "5 anos de clínica em Garanhuns oferecendo botox e pós-operatório — procedimento de ticket alto que já paga o investimento em mídia, mas o Instagram ainda não converte isso em agenda cheia",
+      "contato": { "whatsapp": "não encontrado (contato indicado é pelo Direct do Instagram)", "instagram": "@essenciallefisioestetica", "email": "", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Synara! Aqui é o Vitor, da Adspot. Vi que a Essencielle já soma 5 anos em Garanhuns e trabalha com botox e recuperação pós-operatória — procedimentos de ticket alto. Só que com 2.620 seguidores, esse trabalho ainda não converte em agenda cheia. A gente organiza o perfil, grava os vídeos e coloca anúncio pra quem mora perto. Posso te mandar 3 ideias?",
+        "instagram_dm": "Oi, Synara! Vitor, da Adspot. Vi o trabalho da Essencielle com botox e pós-operatório — dá pra transformar isso em mais agendamentos com anúncio certo. Posso te mostrar uma ideia?",
+        "follow_up_d3": "Synara, voltando aqui: um vídeo mostrando o antes/depois de um procedimento (com autorização da paciente) já ajudaria bastante a mostrar o resultado do trabalho de vocês. Faz sentido eu te mandar mais ideias?",
+        "follow_up_d7": "Synara, fecho por aqui — se depois fizer sentido organizar o Instagram e trazer paciente novo, é só chamar.",
+        "ligacao": "Perguntar por Synara Polyanna; citar os 5 anos de clínica e o trabalho com botox; oferecer mandar 3 ideias pelo Direct. Antes/depois só com autorização; sem promessa de resultado estético."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/37430110000101-CLINICA-ESSENCIALLE-FISIOESTETICA-LTDA",
+        "https://www.instagram.com/essenciallefisioestetica/"
+      ]
+    }
+  ],
+  "descartados": [
+    { "nome": "Clínica Velar / Clínica Longue Vie / Dr. Jessica Omena / BotoEsthetic (Caruaru)", "nicho": "estetica", "motivo": "Caruaru/PE — as três primeiras já têm site próprio funcionando; BotoEsthetic é rede com unidades em várias cidades (marketing centralizado)" },
+    { "nome": "Clínica Enface (Caruaru)", "nicho": "estetica", "motivo": "não foi possível localizar o CNPJ da clínica nas buscas feitas antes do limite de sessão" },
+    { "nome": "Instituto Barros | Medicina e Estética Avançada (Petrolina)", "nicho": "estetica", "motivo": "o sócio-administrador (Dr. Tássyo Barros) tem 58 mil seguidores no Instagram pessoal — indício de que já produz conteúdo profissional e tem audiência própria forte; sem dor real comprovada para o negócio nesta rodada" },
+    { "nome": "Ana Fernandes / Carla Vanessa Clinic / Natália Alcântara / Eli Estética / Fina Estética Avançada (Petrolina)", "nicho": "estetica", "motivo": "candidatas mapeadas por busca inicial, mas não foi possível localizar CNPJ, QSA ou status de site de nenhuma antes do orçamento de buscas da sessão se esgotar — ficam para confirmar numa próxima rodada" },
+    { "nome": "GIO Estética Avançada", "nicho": "estetica", "motivo": "rede com mais de 200 unidades no Brasil — marketing centralizado, sem dor local" }
+  ],
+  "proximo_passo": "Abordar Synara (Essencielle Fisioestética) hoje entre 9h e 11h pelo Direct do Instagram; follow-up D+3 em 2026-10-01. IMPORTANTE: avisar o Vitor que faltam 4 leads deste lote — recomendar nova rodada de prospecção só para estética de alto padrão, com orçamento de busca fresco, cobrindo os candidatos já mapeados em Petrolina (Ana Fernandes, Carla Vanessa Clinic, Natália Alcântara, Eli Estética, Fina Estética Avançada) e outras cidades ainda não checadas."
+}

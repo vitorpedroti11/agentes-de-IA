@@ -1,0 +1,324 @@
+{
+  "prospeccao": {
+    "id": "2026-09-28_brasil_dentista",
+    "titulo": "Dentistas pelo Brasil",
+    "data": "2026-09-28",
+    "cidade": "Brasil (várias cidades)",
+    "regiao": "Garanhuns/PE, Serrinha/BA, Patos/PB, Marabá/PA, Arapiraca/AL",
+    "observacoes": "Pedido do Vitor: 5 leads de clínicas odontológicas em qualquer lugar do Brasil, com presença digital fraca. Mapeados candidatos em Garanhuns/PE, Serrinha/BA, Patos/PB, Marabá/PA, Arapiraca/AL, Caicó/RN, Itapetinga/BA, Vitória de Santo Antão/PE, Caruaru/PE e Guanambi/BA; a maioria das clínicas de porte médio já tem site ou é filial de rede nacional (ex.: Vamos Sorrir, Volte a Sorrir, OdontoCompany) — descartadas por não terem dor real ou por já terem marketing centralizado. Nesta sessão as APIs de CNPJ (consulta_cnpj.py) continuaram bloqueadas pelo proxy de rede; os dados de CNPJ/QSA vieram de buscas (trechos indexados de Econodata, Serasa Experian e Casa dos Dados) em vez da consulta direta — cada dado tem a URL de origem em 'fontes' e os itens não confirmados diretamente (nota Google, anúncios ativos, porte exato, data do último post) estão como não verificados, valendo metade dos pontos.",
+    "demonstracao": false
+  },
+  "leads": [
+    {
+      "id": "liberato-odontologia-garanhuns",
+      "nicho": "dentista",
+      "nome_fantasia": "Clínica Liberato Odontologia",
+      "bairro": "Santo Antônio — Garanhuns/PE",
+      "prioridade": "B",
+      "score": 56,
+      "score_detalhe": { "dor": 24, "capacidade": 21, "acesso": 11, "timing": 0 },
+      "cnpj": {
+        "numero": "33.299.534/0001-10",
+        "razao_social": "Liberato Clínica Odontológica Ltda",
+        "situacao": "ATIVA",
+        "abertura": "2019-04-09",
+        "porte": "não verificado (provável ME)",
+        "cnae": "8630-5/04 - Atividade odontológica",
+        "capital_social": 0,
+        "endereco": "Rua 15 de Novembro, 365 - Santo Antônio, Garanhuns - PE, 55.295-230",
+        "fonte": "https://inteligen.com.br/empresa/liberato-odontologia-liberato-clinica-odontologica-ltda-33299534000110 (busca web; API de CNPJ bloqueada nesta sessão)"
+      },
+      "decisor": {
+        "nome": "Thays Ferreira de Almeida Liberato",
+        "primeiro_nome": "Thays",
+        "qualificacao": "Administradora (junto com Morghana de Almeida Liberato, sócia)",
+        "validado": true,
+        "fonte_validacao": "https://www.facebook.com/dentistaThaysLiberato/ — página \"dentista Thays Liberato\" bate com o nome do QSA (Thays Ferreira de Almeida Liberato)",
+        "instagram": "não encontrado (perfil pessoal; só o da clínica)",
+        "outros_socios": [
+          { "nome": "Morghana de Almeida Liberato", "qualificacao": "Sócia" }
+        ]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "nenhum site encontrado após 3 buscas — só Instagram, Facebook e diretórios (28/09/2026)" },
+        "instagram": { "url": "https://www.instagram.com/liberato.odontologia/", "seguidores": 1024, "publicacoes": 0, "ultimo_post": "não verificado", "status": "fraco", "nota": "bio lista periodontia, odontopediatria, ortodontia, prótese, implantes e facetas — serviço variado, mas só 1.024 seguidores" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta sessão" },
+        "anuncios": { "ativos": "null (não verificado)", "fonte": "", "observacao": "Biblioteca de Anúncios da Meta não verificada nesta sessão" }
+      },
+      "dores": [
+        "6 anos de clínica sem nenhum site — quem pesquisa dentista em Garanhuns no Google não encontra a Liberato Odontologia",
+        "Instagram com serviços variados (implantes, facetas, ortodontia) mas só 1.024 seguidores — pouca distribuição para o portfólio que tem"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000 (institucional de 1 página com WhatsApp)",
+        "justificativa": "clínica de família com portfólio amplo (implantes, facetas, ortodontia) mas sem nenhum site — paciente pesquisa dentista no Google antes de ligar"
+      },
+      "gancho": "6 anos de clínica com implantes, facetas e ortodontia no portfólio, mas nenhum site — só o Instagram, com pouco mais de mil seguidores",
+      "contato": { "whatsapp": "(87) 99921-5257", "instagram": "@liberato.odontologia", "email": "", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Thays! Aqui é o Vitor, da Adspot. Vi que a Liberato Odontologia trabalha com implantes, facetas e ortodontia há 6 anos em Garanhuns. Só que sem site, quem pesquisa dentista no Google não encontra vocês, só quem já segue o Instagram. A gente monta um site simples com esses serviços e o WhatsApp direto. Posso te mandar uma ideia?",
+        "instagram_dm": "Oi, Thays! Vitor, da Adspot. 6 anos de clínica com implantes e facetas no portfólio, mas sem site — dá pra resolver isso. Posso te mostrar uma ideia?",
+        "follow_up_d3": "Thays, voltando aqui: um site de uma página só, com os serviços que vocês já oferecem e o WhatsApp de agendamento, já ajudaria bastante quem chega pelo Google. Faz sentido eu te mandar o modelo?",
+        "follow_up_d7": "Thays, fecho por aqui — se depois fizer sentido ter um site pra clínica, é só chamar.",
+        "ligacao": "Perguntar por Thays Liberato; citar os 6 anos de clínica e o portfólio de implantes/facetas; oferecer mandar 3 ideias pelo WhatsApp. Sem promessa de resultado, sem preço promocional (regra do CFO)."
+      },
+      "fontes": [
+        "https://inteligen.com.br/empresa/liberato-odontologia-liberato-clinica-odontologica-ltda-33299534000110",
+        "https://www.instagram.com/liberato.odontologia/",
+        "https://www.facebook.com/dentistaThaysLiberato/"
+      ]
+    },
+    {
+      "id": "harmonie-odontologia-serrinha",
+      "nicho": "dentista",
+      "nome_fantasia": "Harmonie Odontologia Especializada",
+      "bairro": "Centro — Serrinha/BA",
+      "prioridade": "B",
+      "score": 58,
+      "score_detalhe": { "dor": 22, "capacidade": 18, "acesso": 11, "timing": 7 },
+      "cnpj": {
+        "numero": "46.281.551/0001-71",
+        "razao_social": "Harmonie Odontologia Especializada Ltda",
+        "situacao": "ATIVA",
+        "abertura": "2022-05-05",
+        "porte": "não verificado (provável ME, empresa recente)",
+        "cnae": "8630-5/04 - Atividade odontológica",
+        "capital_social": 0,
+        "endereco": "Rua Campos Filho, 33 - Centro, Serrinha - BA, 48.700-000",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/46281551000171-HARMONIE-ODONTOLOGIA-ESPECIALIZADA-LTDA (busca web; API de CNPJ bloqueada nesta sessão)"
+      },
+      "decisor": {
+        "nome": "Rafael Matos de Araújo Santos",
+        "primeiro_nome": "Rafael",
+        "qualificacao": "Administrador",
+        "validado": false,
+        "fonte_validacao": "não encontrada fonte externa ao CNPJ nesta rodada — confirmar antes de abordar",
+        "instagram": "não encontrado",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "nenhum site encontrado após 3 buscas — só Instagram, Facebook e diretórios de saúde (28/09/2026)" },
+        "instagram": { "url": "https://www.instagram.com/harmonie.odontologia/", "seguidores": 0, "publicacoes": 0, "ultimo_post": "não verificado", "status": "fraco", "nota": "seguidores e último post não verificados nesta sessão; clínica oferece implante dentário, lente de contato, facetas em resina, alinhadores invisíveis e harmonização — portfólio de ticket alto" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta sessão" },
+        "anuncios": { "ativos": "null (não verificado)", "fonte": "", "observacao": "Biblioteca de Anúncios da Meta não verificada nesta sessão" }
+      },
+      "dores": [
+        "clínica aberta há 2 anos e meio (2022), com portfólio de ticket alto (implante, lente de contato, alinhador invisível), mas sem nenhum site",
+        "presença no Instagram não verificada nesta sessão — sinal de baixa atividade/distribuição"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "clínica nova (2022) com portfólio de ticket alto (implante, lente de contato, harmonização) precisa de posicionamento e tráfego pago para atrair paciente novo, além do site"
+      },
+      "gancho": "clínica nova em Serrinha com portfólio de ticket alto — implante, lente de contato, alinhador invisível — mas sem site e sem posicionamento forte no Instagram",
+      "contato": { "whatsapp": "(75) 99180-6711", "instagram": "@harmonie.odontologia", "email": "", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Rafael! Aqui é o Vitor, da Adspot. Vi que a Harmonie Odontologia trabalha com implante, lente de contato e alinhador invisível em Serrinha. São procedimentos de ticket alto, e ainda não encontrei um site ou um Instagram bem posicionado para vocês. A gente organiza o perfil, grava os vídeos dos procedimentos e coloca anúncio pra quem mora perto. Posso te mandar 3 ideias?",
+        "instagram_dm": "Oi, Rafael! Vitor, da Adspot. Vi o trabalho da Harmonie com implante e lente de contato — dá pra organizar o Instagram e trazer paciente novo com anúncio. Posso te mostrar uma ideia?",
+        "follow_up_d3": "Rafael, voltando aqui: um vídeo mostrando o antes/depois de um alinhador invisível (com autorização do paciente) já ajudaria bastante a mostrar o trabalho de vocês. Faz sentido eu te mandar mais ideias?",
+        "follow_up_d7": "Rafael, fecho por aqui — se depois fizer sentido organizar o Instagram e trazer paciente novo, é só chamar.",
+        "ligacao": "Perguntar por Rafael Matos de Araújo Santos; citar o portfólio de implante e lente de contato; oferecer mandar 3 ideias por WhatsApp. Sem promessa de resultado, sem preço promocional (regra do CFO)."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/46281551000171-HARMONIE-ODONTOLOGIA-ESPECIALIZADA-LTDA",
+        "https://www.instagram.com/harmonie.odontologia/",
+        "https://cadeodentista.com.br/clinica/harmonie-odontologia-implante-dentario-lente-de-contato-facetas-em-resina-alinhadores-invisiveis-harmonizacao-serrinha-ba"
+      ]
+    },
+    {
+      "id": "odonto-select-patos",
+      "nicho": "dentista",
+      "nome_fantasia": "Odonto Select",
+      "bairro": "Centro — Patos/PB",
+      "prioridade": "B",
+      "score": 57,
+      "score_detalhe": { "dor": 23, "capacidade": 23, "acesso": 11, "timing": 0 },
+      "cnpj": {
+        "numero": "26.537.653/0001-06",
+        "razao_social": "Odonto Select - Serviços Odontológicos Especializados Ltda",
+        "situacao": "ATIVA",
+        "abertura": "2016-11-14",
+        "porte": "EPP",
+        "cnae": "8630-5/04 - Atividade odontológica",
+        "capital_social": 40000,
+        "endereco": "Rua Bossuet Wanderley, 365 - Centro, Patos - PB, 58.700-085",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/26537653000106-odonto-select-servicos-odontologicos-especializados-ltda (busca web; API de CNPJ bloqueada nesta sessão)"
+      },
+      "decisor": {
+        "nome": "Ana Cecília de Alencar e Silva Leite",
+        "primeiro_nome": "Ana Cecília",
+        "qualificacao": "Administradora (junto com Pedro Henrique de Alencar e Silva Leite, sócio)",
+        "validado": false,
+        "fonte_validacao": "não encontrada fonte externa ao CNPJ nesta rodada — confirmar antes de abordar",
+        "instagram": "não encontrado",
+        "outros_socios": [
+          { "nome": "Pedro Henrique de Alencar e Silva Leite", "qualificacao": "Sócio" }
+        ]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "o domínio odontoselect.com.br pertence a uma clínica homônima em Curitiba/PR, sem relação com a unidade de Patos/PB — a unidade de Patos não tem site próprio (28/09/2026)" },
+        "instagram": { "url": "https://www.instagram.com/odontoselectpb/", "seguidores": 1270, "publicacoes": 0, "ultimo_post": "não verificado", "status": "fraco", "nota": "bio lista prótese, implantodontia, clareamento, ortodontia, endodontia, odontopediatria e harmonização facial — portfólio amplo, mas 1.270 seguidores é pouco" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta sessão" },
+        "anuncios": { "ativos": "null (não verificado)", "fonte": "", "observacao": "Biblioteca de Anúncios da Meta não verificada nesta sessão" }
+      },
+      "dores": [
+        "9 anos de clínica (EPP, capital social de R$ 40 mil) e portfólio amplo (implante, harmonização facial), mas sem nenhum site próprio",
+        "o domínio \"odontoselect.com.br\" é de uma clínica homônima em Curitiba — quem pesquisa pelo nome pode cair no lugar errado"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.500 (múltiplas páginas: serviços, agendamento, contato)",
+        "justificativa": "clínica EPP de 9 anos com portfólio amplo e sem site próprio — o nome ainda corre o risco de se confundir com uma clínica homônima em outra cidade"
+      },
+      "gancho": "9 anos de clínica em Patos, capital social de R$ 40 mil e nenhum site próprio — o nome \"Odonto Select\" já pertence a uma clínica de Curitiba no Google",
+      "contato": { "whatsapp": "(83) 99961-1110", "instagram": "@odontoselectpb", "email": "", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi! Aqui é o Vitor, da Adspot. Vi que a Odonto Select trabalha com implante, ortodontia e harmonização facial há 9 anos em Patos. Reparei que quem procura \"Odonto Select\" no Google pode cair no site de uma clínica homônima em Curitiba, porque vocês ainda não têm um site próprio. A gente monta um site só de vocês, com os serviços e o agendamento. Posso te mandar uma ideia?",
+        "instagram_dm": "Oi! Vitor, da Adspot. 9 anos de Odonto Select em Patos e o nome de vocês ainda divide o Google com uma clínica de Curitiba — dá pra resolver com um site próprio. Posso te mostrar uma ideia?",
+        "follow_up_d3": "Voltando aqui: um site com os serviços de vocês (implante, harmonização, ortodontia) e o WhatsApp de agendamento ajudaria a recuperar esse espaço no Google. Faz sentido eu mandar o modelo?",
+        "follow_up_d7": "Fecho por aqui — se depois fizer sentido ter um site próprio pra Odonto Select, é só chamar.",
+        "ligacao": "Perguntar por Ana Cecília de Alencar e Silva Leite; citar os 9 anos de clínica e a confusão de nome com a clínica de Curitiba; oferecer mandar 3 ideias por WhatsApp. Sem promessa de resultado, sem preço promocional (regra do CFO)."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/26537653000106-odonto-select-servicos-odontologicos-especializados-ltda",
+        "https://www.instagram.com/odontoselectpb/",
+        "https://odontoselect.com.br/"
+      ]
+    },
+    {
+      "id": "nosso-dentista-maraba",
+      "nicho": "dentista",
+      "nome_fantasia": "Nosso Dentista - Velha Marabá",
+      "bairro": "Velha Marabá — Marabá/PA",
+      "prioridade": "B",
+      "score": 54,
+      "score_detalhe": { "dor": 23, "capacidade": 20, "acesso": 11, "timing": 0 },
+      "cnpj": {
+        "numero": "29.996.240/0001-70",
+        "razao_social": "Nosso Dentista - Clínica Odontológica Ltda",
+        "situacao": "ATIVA",
+        "abertura": "2018-03-21",
+        "porte": "não verificado (provável ME)",
+        "cnae": "8630-5/04 - Atividade odontológica",
+        "capital_social": 0,
+        "endereco": "Avenida Antônio Maia, 1106 - Velha Marabá, Marabá - PA, 68.500-005",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/29996240000170-nosso-dentista-clinica-odontologica-ltda (busca web; API de CNPJ bloqueada nesta sessão)"
+      },
+      "decisor": {
+        "nome": "Diego Ferreira de Almeida",
+        "primeiro_nome": "Diego",
+        "qualificacao": "Administrador (junto com Donizete Oliveira de Souza, administrador)",
+        "validado": false,
+        "fonte_validacao": "não encontrada fonte externa ao CNPJ nesta rodada — confirmar antes de abordar",
+        "instagram": "não encontrado",
+        "outros_socios": [
+          { "nome": "Donizete Oliveira de Souza", "qualificacao": "Administrador" }
+        ]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "nenhum site encontrado após 3 buscas (28/09/2026)" },
+        "instagram": { "url": "https://www.instagram.com/clinicasnossodentista/", "seguidores": 1086, "publicacoes": 120, "ultimo_post": "não verificado", "status": "fraco", "nota": "120 publicações para 1.086 seguidores — mais conteúdo do que distribuição, sinal de falta de tráfego, não de falta de conteúdo" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta sessão" },
+        "anuncios": { "ativos": "null (não verificado)", "fonte": "", "observacao": "Biblioteca de Anúncios da Meta não verificada nesta sessão" }
+      },
+      "dores": [
+        "7 anos de clínica sem nenhum site — quem pesquisa dentista em Marabá no Google não encontra a Nosso Dentista",
+        "120 publicações no Instagram para só 1.086 seguidores — a clínica produz conteúdo, mas ele não circula"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000 (institucional de 1 página com WhatsApp)",
+        "justificativa": "7 anos de clínica com bastante conteúdo publicado (120 posts) mas sem nenhum site — paciente pesquisa dentista no Google antes de ligar"
+      },
+      "gancho": "7 anos de clínica em Velha Marabá, 120 publicações no Instagram e nenhum site — o esforço de conteúdo existe, falta o site pra aparecer no Google",
+      "contato": { "whatsapp": "não encontrado (contato indicado é pelo Direct do Instagram)", "instagram": "@clinicasnossodentista", "email": "", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Diego! Aqui é o Vitor, da Adspot. Vi que a Nosso Dentista já soma 7 anos em Velha Marabá e mais de 120 publicações no Instagram. Só que sem site, quem pesquisa dentista no Google não encontra vocês, só quem já segue o perfil. A gente monta um site simples com os serviços e o WhatsApp direto. Posso te mandar uma ideia?",
+        "instagram_dm": "Oi, Diego! Vitor, da Adspot. 7 anos de clínica e mais de 120 posts, mas ainda sem site — dá pra resolver isso. Posso te mostrar uma ideia?",
+        "follow_up_d3": "Diego, voltando aqui: um site de uma página só, com os serviços que vocês já mostram no Instagram e o WhatsApp de agendamento, ajudaria bastante quem chega pelo Google. Faz sentido eu te mandar o modelo?",
+        "follow_up_d7": "Diego, fecho por aqui — se depois fizer sentido ter um site pra clínica, é só chamar.",
+        "ligacao": "Perguntar por Diego Ferreira de Almeida; citar os 7 anos de clínica e o conteúdo do Instagram; oferecer mandar 3 ideias pelo Direct. Sem promessa de resultado, sem preço promocional (regra do CFO)."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/29996240000170-nosso-dentista-clinica-odontologica-ltda",
+        "https://www.instagram.com/clinicasnossodentista/"
+      ]
+    },
+    {
+      "id": "clinica-pra-sorrir-arapiraca",
+      "nicho": "dentista",
+      "nome_fantasia": "Clínica Odontológica Pra Sorrir",
+      "bairro": "Centro — Arapiraca/AL",
+      "prioridade": "B",
+      "score": 55,
+      "score_detalhe": { "dor": 21, "capacidade": 23, "acesso": 11, "timing": 0 },
+      "cnpj": {
+        "numero": "28.162.775/0001-82",
+        "razao_social": "RML Clínica Odontológica Ltda",
+        "situacao": "ATIVA",
+        "abertura": "2017-07-12",
+        "porte": "não verificado (provável ME/EPP — 4 administradores no QSA sugerem sociedade entre dentistas)",
+        "cnae": "8630-5/04 - Atividade odontológica",
+        "capital_social": 0,
+        "endereco": "Praça Manoel André, 28 - Centro, Arapiraca - AL, 57.300-005",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/28162775000182-rml-clinica-odontologica-ltda (busca web; API de CNPJ bloqueada nesta sessão)"
+      },
+      "decisor": {
+        "nome": "Amanda Perminio dos Santos",
+        "primeiro_nome": "Amanda",
+        "qualificacao": "Administradora (junto com Bruno Machado Homem, Marcelo de Melo Rocha e Maria Vitória Tenório Novais dos Santos, também administradores)",
+        "validado": false,
+        "fonte_validacao": "não encontrada fonte externa ao CNPJ nesta rodada — confirmar antes de abordar; clínica tem 4 administradores no QSA, então vale confirmar com quem falar antes de citar nome específico",
+        "instagram": "não encontrado",
+        "outros_socios": [
+          { "nome": "Bruno Machado Homem", "qualificacao": "Administrador" },
+          { "nome": "Marcelo de Melo Rocha", "qualificacao": "Administrador" },
+          { "nome": "Maria Vitória Tenório Novais dos Santos", "qualificacao": "Administradora" }
+        ]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "nenhum site encontrado após 3 buscas — só Instagram e Facebook (28/09/2026)" },
+        "instagram": { "url": "https://www.instagram.com/clinicaprasorrir/", "seguidores": 3396, "publicacoes": 673, "ultimo_post": "não verificado", "status": "fraco", "nota": "673 publicações para 3.396 seguidores — bastante conteúdo, distribuição relativamente baixa" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta sessão" },
+        "anuncios": { "ativos": "null (não verificado)", "fonte": "", "observacao": "Biblioteca de Anúncios da Meta não verificada nesta sessão" }
+      },
+      "dores": [
+        "8 anos de clínica com 4 sócios-administradores e 673 publicações no Instagram, mas nenhum site — indício de estrutura maior sem vitrine própria no Google",
+        "canal de raiz (tratamento de canal), prótese, aparelho e estética dental oferecidos, mas sem página própria para cada serviço"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.500 (múltiplas páginas: serviços, agendamento, contato)",
+        "justificativa": "clínica de porte maior (4 administradores, 8 anos, 673 posts) sem nenhum site — estrutura já existe, falta a vitrine no Google"
+      },
+      "gancho": "8 anos de clínica com 4 sócios e quase 700 publicações no Instagram, mas nenhum site — a estrutura já existe, falta aparecer no Google",
+      "contato": { "whatsapp": "não encontrado (contato indicado é pelo Direct do Instagram/Facebook)", "instagram": "@clinicaprasorrir", "email": "", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi! Aqui é o Vitor, da Adspot. Vi que a Clínica Pra Sorrir já soma 8 anos em Arapiraca e quase 700 publicações no Instagram. Só que sem site, quem pesquisa dentista no Google não encontra vocês, só quem já segue o perfil. A gente monta um site com os serviços organizados e o agendamento. Posso te mandar uma ideia?",
+        "instagram_dm": "Oi! Vitor, da Adspot. 8 anos de clínica e quase 700 posts, mas ainda sem site — dá pra resolver isso. Posso te mostrar uma ideia?",
+        "follow_up_d3": "Voltando aqui: um site com os serviços de vocês (canal, prótese, aparelho) e o WhatsApp de agendamento ajudaria bastante quem chega pelo Google. Faz sentido eu mandar o modelo?",
+        "follow_up_d7": "Fecho por aqui — se depois fizer sentido ter um site pra clínica, é só chamar.",
+        "ligacao": "Perguntar por quem cuida do marketing da clínica (são 4 sócios-administradores no CNPJ: Amanda, Bruno, Marcelo e Maria Vitória — confirmar com quem falar antes de citar nome); citar os 8 anos de clínica e o volume de conteúdo no Instagram. Sem promessa de resultado, sem preço promocional (regra do CFO)."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/28162775000182-rml-clinica-odontologica-ltda",
+        "https://www.instagram.com/clinicaprasorrir/"
+      ]
+    }
+  ],
+  "descartados": [
+    { "nome": "Vamos Sorrir Odontologia (Serrinha)", "nicho": "dentista", "motivo": "rede nacional (unidades em São Paulo, Salvador, Feira de Santana, Realengo, Espírito Santo) com marketing centralizado — sem dor local real" },
+    { "nome": "Volte a Sorrir (Guanambi e Caruaru)", "nicho": "dentista", "motivo": "rede com múltiplas unidades (59K seguidores em Caruaru) e marketing profissional já ativo — sem dor real" },
+    { "nome": "OdontoCompany (Guanambi)", "nicho": "dentista", "motivo": "franquia nacional com marketing centralizado" },
+    { "nome": "Clínica Fácil (Caicó)", "nicho": "dentista", "motivo": "tem site próprio (clinicafacilgrupo.com.br) e 15K seguidores — já resolveu a vitrine digital" },
+    { "nome": "Odonto Clinic Serrinha (Dra. Julianne Lima Gama)", "nicho": "dentista", "motivo": "não foi possível localizar o CNPJ da clínica em nenhuma fonte após várias buscas — sem CNPJ, não entra na lista" },
+    { "nome": "Flex Dental Odontologia (Arapiraca)", "nicho": "dentista", "motivo": "duas CNPJs conflitantes (uma \"Baixada\"/inativa, outra aberta em 2025) e nenhum sócio-administrador localizável nas buscas — dono não identificado" },
+    { "nome": "Odonto Klub (Arapiraca)", "nicho": "dentista", "motivo": "mais de 17 anos e 10 mil sorrisos divulgados — indício de marketing já profissionalizado, sem CNPJ/dor clara confirmados" },
+    { "nome": "Espaço Odonto (Caruaru)", "nicho": "dentista", "motivo": "não foi possível localizar o CNPJ da clínica nas buscas feitas" },
+    { "nome": "Sonríe Odontologia (Guanambi)", "nicho": "dentista", "motivo": "clínica premium com site próprio (sonrieodontologia.com.br) — já resolveu a vitrine digital" },
+    { "nome": "Odonto Mais Vitória (Vitória de Santo Antão)", "nicho": "dentista", "motivo": "não foi possível localizar um CNPJ específico da unidade nas buscas feitas" }
+  ],
+  "proximo_passo": "Abordar Thays (Liberato Odontologia) e Ana Cecília (Odonto Select) hoje entre 9h e 11h por WhatsApp; Diego (Nosso Dentista) e Rafael (Harmonie Odontologia) hoje entre 14h e 17h; Clínica Pra Sorrir na sequência, confirmando antes com quem falar (4 sócios no CNPJ); follow-up D+3 em 2026-10-01."
+}
