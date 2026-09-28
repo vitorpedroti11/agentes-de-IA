@@ -16,7 +16,116 @@
     "atualizado_em": "2026-09-23"
   },
   "conteudos": [],
-  "semanas": [],
+  "semanas": [
+    {
+      "id": "2026-09-28",
+      "data_inicio": "2026-09-28",
+      "briefing": "Vitor pediu conteúdos para a Allenza nesta semana, sem especificar quantidade/mix. Proposta: 3 posts + 2 reels de segunda a sexta, com stories diários de apoio, variando entre as categorias do perfil (produto, desejo, relacionamento, posicionamento, estilo, vendas). Aguardando aprovação antes de desenvolver.",
+      "status": "planejamento",
+      "itens": [
+        {
+          "id": "seg-post-posicionamento",
+          "dia": "segunda",
+          "tipo": "post",
+          "pilar": "branding",
+          "ideia_resumo": "Reforça o posicionamento da ALLENZA pós-rebranding — a evolução de Alline Coelho para ALLENZA, mantendo a essência.",
+          "cta_previsto": "Segue a ALLENZA / conta pra gente o que achou da nova fase",
+          "conteudo_id": null,
+          "status": "ideia"
+        },
+        {
+          "id": "seg-stories-posicionamento",
+          "dia": "segunda",
+          "tipo": "stories",
+          "pilar": "branding",
+          "ideia_resumo": "Sequência de stories dando continuidade ao post: bastidor da mudança de marca, sem repetir o mesmo texto do post.",
+          "cta_previsto": "Manda mensagem no WhatsApp",
+          "conteudo_id": null,
+          "status": "ideia"
+        },
+        {
+          "id": "ter-reel-desejo",
+          "dia": "terca",
+          "tipo": "reel",
+          "pilar": "engajamento",
+          "ideia_resumo": "Reel de desejo por uma peça específica (fitness ou praia), focado em sensação/estilo, sem preço nem promoção.",
+          "cta_previsto": "Clica no link da bio / chama no WhatsApp pra saber mais",
+          "conteudo_id": null,
+          "status": "ideia"
+        },
+        {
+          "id": "ter-stories-desejo",
+          "dia": "terca",
+          "tipo": "stories",
+          "pilar": "engajamento",
+          "ideia_resumo": "Enquete ou caixinha de pergunta sobre qual peça do reel a cliente mais gostou.",
+          "cta_previsto": "Responde a enquete",
+          "conteudo_id": null,
+          "status": "ideia"
+        },
+        {
+          "id": "qua-post-estilo",
+          "dia": "quarta",
+          "tipo": "post",
+          "pilar": "educacao",
+          "ideia_resumo": "Dica de estilo: como combinar/usar uma peça ALLENZA em diferentes momentos do dia, sem citar produto específico à venda.",
+          "cta_previsto": "Comenta qual look combina mais com você",
+          "conteudo_id": null,
+          "status": "ideia"
+        },
+        {
+          "id": "qua-stories-estilo",
+          "dia": "quarta",
+          "tipo": "stories",
+          "pilar": "educacao",
+          "ideia_resumo": "Continuação da dica de estilo do post, em formato mais rápido e pessoal.",
+          "cta_previsto": "Manda mensagem no WhatsApp",
+          "conteudo_id": null,
+          "status": "ideia"
+        },
+        {
+          "id": "qui-reel-produto",
+          "dia": "quinta",
+          "tipo": "reel",
+          "pilar": "branding",
+          "ideia_resumo": "Bastidor/apresentação de uma peça (produto), destacando cuidado no design e identidade visual da marca.",
+          "cta_previsto": "Chama no WhatsApp pra saber mais sobre a peça",
+          "conteudo_id": null,
+          "status": "ideia"
+        },
+        {
+          "id": "qui-stories-produto",
+          "dia": "quinta",
+          "tipo": "stories",
+          "pilar": "branding",
+          "ideia_resumo": "Sequência de stories mostrando outros ângulos/detalhes da peça do reel.",
+          "cta_previsto": "Responde no direct",
+          "conteudo_id": null,
+          "status": "ideia"
+        },
+        {
+          "id": "sex-post-vendas",
+          "dia": "sexta",
+          "tipo": "post",
+          "pilar": "conversao",
+          "ideia_resumo": "Convite direto para conhecer a coleção pelo WhatsApp, fechando a semana com CTA de conversão (sem inventar preço/condição).",
+          "cta_previsto": "Chama no WhatsApp e confere a coleção completa",
+          "conteudo_id": null,
+          "status": "ideia"
+        },
+        {
+          "id": "sex-stories-vendas",
+          "dia": "sexta",
+          "tipo": "stories",
+          "pilar": "conversao",
+          "ideia_resumo": "Sequência de stories reforçando o convite do post, com figurinha de link/pergunta para facilitar o contato.",
+          "cta_previsto": "Clica no link do story",
+          "conteudo_id": null,
+          "status": "ideia"
+        }
+      ]
+    }
+  ],
   "planejamento_mensal": [],
   "banco_ideias": []
 }
