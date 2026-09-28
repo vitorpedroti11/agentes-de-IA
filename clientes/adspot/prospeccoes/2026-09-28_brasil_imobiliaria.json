@@ -1,0 +1,328 @@
+{
+  "prospeccao": {
+    "id": "2026-09-28_brasil_imobiliaria",
+    "titulo": "Imobiliárias pelo Brasil — leads para Site",
+    "data": "2026-09-28",
+    "cidade": "Brasil (várias cidades)",
+    "regiao": "Volta Redonda/RJ, Belo Jardim/PE, Santa Cruz do Capibaribe/PE, Surubim/PE, Cacoal/RO — cidades médias escolhidas pela qualidade do lead, não por região fixa",
+    "observacoes": "Primeira prospecção do nicho Imobiliárias (novo na régua, adicionado a metodologia/prospeccao.md nesta rodada). Pedido do Vitor: 5 leads de imobiliárias em qualquer lugar do Brasil que precisem do produto Site. Mapeados candidatos em mais de 25 cidades (MG, PE, RJ, RS, MT, BA, RO, CE, AL); a maioria das imobiliárias de porte médio já usa algum site de portal imobiliário pronto — os 5 leads abaixo são os que restaram sem site funcional após checar site, Instagram e CNPJ. Nesta sessão as APIs de CNPJ e o acesso direto a paginas de CNPJ/redes sociais estavam bloqueados pelo proxy da rede; os dados de CNPJ/QSA vieram de buscas (trechos indexados de Econodata, Serasa Experian e Casa dos Dados) em vez da consulta direta — cada dado tem a URL de origem em 'fontes' e os itens que não deu para confirmar diretamente (nota Google, anúncios ativos, porte exato) estão como não verificados, valendo metade dos pontos.",
+    "demonstracao": false
+  },
+  "leads": [
+    {
+      "id": "adibravi-volta-redonda",
+      "nicho": "imobiliaria",
+      "nome_fantasia": "Adibravi",
+      "bairro": "São Lucas — Volta Redonda/RJ",
+      "prioridade": "B",
+      "score": 55,
+      "score_detalhe": { "dor": 23, "capacidade": 21, "acesso": 11, "timing": 0 },
+      "cnpj": {
+        "numero": "29.296.415/0001-36",
+        "razao_social": "Administração de Imóveis Braz Vieira Ltda",
+        "situacao": "ATIVA",
+        "abertura": "1974-04-01",
+        "porte": "ME",
+        "cnae": "6822-6/00 - Gestão e administração da propriedade imobiliária",
+        "capital_social": 0,
+        "endereco": "Avenida Carlos Chagas, 521 - São Lucas, Volta Redonda - RJ, 27.264-420",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/29296415000136-administracao-de-imoveis-braz-vieira-ltda (busca web; API de CNPJ bloqueada nesta sessão)"
+      },
+      "decisor": {
+        "nome": "Simone Aparecida Ferreira Magalhaes Vieira",
+        "primeiro_nome": "Simone",
+        "qualificacao": "Sócio-Administrador (desde 24/09/2019)",
+        "validado": false,
+        "fonte_validacao": "não encontrada fonte externa ao CNPJ nesta rodada — confirmar antes de abordar",
+        "instagram": "não encontrado",
+        "outros_socios": [
+          { "nome": "Ana Beatriz Magalhaes Vieira", "qualificacao": "Sócia (desde 04/01/2013)" },
+          { "nome": "Sergio Henrique Magalhaes Vieira", "qualificacao": "Sócio (desde 24/09/2019)" }
+        ]
+      },
+      "presenca": {
+        "site": { "url": "https://www.adibravi.com.br/new/", "status": "ruim", "nota": "site atual está numa subpasta \"/new/\", sinal de reconstrução incompleta; o endereço antigo adibravi.webnode.com.br ainda aparece indexado ao lado do atual — presença dividida entre dois sites (busca em 28/09/2026)" },
+        "instagram": { "url": "https://www.instagram.com/adibravi_/", "seguidores": 659, "publicacoes": 200, "ultimo_post": "não verificado (reels recentes encontrados em busca, sem data exata)", "status": "fraco", "nota": "200 publicações para 659 seguidores — muito conteúdo, pouca distribuição; bio diz \"tradição e confiança há 50 anos\"" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "sem avaliações no Google segundo busca (\"aguardando primeira avaliação\") — confirmar no Maps" },
+        "anuncios": { "ativos": "null (não verificado)", "fonte": "", "observacao": "Biblioteca de Anúncios da Meta não verificada nesta sessão" }
+      },
+      "dores": [
+        "site oficial parece incompleto (subpasta \"/new/\") e convive com um endereço antigo (webnode) ainda encontrado nas buscas",
+        "Instagram com 200 publicações e só 659 seguidores em 51 anos de empresa — sinal de baixa distribuição, não de falta de conteúdo",
+        "sem avaliações no Google apesar da tradição de décadas na cidade"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.500 (múltiplas páginas: catálogo de imóveis, contato, sobre)",
+        "justificativa": "50 anos de tradição em Volta Redonda merecem um site único e completo, em vez de duas versões concorrendo entre si"
+      },
+      "gancho": "51 anos de história (fundada em 1974) e nenhuma avaliação no Google — o site novo é a chance de consolidar a marca antes de mais um aniversário passar",
+      "contato": { "whatsapp": "(24) 3348-0253 / (24) 3348-4000 (telefone da empresa; WhatsApp não confirmado)", "instagram": "@adibravi_", "email": "", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Simone! Aqui é o Vitor, da Adspot. Vi que a Adibravi já soma 51 anos cuidando de imóveis em Volta Redonda — tradição rara. Só que o site oficial ainda está \"em construção\" numa pasta separada e o endereço antigo continua aparecendo nas buscas, o que confunde quem procura vocês agora. A gente monta um site único, com catálogo de imóveis e contato direto. Posso te mandar como ficaria?",
+        "instagram_dm": "Oi, Simone! Vitor, da Adspot. 51 anos de Adibravi e o site ainda tá dividido em duas versões — dá pra resolver isso com um site só, completo. Posso te mostrar uma ideia?",
+        "follow_up_d3": "Simone, voltando aqui: dei uma olhada e o site antigo da Adibravi (o do webnode) ainda aparece no Google ao lado do novo — isso faz o cliente cair no lugar errado. Um site único resolveria isso de vez. Faz sentido eu te mandar um modelo?",
+        "follow_up_d7": "Simone, fecho por aqui — se em algum momento fizer sentido organizar o site da Adibravi num endereço só, é só me chamar.",
+        "ligacao": "Perguntar por Simone; mencionar os 51 anos da Adibravi e o site em duas versões; oferecer mandar 3 ideias por WhatsApp."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/29296415000136-administracao-de-imoveis-braz-vieira-ltda",
+        "https://www.adibravi.com.br/new/",
+        "https://adibravi.webnode.com.br/",
+        "https://www.instagram.com/adibravi_/",
+        "https://www.reclameaqui.com.br/empresa/adibravi/"
+      ]
+    },
+    {
+      "id": "mg-imoveis-belo-jardim",
+      "nicho": "imobiliaria",
+      "nome_fantasia": "MG Imóveis",
+      "bairro": "Centro — Belo Jardim/PE",
+      "prioridade": "B",
+      "score": 56,
+      "score_detalhe": { "dor": 21, "capacidade": 20, "acesso": 15, "timing": 0 },
+      "cnpj": {
+        "numero": "17.653.386/0001-33",
+        "razao_social": "M. G. Imóveis Ltda",
+        "situacao": "ATIVA",
+        "abertura": "2013-02-27",
+        "porte": "não verificado (provável ME)",
+        "cnae": "6821-8/01 - Corretagem na compra e venda e avaliação de imóveis",
+        "capital_social": 0,
+        "endereco": "Rua Dom Moura, 4 - Centro, Belo Jardim - PE, 55.150-070",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/17653386000133-m-g-imoveis-ltda (busca web; API de CNPJ bloqueada nesta sessão)"
+      },
+      "decisor": {
+        "nome": "Maria Goreti Araújo",
+        "primeiro_nome": "Goreti",
+        "qualificacao": "Administradora",
+        "validado": true,
+        "fonte_validacao": "https://www.instagram.com/mgimoveisbj/ — bio cita a corretora \"Goreti Araújo\", nome que bate com o QSA (Maria Goreti Araujo)",
+        "instagram": "não encontrado (perfil pessoal; só o da empresa)",
+        "outros_socios": [
+          { "nome": "Guilherme de Araujo Franklin Maciel", "qualificacao": "Sócio" }
+        ]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "nenhum site encontrado após 3 buscas — só Instagram e Facebook (28/09/2026)" },
+        "instagram": { "url": "https://www.instagram.com/mgimoveisbj/", "seguidores": 2212, "publicacoes": 160, "ultimo_post": "não verificado", "status": "ok", "nota": "perfil marcado como \"NOVO PERFIL\" — indício de que precisaram recomeçar a conta antiga, perdendo o histórico" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta sessão" },
+        "anuncios": { "ativos": "null (não verificado)", "fonte": "", "observacao": "Biblioteca de Anúncios da Meta não verificada nesta sessão" }
+      },
+      "dores": [
+        "sem site próprio depois de 12 anos de empresa — quem pesquisa \"imobiliária Belo Jardim\" no Google não encontra a MG Imóveis",
+        "perfil do Instagram é uma conta \"nova\", sinal de ter perdido a conta/histórico anterior",
+        "catálogo de imóveis existe só em posts soltos, sem uma página com todos os imóveis"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.500 (catálogo de imóveis + contato)",
+        "justificativa": "12 anos de imobiliária sem nenhum site — o Instagram sozinho não segura um catálogo de imóveis pesquisável"
+      },
+      "gancho": "12 anos de MG Imóveis e mais de 2.200 seguidores no Instagram, mas nenhum site — quem procura imóvel em Belo Jardim pelo Google simplesmente não encontra a imobiliária",
+      "contato": { "whatsapp": "não encontrado (contato indicado é pelo Direct do Instagram)", "instagram": "@mgimoveisbj", "email": "", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Goreti! Aqui é o Vitor, da Adspot. Vi o trabalho da MG Imóveis em Belo Jardim — mais de 2.200 seguidores no Instagram em 12 anos de casa. Só que sem site, quem procura imóvel pelo Google não acha vocês, só quem já segue o perfil. A gente monta um site com o catálogo de imóveis organizado e o contato direto. Posso te mandar uma ideia de como ficaria?",
+        "instagram_dm": "Oi, Goreti! Vitor, da Adspot. 12 anos de MG Imóveis e ainda sem site — dá pra resolver isso com um catálogo online dos imóveis. Posso te mostrar uma ideia?",
+        "follow_up_d3": "Goreti, voltando aqui: pensei numa página só com \"imóveis à venda em Belo Jardim\" puxando os que vocês já postam no Instagram — ajudaria bastante quem chega pelo Google. Faz sentido eu te mandar o modelo?",
+        "follow_up_d7": "Goreti, fecho por aqui — se num outro momento fizer sentido ter um site pro catálogo de imóveis, é só chamar.",
+        "ligacao": "Perguntar por Goreti Araújo; citar os 12 anos da MG Imóveis e os 2.200 seguidores; oferecer mandar 3 ideias pelo Direct."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/17653386000133-m-g-imoveis-ltda",
+        "https://www.instagram.com/mgimoveisbj/",
+        "https://www.facebook.com/imobiliariamgimoveis/"
+      ]
+    },
+    {
+      "id": "mauricio-oliveira-santa-cruz-do-capibaribe",
+      "nicho": "imobiliaria",
+      "nome_fantasia": "Imobiliária Maurício Oliveira",
+      "bairro": "São Cristóvão — Santa Cruz do Capibaribe/PE",
+      "prioridade": "B",
+      "score": 52,
+      "score_detalhe": { "dor": 17, "capacidade": 20, "acesso": 15, "timing": 0 },
+      "cnpj": {
+        "numero": "14.902.655/0001-60",
+        "razao_social": "Mauricio Oliveira Imóveis Ltda",
+        "situacao": "ATIVA",
+        "abertura": "2011-12-22",
+        "porte": "não verificado (provável ME)",
+        "cnae": "6822-6/00 - Gestão e administração da propriedade imobiliária",
+        "capital_social": 0,
+        "endereco": "Rua Santa Cecília, 269 - Palestina, Santa Cruz do Capibaribe - PE, 55.190-001",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/14902655000160-MAURICIO-OLIVEIRA-IMOVEIS-LTDA (busca web; API de CNPJ bloqueada nesta sessão)"
+      },
+      "decisor": {
+        "nome": "Mauricio Oliveira da Silva",
+        "primeiro_nome": "Maurício",
+        "qualificacao": "Sócio-Administrador (assumido — empresa leva o seu nome)",
+        "validado": true,
+        "fonte_validacao": "https://www.instagram.com/imoveismauriciooliveira/ e https://www.facebook.com/imoveismauriciooliveira/ — marca e perfis usam o nome \"Maurício Oliveira\", batendo com o QSA",
+        "instagram": "não encontrado (perfil pessoal; só o da empresa)",
+        "outros_socios": [
+          { "nome": "Alexsandra Correia Lima de Oliveira", "qualificacao": "Sócia" }
+        ]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "nenhum site encontrado após 3 buscas — só Instagram e Facebook (28/09/2026)" },
+        "instagram": { "url": "https://www.instagram.com/imoveismauriciooliveira/", "seguidores": 2537, "publicacoes": 440, "ultimo_post": "não verificado", "status": "ok", "nota": "bio cita 20 anos de mercado" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta sessão" },
+        "anuncios": { "ativos": "null (não verificado)", "fonte": "", "observacao": "Biblioteca de Anúncios da Meta não verificada nesta sessão" }
+      },
+      "dores": [
+        "20 anos de mercado e 14 anos de CNPJ sem nenhum site — todo o catálogo de imóveis vive só no Instagram e no Facebook",
+        "quem pesquisa \"imobiliária Santa Cruz do Capibaribe\" no Google não encontra a Maurício Oliveira Imóveis"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.500 (catálogo de imóveis + contato)",
+        "justificativa": "20 anos de experiência sem site próprio deixa a imobiliária invisível para quem busca no Google"
+      },
+      "gancho": "20 anos de mercado e mais de 2.500 seguidores, mas nenhum site — o catálogo de imóveis ainda depende só do feed do Instagram",
+      "contato": { "whatsapp": "não encontrado (contato indicado é pelo Direct do Instagram/Facebook)", "instagram": "@imoveismauriciooliveira", "email": "", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Maurício! Aqui é o Vitor, da Adspot. Vi que a sua imobiliária já tem 20 anos de mercado em Santa Cruz do Capibaribe e mais de 2.500 seguidores no Instagram. Só que sem site, o catálogo de imóveis fica só nos posts — quem procura pelo Google acaba não achando vocês. A gente monta um site simples com todos os imóveis organizados. Posso te mandar uma ideia?",
+        "instagram_dm": "Oi, Maurício! Vitor, da Adspot. 20 anos de imobiliária e ainda sem site — dá pra resolver com um catálogo online. Posso te mostrar uma ideia?",
+        "follow_up_d3": "Maurício, voltando aqui: pensei num site simples só com os imóveis que já estão no Instagram, organizados por bairro e valor — facilita pra quem chega pelo Google. Faz sentido eu te mandar o modelo?",
+        "follow_up_d7": "Maurício, fecho por aqui — se depois fizer sentido ter um site pro catálogo, é só chamar.",
+        "ligacao": "Perguntar por Maurício Oliveira; citar os 20 anos de mercado e os 2.500 seguidores; oferecer mandar 3 ideias pelo Direct."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/14902655000160-MAURICIO-OLIVEIRA-IMOVEIS-LTDA",
+        "https://www.instagram.com/imoveismauriciooliveira/",
+        "https://www.facebook.com/imoveismauriciooliveira/"
+      ]
+    },
+    {
+      "id": "edson-imoveis-surubim",
+      "nicho": "imobiliaria",
+      "nome_fantasia": "Edson Imóveis",
+      "bairro": "Centro — Surubim/PE",
+      "prioridade": "B",
+      "score": 52,
+      "score_detalhe": { "dor": 17, "capacidade": 20, "acesso": 15, "timing": 0 },
+      "cnpj": {
+        "numero": "17.327.500/0001-35",
+        "razao_social": "E H Imóveis Surubim Ltda",
+        "situacao": "ATIVA",
+        "abertura": "2012-12-20",
+        "porte": "não verificado (provável ME)",
+        "cnae": "6821-8/01 - Corretagem na compra e venda e avaliação de imóveis",
+        "capital_social": 0,
+        "endereco": "Rua Senador Paulo Pessoa Guerra, 67, Surubim - PE, 55.750-000",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/17327500000135-e-h-imoveis-surubim-ltda (busca web; API de CNPJ bloqueada nesta sessão)"
+      },
+      "decisor": {
+        "nome": "Edson Henrique da Silva",
+        "primeiro_nome": "Edson",
+        "qualificacao": "Administrador",
+        "validado": true,
+        "fonte_validacao": "https://www.instagram.com/edsonimoveis27/ — marca e perfil usam o nome \"Edson\", batendo com o QSA (Edson Henrique da Silva)",
+        "instagram": "não encontrado (perfil pessoal; só o da empresa)",
+        "outros_socios": [
+          { "nome": "Lidiane Gomes de Sá", "qualificacao": "Sócia" }
+        ]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "nenhum site encontrado após 3 buscas — presença só em Instagram, Facebook e portais de terceiros (Reclame Aqui, Zap Imóveis) (28/09/2026)" },
+        "instagram": { "url": "https://www.instagram.com/edsonimoveis27/", "seguidores": 3984, "publicacoes": 147, "ultimo_post": "não verificado", "status": "ok", "nota": "quase 4 mil seguidores, oferece financiamento" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "há página no Reclame Aqui, mas nota geral não verificada nesta sessão" },
+        "anuncios": { "ativos": "null (não verificado)", "fonte": "", "observacao": "Biblioteca de Anúncios da Meta não verificada nesta sessão" }
+      },
+      "dores": [
+        "quase 4 mil seguidores no Instagram, mas nenhum site — todo o catálogo de imóveis depende de rolar o feed",
+        "13 anos de CNPJ sem site próprio; presença online depende de portais de terceiros"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.500 (catálogo de imóveis + contato)",
+        "justificativa": "quase 4 mil seguidores mostram audiência real, mas sem site esse público não vira um catálogo pesquisável"
+      },
+      "gancho": "quase 4 mil seguidores no Instagram em Surubim, mas nenhum site — a audiência já existe, falta um catálogo organizado para converter",
+      "contato": { "whatsapp": "não encontrado (contato indicado é pelo Direct do Instagram)", "instagram": "@edsonimoveis27", "email": "eh.imoveis.edson@outlook.com", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Edson! Aqui é o Vitor, da Adspot. Vi que a Edson Imóveis já tem quase 4 mil seguidores no Instagram em Surubim — um público e tanto. Só que sem site, esse catálogo de imóveis some entre os posts, e quem chega pelo Google não encontra vocês. A gente monta um site com os imóveis organizados e o contato direto. Posso te mandar uma ideia?",
+        "instagram_dm": "Oi, Edson! Vitor, da Adspot. Quase 4 mil seguidores e ainda sem site — dá pra transformar isso num catálogo online. Posso te mostrar uma ideia?",
+        "follow_up_d3": "Edson, voltando aqui: com quase 4 mil seguidores, um site simples já ajudaria a organizar os imóveis por bairro e valor, sem depender só do feed. Faz sentido eu te mandar o modelo?",
+        "follow_up_d7": "Edson, fecho por aqui — se depois fizer sentido ter um site pro catálogo, é só chamar.",
+        "ligacao": "Perguntar por Edson; citar os quase 4 mil seguidores no Instagram; oferecer mandar 3 ideias pelo Direct."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/17327500000135-e-h-imoveis-surubim-ltda",
+        "https://www.instagram.com/edsonimoveis27/",
+        "https://www.reclameaqui.com.br/empresa/edson-imoveis/"
+      ]
+    },
+    {
+      "id": "zumach-cacoal",
+      "nicho": "imobiliaria",
+      "nome_fantasia": "Imobiliária Zumach",
+      "bairro": "Jardim Clodoaldo — Cacoal/RO",
+      "prioridade": "B",
+      "score": 52,
+      "score_detalhe": { "dor": 17, "capacidade": 20, "acesso": 15, "timing": 0 },
+      "cnpj": {
+        "numero": "84.594.308/0001-00",
+        "razao_social": "F E F Imobiliária Ltda",
+        "situacao": "ATIVA",
+        "abertura": "1993-04-16",
+        "porte": "não verificado (provável ME)",
+        "cnae": "6810-2/01 - Compra e venda de imóveis próprios",
+        "capital_social": 0,
+        "endereco": "Avenida Cuiabá, 3175 - Jardim Clodoaldo, Cacoal - RO, 76.963-665",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/84594308000100-f-e-f-imobiliaria-ltda (busca web; API de CNPJ bloqueada nesta sessão)"
+      },
+      "decisor": {
+        "nome": "Fagner Brizon Zumach",
+        "primeiro_nome": "Fagner",
+        "qualificacao": "Administrador (desde 18/12/2009)",
+        "validado": true,
+        "fonte_validacao": "https://www.facebook.com/zumachempreendimentos/ — a empresa leva o sobrenome do administrador (Zumach), coerente com o QSA",
+        "instagram": "não encontrado (perfil pessoal; só o da empresa)",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "não encontrado um site atual funcionando", "status": "ruim", "nota": "um post antigo no Facebook cita \"www.zumach.net.br\", mas nenhum site funcionando foi encontrado nas buscas; existe uma empresa parecida e não relacionada (\"Zummach Imóveis\", zummachimoveis.com.br) que pode confundir quem procura pelo nome (28/09/2026)" },
+        "instagram": { "url": "https://www.instagram.com/imobiliariazumach/", "seguidores": 1373, "publicacoes": 155, "ultimo_post": "não verificado", "status": "ok", "nota": "perfil da conta \"Zumach Empreendimentos\"" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta sessão; Facebook tem 1.168 curtidas e comentários positivos sobre o atendimento" },
+        "anuncios": { "ativos": "null (não verificado)", "fonte": "", "observacao": "Biblioteca de Anúncios da Meta não verificada nesta sessão" }
+      },
+      "dores": [
+        "32 anos de empresa (fundada em 1993) e o site antigo (zumach.net.br) não aparece mais funcionando",
+        "existe uma imobiliária de nome parecido (\"Zummach Imóveis\") com site próprio, o que pode desviar quem procura \"Zumach\" no Google",
+        "presença online concentrada só no Instagram e Facebook, sem catálogo de imóveis pesquisável"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.500 (catálogo de imóveis + contato)",
+        "justificativa": "32 anos de tradição em Cacoal correm o risco de se perder para uma concorrente de nome parecido que já tem site"
+      },
+      "gancho": "32 anos de história em Cacoal, mas o site antigo saiu do ar — e uma empresa de nome parecido já ocupa esse espaço no Google",
+      "contato": { "whatsapp": "(69) 3441-0282 (telefone da empresa; WhatsApp não confirmado) / (69) 99261-8785 (número citado junto ao Instagram)", "instagram": "@imobiliariazumach", "email": "imobiliariazumach@hotmail.com", "melhor_horario": "9h–11h ou 14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Fagner! Aqui é o Vitor, da Adspot. Vi que a Imobiliária Zumach já soma 32 anos em Cacoal — uma referência na cidade. Só que o site antigo de vocês não está mais no ar, e reparei que existe uma outra imobiliária de nome parecido com site ativo, o que pode confundir quem busca por \"Zumach\" no Google. A gente monta um site novo, só de vocês, com o catálogo de imóveis. Posso te mandar uma ideia?",
+        "instagram_dm": "Oi, Fagner! Vitor, da Adspot. 32 anos de Zumach e o site antigo saiu do ar — vi até uma outra imobiliária de nome parecido ocupando esse espaço. Posso te mostrar uma ideia de site novo?",
+        "follow_up_d3": "Fagner, voltando aqui: com 32 anos de casa, um site novo ajudaria a recuperar esse espaço no Google antes que a concorrente de nome parecido fique ainda mais forte por lá. Faz sentido eu te mandar o modelo?",
+        "follow_up_d7": "Fagner, fecho por aqui — se depois fizer sentido recolocar a Zumach no Google com um site novo, é só chamar.",
+        "ligacao": "Perguntar por Fagner Zumach; citar os 32 anos da imobiliária e o risco de confusão com a \"Zummach Imóveis\"; oferecer mandar 3 ideias por WhatsApp."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/84594308000100-f-e-f-imobiliaria-ltda",
+        "https://www.instagram.com/imobiliariazumach/",
+        "https://www.facebook.com/zumachempreendimentos/",
+        "https://zummachimoveis.com.br/"
+      ]
+    }
+  ],
+  "descartados": [
+    { "nome": "Imobiliária Heitor e Kátia Corretores de Imóveis", "nicho": "imobiliaria", "motivo": "Itabuna/BA — CNPJ 04.062.489/0001-87 consta como INAPTA (inativo) na Receita, segundo busca; reprova o filtro eliminatório de situação ATIVA" },
+    { "nome": "Alpha Imobiliária (A M da Silva Imobiliária)", "nicho": "imobiliaria", "motivo": "Bezerros/PE — sem site, mas não foi possível achar o nome do sócio/administrador em nenhuma fonte após várias buscas; sem dono identificado, não entra na lista" },
+    { "nome": "Imobiliária Caruaru Ltda / Imobiliária Pernambuco", "nicho": "imobiliaria", "motivo": "Caruaru/PE — só Facebook e Instagram, sem site; não foi possível localizar o CNPJ de nenhuma das duas nas buscas feitas" },
+    { "nome": "Vitor Imóveis", "nicho": "imobiliaria", "motivo": "Barra Mansa/RJ — CNPJ 20.656.811/0001-52 consta como \"Baixada\" (inativo) na Receita, segundo busca" },
+    { "nome": "Portal Imóveis", "nicho": "imobiliaria", "motivo": "Ipatinga/MG — tem um site com páginas de venda e locação em funcionamento (portalimoveisimobiliaria.com.br); a dor real (dois perfis de Instagram concorrentes) não justifica claramente o produto Site" },
+    { "nome": "Agreste Imobiliária Ltda", "nicho": "imobiliaria", "motivo": "Cupira/PE — nenhuma presença em Instagram, Facebook ou site encontrada; sem evidência de que o negócio está ativo/atendendo, não dá para confirmar o critério \"negócio funcionando\"" },
+    { "nome": "Imobiliária Borba (Borba e Silva)", "nicho": "imobiliaria", "motivo": "Toritama/PE — mesma razão: sem nenhuma presença digital localizável para confirmar atividade" }
+  ],
+  "proximo_passo": "Abordar Goreti (MG Imóveis), Maurício (Imobiliária Maurício Oliveira) e Edson (Edson Imóveis) hoje entre 9h e 11h pelo Direct do Instagram; Simone (Adibravi) e Fagner (Zumach) hoje entre 14h e 17h por WhatsApp; follow-up D+3 em 2026-10-01."
+}

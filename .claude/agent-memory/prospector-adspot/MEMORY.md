@@ -32,6 +32,7 @@
 - Estética em Guarulhos → https://claude.ai/artifact/1D6F1EQJwzFNip82o1Uwgb
 - Automotivo em Guarulhos → https://claude.ai/artifact/GkCpfdEdPxRDSj1FRb2BYE
 - Lojas de Carros em Guarulhos → https://claude.ai/artifact/LBJQ8sYgUujMPqmfQwz9Zi
+- Imobiliárias pelo Brasil (2026-09-28) → ainda não publicada (ferramenta de páginas/Artifact não estava disponível para este agente nesta sessão); abrir o HTML local pelo caminho do arquivo
 
 ## Histórico de prospecções
 <!-- data · cidade · nichos · nº de leads A/B · arquivo -->
@@ -39,3 +40,9 @@
 - 2026-09-23 · Guarulhos/SP · estética · 0 A + 2 B, 13 grupos descartados (nicho saturado) · `clientes/adspot/prospeccoes/2026-09-23_guarulhos_estetica.html`
 - 2026-09-23 · Guarulhos/SP · automotivo · 0 A + 6 B, 8 grupos descartados · `clientes/adspot/prospeccoes/2026-09-23_guarulhos_automotivo.html`
 - 2026-09-23 · Guarulhos/SP · revendas de carros · 0 A + 8 B, 6 grupos descartados · `clientes/adspot/prospeccoes/2026-09-23_guarulhos_revendas.html`
+- 2026-09-28 · Brasil (várias cidades) · imobiliária (nicho novo) · 0 A + 5 B, 7 grupos descartados · `clientes/adspot/prospeccoes/2026-09-28_brasil_imobiliaria.html`
+
+## Aprendizados (continuação)
+- 2026-09-28 · Nesta sessão as APIs de CNPJ (`consulta_cnpj.py`) e o WebFetch direto em páginas de CNPJ/redes sociais estavam bloqueados pelo proxy de rede (erro 403/EGRESS_BLOCKED em quase todo domínio, incluindo Instagram, Facebook, econodata, cnpj.biz, casadosdados) · só o WebSearch funcionava · como aplicar: quando isso acontecer, usar WebSearch com o número do CNPJ entre aspas + "sócio administrador quadro societário" — os resumos de busca de Econodata/Serasa/Casa dos Dados costumam trazer o QSA mesmo sem abrir a página; sempre registrar que a fonte é um resultado de busca, não a consulta direta.
+- 2026-09-28 · Imobiliárias de porte médio (dentistas, restaurantes etc. saturados) quase sempre já têm algum site pronto de portal imobiliário — a maioria dos candidatos em cidades de 50–150 mil habitantes tinha site · como aplicar: mapear em várias cidades pequenas/médias (4–5x a quantidade pedida) e aceitar como "sem site" só depois de confirmar em pelo menos 2 buscas que não existe nenhum domínio próprio; imobiliárias 100% sem presença digital (nem Instagram) são um risco maior (pode estar inativa) — prefira as que têm Instagram ativo mas nenhum site.
+- 2026-09-28 · Quando o nome do sócio-administrador do CNPJ bate com o nome usado na marca/bio do Instagram da própria empresa (ex.: empresa "Edson Imóveis" administrada por "Edson Henrique da Silva"), isso já vale como validação externa (`validado: true`) — não precisa achar um perfil pessoal separado.
