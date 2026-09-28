@@ -15,13 +15,198 @@
     "criado_em": "2026-09-23",
     "atualizado_em": "2026-09-23"
   },
-  "conteudos": [],
+  "conteudos": [
+    {
+      "id": "seg-post-posicionamento",
+      "tipo": "post",
+      "titulo": "ALLENZA: a evolução que já estava em nós",
+      "pilar": "branding",
+      "status": "desenvolvido",
+      "data_criacao": "2026-09-28",
+      "semana_id": "2026-09-28",
+      "mes_id": null,
+      "post": {
+        "titulo": "ALLENZA: a evolução que já estava em nós",
+        "texto_arte": "ALLENZA. A mesma essência, um novo movimento.",
+        "direcionamento_visual": "Still editorial minimalista de uma peça em ambiente com bastante respiro, paleta creme/bordô/champagne, logo ALLENZA centralizado, sem elementos poluídos.",
+        "legenda": "Alline Coelho sempre foi sobre essência, movimento e estilo. A ALLENZA nasce dessa mesma essência, em um novo momento — mais sofisticado, mais nosso. Uma evolução que já estava em nós, e que agora ganha um nome à altura.",
+        "cta": "Segue a ALLENZA e acompanha essa nova fase com a gente"
+      },
+      "fontes": []
+    },
+    {
+      "id": "seg-stories-posicionamento",
+      "tipo": "stories",
+      "titulo": "Bastidor da evolução ALLENZA",
+      "pilar": "branding",
+      "status": "desenvolvido",
+      "data_criacao": "2026-09-28",
+      "semana_id": "2026-09-28",
+      "mes_id": null,
+      "stories": {
+        "sequencia": [
+          { "numero": 1, "objetivo": "provocar", "conteudo": "Teaser do símbolo/logo ALLENZA em movimento, sem texto explicativo ainda", "cta": "" },
+          { "numero": 2, "objetivo": "contexto", "conteudo": "\"De Alline Coelho a ALLENZA\" — recorte rápido da paleta e do símbolo novo, tom de bastidor", "cta": "" },
+          { "numero": 3, "objetivo": "reforço", "conteudo": "Chamada pra ver o post completo no feed sobre a nova fase", "cta": "Vê o post completo" },
+          { "numero": 4, "objetivo": "cta", "conteudo": "Convite pessoal pra conversar sobre a nova fase da marca", "cta": "Manda mensagem no WhatsApp" }
+        ]
+      },
+      "fontes": []
+    },
+    {
+      "id": "ter-reel-desejo",
+      "tipo": "reel",
+      "titulo": "Tem peça que a gente usa pra se sentir",
+      "pilar": "engajamento",
+      "status": "desenvolvido",
+      "data_criacao": "2026-09-28",
+      "semana_id": "2026-09-28",
+      "mes_id": null,
+      "reel": {
+        "gancho": "Tem peça que a gente não usa pra ninguém ver. Usa pra se sentir.",
+        "roteiro": [
+          { "cena": 1, "visual": "Still de detalhe da peça, luz suave, sem mostrar rosto", "fala": "", "texto_tela": "Tem peça que é só sua" },
+          { "cena": 2, "visual": "Still do tecido em leve movimento, foco na textura", "fala": "", "texto_tela": "Feita pra te fazer sentir bem, não só bem vestida" },
+          { "cena": 3, "visual": "Still em movimento leve, enquadramento elegante, sem exposição excessiva", "fala": "", "texto_tela": "Esse é o efeito ALLENZA" }
+        ],
+        "cta": "Chama no WhatsApp e conhece essa peça de perto",
+        "legenda": "Tem roupa que veste o corpo. Tem peça que veste a confiança. Essa é a ALLENZA."
+      },
+      "fontes": []
+    },
+    {
+      "id": "ter-stories-desejo",
+      "tipo": "stories",
+      "titulo": "Enquete sobre o reel do dia",
+      "pilar": "engajamento",
+      "status": "desenvolvido",
+      "data_criacao": "2026-09-28",
+      "semana_id": "2026-09-28",
+      "mes_id": null,
+      "stories": {
+        "sequencia": [
+          { "numero": 1, "objetivo": "engajamento", "conteudo": "Repost do reel com enquete: \"Qual detalhe te chamou mais atenção?\"", "cta": "Responde a enquete" },
+          { "numero": 2, "objetivo": "conversa", "conteudo": "Caixinha de perguntas: \"me conta o que você sentiu vendo esse vídeo\"", "cta": "Responde na caixinha" }
+        ]
+      },
+      "fontes": []
+    },
+    {
+      "id": "qua-post-estilo",
+      "tipo": "post",
+      "titulo": "Um figurino, três momentos",
+      "pilar": "educacao",
+      "status": "desenvolvido",
+      "data_criacao": "2026-09-28",
+      "semana_id": "2026-09-28",
+      "mes_id": null,
+      "post": {
+        "titulo": "Um figurino, três momentos",
+        "texto_arte": "Do treino ao relax: um estilo, muitas versões.",
+        "direcionamento_visual": "Still ou pequena colagem discreta mostrando a mesma peça em três contextos do dia, tons neutros da paleta ALLENZA, sem citar modelo específico à venda.",
+        "legenda": "Uma peça ALLENZA acompanha mais de um momento do seu dia — do treino ao descanso, sem perder a essência. Qual desses momentos é mais você hoje?",
+        "cta": "Comenta qual desses momentos é mais você"
+      },
+      "fontes": []
+    },
+    {
+      "id": "qua-stories-estilo",
+      "tipo": "stories",
+      "titulo": "Continuação da dica de estilo",
+      "pilar": "educacao",
+      "status": "desenvolvido",
+      "data_criacao": "2026-09-28",
+      "semana_id": "2026-09-28",
+      "mes_id": null,
+      "stories": {
+        "sequencia": [
+          { "numero": 1, "objetivo": "reforço", "conteudo": "Enquete: \"Qual desses três é mais a sua vibe hoje: treino, casa ou saída?\"", "cta": "Vota na enquete" },
+          { "numero": 2, "objetivo": "pessoal", "conteudo": "Reflexão da marca: \"A gente também gosta de repensar o dia a partir do que veste\"", "cta": "Manda mensagem no WhatsApp" }
+        ]
+      },
+      "fontes": []
+    },
+    {
+      "id": "qui-reel-produto",
+      "tipo": "reel",
+      "titulo": "O detalhe que faz a diferença",
+      "pilar": "branding",
+      "status": "desenvolvido",
+      "data_criacao": "2026-09-28",
+      "semana_id": "2026-09-28",
+      "mes_id": null,
+      "reel": {
+        "gancho": "Cada peça ALLENZA carrega um cuidado que não se vê de longe.",
+        "roteiro": [
+          { "cena": 1, "visual": "Still de detalhe da costura/acabamento sendo tocado", "fala": "", "texto_tela": "O detalhe que faz a diferença" },
+          { "cena": 2, "visual": "Still life da peça com elementos da paleta de marca (bordô, champagne)", "fala": "", "texto_tela": "Pensada pra durar, pensada pra você" },
+          { "cena": 3, "visual": "Still final da peça em uso discreto e elegante", "fala": "", "texto_tela": "Essa é a ALLENZA" }
+        ],
+        "cta": "Chama no WhatsApp pra saber mais sobre essa peça",
+        "legenda": "Todo cuidado da ALLENZA está nos detalhes que a gente nem sempre mostra. Essa peça é um deles."
+      },
+      "fontes": []
+    },
+    {
+      "id": "qui-stories-produto",
+      "tipo": "stories",
+      "titulo": "Outros ângulos da peça",
+      "pilar": "branding",
+      "status": "desenvolvido",
+      "data_criacao": "2026-09-28",
+      "semana_id": "2026-09-28",
+      "mes_id": null,
+      "stories": {
+        "sequencia": [
+          { "numero": 1, "objetivo": "detalhe", "conteudo": "Still de outro ângulo do produto do reel", "cta": "" },
+          { "numero": 2, "objetivo": "detalhe", "conteudo": "Still de outra textura/acabamento da mesma peça", "cta": "" },
+          { "numero": 3, "objetivo": "cta", "conteudo": "Convite pra perguntar mais sobre a peça", "cta": "Responde no direct" }
+        ]
+      },
+      "fontes": []
+    },
+    {
+      "id": "sex-post-vendas",
+      "tipo": "post",
+      "titulo": "A coleção ALLENZA te espera",
+      "pilar": "conversao",
+      "status": "desenvolvido",
+      "data_criacao": "2026-09-28",
+      "semana_id": "2026-09-28",
+      "mes_id": null,
+      "post": {
+        "titulo": "A coleção ALLENZA te espera",
+        "texto_arte": "Conheça a coleção completa. Fala com a gente.",
+        "direcionamento_visual": "Still de um grupo de peças organizadas esteticamente, paleta de marca, logo ALLENZA em destaque.",
+        "legenda": "Fechamos a semana com um convite: vem conhecer a coleção completa ALLENZA. É só chamar no WhatsApp que a gente te mostra tudo com calma.",
+        "cta": "Chama no WhatsApp e confere a coleção completa"
+      },
+      "fontes": []
+    },
+    {
+      "id": "sex-stories-vendas",
+      "tipo": "stories",
+      "titulo": "Reforço do convite da coleção",
+      "pilar": "conversao",
+      "status": "desenvolvido",
+      "data_criacao": "2026-09-28",
+      "semana_id": "2026-09-28",
+      "mes_id": null,
+      "stories": {
+        "sequencia": [
+          { "numero": 1, "objetivo": "reforço", "conteudo": "Repost do post com \"Fecha a semana com a gente\"", "cta": "" },
+          { "numero": 2, "objetivo": "facilitar contato", "conteudo": "Figurinha de link/pergunta: \"quer saber mais sobre alguma peça?\"", "cta": "Clica no link do story" }
+        ]
+      },
+      "fontes": []
+    }
+  ],
   "semanas": [
     {
       "id": "2026-09-28",
       "data_inicio": "2026-09-28",
-      "briefing": "Vitor pediu conteúdos para a Allenza nesta semana, sem especificar quantidade/mix. Proposta: 3 posts + 2 reels de segunda a sexta, com stories diários de apoio, variando entre as categorias do perfil (produto, desejo, relacionamento, posicionamento, estilo, vendas). Aguardando aprovação antes de desenvolver.",
-      "status": "planejamento",
+      "briefing": "Vitor pediu conteúdos para a Allenza nesta semana, sem especificar quantidade/mix. Proposta: 3 posts + 2 reels de segunda a sexta, com stories diários de apoio, variando entre as categorias do perfil (produto, desejo, relacionamento, posicionamento, estilo, vendas). Aprovada integralmente em 2026-09-28 e desenvolvida por completo.",
+      "status": "desenvolvido",
       "itens": [
         {
           "id": "seg-post-posicionamento",
@@ -30,8 +215,8 @@
           "pilar": "branding",
           "ideia_resumo": "Reforça o posicionamento da ALLENZA pós-rebranding — a evolução de Alline Coelho para ALLENZA, mantendo a essência.",
           "cta_previsto": "Segue a ALLENZA / conta pra gente o que achou da nova fase",
-          "conteudo_id": null,
-          "status": "ideia"
+          "conteudo_id": "seg-post-posicionamento",
+          "status": "desenvolvido"
         },
         {
           "id": "seg-stories-posicionamento",
@@ -40,8 +225,8 @@
           "pilar": "branding",
           "ideia_resumo": "Sequência de stories dando continuidade ao post: bastidor da mudança de marca, sem repetir o mesmo texto do post.",
           "cta_previsto": "Manda mensagem no WhatsApp",
-          "conteudo_id": null,
-          "status": "ideia"
+          "conteudo_id": "seg-stories-posicionamento",
+          "status": "desenvolvido"
         },
         {
           "id": "ter-reel-desejo",
@@ -50,8 +235,8 @@
           "pilar": "engajamento",
           "ideia_resumo": "Reel de desejo por uma peça específica (fitness ou praia), focado em sensação/estilo, sem preço nem promoção.",
           "cta_previsto": "Clica no link da bio / chama no WhatsApp pra saber mais",
-          "conteudo_id": null,
-          "status": "ideia"
+          "conteudo_id": "ter-reel-desejo",
+          "status": "desenvolvido"
         },
         {
           "id": "ter-stories-desejo",
@@ -60,8 +245,8 @@
           "pilar": "engajamento",
           "ideia_resumo": "Enquete ou caixinha de pergunta sobre qual peça do reel a cliente mais gostou.",
           "cta_previsto": "Responde a enquete",
-          "conteudo_id": null,
-          "status": "ideia"
+          "conteudo_id": "ter-stories-desejo",
+          "status": "desenvolvido"
         },
         {
           "id": "qua-post-estilo",
@@ -70,8 +255,8 @@
           "pilar": "educacao",
           "ideia_resumo": "Dica de estilo: como combinar/usar uma peça ALLENZA em diferentes momentos do dia, sem citar produto específico à venda.",
           "cta_previsto": "Comenta qual look combina mais com você",
-          "conteudo_id": null,
-          "status": "ideia"
+          "conteudo_id": "qua-post-estilo",
+          "status": "desenvolvido"
         },
         {
           "id": "qua-stories-estilo",
@@ -80,8 +265,8 @@
           "pilar": "educacao",
           "ideia_resumo": "Continuação da dica de estilo do post, em formato mais rápido e pessoal.",
           "cta_previsto": "Manda mensagem no WhatsApp",
-          "conteudo_id": null,
-          "status": "ideia"
+          "conteudo_id": "qua-stories-estilo",
+          "status": "desenvolvido"
         },
         {
           "id": "qui-reel-produto",
@@ -90,8 +275,8 @@
           "pilar": "branding",
           "ideia_resumo": "Bastidor/apresentação de uma peça (produto), destacando cuidado no design e identidade visual da marca.",
           "cta_previsto": "Chama no WhatsApp pra saber mais sobre a peça",
-          "conteudo_id": null,
-          "status": "ideia"
+          "conteudo_id": "qui-reel-produto",
+          "status": "desenvolvido"
         },
         {
           "id": "qui-stories-produto",
@@ -100,8 +285,8 @@
           "pilar": "branding",
           "ideia_resumo": "Sequência de stories mostrando outros ângulos/detalhes da peça do reel.",
           "cta_previsto": "Responde no direct",
-          "conteudo_id": null,
-          "status": "ideia"
+          "conteudo_id": "qui-stories-produto",
+          "status": "desenvolvido"
         },
         {
           "id": "sex-post-vendas",
@@ -110,8 +295,8 @@
           "pilar": "conversao",
           "ideia_resumo": "Convite direto para conhecer a coleção pelo WhatsApp, fechando a semana com CTA de conversão (sem inventar preço/condição).",
           "cta_previsto": "Chama no WhatsApp e confere a coleção completa",
-          "conteudo_id": null,
-          "status": "ideia"
+          "conteudo_id": "sex-post-vendas",
+          "status": "desenvolvido"
         },
         {
           "id": "sex-stories-vendas",
@@ -120,8 +305,8 @@
           "pilar": "conversao",
           "ideia_resumo": "Sequência de stories reforçando o convite do post, com figurinha de link/pergunta para facilitar o contato.",
           "cta_previsto": "Clica no link do story",
-          "conteudo_id": null,
-          "status": "ideia"
+          "conteudo_id": "sex-stories-vendas",
+          "status": "desenvolvido"
         }
       ]
     }
