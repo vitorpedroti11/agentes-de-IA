@@ -1,0 +1,210 @@
+{
+  "prospeccao": {
+    "id": "2026-09-28_brasil_advocacia",
+    "titulo": "Advocacia pelo Brasil",
+    "data": "2026-09-28",
+    "cidade": "Brasil (várias cidades pequenas/médias)",
+    "regiao": "Patos/PB, Garanhuns/PE, Picos/PI",
+    "nichos": ["advocacia"],
+    "observacoes": "Primeira rodada do nicho advocacia (nicho novo, adicionado à metodologia nesta prospecção). Nicho sujeito ao Provimento 205/2021 da OAB (publicidade): sem mercantilização, sem captação de causa específica, sem comparação com outros advogados, sem promessa de resultado, sem depoimento de cliente, sem valores/honorários na peça publicitária. Todo gancho foi escrito em torno de presença institucional/profissionalismo, nunca de 'trazer mais causas'. Pedido era 5 leads; 3 foram verificados com segurança dentro do orçamento de busca desta sessão (consulta_cnpj.py com 403 de política em todas as fontes; WebFetch bloqueado para sites e Instagram). Os candidatos descartados por risco de homônimo, presença digital já forte ou impossibilidade de confirmar CNPJ/situação estão em 'descartados', para reaproveitar se o Vitor quiser mais buscas.",
+    "demonstracao": false
+  },
+  "leads": [
+    {
+      "id": "gomes-tiburtino-patos-pb",
+      "nicho": "advocacia",
+      "nome_fantasia": "Gomes & Tiburtino Advogados Associados",
+      "bairro": "Centro, Patos/PB",
+      "prioridade": "B",
+      "score": 65,
+      "score_detalhe": { "dor": 26, "capacidade": 24, "acesso": 15, "timing": 0 },
+      "cnpj": {
+        "numero": "20.273.733/0001-07",
+        "razao_social": "GOMES E TIBURTINO ADVOGADOS LTDA - ME",
+        "situacao": "ATIVA",
+        "abertura": "2013-12-27",
+        "porte": "ME",
+        "cnae": "6911-7/01 - Serviços advocatícios",
+        "capital_social": 0,
+        "endereco": "Avenida Doutor Pedro Firmino, 107, Sala 109, Centro, Patos - PB, 58.700-070",
+        "fonte": "resumo de busca via econodata.com.br e cnpj.biz/20273733000107 (consulta_cnpj.py retornou 403 nas 3 fontes - BrasilAPI, CNPJ.ws, ReceitaWS - política de rede da sessão)"
+      },
+      "decisor": {
+        "nome": "Héber Tiburtino Leite",
+        "primeiro_nome": "Héber",
+        "qualificacao": "Sócio-Administrador",
+        "validado": true,
+        "fonte_validacao": "Facebook oficial do escritório (facebook.com/gomesetiburtino) e perfil em previdenciarista.com, ambos descrevendo o escritório como fundado por 'Héber Tiburtino Leite e Delmiro Gomes da Silva Neto' - nomes batem com o QSA do CNPJ",
+        "instagram": "não encontrado (perfil pessoal separado do dono não localizado nas 3 buscas; existe apenas o Instagram da empresa, ver presenca.instagram)",
+        "outros_socios": [{ "nome": "Delmiro Gomes da Silva Neto", "qualificacao": "Sócio" }]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "3 buscas dedicadas (nome + Patos + site/CNPJ) não encontraram nenhum domínio próprio; a única presença fora das redes sociais é o perfil em diretórios (previdenciarista.com, jurídico certo)" },
+        "instagram": { "url": "https://www.instagram.com/gomesetiburtino_advogados/", "seguidores": 0, "publicacoes": 0, "ultimo_post": "", "status": "fraco", "nota": "perfil existe mas o WebSearch não trouxe contagem de seguidores/publicações nem data do último post (WebFetch bloqueado nesta sessão) - confirmar ao abordar" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta sessão - Google Maps não retornou dados nas buscas disponíveis" },
+        "anuncios": { "ativos": null, "fonte": "facebook.com/ads/library", "observacao": "não verificado - Biblioteca de Anúncios da Meta não acessível nesta sessão (WebFetch bloqueado)" }
+      },
+      "dores": [
+        "Sem site institucional: toda a presença fora das redes sociais é em diretórios de terceiros (previdenciarista.com, jurídico certo), não em domínio próprio",
+        "Facebook da empresa com apenas 1.263 curtidas (fonte: resumo de busca) e Instagram sem confirmação de atividade recente - presença dispersa e não profissionalizada",
+        "Escritório com histórico desde 2008 (o próprio Facebook/perfil divulgam essa data) sem uma presença digital condizente com esse tempo de casa"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "Site inexistente e Instagram fraco ao mesmo tempo, em escritório ME com mais de 10 anos de história - o Pacote organiza identidade visual e presença antes de um site vir como upsell"
+      },
+      "gancho": "Escritório com mais de uma década de atuação em Patos, mas sem nenhuma presença digital própria condizente com essa seriedade institucional - hoje só aparece em diretórios de terceiros",
+      "contato": { "whatsapp": "(83) 3421-2847", "instagram": "@gomesetiburtino_advogados", "email": "", "melhor_horario": "9h-11h ou 14h-17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Héber! Aqui é o Vitor, da Adspot. Vi que o Gomes e Tiburtino já soma mais de dez anos em Patos, mas a presença digital do escritório hoje é só o Facebook e o Instagram - sem um site próprio que reforce essa seriedade institucional. A gente organiza essa presença: identidade visual e um perfil condizente com a história do escritório. Posso te mandar 3 ideias de como isso ficaria?",
+        "instagram_dm": "Oi, Héber! Vitor, da Adspot. O escritório tem uma história sólida em Patos, mas ainda não tem site próprio - só redes sociais. Posso te mandar 3 ideias de como reforçar essa presença institucional?",
+        "follow_up_d3": "Héber, voltando aqui - uma ideia rápida: uma página só com as áreas de atuação de vocês ajudaria bastante quem busca o escritório pelo nome no Google, o que hoje não aparece. Faz sentido eu te mostrar como ficaria?",
+        "follow_up_d7": "Héber, fecho por aqui essa tentativa. Se em algum momento fizer sentido organizar a presença digital do escritório, é só me chamar.",
+        "ligacao": "O telefone encontrado (83) 3421-2847 tem formato de linha fixa - se não atender no WhatsApp, ligar direto ou usar o Direct do Instagram como canal principal. Perguntar por Héber Tiburtino, se apresentar como Vitor da Adspot, e seguir o mesmo roteiro do WhatsApp."
+      },
+      "fontes": [
+        "https://www.facebook.com/gomesetiburtino/",
+        "https://previdenciarista.com/advogados/gomes-e-tiburtino-advogados-3ede9e48-9afd-4b0d-bcff-4b4a118fa58b/",
+        "https://www.instagram.com/gomesetiburtino_advogados/",
+        "https://cnpj.biz/20273733000107",
+        "https://www.econodata.com.br/consulta-empresa/20273733000107-gomes-e-tiburtino-advogados-ltda",
+        "https://www.jusbrasil.com.br/nome/gomes-e-tiburtino-advogados/cnpj-PUuQ7crMY8M"
+      ]
+    },
+    {
+      "id": "bruno-siqueira-garanhuns-pe",
+      "nicho": "advocacia",
+      "nome_fantasia": "Bruno Siqueira - Advogados Associados",
+      "bairro": "Heliópolis, Garanhuns/PE",
+      "prioridade": "B",
+      "score": 55,
+      "score_detalhe": { "dor": 21, "capacidade": 19, "acesso": 15, "timing": 0 },
+      "cnpj": {
+        "numero": "21.925.031/0001-23",
+        "razao_social": "BRUNO SIQUEIRA - ADVOGADOS ASSOCIADOS",
+        "situacao": "ATIVA",
+        "abertura": "2015-02-11",
+        "porte": "não verificado",
+        "cnae": "6911-7/01 - Serviços advocatícios",
+        "capital_social": 0,
+        "endereco": "Avenida Rui Barbosa, 1138, Sala 02, Heliópolis, Garanhuns - PE, 55.296-300",
+        "fonte": "resumo de busca via econodata.com.br e cnpj.biz/21925031000123 (consulta_cnpj.py retornou 403 nas 3 fontes - política de rede da sessão)"
+      },
+      "decisor": {
+        "nome": "Bruno Siqueira França",
+        "primeiro_nome": "Bruno",
+        "qualificacao": "Sócio-Administrador",
+        "validado": true,
+        "fonte_validacao": "Site da OAB-PE (oabpe.org.br/garanhuns-2), que lista 'Bruno Siqueira França' entre os advogados vinculados ao escritório em Garanhuns - fonte institucional externa ao CNPJ",
+        "instagram": "https://www.instagram.com/advocaciabrunosiqueira/",
+        "outros_socios": [{ "nome": "Celia Ester de Siqueira Franca", "qualificacao": "Sócia com capital" }]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "Existe um domínio 'advocaciabrunosiqueira.com', mas o WebSearch também retornou outro advogado de nome muito parecido ('Bruno Alves de Siqueira', com Google Maps e Facebook próprios em outra localidade) - risco de homônimo alto demais para citar esse site como prova; tratado como não confirmado, não como 'tem site'" },
+        "instagram": { "url": "https://www.instagram.com/advocaciabrunosiqueira/", "seguidores": 0, "publicacoes": 0, "ultimo_post": "", "status": "fraco", "nota": "perfil existe e o nome bate com a marca do escritório e com o Facebook oficial (facebook.com/AdvocaciaBrunoSiqueira), mas o WebSearch não trouxe seguidores/publicações nem data do último post - confirmar ao abordar" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta sessão" },
+        "anuncios": { "ativos": null, "fonte": "facebook.com/ads/library", "observacao": "não verificado - Biblioteca de Anúncios da Meta não acessível nesta sessão" }
+      },
+      "dores": [
+        "Presença digital dividida entre um domínio de risco de homônimo (não usável como prova) e redes sociais sem confirmação de atividade recente",
+        "Nenhuma evidência de site institucional próprio e seguro de se citar - o escritório corre o risco de estar 'invisível' ou, peor, confundido com outro advogado de nome parecido no Google",
+        "Sem confirmação de anúncio ativo ou avaliação recente no Google"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000 a 1.500",
+        "justificativa": "A dor mais clara e verificável aqui é a ausência de um site próprio e seguro - hoje quem busca o nome do escritório corre o risco de cair em outro advogado homônimo"
+      },
+      "gancho": "Quem busca o escritório pelo nome no Google pode estar caindo em outro advogado de nome parecido - um site institucional próprio resolveria essa confusão de uma vez",
+      "contato": { "whatsapp": "não disponível (fonte só mostrou (87) 3761-**** parcialmente oculto)", "instagram": "@advocaciabrunosiqueira", "email": "", "melhor_horario": "9h-11h ou 14h-17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Bruno! Aqui é o Vitor, da Adspot. Testei buscar o escritório de vocês no Google e percebi que existe mais de um resultado parecido para 'Bruno Siqueira advogado' - isso deve confundir quem está procurando especificamente o escritório de Garanhuns. Um site institucional próprio resolveria essa confusão e ainda reforçaria a seriedade da atuação de vocês. Posso te mandar 3 ideias de como isso ficaria?",
+        "instagram_dm": "Oi, Bruno! Vitor, da Adspot. Reparei que buscar 'Bruno Siqueira advogado' no Google traz mais de um resultado parecido - um site institucional próprio ajudaria a separar bem o escritório de Garanhuns. Posso te mandar 3 ideias?",
+        "follow_up_d3": "Bruno, uma ideia concreta: uma página só com o endereço de Garanhuns, a área de atuação e um formulário de contato já resolveria a maior parte dessa confusão de nome no Google. Quer que eu te mostre como ficaria?",
+        "follow_up_d7": "Bruno, fecho por aqui essa tentativa. Se fizer sentido resolver essa questão do site depois, é só me chamar.",
+        "ligacao": "Telefone só encontrado parcialmente oculto ((87) 3761-****) - priorizar o Direct do Instagram (@advocaciabrunosiqueira) como primeiro contato; se for pessoalmente, o endereço é Av. Rui Barbosa, 1138, Sala 02, Heliópolis."
+      },
+      "fontes": [
+        "https://oabpe.org.br/garanhuns-2/",
+        "https://www.instagram.com/advocaciabrunosiqueira/",
+        "https://www.facebook.com/AdvocaciaBrunoSiqueira/",
+        "https://www.econodata.com.br/consulta-empresa/21925031000123-bruno-siqueira-advogados-associados",
+        "https://cnpj.biz/21925031000123"
+      ]
+    },
+    {
+      "id": "advocacia-curica-picos-pi",
+      "nicho": "advocacia",
+      "nome_fantasia": "Advocacia Curica Advogados Associados",
+      "bairro": "Centro, Picos/PI",
+      "prioridade": "B",
+      "score": 55,
+      "score_detalhe": { "dor": 26, "capacidade": 17, "acesso": 12, "timing": 0 },
+      "cnpj": {
+        "numero": "35.714.911/0001-65",
+        "razao_social": "ADVOCACIA CURICA ADVOGADOS ASSOCIADOS",
+        "situacao": "ATIVA",
+        "abertura": "2019-11-29",
+        "porte": "Sociedade Simples Pura (capital social R$ 30.000)",
+        "cnae": "6911-7/01 - Serviços advocatícios",
+        "capital_social": 30000,
+        "endereco": "Rua Santo Antônio, 223, Térreo, Centro, Picos - PI, 64.600-004",
+        "fonte": "resumo de busca via casadosdados.com.br/solucao/cnpj/advocacia-curica-advogados-associados-35714911000165 (endereço e situação ATIVA confirmados de forma explícita nesta fonte; consulta_cnpj.py retornou 403 nas 3 fontes - política de rede da sessão)"
+      },
+      "decisor": {
+        "nome": "Antonio José de Carvalho Júnior",
+        "primeiro_nome": "Antonio",
+        "qualificacao": "Sócio-Administrador",
+        "validado": true,
+        "fonte_validacao": "Portaria nº 03/2021 da Prefeitura de Picos (picos.pi.gov.br), que nomeia 'Antonio José de Carvalho Júnior' Procurador Geral do Município - documento público externo ao CNPJ que confirma a identidade da pessoa (nota: ele também exerce cargo público na Procuradoria de Picos, o que pode significar menos tempo dedicado ao escritório privado - vale confirmar disponibilidade na abordagem)",
+        "instagram": "não encontrado (3 buscas: nome completo, 'Curica advogados' e site:instagram.com não trouxeram nenhum perfil da empresa nem pessoal)",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "3 buscas (nome fantasia + site, domínio do e-mail 'advocaciacurica.com.br' testado via WebFetch) não encontraram nenhum site funcionando - o domínio do e-mail não resolveu (DNS não encontrado)" },
+        "instagram": { "url": "não encontrado", "seguidores": 0, "publicacoes": 0, "ultimo_post": "", "status": "não encontrado", "nota": "3 buscas dedicadas não encontraram nenhum perfil de Instagram do escritório ou do sócio-administrador - clínica/escritório invisível na rede social" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta sessão" },
+        "anuncios": { "ativos": null, "fonte": "facebook.com/ads/library", "observacao": "não verificado - Biblioteca de Anúncios da Meta não acessível nesta sessão" }
+      },
+      "dores": [
+        "Sem site: o domínio do próprio e-mail institucional (advocaciacurica.com.br) não resolve/não existe mais",
+        "Sem Instagram: nenhuma das 3 buscas dedicadas encontrou perfil da empresa nem do sócio-administrador - presença digital nula fora de diretórios de terceiros (Jurídico Certo, Econodata, Casa dos Dados)",
+        "Toda a presença encontrada é em diretórios agregadores que o escritório não controla, não em canais próprios"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000 a 1.500",
+        "justificativa": "A dor mais grave e mais fácil de comprovar é a ausência total de presença própria (nem site, nem Instagram) - um site institucional resolve a base antes de qualquer outro investimento"
+      },
+      "gancho": "Escritório com mais de 6 anos de CNPJ ativo, mas hoje só aparece em diretórios de terceiros - nem site, nem Instagram próprios",
+      "contato": { "whatsapp": "(89) 99927-0378", "instagram": "não encontrado", "email": "contato@advocaciacurica.com.br", "melhor_horario": "9h-11h ou 14h-17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Antonio! Aqui é o Vitor, da Adspot. Vi que o escritório Curica está com o CNPJ ativo há mais de 6 anos em Picos, mas hoje não encontrei nem um site nem um Instagram do escritório - só aparece em diretórios de terceiros. Um site institucional simples já resolveria essa base. Posso te mandar 3 ideias de como isso ficaria?",
+        "instagram_dm": "Oi, Antonio! Vitor, da Adspot. O escritório Curica não tem site nem Instagram próprios hoje - só diretórios de terceiros. Posso te mandar 3 ideias de como resolver essa base?",
+        "follow_up_d3": "Antonio, uma ideia rápida: uma página só com contato, endereço e áreas de atuação do escritório já ajudaria bastante quem busca 'Advocacia Curica' no Google hoje. Quer que eu te mostre como ficaria?",
+        "follow_up_d7": "Antonio, fecho por aqui essa tentativa. Se em algum momento fizer sentido organizar essa presença, é só me chamar.",
+        "ligacao": "Ligar nos números (89) 99927-0378 ou (89) 99921-3621, perguntar por Antonio José de Carvalho Júnior, se apresentar como Vitor da Adspot. Endereço para visita presencial: Rua Santo Antônio, 223, Centro."
+      },
+      "fontes": [
+        "https://casadosdados.com.br/solucao/cnpj/advocacia-curica-advogados-associados-35714911000165",
+        "https://www2.picos.pi.gov.br/juridico/wp-content/uploads/2021/01/Portaria-03-2021-Antonio-Jos%C3%A9-de-Carvalho-J%C3%BAnior-Procurador-Geral-do-Munic%C3%ADpio-Nomea%C3%A7%C3%A3o.pdf",
+        "https://www.econodata.com.br/consulta-empresa/35714911000165-advocacia-curica-advogados-associados",
+        "https://cnpj.biz/35714911000165"
+      ]
+    }
+  ],
+  "descartados": [
+    { "nome": "PRD Advogados Associados - Pompilio Rodrigues Donato (Sociedade Individual de Advocacia)", "nicho": "advocacia", "motivo": "Guanambi/BA - CNPJ 42.233.027/0001-74 e decisor (Pompilio Rodrigues Donato) confirmados via LinkedIn/Escavador/Econodata, mas não foi possível confirmar explicitamente 'situação: ATIVA' nem o endereço exato para cruzar com o Google Maps dentro do orçamento de busca desta sessão - por cautela (regra da metodologia), não incluído. Reaproveitar se uma nova sessão conseguir consulta_cnpj.py funcionando." },
+    { "nome": "Barros & Farias Advocacia", "nicho": "advocacia", "motivo": "Caruaru/PE - CNPJ 36.632.322/0001-09 e sócios-administradores (Carlos Phelippe Barros da Silva, Carlos Renato Santos de Farias) encontrados, mas sem validação externa dos nomes, sem Instagram localizado e sem confirmação explícita de situação ATIVA/endereço - descartado por cautela." },
+    { "nome": "José & Mariana Advogados Associados", "nicho": "advocacia", "motivo": "Cajazeiras/PB - tem um site simples (Wix) que seria uma boa evidência de dor, mas não foi possível localizar o CNPJ nem os nomes completos dos sócios em 3 buscas - sem CNPJ não há como identificar o decisor pelo QSA, e a metodologia proíbe inventar CNPJ ou dono." },
+    { "nome": "Ribeiro & Abreu Advogados Associados", "nicho": "advocacia", "motivo": "Sobral/CE - CNPJ 36.162.403/0001-84 e decisor (Francimar Belchior de Abreu) localizados, mas nenhuma busca encontrou Instagram com segurança (risco de confundir com 'Ribeiro Abreu Advogados' do Rio de Janeiro) nem validação externa do nome do decisor - descartado por cautela." },
+    { "nome": "Raulino Sales - Advogados Associados", "nicho": "advocacia", "motivo": "Caicó/RN - CNPJ 39.650.575/0001-95 e sócia-administradora (Amanda Rosalia Rodrigues Sales de Negreiros) localizados, mas existem vários outros escritórios 'Raulino' em outras cidades/estados (Raulino & Teles, Raulino Advocacia, Schubert & Raulino) e não foi possível confirmar com segurança qual Instagram, se algum, pertence a este CNPJ específico." },
+    { "nome": "Gildásio Júnior e Advogados Associados", "nicho": "advocacia", "motivo": "Bom Jesus da Lapa/BA - CNPJ 17.942.694/0001-89 confirmado ATIVA, mas o site institucional e uma das páginas do Facebook associadas ao mesmo nome aparecem localizados em Embu-Guaçu/SP - risco de homônimo alto; o Instagram pessoal do sócio (@gildasiojrr) também mostra um padrão de seguir 7.626 contas para 2.663 seguidores, sinal de crescimento não-orgânico, não de perfil abandonado. Descartado por cautela e por já ter presença digital ativa." },
+    { "nome": "Salgueiro Coelho Advogados", "nicho": "advocacia", "motivo": "Salgueiro/PE - CNPJ 35.520.942/0001-85 (sócio Eduardo Salgueiro Coelho) localizado, mas o Instagram/site 'Salgueiro Coelho Advogados' encontrado nas buscas pertence a um escritório sediado em São Paulo, com presença corporativa forte - risco de homônimo, não usado." },
+    { "nome": "Tavares & Braga Advogados Associados", "nicho": "advocacia", "motivo": "Petrolina/PE - já tem site próprio (tavaresebraga.adv.br) e Instagram (@advogados.tb) com mais de 2.400 seguidores - presença digital já forte, não é dor." },
+    { "nome": "Carvalho e Batista Advocacia (Marla Carvalho e Lívia Batista)", "nicho": "advocacia", "motivo": "Petrolina/PE - as duas sócias já têm sites profissionais individuais (marlacarvalho.adv.br, liviabatista.adv.br) - presença digital já estabelecida, não é dor." },
+    { "nome": "Dra. Regina Leandro Pessoa - Sociedade Individual de Advocacia", "nicho": "advocacia", "motivo": "Ouricuri/PE - já tem site próprio (reginaleandropessoaadvogada.com) e Instagram (@reginaleandropessoa) ativos - presença digital já forte, não é dor." }
+  ],
+  "proximo_passo": "Abordar Héber (Gomes e Tiburtino, Patos/PB) e Antonio (Advocacia Curica, Picos/PI) hoje entre 9h e 11h ou 14h e 17h, pelo WhatsApp/telefone informado; abordar Bruno (Garanhuns/PE) pelo Direct do Instagram no mesmo horário, já que o telefone não está completo; follow-up D+3 em 2026-10-01."
+}

@@ -5,14 +5,14 @@
     "data": "AAAA-MM-DD",
     "cidade": "Cidade/UF",
     "regiao": "bairros pesquisados",
-    "nichos": ["restaurante", "colegio", "salao", "estetica", "dentista", "psicologo"],
+    "nichos": ["restaurante", "colegio", "salao", "estetica", "dentista", "psicologo", "automotivo", "imobiliaria", "advocacia"],
     "observacoes": "contexto curto (ex.: temporada de matrícula)",
     "demonstracao": false
   },
   "leads": [
     {
       "id": "slug-unico-do-lead",
-      "nicho": "restaurante | colegio | salao | estetica | dentista | psicologo | automotivo",
+      "nicho": "restaurante | colegio | salao | estetica | dentista | psicologo | automotivo | imobiliaria | advocacia",
       "nome_fantasia": "Nome como aparece no Google/Instagram",
       "bairro": "Bairro",
       "prioridade": "A | B",
