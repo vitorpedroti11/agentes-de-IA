@@ -1,0 +1,452 @@
+{
+  "prospeccao": {
+    "id": "2026-09-30_brasil_colegios",
+    "titulo": "Colégios pelo Brasil — Instagram ativo obrigatório",
+    "data": "2026-09-30",
+    "cidade": "Brasil (várias cidades)",
+    "regiao": "Rio Verde/GO, Ituiutaba/MG, Vitória da Conquista/BA, Fortaleza/CE, Garanhuns/PE",
+    "nichos": ["colegio"],
+    "observacoes": "Refação da rodada de 2026-09-29 sob a nova regra permanente: Instagram ativo é critério eliminatório (seção 2.1 da metodologia). Nenhum lead deste lote repete o lote anterior (que não tinha Instagram em nenhum dos 4 leads). Set–jan é temporada de matrícula.",
+    "demonstracao": false
+  },
+  "leads": [
+    {
+      "id": "escola-escadinha-do-futuro-rio-verde",
+      "nicho": "colegio",
+      "nome_fantasia": "Escola Escadinha do Futuro",
+      "bairro": "Parque Bandeirante, Rio Verde/GO",
+      "prioridade": "B",
+      "score": 52,
+      "score_detalhe": { "dor": 17, "capacidade": 18, "acesso": 9, "timing": 8 },
+      "cnpj": {
+        "numero": "01.030.542/0001-70",
+        "razao_social": "MARIA IRENE CABRAL DA SILVA E CIA LTDA",
+        "situacao": "ATIVA",
+        "abertura": "1996-02-02",
+        "porte": "não verificado (consulta_cnpj.py: 403 nas 3 fontes; porte não confirmado via WebSearch)",
+        "cnae": "8512-1/00 - Educação infantil - pré-escola (com Ensino Fundamental I e II)",
+        "capital_social": 0,
+        "endereco": "Avenida Demolício de Carvalho, 235, Parque Bandeirante (Prolongamento), Rio Verde/GO, CEP 75.900-182",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/01030542000170-maria-irene-cabral-da-silva-e-cia-ltda (resumo de busca; consulta_cnpj.py devolveu 403 Forbidden nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "Maria Irene Cabral da Silva",
+        "primeiro_nome": "Maria Irene",
+        "qualificacao": "Administradora",
+        "validado": false,
+        "fonte_validacao": "não encontrada — QSA também traz Claudia Cabral e Silva como sócia; nenhuma fonte externa ao CNPJ (Instagram pessoal, LinkedIn, matéria) confirmou qual delas está à frente da direção",
+        "instagram": "não encontrado (perfil pessoal de Maria Irene ou Claudia não localizado em 3 buscas)",
+        "outros_socios": [{ "nome": "Claudia Cabral e Silva", "qualificacao": "Sócia" }]
+      },
+      "presenca": {
+        "site": {
+          "url": "",
+          "status": "inexistente",
+          "nota": "3 buscas (nome + Rio Verde, nome + CNPJ, nome + 'site oficial') não encontraram nenhum domínio próprio; só listagens de diretório (Melhor Escola, Quero Bolsa, AcheRápido, Escolas.com.br)"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/escolaescadinhadofuturo/",
+          "seguidores": 0,
+          "publicacoes": 0,
+          "ultimo_post": "",
+          "status": "ok",
+          "nota": "Perfil ativo confirmado — há pelo menos um Reel publicado (instagram.com/reel/CeRV6pns2ya). Número exato de seguidores/publicações e data do último post não verificados nesta sessão (WebFetch do Instagram bloqueado); confirmar antes de enviar"
+        },
+        "google": {
+          "url": "",
+          "nota": 4.5,
+          "avaliacoes": 0,
+          "observacao": "Nota 4,5 encontrada no agregador Melhor Escola (não é a nota do Google Maps diretamente); número de avaliações não verificado. Confirmar nota real do Google antes de enviar"
+        },
+        "anuncios": {
+          "ativos": null,
+          "fonte": "",
+          "observacao": "não verificado nesta sessão — Biblioteca de Anúncios da Meta não consultada diretamente (WebFetch bloqueado)"
+        }
+      },
+      "dores": [
+        "Sem site: 3 buscas não encontraram nenhum domínio próprio, apenas listagens de diretórios de escola (fonte: WebSearch, 2026-09-30)",
+        "Escola com quase 30 anos de atividade (fundada em 1996) e Instagram ativo, mas sem nenhuma página própria para explicar matrícula, valores ou proposta bilíngue mencionada nos diretórios"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000–1.500",
+        "justificativa": "Instagram já ativo e usado pela escola; falta só um site com informação de matrícula para quem pesquisa no Google antes de ligar"
+      },
+      "gancho": "Temporada de matrícula (set–jan) já começou e a Escadinha do Futuro, com quase 30 anos em Rio Verde, não tem nenhum site — só aparece em diretórios de terceiros",
+      "contato": {
+        "whatsapp": "(64) 3621-2322 (telefone registrado no CNPJ/diretórios da escola; não verificado se é linha direta da direção)",
+        "instagram": "@escolaescadinhadofuturo",
+        "email": "",
+        "melhor_horario": "9h–11h"
+      },
+      "mensagens": {
+        "whatsapp": "Oi, Maria Irene! Aqui é o Vitor, da Adspot. Vi que a Escadinha do Futuro está com quase 30 anos em Rio Verde e o Instagram de vocês está ativo, com Reels dos alunos — só que fui procurar um site pra entender como funciona a matrícula e não encontrei nenhum. Como agora é a temporada de matrícula, uma página simples com isso ajudaria famílias novas a chegar até fevereiro. Posso te mandar uma ideia de como ficaria?",
+        "instagram_dm": "Oi, Maria Irene! Vitor, da Adspot. A Escadinha do Futuro tem quase 30 anos e o Instagram ativo, mas não achei nenhum site pra matrícula. Posso te mandar uma ideia rápida?",
+        "follow_up_d3": "Maria Irene, voltando aqui: pensei numa página só com 'Educação Infantil e Fundamental', endereço, telefone e um botão de WhatsApp para pré-matrícula — resolve rápido pra quem chega em janeiro. Quer ver como ficaria?",
+        "follow_up_d7": "Maria Irene, fecho por aqui essa semana. Se fizer sentido montar essa página de matrícula depois, é só me chamar.",
+        "ligacao": "Perguntar pela direção (Maria Irene ou Claudia); citar que procurou a escola no Google para entender a matrícula e não achou site."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/01030542000170-maria-irene-cabral-da-silva-e-cia-ltda",
+        "https://www.instagram.com/escolaescadinhadofuturo/?hl=en",
+        "https://www.instagram.com/reel/CeRV6pns2ya/",
+        "https://www.melhorescola.com.br/escola/escola-escadinha-do-futuro",
+        "https://escolas.com.br/escola-escadinha-do-futuro-52055019"
+      ]
+    },
+    {
+      "id": "escola-infantil-menino-jesus-ituiutaba",
+      "nicho": "colegio",
+      "nome_fantasia": "Escola Infantil Menino Jesus",
+      "bairro": "Centro, Ituiutaba/MG",
+      "prioridade": "B",
+      "score": 56,
+      "score_detalhe": { "dor": 20, "capacidade": 16, "acesso": 12, "timing": 8 },
+      "cnpj": {
+        "numero": "04.376.415/0001-15",
+        "razao_social": "JARDIM DE INFANCIA MENINO JESUS LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2001-04-09",
+        "porte": "não verificado (consulta_cnpj.py: 403 nas 3 fontes)",
+        "cnae": "8512-1/00 - Educação infantil - pré-escola",
+        "capital_social": 0,
+        "endereco": "Avenida Vinte e Cinco, 1934, Centro, Ituiutaba/MG, CEP 38.300-095",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/04376415000115-JARDIM-DE-INFANCIA-MENINO-JESUS-LTDA (resumo de busca; consulta_cnpj.py devolveu 403 Forbidden nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "Jéssica Vasconcellos de Farias",
+        "primeiro_nome": "Jéssica",
+        "qualificacao": "Sócia (QSA) e Diretora Administrativa (LinkedIn)",
+        "validado": true,
+        "fonte_validacao": "https://br.linkedin.com/in/j%C3%A9ssica-vasconcellos-4146411b3 — LinkedIn dela indica o cargo de Diretora Administrativa no Colégio Menino Jesus, confirmando fora do CNPJ que ela está à frente da direção",
+        "instagram": "não encontrado (perfil pessoal de Jéssica não localizado em 3 buscas; só o perfil da escola)",
+        "outros_socios": [{ "nome": "Soegina Pereira de Vasconcellos Farias", "qualificacao": "Administradora" }]
+      },
+      "presenca": {
+        "site": {
+          "url": "",
+          "status": "inexistente",
+          "nota": "O domínio escolameninojesus.com.br que aparece nas buscas pertence a outra escola com nome igual em outra cidade (endereço não bate com Ituiutaba); nenhum site próprio da unidade de Ituiutaba foi encontrado em 3 buscas"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/cmj.oficial/",
+          "seguidores": 3892,
+          "publicacoes": 685,
+          "ultimo_post": "",
+          "status": "ok",
+          "nota": "Perfil ativo com 3.892 seguidores e 685 publicações, bio '➕ Que Ensino, Educação que Transforma❗ #VemSerCMJ'. Data exata do último post não verificada nesta sessão (WebFetch bloqueado); qualidade do feed (Reels, identidade visual) não verificada — confirmar antes de enviar"
+        },
+        "google": {
+          "url": "",
+          "nota": 0,
+          "avaliacoes": 0,
+          "observacao": "não encontrada nenhuma avaliação nos agregadores consultados (Melhor Escola, Quero Bolsa); nota do Google Maps não verificada diretamente"
+        },
+        "anuncios": {
+          "ativos": null,
+          "fonte": "",
+          "observacao": "não verificado nesta sessão"
+        }
+      },
+      "dores": [
+        "Sem site próprio: o domínio que aparece nas buscas por 'Escola Menino Jesus' pertence a uma escola homônima em outra cidade — quem procura no Google pode cair no site errado (fonte: WebSearch, 2026-09-30)",
+        "Instagram ativo (quase 4 mil seguidores) mas sem nenhum canal digital próprio (site) que confirme qual é a escola certa e explique a matrícula"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000–1.500",
+        "justificativa": "Instagram já é forte (quase 4 mil seguidores); falta um site próprio para não perder família confundindo com a escola homônima de outra cidade"
+      },
+      "gancho": "Quem procura 'Colégio Menino Jesus' no Google encontra o site de outra escola com o mesmo nome, em outra cidade — a unidade de Ituiutaba não tem página própria para se diferenciar antes da matrícula",
+      "contato": {
+        "whatsapp": "não verificado — nenhum telefone da escola encontrado com segurança nesta sessão (Facebook @ocolegiomeninojesus existe, mas sem telefone confirmado no resumo de busca)",
+        "instagram": "@cmj.oficial",
+        "email": "",
+        "melhor_horario": "9h–11h"
+      },
+      "mensagens": {
+        "whatsapp": "Oi, Jéssica! Aqui é o Vitor, da Adspot. Vi o Instagram do Menino Jesus com quase 4 mil seguidores — dá pra ver que tem gente cuidando bem do conteúdo. Só que, quando busquei o colégio de vocês no Google, o primeiro site que aparece é de uma outra escola com o mesmo nome, em outra cidade. Um site próprio resolveria essa confusão antes da matrícula. Posso te mandar uma ideia de como ficaria?",
+        "instagram_dm": "Oi, Jéssica! Vitor, da Adspot. O Instagram do Menino Jesus tá bem cuidado, mas o Google leva pra site de outro colégio com nome parecido. Posso te mandar uma ideia rápida?",
+        "follow_up_d3": "Jéssica, voltando: dá pra registrar um domínio simples só com o nome de vocês e um botão de pré-matrícula — evita que a família clique no site errado. Quer que eu te mande um exemplo?",
+        "follow_up_d7": "Jéssica, fecho por aqui essa semana. Se quiser resolver essa confusão do Google depois da temporada, é só chamar.",
+        "ligacao": "Perguntar pela diretora Jéssica Vasconcellos; citar que ao buscar o colégio no Google encontrou o site de outra escola homônima."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/04376415000115-JARDIM-DE-INFANCIA-MENINO-JESUS-LTDA",
+        "https://br.linkedin.com/in/j%C3%A9ssica-vasconcellos-4146411b3",
+        "https://www.instagram.com/cmj.oficial/",
+        "https://www.facebook.com/ocolegiomeninojesus/",
+        "https://escolameninojesus.com.br/"
+      ]
+    },
+    {
+      "id": "escola-cantinho-da-infancia-vitoria-da-conquista",
+      "nicho": "colegio",
+      "nome_fantasia": "Escola Cantinho da Infância",
+      "bairro": "Candeias, Vitória da Conquista/BA",
+      "prioridade": "B",
+      "score": 57,
+      "score_detalhe": { "dor": 24, "capacidade": 16, "acesso": 9, "timing": 8 },
+      "cnpj": {
+        "numero": "63.183.347/0001-37",
+        "razao_social": "ELZINEIRE ANDRADE DE SOUZA SILVA",
+        "situacao": "ATIVA",
+        "abertura": "1994-01-06",
+        "porte": "não verificado — razão social é o nome da titular, padrão de Empresário Individual",
+        "cnae": "8512-1/00 - Educação infantil - pré-escola",
+        "capital_social": 0,
+        "endereco": "Avenida Alberto Leal, 58, Candeias/Zabele, Vitória da Conquista/BA, CEP 45028-135",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/63183347000137-ELZINEIRE-ANDRADE-DE-SOUZA-SILVA (resumo de busca; consulta_cnpj.py devolveu 403 Forbidden nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "Elzineire Andrade de Souza Silva",
+        "primeiro_nome": "Elzineire",
+        "qualificacao": "Titular (Empresário Individual)",
+        "validado": false,
+        "fonte_validacao": "não encontrada — razão social do CNPJ é o próprio nome da titular, mas nenhuma fonte externa (Instagram pessoal, LinkedIn, matéria local) confirmou a ligação dela com a direção da escola",
+        "instagram": "não encontrado (perfil pessoal de Elzineire não localizado em 3 buscas)",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": {
+          "url": "",
+          "status": "inexistente",
+          "nota": "3 buscas (nome + Vitória da Conquista, nome + CNPJ, nome + 'site oficial') não encontraram nenhum domínio próprio; só listagens de diretório (Solutudo, Escolas.com.br, Melhor Escola)"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/escola.cantinhodainfancia/",
+          "seguidores": 1583,
+          "publicacoes": 0,
+          "ultimo_post": "",
+          "status": "ok",
+          "nota": "Perfil ativo com 1.583 seguidores; número de publicações e data do último post não verificados nesta sessão (WebFetch bloqueado); qualidade do feed não verificada — confirmar antes de enviar"
+        },
+        "google": {
+          "url": "",
+          "nota": 0,
+          "avaliacoes": 0,
+          "observacao": "sem avaliações nos agregadores consultados (Melhor Escola, Quero Bolsa); nota do Google Maps não verificada diretamente"
+        },
+        "anuncios": {
+          "ativos": null,
+          "fonte": "",
+          "observacao": "não verificado nesta sessão"
+        }
+      },
+      "dores": [
+        "Sem site: 3 buscas não encontraram nenhum domínio próprio, apenas listagens de diretórios (fonte: WebSearch, 2026-09-30)",
+        "Escola com mais de 30 anos de atividade (fundada em 1994) e Instagram ativo, mas nenhuma página própria para quem pesquisa 'escola infantil Vitória da Conquista' no Google"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000–1.500",
+        "justificativa": "Empresário Individual com capacidade incerta e Instagram já em funcionamento; um site de 1 página resolve a ausência no Google sem comprometer um contrato mensal"
+      },
+      "gancho": "Mais de 30 anos de atividade em Vitória da Conquista e nenhuma presença no Google além de diretórios de terceiros — famílias que pesquisam escola infantil pelo celular não encontram o Cantinho da Infância",
+      "contato": {
+        "whatsapp": "(77) 3424-1866 (telefone registrado no CNPJ/diretórios; e-mail associado: cantinhodainfanciavini@hotmail.com)",
+        "instagram": "@escola.cantinhodainfancia",
+        "email": "cantinhodainfanciavini@hotmail.com",
+        "melhor_horario": "9h–11h"
+      },
+      "mensagens": {
+        "whatsapp": "Oi, Elzineire! Aqui é o Vitor, da Adspot. Vi que o Cantinho da Infância já passou de 30 anos em Vitória da Conquista — isso é raridade. O Instagram de vocês existe e está ativo, mas não achei nenhum site: quem procura 'escola infantil' no Google não encontra vocês. Um site simples com endereço e contato ajudaria famílias novas a chegar antes de fevereiro. Posso te mandar uma ideia?",
+        "instagram_dm": "Oi, Elzineire! Vitor, da Adspot. O Cantinho da Infância tem mais de 30 anos e ainda não tem site. Posso te mandar uma ideia rápida de como resolver isso?",
+        "follow_up_d3": "Elzineire, voltando: uma página de 1 página só, com fotos do espaço e um botão de WhatsApp pra pré-matrícula, já ajudaria bastante nessa reta final do ano. Quer ver um exemplo?",
+        "follow_up_d7": "Elzineire, fecho por aqui essa semana. Se fizer sentido montar esse site depois, é só chamar.",
+        "ligacao": "Perguntar pela titular Elzineire; citar que procurou a escola no Google e só achou listagem em diretório, sem site."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/63183347000137-ELZINEIRE-ANDRADE-DE-SOUZA-SILVA",
+        "https://www.instagram.com/escola.cantinhodainfancia/",
+        "https://www.solutudo.com.br/empresas/ba/vitoria-conquista/escolas-infantis/escola-cantinho-da-infancia-12461565"
+      ]
+    },
+    {
+      "id": "escola-pequeno-mestre-fortaleza",
+      "nicho": "colegio",
+      "nome_fantasia": "Escola Pequeno Mestre",
+      "bairro": "Varjota, Fortaleza/CE",
+      "prioridade": "B",
+      "score": 54,
+      "score_detalhe": { "dor": 21, "capacidade": 16, "acesso": 9, "timing": 8 },
+      "cnpj": {
+        "numero": "02.852.075/0001-26",
+        "razao_social": "ESCOLA PEQUENO MESTRE LTDA",
+        "situacao": "ATIVA",
+        "abertura": "1998-11-12",
+        "porte": "não verificado (consulta_cnpj.py: 403 nas 3 fontes)",
+        "cnae": "8513-9/00 - Ensino fundamental",
+        "capital_social": 0,
+        "endereco": "Avenida Antônio Justa, 3920, Varjota, Fortaleza/CE, CEP 60.165-090",
+        "fonte": "https://econodata.com.br/consulta-empresa/02852075000126-ESCOLA-PEQUENO-MESTRE-LTDA (resumo de busca; consulta_cnpj.py devolveu 403 Forbidden nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "Bruna Kecia Lopes de Araujo",
+        "primeiro_nome": "Bruna",
+        "qualificacao": "Administradora",
+        "validado": false,
+        "fonte_validacao": "não encontrada — QSA lista 3 administradoras (Bruna Kecia Lopes de Araujo, Silvia Helena Avelino da Silva, Zelia Monteiro Fragoso) e nenhuma fonte externa ao CNPJ confirmou qual delas é o rosto público da escola",
+        "instagram": "não encontrado (perfil pessoal de nenhuma das 3 administradoras localizado em 3 buscas)",
+        "outros_socios": [
+          { "nome": "Silvia Helena Avelino da Silva", "qualificacao": "Administradora" },
+          { "nome": "Zelia Monteiro Fragoso", "qualificacao": "Administradora" }
+        ]
+      },
+      "presenca": {
+        "site": {
+          "url": "escolapequenomestre.com",
+          "status": "ruim",
+          "nota": "Domínio existe (escolapequenomestre.com) mas não há nenhuma página indexada com conteúdo (matrícula, proposta pedagógica); site praticamente invisível no Google — dor confirmada de baixa visibilidade, não de ausência total. Confirmar diretamente antes de enviar (WebFetch bloqueado nesta sessão)"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/escola.pequenomestre/",
+          "seguidores": 2557,
+          "publicacoes": 712,
+          "ultimo_post": "",
+          "status": "ok",
+          "nota": "Perfil ativo com 2.557 seguidores e 712 publicações, bio menciona '30 anos de educação para o futuro'. Para uma escola de 200+ alunos e quase 30 anos, a base de seguidores é modesta — sinal de baixa distribuição, não de agência forte. Data do último post não verificada — confirmar antes de enviar"
+        },
+        "google": {
+          "url": "",
+          "nota": 0,
+          "avaliacoes": 0,
+          "observacao": "sem avaliações localizadas nos agregadores consultados (Melhor Escola, Quero Bolsa, QEdu); nota do Google Maps não verificada diretamente"
+        },
+        "anuncios": {
+          "ativos": null,
+          "fonte": "",
+          "observacao": "não verificado nesta sessão"
+        }
+      },
+      "dores": [
+        "Site próprio existe (escolapequenomestre.com) mas não tem nenhuma página indexada no Google com informação de matrícula ou proposta pedagógica (fonte: WebSearch, 2026-09-30) — confirmar diretamente antes de enviar",
+        "203 alunos matriculados e quase 30 anos de história, mas só 2.557 seguidores no Instagram — desproporcional ao tamanho da escola, sinal de pouca distribuição de conteúdo"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000–1.500",
+        "justificativa": "Já existe um domínio registrado; o problema é a página não aparecer no Google com a informação certa — refazer o site resolve isso sem trocar o que já funciona no Instagram"
+      },
+      "gancho": "Escola com quase 30 anos e mais de 200 alunos em Fortaleza, mas o site próprio não aparece no Google com nenhuma informação sobre matrícula — quem pesquisa não encontra nada além do endereço em diretórios",
+      "contato": {
+        "whatsapp": "(85) 3267-4823 (telefone registrado nos diretórios e no CNPJ da escola)",
+        "instagram": "@escola.pequenomestre",
+        "email": "escolapequenomestre@yahoo.com.br",
+        "melhor_horario": "9h–11h"
+      },
+      "mensagens": {
+        "whatsapp": "Oi, Bruna! Aqui é o Vitor, da Adspot. Vi que a Pequeno Mestre já tem mais de 200 alunos e quase 30 anos em Fortaleza — bastante gente confia no trabalho de vocês. Fui procurar o site da escola pra ver a matrícula e não consegui achar nenhuma página específica sobre isso, mesmo o domínio existindo. Isso pode estar custando famílias novas nessa temporada. Posso te mandar uma ideia de como organizar isso?",
+        "instagram_dm": "Oi, Bruna! Vitor, da Adspot. A Pequeno Mestre tem quase 30 anos, mas não achei uma página de matrícula no site de vocês. Posso te mandar uma ideia rápida?",
+        "follow_up_d3": "Bruna, voltando: uma página só de matrícula, com informações gerais e um jeito rápido de pedir contato, ajudaria a converter quem já conhece a escola. Quer que eu te mande um exemplo?",
+        "follow_up_d7": "Bruna, fecho por aqui essa semana. Se quiser organizar essa página de matrícula depois, é só chamar.",
+        "ligacao": "Perguntar pela direção (Bruna, Silvia ou Zelia); citar que procurou o site da escola para ver a matrícula e não achou a página."
+      },
+      "fontes": [
+        "https://econodata.com.br/consulta-empresa/02852075000126-ESCOLA-PEQUENO-MESTRE-LTDA",
+        "https://www.instagram.com/escola.pequenomestre/",
+        "https://escolapequenomestre.com/",
+        "https://guiafacil.com/site/escola-pequeno-mestre/fortaleza/ce/8532674823/"
+      ]
+    },
+    {
+      "id": "instituto-montessori-de-educacao-garanhuns",
+      "nicho": "colegio",
+      "nome_fantasia": "Instituto Montessori de Educação",
+      "bairro": "Santo Antônio, Garanhuns/PE",
+      "prioridade": "B",
+      "score": 51,
+      "score_detalhe": { "dor": 18, "capacidade": 16, "acesso": 9, "timing": 8 },
+      "cnpj": {
+        "numero": "29.169.578/0001-58",
+        "razao_social": "INSTITUTO MONTESSORI DE EDUCACAO LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2017-11-29",
+        "porte": "não verificado (consulta_cnpj.py: 403 nas 3 fontes); escola pequena — 45 alunos e 6 professores segundo Censo Escolar 2024",
+        "cnae": "8513-9/00 - Ensino fundamental",
+        "capital_social": 0,
+        "endereco": "Avenida Agamenon Magalhães, 383, Santo Antônio, Garanhuns/PE, CEP 55.293-290",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/29169578000158-instituto-montessori-de-educacao-ltda (resumo de busca; consulta_cnpj.py devolveu 403 Forbidden nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "Izabella Christina Carolino de Souza",
+        "primeiro_nome": "Izabella",
+        "qualificacao": "Administradora",
+        "validado": false,
+        "fonte_validacao": "não encontrada — nenhuma fonte externa ao CNPJ (Instagram pessoal, LinkedIn, matéria local) confirmou a ligação de Izabella com a direção do instituto",
+        "instagram": "não encontrado (perfil pessoal não localizado em 3 buscas)",
+        "outros_socios": [
+          { "nome": "Maria Carolino de Souza", "qualificacao": "Sócia" },
+          { "nome": "Silvia Cristina Carolino", "qualificacao": "Sócia" }
+        ]
+      },
+      "presenca": {
+        "site": {
+          "url": "https://www.montessorigaranhuns.com.br/",
+          "status": "ruim",
+          "nota": "Site existe (domínio próprio confirmado), mas WebFetch direto foi bloqueado nesta sessão e nenhuma busca trouxe conteúdo indexado (matrícula, proposta pedagógica) do site — sinal de site pouco visível/desatualizado. Confirmar diretamente com o Vitor antes de enviar"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/montessorigaranhuns/",
+          "seguidores": 4477,
+          "publicacoes": 0,
+          "ultimo_post": "",
+          "status": "ok",
+          "nota": "Perfil ativo com 4.477 seguidores — desproporcional para uma escola de apenas 45 alunos (Censo Escolar 2024), sinal de engajamento real mas capacidade de atendimento pequena. Número de publicações e data do último post não verificados — confirmar antes de enviar"
+        },
+        "google": {
+          "url": "",
+          "nota": 0,
+          "avaliacoes": 0,
+          "observacao": "sem avaliações localizadas nos agregadores consultados (Melhor Escola, Quero Bolsa); nota do Google Maps não verificada diretamente"
+        },
+        "anuncios": {
+          "ativos": null,
+          "fonte": "",
+          "observacao": "não verificado nesta sessão"
+        }
+      },
+      "dores": [
+        "Site próprio existe mas não aparece com conteúdo indexado no Google (matrícula, método Montessori) — sinal de baixa visibilidade (fonte: WebSearch, 2026-09-30), confirmar diretamente antes de enviar",
+        "Instagram com quase 4.500 seguidores para uma escola pequena (45 alunos, 8 anos de atividade) sugere interesse além da capacidade atual de atendimento, sem um site que explique bem o método e a matrícula para converter esse público"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000–1.500",
+        "justificativa": "Instagram já traz público interessado no método; falta um site que explique a proposta pedagógica e a matrícula para converter quem já segue o perfil"
+      },
+      "gancho": "Quase 4.500 pessoas seguem o Instagram do Instituto Montessori em Garanhuns, mas o site da escola não aparece no Google com nenhuma informação sobre método ou matrícula — o interesse existe, falta o canal para converter",
+      "contato": {
+        "whatsapp": "(87) 3025-2275 / (87) 99678-0561 (telefones registrados no CNPJ/diretórios da escola)",
+        "instagram": "@montessorigaranhuns",
+        "email": "montessorigaranhuns@gmail.com",
+        "melhor_horario": "9h–11h"
+      },
+      "mensagens": {
+        "whatsapp": "Oi, Izabella! Aqui é o Vitor, da Adspot. Vi o Instagram do Instituto Montessori com quase 4.500 seguidores — muito além do que eu esperava pra uma escola do tamanho de vocês, dá pra ver que tem gente interessada no método. Fui procurar o site pra entender melhor a proposta pedagógica e não encontrei nenhuma página carregando esse conteúdo no Google. Isso pode estar deixando família na dúvida antes de matricular. Posso te mandar uma ideia?",
+        "instagram_dm": "Oi, Izabella! Vitor, da Adspot. O Instagram do Instituto Montessori tá com bastante gente engajada, mas o site de vocês não aparece bem no Google. Posso te mandar uma ideia rápida?",
+        "follow_up_d3": "Izabella, voltando: uma página simples explicando o método Montessori e como funciona a matrícula ajudaria a converter quem já segue o Instagram. Quer ver um exemplo?",
+        "follow_up_d7": "Izabella, fecho por aqui essa semana. Se fizer sentido organizar essa página depois, é só chamar.",
+        "ligacao": "Perguntar pela direção (Izabella, Maria ou Silvia Cristina Carolino); citar que procurou o site pra entender o método Montessori e não encontrou o conteúdo."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/29169578000158-instituto-montessori-de-educacao-ltda",
+        "https://www.instagram.com/montessorigaranhuns/",
+        "https://qedu.org.br/escola/26189542-instituto-montessori-de-educacao"
+      ]
+    }
+  ],
+  "descartados": [
+    { "nome": "Colégio Soma (Paracatu/MG)", "nicho": "colegio", "motivo": "já tem site próprio ativo e atualizado (colsoma.com.br), com blog e conteúdo institucional recente — sem dor digital clara" },
+    { "nome": "Colégio Equilibrium (Bragança Paulista/SP)", "nicho": "colegio", "motivo": "site próprio com página de matrícula funcionando e avaliação 5.0 — presença digital já forte" },
+    { "nome": "Colégio Franciscano São José (Erechim/RS)", "nicho": "colegio", "motivo": "site institucional robusto, 103 anos de história e 6.194 seguidores no Instagram — presença digital já forte, sem dor clara" },
+    { "nome": "Colégio Criativo (Marília/SP)", "nicho": "colegio", "motivo": "site próprio com página de matrícula 2027, app próprio na Play Store e cursinho pré-vestibular — presença digital já forte; também tem unidade com nome igual em Bauru, risco de ser rede" },
+    { "nome": "Colégio COC Imperatriz / Colégio Imperatriz Dona Leopoldina (Imperatriz/MA)", "nicho": "colegio", "motivo": "vínculo com o Sistema COC (franquia) e site institucional já robusto — descartado por risco de franquia/marketing centralizado" },
+    { "nome": "Peixinho Feliz (Chapecó/SC)", "nicho": "colegio", "motivo": "franquia nacional de educação infantil — excluído pela regra de franquia com marketing centralizado" },
+    { "nome": "Bêabá Berçário e Ed. Infantil (Barreiras/BA)", "nicho": "colegio", "motivo": "Instagram ativo (1.864 seguidores) localizado, mas não foi possível confirmar CNPJ nem endereço com segurança nesta sessão — não incluído por cautela" },
+    { "nome": "Colégio Menino Jesus (Blumenau/SC) e Escola Menino Jesus (Papanduva/SC)", "nicho": "colegio", "motivo": "homônimos da Escola Infantil Menino Jesus de Ituiutaba/MG incluída na lista — CNPJ e endereço não batem, descartados para não confundir o lead" },
+    { "nome": "Diversos colégios grandes de Guarulhos, Imperatriz, Chapecó, Presidente Prudente, Divinópolis e Juazeiro do Norte mapeados nas buscas (ex.: CEBAMA, Colégio Dinâmico, Colégio Anglo Divinópolis, Colégio Objetivo/Salesiano Juazeiro, Colégio Marília Mattoso)", "nicho": "colegio", "motivo": "6 mil+ seguidores e Instagram/site profissionais e ativos — já têm agência forte ou marca consolidada, sem dor visível" }
+  ],
+  "proximo_passo": "Abordar Escola Cantinho da Infância e Escola Infantil Menino Jesus hoje entre 9h e 11h; depois Escadinha do Futuro e Instituto Montessori de Educação entre 14h e 17h; Escola Pequeno Mestre pode esperar a confirmação do site antes do primeiro contato. Follow-up D+3 em 2026-10-03."
+}
