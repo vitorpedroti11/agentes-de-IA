@@ -17,6 +17,28 @@
   },
   "conteudos": [
     {
+      "id": "2026-09-29-carrossel-relacionamento",
+      "tipo": "carrossel",
+      "titulo": "Cada mulher tem o seu jeito de se sentir bem",
+      "pilar": "engajamento",
+      "status": "desenvolvido",
+      "data_criacao": "2026-09-29",
+      "semana_id": null,
+      "mes_id": null,
+      "carrossel": {
+        "slides": [
+          { "numero": 1, "conteudo": "Cada mulher tem o seu jeito de se sentir bem", "direcionamento_visual": "Capa minimalista: still de uma peça em ambiente com bastante respiro, paleta creme/champagne, logo ALLENZA discreto no canto" },
+          { "numero": 2, "conteudo": "Tem quem escolhe uma peça pra treinar", "direcionamento_visual": "Still de peça fitness, luz natural, still life ou detalhe de tecido em movimento" },
+          { "numero": 3, "conteudo": "Tem quem escolhe pra descansar", "direcionamento_visual": "Still de peça de moda íntima em ambiente aconchegante, tons rosé/creme, sem exposição excessiva" },
+          { "numero": 4, "conteudo": "Tem quem escolhe só pra se olhar no espelho e gostar do que vê", "direcionamento_visual": "Still de detalhe da peça refletido ou emoldurado, tom bordô/champagne, clima intimista" },
+          { "numero": 5, "conteudo": "A ALLENZA é pra todas essas mulheres — e pra você também", "direcionamento_visual": "Fechamento com logo ALLENZA centralizado, mesma paleta da capa, respiro generoso" }
+        ],
+        "cta": "Comenta qual dessas mulheres é você hoje",
+        "legenda": "Treinar, descansar, se arrumar pra sair ou só ficar em casa — cada momento pede uma peça diferente, e cada peça diz algo sobre quem você é naquele dia. A ALLENZA existe pra acompanhar essas versões todas."
+      },
+      "fontes": []
+    },
+    {
       "id": "seg-post-posicionamento",
       "tipo": "post",
       "titulo": "ALLENZA: a evolução que já estava em nós",
