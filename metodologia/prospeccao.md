@@ -22,6 +22,7 @@ Dez leads verificados valem mais que cinquenta nomes copiados do Google Maps.
 | Situação cadastral | **ATIVA** | CNPJ (Receita) |
 | Nicho | Um dos 6 nichos da seção 2.3 | CNAE principal + Google |
 | Negócio funcionando | Endereço físico ou atendimento ativo, avaliação recente (< 6 meses) no Google ou post recente | Google Maps / Instagram |
+| **Perfil no Instagram — obrigatório e ativo** | O negócio **precisa ter** um perfil de Instagram encontrável (empresa ou, na falta desse, o do dono claramente ligado ao negócio) **e com sinal de atividade** (post/story recente, não uma conta abandonada há anos). Sem Instagram localizável (após as 3 buscas da seção 3) ou com perfil claramente inativo/abandonado, **o lead não entra na lista** — não faz parte dos descartados como "dor", é eliminado mesmo | Instagram |
 | Não é rede/franquia grande | Franquias com marketing centralizado não decidem localmente | Site / Instagram / nome |
 | Já tem agência forte | Anúncios constantes + conteúdo profissional recente = sem dor | Biblioteca de Anúncios da Meta + feed |
 
@@ -55,7 +56,7 @@ Dez leads verificados valem mais que cinquenta nomes copiados do Google Maps.
 
 ## 3. Diagnóstico de presença digital (a dor comprovada)
 
-> **Padrão da casa: todo lead sai com Instagram.** Dois campos obrigatórios: o **Instagram da empresa** (`presenca.instagram.url`) e o **Instagram do dono** (`decisor.instagram`). Buscar por `site:instagram.com "<nome fantasia>" <cidade>`, pelo nome do dono entre aspas e pelo link na bio/site/Facebook. Só depois dessas três buscas vale escrever **"não encontrado"**, e isso já é uma dor a registrar (clínica invisível no Instagram). Nunca deixar em branco.
+> **Padrão da casa: todo lead sai com Instagram — e isso agora é eliminatório (seção 2.1), não só uma dor a registrar.** Dois campos obrigatórios: o **Instagram da empresa** (`presenca.instagram.url`) e o **Instagram do dono** (`decisor.instagram`). Buscar por `site:instagram.com "<nome fantasia>" <cidade>`, pelo nome do dono entre aspas e pelo link na bio/site/Facebook. Só depois dessas três buscas vale concluir que não tem. **Se nenhum dos dois Instagram (empresa ou dono claramente ligado ao negócio) for encontrado, ou se o único perfil encontrado estiver claramente abandonado (sem post/story recente), o lead sai da lista e vai para os descartados com o motivo "sem Instagram ativo" — não entra mais como lead válido só com a ressalva "não encontrado".** Nunca deixar o campo em branco nos leads que entram na lista.
 
 Para cada lead, verificar e **registrar a evidência** (link, data, número):
 

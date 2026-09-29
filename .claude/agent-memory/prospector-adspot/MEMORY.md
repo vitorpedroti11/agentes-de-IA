@@ -73,6 +73,9 @@
 - 2026-09-29 · Sem QSA/decisor localizável (nem por busca comum nem por variações do nome fantasia), o lead não entra mesmo com CNPJ e endereço perfeitos — descartados desta rodada por esse motivo: Restaurante Comida Caseira (Santanópolis/BA) e Espaço Vida/Clínica de Psicologia (Aquidauana/MS).
 - 2026-09-29 · Ferramenta de páginas/Artifact continuou indisponível para publicação nesta sessão (nenhuma ferramenta desse tipo foi exposta ao agente) — HTML local em `clientes/adspot/prospeccoes/2026-09-29_brasil_colegios_pagina.html`, `2026-09-29_brasil_restaurante_pagina.html` e `2026-09-29_brasil_psicologos_pagina.html`.
 
+## Regra fixa do Vitor — Instagram ativo é eliminatório (2026-09-29)
+- 2026-09-29 · Vitor pediu, de forma permanente: **todo lead tem que ter perfil de Instagram ativo — nunca mais mandar lead sem Instagram**. Isso muda o padrão anterior (que tratava "Instagram não encontrado" como só mais uma dor a registrar, aceitável para a lista) · como aplicar: adicionado como critério eliminatório na seção 2.1 da metodologia (`metodologia/prospeccao.md`) e a seção 3 foi ajustada — sem Instagram localizável (empresa ou dono claramente ligado ao negócio) OU com o único perfil encontrado claramente abandonado (sem post/story recente), o lead vai para os descartados com o motivo "sem Instagram ativo", nunca mais entra na lista só com a ressalva "não encontrado". Isso invalida o padrão usado no lote de 2026-09-29 (colégios/restaurantes/psicólogos, critério "sem site nenhum"), que aceitou leads sem nenhum Instagram — não repetir esse padrão daqui pra frente, mesmo quando o pedido for especificamente "sem site".
+
 ## Histórico de prospecções
 <!-- data · cidade · nichos · nº de leads A/B · arquivo -->
 - 2026-09-22 · Guarulhos/SP · dentista · 1 A + 5 B, 13 descartados (Dentista do Povo saiu por ser rede nacional; Atitud saiu com Instagram ativo) · `clientes/adspot/prospeccoes/2026-09-22_guarulhos_dentista.html`
