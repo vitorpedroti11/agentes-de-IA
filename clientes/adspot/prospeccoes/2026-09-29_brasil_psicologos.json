@@ -1,0 +1,133 @@
+{
+  "prospeccao": {
+    "id": "2026-09-29_brasil_psicologos",
+    "titulo": "Clínicas de Psicologia pelo Brasil (sem site)",
+    "data": "2026-09-29",
+    "cidade": "Brasil (várias cidades)",
+    "regiao": "Boa Vista/RR, Inhumas/GO",
+    "nichos": ["psicologo"],
+    "observacoes": "Pedido do Vitor: só clínicas sem site nenhum. Priorizadas clínicas com CNPJ (não psicólogos PF), como recomenda a metodologia. APIs de CNPJ (consulta_cnpj.py) devolveram 403 de política nesta sessão; dados de CNPJ/QSA vieram de resumos de busca (WebSearch) com fonte registrada em cada lead. Nenhuma das 2 clínicas tem Instagram encontrável (3 buscas cada).",
+    "demonstracao": false
+  },
+  "leads": [
+    {
+      "id": "psicoclin-boa-vista-rr",
+      "nicho": "psicologo",
+      "nome_fantasia": "Psicoclin - Clínica de Psicologia",
+      "bairro": "Mecejana, Boa Vista/RR",
+      "prioridade": "B",
+      "score": 58,
+      "score_detalhe": { "dor": 27, "capacidade": 23, "acesso": 8, "timing": 0 },
+      "cnpj": {
+        "numero": "12.910.092/0001-26",
+        "razao_social": "PSICOCLIN-CLINICA DE PSICOLOGIA LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2010-11-21",
+        "porte": "ME",
+        "cnae": "8650-0/03 - Atividades de psicologia e psicanálise",
+        "capital_social": 100000,
+        "endereco": "Rua Raul Cunha, 138, Mecejana, Boa Vista/RR, CEP 69304-260",
+        "fonte": "https://monitorcnpj.com.br/cnpj/12910092000126/ (resumo de busca confirmando 'Status: Ativa'; consulta_cnpj.py devolveu 403 nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "Maria Alice Souza Moraes",
+        "primeiro_nome": "Maria Alice",
+        "qualificacao": "Sócia-Administradora",
+        "validado": false,
+        "fonte_validacao": "não encontrada — QSA confirma o nome como sócia-administradora desde 21/02/2016, mas nenhuma fonte externa (CRP, Instagram, matéria) validou a ligação dela com a clínica",
+        "instagram": "não encontrado",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "3 buscas não encontraram site próprio" },
+        "instagram": { "url": "", "seguidores": 0, "publicacoes": 0, "ultimo_post": "", "status": "não encontrado", "nota": "3 buscas (nome fantasia + cidade, + instagram/facebook, nome da sócia + CRP) não retornaram nenhum perfil" },
+        "google": { "url": "", "nota": 0, "avaliacoes": 0, "observacao": "não verificado; confirmar antes de enviar" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "não verificado" }
+      },
+      "dores": [
+        "Sem site: nenhum domínio próprio encontrado em 3 buscas",
+        "Sem Instagram: nenhum perfil encontrado, mesmo com 15 anos de atividade e capital de R$ 100 mil",
+        "Depende só de indicação, sem nenhum canal próprio para quem procura psicólogo pelo celular"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000–1.500",
+        "justificativa": "Clínica com CNPJ e capacidade boa, mas nicho de psicologia pede site como entrada (regra da casa: tira a clínica da dependência de indicação, sem depoimento de paciente nem promessa de resultado)"
+      },
+      "gancho": "15 anos de clínica em Boa Vista sem nenhum site — quem procura psicólogo pelo celular hoje não encontra a Psicoclin",
+      "contato": { "whatsapp": "não verificado", "instagram": "não encontrado", "email": "", "melhor_horario": "14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Maria Alice! Aqui é o Vitor, da Adspot. Fui procurar a Psicoclin no Google, pensando em como alguém procura psicólogo em Boa Vista, e não encontrei nem site nem Instagram — só o endereço na Mecejana. Um site próprio tira a clínica da dependência só de indicação. Posso te mandar como ficaria isso pra vocês?",
+        "instagram_dm": "Oi, Maria Alice! Vitor, da Adspot. Vi que a Psicoclin não tem site nem Instagram. Posso te mandar uma ideia de site simples pra clínica?",
+        "follow_up_d3": "Maria Alice, uma ideia rápida: um site de uma página, com as áreas de atendimento da clínica e um jeito de agendar por WhatsApp, já resolveria o principal. Quer ver como ficaria?",
+        "follow_up_d7": "Maria Alice, fecho por aqui essa semana. Se fizer sentido montar esse site depois, é só me chamar.",
+        "ligacao": "Perguntar pela sócia Maria Alice; citar que ligou por ter visto a clínica sem site/Instagram."
+      },
+      "fontes": [
+        "https://monitorcnpj.com.br/cnpj/12910092000126/"
+      ]
+    },
+    {
+      "id": "clipsis-inhumas-go",
+      "nicho": "psicologo",
+      "nome_fantasia": "CLIPSIS (Clínica Inhumas de Psicologia)",
+      "bairro": "Vila Santa Maria, Inhumas/GO",
+      "prioridade": "B",
+      "score": 53,
+      "score_detalhe": { "dor": 27, "capacidade": 18, "acesso": 8, "timing": 0 },
+      "cnpj": {
+        "numero": "04.135.535/0001-20",
+        "razao_social": "CLINICA INHUMAS DE PSICOLOGIA LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2000-11-06",
+        "porte": "ME",
+        "cnae": "8650-0/03 - Atividades de psicologia e psicanálise",
+        "capital_social": 5000,
+        "endereco": "Rua Getúlio Vargas, S/N, Quadra K, Lote 10, Vila Santa Maria, Inhumas/GO, CEP 75400-584",
+        "fonte": "https://monitorcnpj.com.br/cnpj/04135535000120/ (resumo de busca; consulta_cnpj.py devolveu 403 nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "Lucileni da Silva Braga",
+        "primeiro_nome": "Lucileni",
+        "qualificacao": "Sócia-Administradora",
+        "validado": false,
+        "fonte_validacao": "não encontrada — QSA confirma o nome como sócia-administradora desde 29/06/2020, mas nenhuma fonte externa validou",
+        "instagram": "não encontrado",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "3 buscas não encontraram site próprio" },
+        "instagram": { "url": "", "seguidores": 0, "publicacoes": 0, "ultimo_post": "", "status": "não encontrado", "nota": "3 buscas (nome fantasia CLIPSIS + cidade, + instagram/facebook, nome da sócia + CRP) não retornaram nenhum perfil" },
+        "google": { "url": "", "nota": 0, "avaliacoes": 0, "observacao": "não verificado; confirmar antes de enviar" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "não verificado" }
+      },
+      "dores": [
+        "Sem site: nenhum domínio próprio encontrado em 3 buscas",
+        "Sem Instagram: nenhum perfil encontrado, mesmo com 25 anos de atividade sob o nome CLIPSIS",
+        "Telefone público parcialmente mascarado nos registros — sem nenhum canal digital direto"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000–1.500",
+        "justificativa": "Clínica com CNPJ há 25 anos, mas capital social baixo (R$ 5 mil) sugere capacidade mais incerta — o site é a entrada certa, sem comprometer com pacote maior"
+      },
+      "gancho": "25 anos de clínica em Inhumas sob o nome CLIPSIS, sem nenhum site — quem pesquisa psicólogo pelo celular não encontra a clínica",
+      "contato": { "whatsapp": "não verificado (telefone parcial (62) ****-2776 nos registros públicos; confirmar número completo no Google Maps antes de abordar)", "instagram": "não encontrado", "email": "", "melhor_horario": "14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Lucileni! Aqui é o Vitor, da Adspot. Fui procurar a CLIPSIS no Google, pensando em como alguém procura psicólogo em Inhumas, e não encontrei nem site nem Instagram — só o endereço na Vila Santa Maria. Um site próprio tira a clínica da dependência só de indicação. Posso te mandar como ficaria isso pra vocês?",
+        "instagram_dm": "Oi, Lucileni! Vitor, da Adspot. Vi que a CLIPSIS não tem site nem Instagram. Posso te mandar uma ideia de site simples pra clínica?",
+        "follow_up_d3": "Lucileni, uma ideia rápida: um site de uma página, com as áreas de atendimento e um jeito de agendar por WhatsApp, já resolveria o principal. Quer ver como ficaria?",
+        "follow_up_d7": "Lucileni, fecho por aqui essa semana. Se fizer sentido montar esse site depois, é só me chamar.",
+        "ligacao": "Perguntar pela sócia Lucileni; citar que ligou por ter visto a clínica sem site/Instagram; confirmar telefone completo antes via Google Maps."
+      },
+      "fontes": [
+        "https://monitorcnpj.com.br/cnpj/04135535000120/"
+      ]
+    }
+  ],
+  "descartados": [
+    { "nome": "Espaço Vida – Saúde e Bem Estar / Clínica de Psicologia Ltda (Aquidauana/MS)", "nicho": "psicologo", "motivo": "endereço confirmado (Rua Duque de Caxias, 1278, Alto), mas nenhuma busca localizou o nome do sócio-administrador — sem decisor identificado, não entra na lista" },
+    { "nome": "Clínica Psicológica Climont (cidade não confirmada)", "nicho": "psicologo", "motivo": "sócios confirmados (Claudio Nicoletti e Sirlene do Carmo Siqueira) mas endereço/cidade não localizado em nenhuma busca — sem cidade não é possível confirmar que o CNPJ é do negócio certo" }
+  ],
+  "proximo_passo": "Abordar as 2 clínicas (Psicoclin e CLIPSIS) hoje entre 14h e 17h; follow-up D+3 em 2026-10-02."
+}

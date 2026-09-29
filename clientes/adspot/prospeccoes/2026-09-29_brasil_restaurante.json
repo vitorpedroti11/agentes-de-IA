@@ -1,0 +1,250 @@
+{
+  "prospeccao": {
+    "id": "2026-09-29_brasil_restaurante",
+    "titulo": "Restaurantes pelo Brasil (sem site)",
+    "data": "2026-09-29",
+    "cidade": "Brasil (várias cidades pequenas)",
+    "regiao": "Casserengue/PB, Estrela do Sul/MG, Cláudio/MG, Vista Alegre/RS",
+    "nichos": ["restaurante"],
+    "observacoes": "Pedido do Vitor: só restaurantes sem site nenhum. APIs de CNPJ (consulta_cnpj.py) devolveram 403 de política nesta sessão; dados de CNPJ/QSA vieram de resumos de busca (WebSearch) com fonte registrada em cada lead, WebFetch direto bloqueado (EGRESS_BLOCKED). Nenhum dos 4 restaurantes tem Instagram encontrável (3 buscas cada).",
+    "demonstracao": false
+  },
+  "leads": [
+    {
+      "id": "restaurante-sabor-da-casa-casserengue-pb",
+      "nicho": "restaurante",
+      "nome_fantasia": "Restaurante Sabor da Casa",
+      "bairro": "Centro, Casserengue/PB",
+      "prioridade": "B",
+      "score": 53,
+      "score_detalhe": { "dor": 27, "capacidade": 18, "acesso": 8, "timing": 0 },
+      "cnpj": {
+        "numero": "19.026.901/0001-80",
+        "razao_social": "INALDO SILVINO ALVES",
+        "situacao": "ATIVA",
+        "abertura": "2013-10-08",
+        "porte": "ME",
+        "cnae": "5611-2/03 - Lanchonetes, casas de chá, de sucos e similares (Empresário Individual)",
+        "capital_social": 30000,
+        "endereco": "Rua Durval da Costa Lira, 804, Centro, Casserengue/PB, CEP 58238-000",
+        "fonte": "https://cnpj-api.com/en/cnpj/19026901000180 (resumo de busca confirmando 'Registration Status: Ativa'; consulta_cnpj.py devolveu 403 nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "Inaldo Silvino Alves",
+        "primeiro_nome": "Inaldo",
+        "qualificacao": "Titular",
+        "validado": false,
+        "fonte_validacao": "não encontrada — razão social do CNPJ é o próprio nome do titular (Empresário Individual), mas nenhuma fonte externa confirmou",
+        "instagram": "não encontrado",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "3 buscas não encontraram site próprio" },
+        "instagram": { "url": "", "seguidores": 0, "publicacoes": 0, "ultimo_post": "", "status": "não encontrado", "nota": "3 buscas (nome + cidade, nome + instagram, nome do titular + restaurante) não retornaram nenhum perfil" },
+        "google": { "url": "", "nota": 0, "avaliacoes": 0, "observacao": "não verificado; confirmar antes de enviar" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "não verificado" }
+      },
+      "dores": [
+        "Sem site: nenhum domínio próprio encontrado em 3 buscas",
+        "Sem Instagram: nenhum perfil encontrado, mesmo com mais de 10 anos de atividade",
+        "Cardápio e pedidos, se existirem, não têm nenhum canal digital de divulgação"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000–1.500",
+        "justificativa": "Capital social baixo (R$ 30 mil) sugere capacidade mais incerta — o site com cardápio e WhatsApp é a entrada mais segura antes de um pacote maior"
+      },
+      "gancho": "Mais de 10 anos de restaurante em Casserengue sem nenhum canal digital para pedido ou cardápio",
+      "contato": { "whatsapp": "não verificado", "instagram": "não encontrado", "email": "", "melhor_horario": "15h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Inaldo! Aqui é o Vitor, da Adspot. Fui procurar o Sabor da Casa no Google pra ver o cardápio e não encontrei nem site nem Instagram — só o endereço na Durval da Costa Lira. Um site simples com o cardápio e um botão de WhatsApp já ajudaria quem quer pedir sem ligar. Posso te mandar como ficaria isso pra vocês?",
+        "instagram_dm": "Oi, Inaldo! Vitor, da Adspot. Vi que o Sabor da Casa não tem site nem Instagram. Posso te mandar uma ideia de site simples com cardápio?",
+        "follow_up_d3": "Inaldo, uma ideia rápida: um site de uma página com o cardápio e um botão de WhatsApp já resolveria o principal pra quem passa em Casserengue. Quer ver como ficaria?",
+        "follow_up_d7": "Inaldo, fecho por aqui essa semana. Se fizer sentido montar esse site depois, é só me chamar.",
+        "ligacao": "Perguntar pelo Sr. Inaldo; citar que ligou por ter visto o restaurante sem site/Instagram; evitar horário de pico (11h–14h, 19h–22h)."
+      },
+      "fontes": [
+        "https://cnpj-api.com/en/cnpj/19026901000180"
+      ]
+    },
+    {
+      "id": "restaurante-churrascaria-santa-fe-estrela-do-sul-mg",
+      "nicho": "restaurante",
+      "nome_fantasia": "Restaurante e Churrascaria Santa Fé",
+      "bairro": "Zona Rural (Rodovia BR-365, Km 554), Estrela do Sul/MG",
+      "prioridade": "B",
+      "score": 58,
+      "score_detalhe": { "dor": 27, "capacidade": 23, "acesso": 8, "timing": 0 },
+      "cnpj": {
+        "numero": "10.661.341/0001-61",
+        "razao_social": "CHURRASCARIA E RESTAURANTE SANTA FE LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2009-02-20",
+        "porte": "EPP",
+        "cnae": "5611-2/01 - Restaurantes e similares",
+        "capital_social": 100000,
+        "endereco": "Rodovia BR 365, S/N, Loja 01, Km 554, Zona Rural, Estrela do Sul/MG, CEP 38525-000",
+        "fonte": "https://www.solutudo.com.br/empresas/mg/estrela-sul/restaurantes/restaurante-e-churrascaria-santa-fe-7492160 (resumo de busca confirmando explicitamente 'situação cadastral: Ativa'; consulta_cnpj.py devolveu 403 nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "Leidiana Pires Vieira",
+        "primeiro_nome": "Leidiana",
+        "qualificacao": "Sócia-Administradora",
+        "validado": false,
+        "fonte_validacao": "não encontrada — QSA confirma o nome, mas nenhuma fonte externa validou a ligação dela com o restaurante",
+        "instagram": "não encontrado",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "3 buscas não encontraram site próprio" },
+        "instagram": { "url": "", "seguidores": 0, "publicacoes": 0, "ultimo_post": "", "status": "não encontrado", "nota": "3 buscas (nome + cidade, nome + instagram/facebook, nome da sócia + restaurante) não retornaram nenhum perfil" },
+        "google": { "url": "", "nota": 0, "avaliacoes": 0, "observacao": "não verificado; confirmar antes de enviar" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "não verificado" }
+      },
+      "dores": [
+        "Sem site: nenhum domínio próprio encontrado em 3 buscas",
+        "Sem Instagram: nenhum perfil encontrado, mesmo com 17 anos de atividade e capital de R$ 100 mil",
+        "Restaurante de rodovia (BR-365) depende só de placa física para ser encontrado por quem passa"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "Capacidade boa (EPP, 17 anos, capital de R$ 100 mil) e ausência total de site/Instagram — vídeo do espaço e tráfego local ajudam quem passa pela BR-365 a decidir parar"
+      },
+      "gancho": "Restaurante de estrada com 17 anos e capital de R$ 100 mil sem nenhum canal digital — quem passa pela BR-365 não tem como saber o que esperar antes de parar",
+      "contato": { "whatsapp": "não verificado", "instagram": "não encontrado", "email": "", "melhor_horario": "15h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Leidiana! Aqui é o Vitor, da Adspot. Fui procurar o Santa Fé no Google, pensando em quem passa pela BR-365 e quer saber se vale parar, e não encontrei nem site nem Instagram. Um vídeo curto mostrando o salão e o churrasco já ajudaria bastante quem está decidindo na estrada. Posso te mandar 3 ideias de como fazer isso?",
+        "instagram_dm": "Oi, Leidiana! Vitor, da Adspot. Vi que o Santa Fé não tem Instagram nem site. Posso te mandar 3 ideias pra quem passa pela BR-365 conhecer o restaurante antes de parar?",
+        "follow_up_d3": "Leidiana, uma ideia rápida: um vídeo do churrasco saindo da grelha já ajudaria bastante quem está decidindo na estrada. Quer ver como ficaria?",
+        "follow_up_d7": "Leidiana, fecho por aqui essa semana. Se fizer sentido organizar isso depois, é só me chamar.",
+        "ligacao": "Perguntar pela sócia Leidiana; citar que ligou por ter visto o restaurante sem site/Instagram; evitar horário de pico (11h–14h, 19h–22h)."
+      },
+      "fontes": [
+        "https://www.solutudo.com.br/empresas/mg/estrela-sul/restaurantes/restaurante-e-churrascaria-santa-fe-7492160",
+        "https://cnpj-api.com/en/cnpj/10661341000161"
+      ]
+    },
+    {
+      "id": "pizzaria-armazem-da-pizza-claudio-mg",
+      "nicho": "restaurante",
+      "nome_fantasia": "Armazém da Pizza",
+      "bairro": "Centro, Cláudio/MG",
+      "prioridade": "B",
+      "score": 53,
+      "score_detalhe": { "dor": 27, "capacidade": 18, "acesso": 8, "timing": 0 },
+      "cnpj": {
+        "numero": "29.642.016/0001-80",
+        "razao_social": "PIZZARIA ARMAZEM DA PIZZA LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2018-02-07",
+        "porte": "ME",
+        "cnae": "5611-2/03 - Lanchonetes, casas de chá, de sucos e similares",
+        "capital_social": null,
+        "endereco": "Rua Minas Gerais, 44, Centro, Cláudio/MG, CEP 35530-000",
+        "fonte": "https://cnpja.com/office/29642016000180 (resumo de busca confirmando 'active Limited Liability Company'; consulta_cnpj.py devolveu 403 nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "Luiz Carlos de Souza",
+        "primeiro_nome": "Luiz Carlos",
+        "qualificacao": "Sócio-Administrador",
+        "validado": false,
+        "fonte_validacao": "não encontrada — QSA confirma o nome como sócio-administrador desde 29/01/2020, mas nenhuma fonte externa validou",
+        "instagram": "não encontrado",
+        "outros_socios": [{ "nome": "Maiza de Souza Guimarães", "qualificacao": "Sócia (desde 29/01/2020)" }]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "3 buscas não encontraram site próprio" },
+        "instagram": { "url": "", "seguidores": 0, "publicacoes": 0, "ultimo_post": "", "status": "não encontrado", "nota": "3 buscas (nome fantasia + cidade, + instagram/facebook, + sócio) não retornaram nenhum perfil" },
+        "google": { "url": "", "nota": 0, "avaliacoes": 0, "observacao": "não verificado; confirmar antes de enviar" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "não verificado" }
+      },
+      "dores": [
+        "Sem site: nenhum domínio próprio encontrado em 3 buscas",
+        "Sem Instagram: nenhum perfil encontrado em 3 buscas",
+        "O telefone público registrado no CNPJ é do escritório de contabilidade que administra a empresa, não uma linha direta do negócio — reforça a ausência de canal próprio"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000–1.500",
+        "justificativa": "Capital social não informado e ausência de qualquer contato direto do próprio negócio sugerem capacidade incerta — o site com cardápio é a entrada mais segura"
+      },
+      "gancho": "Pizzaria aberta há 8 anos sem nenhum canal digital próprio — nem o telefone público é da própria casa, é do escritório de contabilidade",
+      "contato": { "whatsapp": "não verificado (o telefone (37) 3381-1628 registrado no CNPJ pertence ao escritório contábil que administra a empresa, não à pizzaria diretamente — não usar sem confirmar)", "instagram": "não encontrado", "email": "", "melhor_horario": "15h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Luiz Carlos! Aqui é o Vitor, da Adspot. Fui procurar o Armazém da Pizza no Google pra ver o cardápio e não encontrei nem site nem Instagram — nem um telefone direto da pizzaria. Um site simples com o cardápio e um jeito de pedir por WhatsApp já resolveria isso. Posso te mandar como ficaria?",
+        "instagram_dm": "Oi, Luiz Carlos! Vitor, da Adspot. Vi que o Armazém da Pizza não tem site nem Instagram. Posso te mandar uma ideia de site simples com cardápio e pedido por WhatsApp?",
+        "follow_up_d3": "Luiz Carlos, uma ideia rápida: um site de uma página com o cardápio das pizzas e um botão de WhatsApp já resolveria o principal. Quer ver como ficaria?",
+        "follow_up_d7": "Luiz Carlos, fecho por aqui essa semana. Se fizer sentido montar esse site depois, é só me chamar.",
+        "ligacao": "Perguntar pelo sócio Luiz Carlos direto na pizzaria (não pelo escritório de contabilidade); citar que ligou por ter visto o negócio sem site/Instagram; evitar horário de pico (11h–14h, 19h–22h)."
+      },
+      "fontes": [
+        "https://cnpja.com/office/29642016000180"
+      ]
+    },
+    {
+      "id": "restaurante-pizzaria-do-marcao-vista-alegre-rs",
+      "nicho": "restaurante",
+      "nome_fantasia": "Restaurante e Pizzaria do Marcão",
+      "bairro": "Centro, Vista Alegre/RS",
+      "prioridade": "B",
+      "score": 58,
+      "score_detalhe": { "dor": 27, "capacidade": 23, "acesso": 8, "timing": 0 },
+      "cnpj": {
+        "numero": "07.375.767/0001-44",
+        "razao_social": "MARCOS ANTONIO ZANATTA",
+        "situacao": "ATIVA",
+        "abertura": "2005-10-05",
+        "porte": "ME",
+        "cnae": "5611-2/01 - Restaurantes e similares (Empresário Individual)",
+        "capital_social": 50000,
+        "endereco": "Rua Aquiles Zanatta, 105, Centro, Vista Alegre/RS, CEP 98415-000",
+        "fonte": "https://cnpj-api.com/en/cnpj/07375767000144 (resumo de busca confirmando 'active registration status'; consulta_cnpj.py devolveu 403 nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "Marcos Antonio Zanatta",
+        "primeiro_nome": "Marcos",
+        "qualificacao": "Titular",
+        "validado": false,
+        "fonte_validacao": "não encontrada — razão social do CNPJ é o próprio nome do titular (Empresário Individual)",
+        "instagram": "não encontrado",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "3 buscas não encontraram site próprio" },
+        "instagram": { "url": "", "seguidores": 0, "publicacoes": 0, "ultimo_post": "", "status": "não encontrado", "nota": "3 buscas (nome fantasia + cidade, + instagram/facebook, nome do titular + restaurante) não retornaram nenhum perfil" },
+        "google": { "url": "", "nota": 0, "avaliacoes": 0, "observacao": "não verificado; confirmar antes de enviar" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "não verificado" }
+      },
+      "dores": [
+        "Sem site: nenhum domínio próprio encontrado em 3 buscas",
+        "Sem Instagram: nenhum perfil encontrado, mesmo com 21 anos de atividade e capital de R$ 50 mil",
+        "Nome do próprio dono estampado na razão social e no nome da rua, sem nenhum reflexo digital equivalente"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "Capacidade boa (21 anos de atividade, capital de R$ 50 mil) e ausência total de site/Instagram — vídeo da pizzaria e tráfego local ajudam a atrair cliente novo em Vista Alegre"
+      },
+      "gancho": "Pizzaria de 21 anos, com a própria rua batizada com o nome da família, sem nenhum canal digital",
+      "contato": { "whatsapp": "não verificado", "instagram": "não encontrado", "email": "", "melhor_horario": "15h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Marcos! Aqui é o Vitor, da Adspot. Fui procurar a Pizzaria do Marcão no Google pra ver o cardápio e não encontrei nem site nem Instagram — só o endereço na rua Aquiles Zanatta. Um vídeo mostrando a pizza saindo do forno e um jeito de pedir por WhatsApp já ajudariam bastante. Posso te mandar 3 ideias de como fazer isso?",
+        "instagram_dm": "Oi, Marcos! Vitor, da Adspot. Vi que a Pizzaria do Marcão não tem Instagram nem site. Posso te mandar 3 ideias pra vocês aparecerem em Vista Alegre?",
+        "follow_up_d3": "Marcos, uma ideia rápida: um vídeo curto da pizza saindo do forno já ajudaria bastante a atrair cliente novo. Quer ver como ficaria?",
+        "follow_up_d7": "Marcos, fecho por aqui essa semana. Se fizer sentido organizar isso depois, é só me chamar.",
+        "ligacao": "Perguntar pelo Sr. Marcos Antonio; citar que ligou por ter visto a pizzaria sem site/Instagram; evitar horário de pico (11h–14h, 19h–22h)."
+      },
+      "fontes": [
+        "https://cnpj-api.com/en/cnpj/07375767000144"
+      ]
+    }
+  ],
+  "descartados": [
+    { "nome": "Restaurante Sabor Caseiro (Jussíape/BA)", "nicho": "restaurante", "motivo": "CNPJ 18.065.752/0001-04 inativo desde 28/04/2016" },
+    { "nome": "Restaurante Comida Caseira (Santanópolis/BA)", "nicho": "restaurante", "motivo": "endereço em zona rural (Fazenda Rumo 2) confirmado e situação ATIVA, mas nenhuma busca localizou o nome do sócio-administrador — sem decisor identificado, não entra na lista" },
+    { "nome": "Restaurante Serrano (Martins/RN)", "nicho": "restaurante", "motivo": "resultados de busca só retornaram um hotel homônimo; não foi possível localizar CNPJ nem sócio do restaurante" },
+    { "nome": "Restaurante e Pizzaria Casarão da Marcia (Altamira do Paraná/PR)", "nicho": "restaurante", "motivo": "não foi possível confirmar situação cadastral nem endereço em nenhuma busca; risco de CNPJ incerto, apesar de sócios (Elisclaudia Oliveira da Silva e Marcio Antonio de Oliveira) terem aparecido em uma busca" }
+  ],
+  "proximo_passo": "Abordar os 4 restaurantes (Sabor da Casa, Santa Fé, Armazém da Pizza, Pizzaria do Marcão) hoje entre 15h e 17h, fora do horário de pico; follow-up D+3 em 2026-10-02."
+}

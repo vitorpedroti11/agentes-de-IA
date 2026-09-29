@@ -1,0 +1,255 @@
+{
+  "prospeccao": {
+    "id": "2026-09-29_brasil_colegios",
+    "titulo": "Colégios pelo Brasil (sem site)",
+    "data": "2026-09-29",
+    "cidade": "Brasil (várias cidades pequenas/médias)",
+    "regiao": "Areia/PB, Taquaritinga/SP, Canguaretama/RN, Muriaé/MG",
+    "nichos": ["colegio"],
+    "observacoes": "Pedido do Vitor: só colégios sem site nenhum (não site fraco). Setembro é início da temporada de matrícula (set–jan), reforça o timing. APIs de CNPJ (consulta_cnpj.py) devolveram 403 de política nesta sessão; dados de CNPJ/QSA vieram de resumos de busca (WebSearch) com fonte registrada em cada lead, WebFetch direto bloqueado (EGRESS_BLOCKED). Nenhum dos 4 colégios tem Instagram encontrável (3 buscas cada) — isso é, em si, a dor confirmada.",
+    "demonstracao": false
+  },
+  "leads": [
+    {
+      "id": "colegio-ines-soares-areia-pb",
+      "nicho": "colegio",
+      "nome_fantasia": "Colégio Inês Soares",
+      "bairro": "Centro, Areia/PB",
+      "prioridade": "B",
+      "score": 66,
+      "score_detalhe": { "dor": 27, "capacidade": 23, "acesso": 8, "timing": 8 },
+      "cnpj": {
+        "numero": "07.709.126/0001-89",
+        "razao_social": "MARIA TANIA SOARES FERREIRA",
+        "situacao": "ATIVA",
+        "abertura": "2005-11-28",
+        "porte": "ME",
+        "cnae": "8513-9/00 - Ensino fundamental (Empresário Individual)",
+        "capital_social": 500000,
+        "endereco": "Rua da Gameleira, 530, Centro, Areia/PB, CEP 58397-000",
+        "fonte": "https://cnpj-api.com/en/cnpj/07709126000189 (resumo de busca; consulta_cnpj.py devolveu 403 nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "Maria Tania Soares Ferreira",
+        "primeiro_nome": "Maria Tania",
+        "qualificacao": "Titular",
+        "validado": false,
+        "fonte_validacao": "não encontrada — razão social do CNPJ é o próprio nome da titular (Empresário Individual), mas nenhuma fonte externa (Instagram, site, matéria local) confirmou a ligação dela com a direção do colégio",
+        "instagram": "não encontrado",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "3 buscas (nome + Areia + CNPJ, nome + Areia + site, nome + telefone) não encontraram nenhum site próprio; apenas listagens de diretório (whatschool.ai, querobolsa, melhorescola)" },
+        "instagram": { "url": "", "seguidores": 0, "publicacoes": 0, "ultimo_post": "", "status": "não encontrado", "nota": "3 buscas (nome fantasia + Areia, nome da titular + Areia, nome + instagram) não retornaram nenhum perfil" },
+        "google": { "url": "", "nota": 0, "avaliacoes": 0, "observacao": "não verificado nesta sessão (WebFetch do Maps bloqueado); confirmar antes de enviar" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "não verificado — Biblioteca de Anúncios da Meta exige perfil de Instagram/Facebook, que não foi encontrado" }
+      },
+      "dores": [
+        "Sem site: nenhum domínio ou página própria encontrada em 3 buscas (fonte: WebSearch, 2026-09-29)",
+        "Sem Instagram: nenhum perfil encontrado em 3 buscas — colégio invisível para quem pesquisa vaga pelo celular",
+        "Situação de matrícula (set–jan) sem nenhum canal digital para captar família nova"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "Sem site e sem Instagram ao mesmo tempo, com capacidade boa (21 anos de atividade, capital de R$ 500 mil) — o Pacote resolve a vitrine inteira antes da temporada de matrícula"
+      },
+      "gancho": "Temporada de matrícula 2027 já começou (set–jan) e o colégio não aparece em nenhuma busca digital — quem pesquisa escola em Areia pelo celular não encontra o Inês Soares",
+      "contato": { "whatsapp": "não verificado", "instagram": "não encontrado", "email": "", "melhor_horario": "9h–11h" },
+      "mensagens": {
+        "whatsapp": "Oi, Maria Tania! Aqui é o Vitor, da Adspot. Fui procurar o Colégio Inês Soares no Google, pensando em como uma família nova pesquisa matrícula em Areia, e não encontrei nem site nem Instagram — só o endereço na Gameleira. Como agora é a época de matrícula, isso pode custar aluno novo pra vocês. A gente organiza o Instagram, grava vídeo do colégio e ainda ajuda a aparecer no Google. Posso te mandar 3 ideias de como começar?",
+        "instagram_dm": "Oi, Maria Tania! Vitor, da Adspot. Vi que o Inês Soares não tem Instagram — nem site. Posso te mandar 3 ideias pra aparecer pra quem procura vaga em Areia agora na matrícula?",
+        "follow_up_d3": "Maria Tania, voltando aqui: uma ideia rápida seria um vídeo curto mostrando a estrutura do colégio (sala, pátio, professores) pra postar já nessa semana de matrícula. Faz sentido eu te mostrar como ficaria?",
+        "follow_up_d7": "Maria Tania, fecho por aqui essa semana. Se em algum momento fizer sentido organizar a presença digital do colégio pra próxima matrícula, é só me chamar.",
+        "ligacao": "Perguntar pela diretora Maria Tania; citar que ligou por ter visto o colégio sem site/Instagram e querer entender como funciona hoje a captação de matrícula."
+      },
+      "fontes": [
+        "https://cnpj-api.com/en/cnpj/07709126000189",
+        "https://whatschool.ai/en/br/school/colegio-ines-soares",
+        "https://querobolsa.com.br/escolas/mensalidades/areia-pb"
+      ]
+    },
+    {
+      "id": "colegio-pequeno-principe-taquaritinga-sp",
+      "nicho": "colegio",
+      "nome_fantasia": "Colégio Pequeno Príncipe",
+      "bairro": "Centro, Taquaritinga/SP",
+      "prioridade": "B",
+      "score": 66,
+      "score_detalhe": { "dor": 27, "capacidade": 23, "acesso": 8, "timing": 8 },
+      "cnpj": {
+        "numero": "04.311.848/0001-92",
+        "razao_social": "COLEGIO PEQUENO PRINCIPE LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2001-02-18",
+        "porte": "ME",
+        "cnae": "8511-2/00 - Educação infantil",
+        "capital_social": 210338,
+        "endereco": "Rua da República, 1231, Centro, Taquaritinga/SP, CEP 15900-011",
+        "fonte": "https://monitorcnpj.com.br/cnpj/04311848000192/ (resumo de busca; consulta_cnpj.py devolveu 403 nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "Luciana Mari Pavanelli",
+        "primeiro_nome": "Luciana",
+        "qualificacao": "Sócia-Administradora",
+        "validado": false,
+        "fonte_validacao": "não encontrada — QSA confirma o nome desde 18/07/2022, mas nenhuma fonte externa (Instagram, matéria local) validou a ligação dela com o colégio",
+        "instagram": "não encontrado",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "3 buscas não encontraram site próprio; só listagens de diretório (melhorescola.com.br, querobolsa.com.br)" },
+        "instagram": { "url": "", "seguidores": 0, "publicacoes": 0, "ultimo_post": "", "status": "não encontrado", "nota": "3 buscas (nome fantasia + cidade, nome da sócia + cidade, nome + instagram) não retornaram nenhum perfil" },
+        "google": { "url": "", "nota": 0, "avaliacoes": 0, "observacao": "não verificado nesta sessão; confirmar antes de enviar" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "não verificado" }
+      },
+      "dores": [
+        "Sem site: nenhum domínio próprio encontrado em 3 buscas (fonte: WebSearch, 2026-09-29)",
+        "Sem Instagram: nenhum perfil encontrado em 3 buscas, mesmo com 25 anos de atividade",
+        "Depende só do telefone fixo listado em diretório para captar matrícula nova"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "Sem site e sem Instagram, com estrutura de ME sólida (capital de R$ 210 mil) — o Pacote monta a vitrine digital completa para a temporada de matrícula"
+      },
+      "gancho": "Colégio com estrutura completa (auditório, laboratório, quadra) mas nenhuma presença digital — quem pesquisa escola em Taquaritinga pelo celular não encontra o Pequeno Príncipe",
+      "contato": { "whatsapp": "(16) 3253-1627", "instagram": "não encontrado", "email": "", "melhor_horario": "9h–11h" },
+      "mensagens": {
+        "whatsapp": "Oi, Luciana! Aqui é o Vitor, da Adspot. Fui procurar o Pequeno Príncipe no Google pra ver como funciona a matrícula e não encontrei site nem Instagram — só o telefone em um diretório de escolas. Pelo que vi, o colégio tem estrutura boa (laboratório, auditório, quadra), só não mostra isso pra quem pesquisa. A gente organiza o Instagram e grava vídeo mostrando o espaço. Posso te mandar 3 ideias de como começar?",
+        "instagram_dm": "Oi, Luciana! Vitor, da Adspot. Vi que o Pequeno Príncipe não tem Instagram nem site. Posso te mandar 3 ideias pra vocês aparecerem pra quem procura escola em Taquaritinga?",
+        "follow_up_d3": "Luciana, uma ideia rápida: um vídeo curto do auditório e do laboratório já ajudaria a mostrar a estrutura pra quem está decidindo matrícula agora. Quer que eu te mostre como ficaria?",
+        "follow_up_d7": "Luciana, fecho por aqui essa semana. Se fizer sentido organizar a presença digital do colégio depois, é só me chamar.",
+        "ligacao": "Perguntar pela sócia-administradora Luciana; citar que ligou por ter visto o colégio sem Instagram/site."
+      },
+      "fontes": [
+        "https://monitorcnpj.com.br/cnpj/04311848000192/",
+        "https://www.melhorescola.com.br/escola/pequeno-principe-colegio-1",
+        "https://querobolsa.com.br/escolas/etapa-de-ensino/ensino-fundamental-i/taquaritinga-sp"
+      ]
+    },
+    {
+      "id": "colegio-sao-jose-canguaretama-rn",
+      "nicho": "colegio",
+      "nome_fantasia": "Colégio São José",
+      "bairro": "Centro, Canguaretama/RN",
+      "prioridade": "B",
+      "score": 66,
+      "score_detalhe": { "dor": 27, "capacidade": 23, "acesso": 8, "timing": 8 },
+      "cnpj": {
+        "numero": "00.498.305/0001-75",
+        "razao_social": "COLEGIO SAO JOSE LTDA",
+        "situacao": "ATIVA",
+        "abertura": "1995-03-22",
+        "porte": "ME",
+        "cnae": "8513-9/00 - Ensino fundamental",
+        "capital_social": 1600000,
+        "endereco": "Rua Manoel Luiz Gomes, S/N, Centro, Canguaretama/RN, CEP 59190-000",
+        "fonte": "https://cnpj-api.com/en/cnpj/00498305000175 (resumo de busca confirmando situação ATIVA desde 03/11/2005; consulta_cnpj.py devolveu 403 nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "Eduardo Henrique Gomes de Carvalho",
+        "primeiro_nome": "Eduardo",
+        "qualificacao": "Sócio-Administrador",
+        "validado": false,
+        "fonte_validacao": "não encontrada — QSA confirma o nome como sócio/proprietário, mas nenhuma fonte externa validou a ligação dele com a direção do colégio",
+        "instagram": "não encontrado",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "3 buscas não encontraram site próprio; apenas listagens de diretório" },
+        "instagram": { "url": "", "seguidores": 0, "publicacoes": 0, "ultimo_post": "", "status": "não encontrado", "nota": "3 buscas não retornaram nenhum perfil" },
+        "google": { "url": "", "nota": 0, "avaliacoes": 0, "observacao": "não verificado; confirmar antes de enviar" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "não verificado" }
+      },
+      "dores": [
+        "Sem site: nenhum domínio próprio encontrado em 3 buscas",
+        "Sem Instagram: nenhum perfil encontrado, mesmo com capital social alto (R$ 1,6 milhão) e mais de 30 anos de atividade",
+        "Estrutura financeira robusta sem nenhuma vitrine digital equivalente"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "Capacidade alta (capital de R$ 1,6 milhão, décadas de atividade) e ausência total de site/Instagram — o colégio pode sustentar o Pacote completo com folga"
+      },
+      "gancho": "Colégio de décadas de tradição em Canguaretama sem nenhum canal digital — a estrutura financeira não aparece em lugar nenhum online",
+      "contato": { "whatsapp": "não verificado", "instagram": "não encontrado", "email": "", "melhor_horario": "14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Eduardo! Aqui é o Vitor, da Adspot. Fui procurar o Colégio São José no Google pra ver como uma família pesquisa matrícula em Canguaretama e não encontrei nem site nem Instagram — só o endereço na Manoel Luiz Gomes. Pra um colégio com a tradição do São José, isso chama atenção. A gente monta o Instagram, grava vídeo e organiza a comunicação de matrícula. Posso te mandar 3 ideias de como começar?",
+        "instagram_dm": "Oi, Eduardo! Vitor, da Adspot. Vi que o Colégio São José não tem Instagram nem site. Posso te mandar 3 ideias pra vocês aparecerem pra quem pesquisa escola em Canguaretama?",
+        "follow_up_d3": "Eduardo, uma ideia rápida: mostrar em vídeo a rotina de uma turma essa semana já ajudaria famílias que estão decidindo matrícula agora. Quer ver como ficaria?",
+        "follow_up_d7": "Eduardo, fecho por aqui essa semana. Se fizer sentido organizar a presença digital do colégio depois, é só me chamar.",
+        "ligacao": "Perguntar pelo Sr. Eduardo Henrique; citar que ligou por ter visto o colégio sem site/Instagram."
+      },
+      "fontes": [
+        "https://cnpj-api.com/en/cnpj/00498305000175",
+        "https://querobolsa.com.br/escolas/191764-colegio-sao-jose"
+      ]
+    },
+    {
+      "id": "colegio-cidade-de-muriae-muriae-mg",
+      "nicho": "colegio",
+      "nome_fantasia": "Colégio Cidade de Muriaé",
+      "bairro": "São Francisco, Muriaé/MG",
+      "prioridade": "B",
+      "score": 61,
+      "score_detalhe": { "dor": 27, "capacidade": 18, "acesso": 8, "timing": 8 },
+      "cnpj": {
+        "numero": "03.925.791/0001-59",
+        "razao_social": "COLEGIO CIDADE DE MURIAE LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2000-07-10",
+        "porte": "ME",
+        "cnae": "8513-9/00 - Ensino fundamental",
+        "capital_social": 3000,
+        "endereco": "Rua Severino Dias de Carvalho, 10, São Francisco, Muriaé/MG, CEP 36881-000",
+        "fonte": "https://monitorcnpj.com.br/cnpj/03925791000159/ (resumo de busca confirmando explicitamente 'Situação Cadastral: Ativa'; consulta_cnpj.py devolveu 403 nas 3 fontes)"
+      },
+      "decisor": {
+        "nome": "Magno Antonio Perim",
+        "primeiro_nome": "Magno",
+        "qualificacao": "Sócio-Administrador",
+        "validado": false,
+        "fonte_validacao": "não encontrada — QSA mostra Magno Antonio Perim como sócio-administrador desde 13/06/2019 (mais antigo dos dois) e Murilo Alves de Magalhães desde 29/04/2024; nenhuma fonte externa validou qual dos dois toca o dia a dia do colégio",
+        "instagram": "não encontrado",
+        "outros_socios": [{ "nome": "Murilo Alves de Magalhães", "qualificacao": "Sócio-Administrador (desde 29/04/2024)" }]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "3 buscas não encontraram site próprio" },
+        "instagram": { "url": "", "seguidores": 0, "publicacoes": 0, "ultimo_post": "", "status": "não encontrado", "nota": "3 buscas (nome fantasia + Muriaé, + facebook/instagram, + telefone/contato) não retornaram nenhum perfil" },
+        "google": { "url": "", "nota": 0, "avaliacoes": 0, "observacao": "não verificado; confirmar antes de enviar" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "não verificado" }
+      },
+      "dores": [
+        "Sem site: nenhum domínio próprio encontrado em 3 buscas",
+        "Sem Instagram: nenhum perfil encontrado em 3 buscas",
+        "Entrada de um segundo sócio em 2024 sugere movimento recente na sociedade, sem nenhum reflexo digital"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000–1.500",
+        "justificativa": "Capital social baixo (R$ 3.000) indica capacidade mais incerta — começar pelo site evita comprometer o colégio com o Pacote completo"
+      },
+      "gancho": "Colégio ativo há 26 anos em Muriaé sem nenhum canal digital, justo na temporada de matrícula",
+      "contato": { "whatsapp": "não verificado (telefone parcial (31) ****-6152 nos registros públicos; confirmar número completo no Google Maps antes de abordar)", "instagram": "não encontrado", "email": "", "melhor_horario": "9h–11h" },
+      "mensagens": {
+        "whatsapp": "Oi, Magno! Aqui é o Vitor, da Adspot. Fui procurar o Colégio Cidade de Muriaé no Google, pensando em como uma família nova pesquisa matrícula na cidade, e não encontrei nem site nem Instagram. Como agora é a época de matrícula, um site simples com a proposta do colégio e o jeito de matricular já ajudaria bastante. Posso te mandar como ficaria isso pra vocês?",
+        "instagram_dm": "Oi, Magno! Vitor, da Adspot. Vi que o Colégio Cidade de Muriaé não tem site nem Instagram. Posso te mandar uma ideia de site simples pra matrícula?",
+        "follow_up_d3": "Magno, uma ideia rápida: um site de uma página só, com a proposta do colégio e um botão de WhatsApp pra matrícula, já resolveria o principal. Quer ver como ficaria?",
+        "follow_up_d7": "Magno, fecho por aqui essa semana. Se fizer sentido montar esse site depois, é só me chamar.",
+        "ligacao": "Perguntar pelo sócio Magno Antonio Perim; citar que ligou por ter visto o colégio sem site/Instagram; confirmar telefone completo antes via Google Maps."
+      },
+      "fontes": [
+        "https://monitorcnpj.com.br/cnpj/03925791000159/"
+      ]
+    }
+  ],
+  "descartados": [
+    { "nome": "Restaurante Sabor Caseiro (Jussíape/BA)", "nicho": "restaurante", "motivo": "CNPJ 18.065.752/0001-04 inativo desde 28/04/2016" },
+    { "nome": "Espaço Vida – Saúde e Bem Estar / Clínica de Psicologia Ltda (Aquidauana/MS)", "nicho": "psicologo", "motivo": "QSA não localizado em nenhuma busca — sem decisor identificado, não entra na lista sem confirmar o dono" },
+    { "nome": "Clínica Psicológica Climont (cidade não confirmada)", "nicho": "psicologo", "motivo": "sócios confirmados (Claudio Nicoletti e Sirlene do Carmo Siqueira) mas endereço/cidade não localizado em nenhuma busca — sem cidade não é possível confirmar que o CNPJ é do negócio certo" },
+    { "nome": "Restaurante Serrano (Martins/RN)", "nicho": "restaurante", "motivo": "resultados de busca só retornaram um hotel homônimo; não foi possível localizar CNPJ nem sócio do restaurante" },
+    { "nome": "Restaurante e Pizzaria Casarão da Marcia (Altamira do Paraná/PR)", "nicho": "restaurante", "motivo": "não foi possível confirmar situação cadastral nem endereço em nenhuma busca; risco de CNPJ incerto" }
+  ],
+  "proximo_passo": "Abordar os 4 colégios (Inês Soares, Pequeno Príncipe, São José, Cidade de Muriaé) hoje entre 9h e 11h ou 14h e 17h, priorizando quem tiver telefone confirmado (Pequeno Príncipe); follow-up D+3 em 2026-10-02."
+}
