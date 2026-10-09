@@ -1,0 +1,90 @@
+{
+  "prospeccao": {
+    "id": "2026-10-09_brasil_imobiliaria",
+    "titulo": "Imobiliárias pelo Brasil — foco em Site",
+    "data": "2026-10-09",
+    "cidade": "Brasil (várias cidades)",
+    "regiao": "Unaí/MG e outras cidades pesquisadas (ver descartados)",
+    "nichos": ["imobiliaria"],
+    "observacoes": "Rodada com critério: Instagram ativo é eliminatório (seção 2.1); foco só no produto Site; leads precisam passar pelo filtro de capacidade de pagamento da seção 2.2. Entrega parcial: pedido era 5 leads, só 1 foi confirmado com segurança. O nicho de imobiliárias já estava documentado como saturado de sites próprios mesmo em cidades pequenas/médias (ver lotes de 2026-09-28); nesta rodada, com o filtro extra de capacidade e o recorte mais estrito de \"sem site\" (não só site fraco), quase toda imobiliária de porte médio com Instagram forte encontrada já tinha site próprio. Ver descartados para o volume de candidatos mapeados e o motivo de cada um não ter entrado.",
+    "demonstracao": false
+  },
+  "leads": [
+    {
+      "id": "imobiliaria-pontual-unai",
+      "nicho": "imobiliaria",
+      "nome_fantasia": "Imobiliária Pontual",
+      "bairro": "Centro, Unaí/MG",
+      "prioridade": "B",
+      "score": 54,
+      "score_detalhe": { "dor": 17, "capacidade": 26, "acesso": 11, "timing": 0 },
+      "cnpj": {
+        "numero": "38.500.153/0001-70",
+        "razao_social": "Imobiliaria Pontual Ltda",
+        "situacao": "ATIVA",
+        "abertura": "2008-07-22",
+        "porte": "ME",
+        "cnae": "6821-8/02 - Corretagem no aluguel de imóveis",
+        "capital_social": 100000,
+        "endereco": "Rua Djalma Torres, 195, Centro, Unaí/MG, 38610-036",
+        "fonte": "https://cnpjagora.com/cnpj/IMOBILIARIA-PONTUAL-LTDA/38500153000170 ; endereço confirmado também no Guia Unaí e na bio do Instagram (Av./Rua Djalma Torres, 570 — pequena divergência de número entre diretórios, mesma rua e bairro)"
+      },
+      "decisor": {
+        "nome": "José de Souza Maia",
+        "primeiro_nome": "José",
+        "qualificacao": "Sócio-Administrador",
+        "validado": false,
+        "fonte_validacao": "sócio-administrador desde 22/07/2008 segundo o CNPJ; não encontrado fora do CNPJ nas buscas feitas (outros sócios: Marcelo Caldeira de Souza Maia e Luciano Caldeira de Souza Maia, desde 25/10/2023)",
+        "instagram": "não encontrado",
+        "outros_socios": [
+          { "nome": "Marcelo Caldeira de Souza Maia", "qualificacao": "Sócio-Administrador" },
+          { "nome": "Luciano Caldeira de Souza Maia", "qualificacao": "Sócio" }
+        ]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "3 buscas (nome + cidade, CNPJ, bio do Instagram) não encontraram nenhum site próprio; a única presença online localizada é o Instagram" },
+        "instagram": { "url": "https://www.instagram.com/imobiliariapontualunai/", "seguidores": 7322, "publicacoes": 38, "ultimo_post": "", "status": "ok", "nota": "bio diz \"mais de 30 anos\" de atuação, foco em locação; poucas publicações (38) para o tamanho da base de seguidores, mas perfil ativo e com telefones de contato atualizados" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta rodada" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "não verificado" }
+      },
+      "dores": [
+        "mais de 30 anos de mercado e 7 mil seguidores no Instagram, mas nenhum site próprio localizável",
+        "quem busca a imobiliária no Google só encontra guias locais (Guia Unaí), não um canal oficial da empresa"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000–1.500",
+        "justificativa": "Instagram já tem público formado há 30 anos de mercado; falta um catálogo de imóveis que apareça no Google"
+      },
+      "gancho": "Vocês já têm o público no Instagram; falta um catálogo de imóveis que apareça no Google",
+      "contato": { "whatsapp": "(38) 99848-6287", "instagram": "@imobiliariapontualunai", "email": "", "melhor_horario": "9h–11h" },
+      "mensagens": {
+        "whatsapp": "Oi, José! Aqui é o Vitor, da Adspot. Vi o Instagram da Imobiliária Pontual — mais de 7 mil seguidores e mais de 30 anos de Unaí, história muito forte. Fui procurar vocês no Google e não achei nenhum site, só o perfil de Instagram e um guia local. Um catálogo de imóveis no site ajudaria quem pesquisa antes de ligar. Posso te mandar 3 ideias?",
+        "instagram_dm": "Oi, José! Vitor, da Adspot. Vi os mais de 30 anos da Imobiliária Pontual em Unaí, mas não achei site de vocês no Google. Posso te mandar uma ideia rápida?",
+        "follow_up_d3": "José, voltando aqui: um site com o catálogo de imóveis disponíveis e contato direto por WhatsApp costuma ajudar bastante quem já viu o apartamento no Instagram a dar o próximo passo. Quer que eu te mostre um exemplo?",
+        "follow_up_d7": "José, fecho por aqui essa semana. Se fizer sentido olhar o site da Pontual mais pra frente, me chama.",
+        "ligacao": "Perguntar pelo setor comercial/decisor; citar os mais de 30 anos de mercado e a ausência de site próprio no Google."
+      },
+      "fontes": [
+        "https://cnpjagora.com/cnpj/IMOBILIARIA-PONTUAL-LTDA/38500153000170",
+        "https://www.instagram.com/imobiliariapontualunai/",
+        "https://guiaunai.com.br/listing/imobiliaria-pontual/"
+      ]
+    }
+  ],
+  "descartados": [
+    { "nome": "Imobiliária Jacobina (Jacobina/BA)", "nicho": "imobiliaria", "motivo": "Instagram ativo via Linktree (sem site próprio indexado) e CNPJ confirmado (20.122.237/0001-52, ME, 11 anos), mas capital social baixo (R$ 20.000) e não foi possível confirmar o número de seguidores do handle exato do Instagram (@Imobiliaria_Jacobina) — pontuação ficou abaixo do corte (49) e há risco de confusão com outra empresa de nome quase igual na mesma cidade (\"Imobiliária de Confiança\", @imobiliariajacobina)" },
+    { "nome": "RBR Multimarcas, Prime Imóveis, J Ribeiro Imóveis, Marçal Imóveis (Catalão/GO)", "nicho": "imobiliaria", "motivo": "todas já têm site próprio funcionando (jribeiroimoveis.com.br, marcalimoveis.com.br, primeimoveisunai.com.br) — sem dor de Site" },
+    { "nome": "Imóveis Lagarto, Le Realiza Imobiliária (Lagarto/SE)", "nicho": "imobiliaria", "motivo": "ambas já têm site próprio (imoveislagarto.com.br e indícios de site na bio) — sem dor de Site" },
+    { "nome": "Jadir Imóveis, Henrique Corretor (Formiga/MG e Itaúna/MG)", "nicho": "imobiliaria", "motivo": "ambos já têm site próprio (jadirimoveis.com.br, henriquecorretoritauna.com.br) — sem dor de Site" },
+    { "nome": "Flavio Vitor Imóveis (São João del-Rei/MG)", "nicho": "imobiliaria", "motivo": "já tem site próprio (flaviovitorimoveis.com.br) — sem dor de Site" },
+    { "nome": "Formiga Imóveis (Formiga/MG)", "nicho": "imobiliaria", "motivo": "Instagram ativo e sem site localizável, mas não foi possível encontrar nenhum CNPJ correspondente ao nome fantasia — sem decisor identificável, não entra" },
+    { "nome": "Victor Corretor de Imóveis (Itaúna/MG) e Mayara Santana / Luar de Glória (Poço Redondo/SE)", "nicho": "imobiliaria", "motivo": "corretores atuando como pessoa física (CRECI/PF), sem CNPJ de empresa — não atende ao formato de identificação do decisor pelo CNPJ" },
+    { "nome": "Imobiliária Paracatu / Paracatu Empreendimentos Imobiliários (Paracatu/MG)", "nicho": "imobiliaria", "motivo": "situação cadastral INAPTA (omissão de declarações) segundo a fonte consultada" },
+    { "nome": "Real Negócios Imobiliários Patos de Minas Ltda (Patos de Minas/MG)", "nicho": "imobiliaria", "motivo": "CNAE principal registrado é venda de veículos novos, não corretagem de imóveis — incompatível com o negócio observado, e nenhum Instagram localizado" },
+    { "nome": "Imobiliária Simões Filho Ltda (Simões Filho/BA)", "nicho": "imobiliaria", "motivo": "situação cadastral BAIXADA (extinção por liquidação voluntária) desde janeiro de 2023" },
+    { "nome": "Camaçari Imóveis (Camaçari/BA) e DM Soluções Imobiliárias (Estância/SE)", "nicho": "imobiliaria", "motivo": "Instagram ativo, mas não foi possível localizar um CNPJ correspondente com segurança" },
+    { "nome": "Imobiliárias de Araguaína/TO, Gurupi/TO, Unaí/MG (Prime, Novo Lar), Alagoinhas/BA, Capim Grosso/BA, Bom Despacho/MG e outras cidades de MG/BA/SE pesquisadas", "nicho": "imobiliaria", "motivo": "mapeadas ~30 imobiliárias/corretores com Instagram ativo nesta rodada; a grande maioria já tinha site próprio funcionando (confirmando o padrão já registrado na memória: imobiliária de porte médio com Instagram forte quase sempre já tem site) ou eram corretores pessoa física sem CNPJ de empresa" }
+  ],
+  "proximo_passo": "Abordar hoje entre 9h e 11h: Imobiliária Pontual (Unaí/MG); follow-up D+3 em 2026-10-12. Nicho imobiliária ficou com entrega parcial (1 de 5) — avisar o Vitor antes de repetir o mesmo recorte (Instagram ativo + sem site + capacidade) em nova rodada, porque o mercado está muito saturado de sites próprios."
+}

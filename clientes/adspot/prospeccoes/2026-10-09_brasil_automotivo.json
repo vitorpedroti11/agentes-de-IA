@@ -1,0 +1,260 @@
+{
+  "prospeccao": {
+    "id": "2026-10-09_brasil_automotivo",
+    "titulo": "Revendas de Veículos pelo Brasil — foco em Site",
+    "data": "2026-10-09",
+    "cidade": "Brasil (várias cidades)",
+    "regiao": "Mossoró/RN, Serra/ES, Juazeiro do Norte/CE, Itabuna/BA, Barreiras/BA",
+    "nichos": ["automotivo"],
+    "observacoes": "Rodada com critério: Instagram ativo é eliminatório (seção 2.1); foco só no produto Site (Instagram bom, sem site ou site fraco); leads precisam passar pelo filtro de capacidade de pagamento da seção 2.2 (porte ME/EPP, ≥2 anos ou timing forte, e pelo menos um sinal de capital/unidades/ticket alto). Outubro é temporada de revisão antes das férias e troca de carro com o 13º salário (timing do nicho, seção 2.3).",
+    "demonstracao": false
+  },
+  "leads": [
+    {
+      "id": "auto-premium-mossoro",
+      "nicho": "automotivo",
+      "nome_fantasia": "Auto Premium",
+      "bairro": "Ilha de Santa Luzia, Mossoró/RN",
+      "prioridade": "B",
+      "score": 62,
+      "score_detalhe": { "dor": 17, "capacidade": 26, "acesso": 11, "timing": 8 },
+      "cnpj": {
+        "numero": "39.454.652/0001-31",
+        "razao_social": "Auto Premium Multimarcas Comércio de Veículos Ltda",
+        "situacao": "ATIVA",
+        "abertura": "2020-10-16",
+        "porte": "ME",
+        "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados",
+        "capital_social": 700000,
+        "endereco": "Avenida Presidente Dutra, 312, Ilha de Santa Luzia, Mossoró/RN, 59625-000",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/39454652000131-auto-premium-multimarcas-comercio-de-veiculos-ltda ; endereço confirmado em 3 diretórios (Mobiauto, Financiamento de Carro, cnpj.biz)"
+      },
+      "decisor": {
+        "nome": "Francisco Tomaz Pacifico Junior",
+        "primeiro_nome": "Francisco",
+        "qualificacao": "Sócio-Administrador",
+        "validado": false,
+        "fonte_validacao": "não encontrado fora do CNPJ nas 3 buscas feitas (outro sócio-administrador: Francisca Ilma)",
+        "instagram": "não encontrado",
+        "outros_socios": [{ "nome": "Francisca Ilma", "qualificacao": "Sócio-Administrador" }]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "3 buscas (nome fantasia + cidade, CNPJ, bio do Instagram) não encontraram nenhum site próprio; só aparece em marketplaces (Mobiauto, Financiamento de Carro)" },
+        "instagram": { "url": "https://www.instagram.com/autopremiummossoro/", "seguidores": 13000, "publicacoes": 956, "ultimo_post": "", "status": "ok", "nota": "perfil ativo, bio \"Concessionária de veículos seminovos. Mossoró - RN\"; data exata do último post não verificável com as ferramentas desta sessão" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta rodada" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "não verificado — Biblioteca de Anúncios da Meta não checada nesta rodada" }
+      },
+      "dores": [
+        "Instagram com 13 mil seguidores e quase mil publicações, mas sem nenhum site próprio — quem busca o nome no Google só encontra páginas de terceiros (Mobiauto, Financiamento de Carro)",
+        "sem presença própria indexada: o cliente não tem onde ver o estoque inteiro fora do Instagram"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000–1.500",
+        "justificativa": "O Instagram já funciona como vitrine; falta um site com o estoque e contato para quem pesquisa no Google antes de ir à loja"
+      },
+      "gancho": "Outubro é mês de revisão antes das férias e troca de carro com o 13º — bom momento para aparecer também fora do Instagram",
+      "contato": { "whatsapp": "(84) 98861-2728", "instagram": "@autopremiummossoro", "email": "", "melhor_horario": "14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Francisco! Aqui é o Vitor, da Adspot. Vi o Instagram da Auto Premium — mais de 13 mil seguidores e quase mil posts, muito bem movimentado. Só que fui procurar a loja no Google e não achei nenhum site de vocês, só anúncio em marketplace. Um site simples com o estoque ajudaria quem pesquisa antes de ir até lá. Posso te mandar 3 ideias de como ficaria?",
+        "instagram_dm": "Oi, Francisco! Vitor, da Adspot. Vi os mais de 13 mil seguidores da Auto Premium, mas não achei site de vocês no Google. Posso te mandar uma ideia rápida de como resolver isso?",
+        "follow_up_d3": "Francisco, voltando aqui: uma ideia rápida seria um site de uma página só, com o estoque atualizado direto do Instagram e botão de WhatsApp — fica fácil pra quem já viu o carro no feed fechar com vocês. Faz sentido eu te mostrar um exemplo?",
+        "follow_up_d7": "Francisco, fecho por aqui essa semana. Se fizer sentido olhar o site da Auto Premium mais pra frente, é só me chamar.",
+        "ligacao": "Perguntar pelo setor comercial/decisor; citar os 13 mil seguidores do Instagram e a ausência de site próprio nas buscas do Google."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/39454652000131-auto-premium-multimarcas-comercio-de-veiculos-ltda",
+        "https://www.instagram.com/autopremiummossoro/",
+        "https://www.mobiauto.com.br/comprar/estoque/auto-premium-mossoro-75797",
+        "https://financiamentodecarro.com/e/auto-premium-aaqyqs/"
+      ]
+    },
+    {
+      "id": "jua-veiculos-juazeiro-do-norte",
+      "nicho": "automotivo",
+      "nome_fantasia": "Juá Veículos Multimarcas",
+      "bairro": "São José, Juazeiro do Norte/CE",
+      "prioridade": "B",
+      "score": 62,
+      "score_detalhe": { "dor": 17, "capacidade": 26, "acesso": 11, "timing": 8 },
+      "cnpj": {
+        "numero": "21.100.725/0001-21",
+        "razao_social": "Jua Veiculos e Multimarcas Ltda",
+        "situacao": "ATIVA",
+        "abertura": "2014-09-23",
+        "porte": "EPP",
+        "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados",
+        "capital_social": 100000,
+        "endereco": "Avenida Padre Cícero, 4267, São José, Juazeiro do Norte/CE, 63024-010",
+        "fonte": "https://www.econodata.com.br/consulta-empresa/21100725000121-jua-veiculos-e-multimarcas-ltda ; endereço confirmado também no Solutudo"
+      },
+      "decisor": {
+        "nome": "Leonidas Temoteo de Souza Neto",
+        "primeiro_nome": "Leonidas",
+        "qualificacao": "Sócio-Administrador",
+        "validado": false,
+        "fonte_validacao": "não encontrado fora do CNPJ nas buscas feitas",
+        "instagram": "não encontrado"
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "3 buscas (nome + cidade, bio do Instagram, domínio juaveiculos) não encontraram site próprio" },
+        "instagram": { "url": "https://www.instagram.com/juaveiculosmulti/", "seguidores": 9185, "publicacoes": 1585, "ultimo_post": "", "status": "ok", "nota": "perfil ativo há 11 anos de empresa (aberta em 2014); bio anuncia venda, compra, troca e financiamento" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta rodada" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "não verificado" }
+      },
+      "dores": [
+        "11 anos de empresa (EPP) e quase 1.600 publicações no Instagram, mas nenhum site próprio localizável",
+        "depende só do Instagram para mostrar o estoque; quem pesquisa o nome no Google não encontra nada da loja"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000–1.500",
+        "justificativa": "Negócio de porte EPP com Instagram ativo há anos; falta um site para captar a busca no Google e dar mais confiança no financiamento"
+      },
+      "gancho": "Outubro é temporada de revisão e troca de carro antes das férias — bom momento para reforçar a vitrine fora do Instagram",
+      "contato": { "whatsapp": "(88) 3571-4498", "instagram": "@juaveiculosmulti", "email": "", "melhor_horario": "9h–11h" },
+      "mensagens": {
+        "whatsapp": "Oi, Leonidas! Aqui é o Vitor, da Adspot. Vi o Instagram da Juá Veículos — mais de 9 mil seguidores e 1.585 publicações, 11 anos de empresa. Fui procurar o nome de vocês no Google e não achei nenhum site, só o Instagram. Um site com o estoque ajudaria bastante quem pesquisa antes de visitar. Posso te mandar 3 ideias?",
+        "instagram_dm": "Oi, Leonidas! Vitor, da Adspot. Vi os mais de 9 mil seguidores da Juá Veículos, mas não achei site de vocês no Google. Posso te mandar uma ideia rápida?",
+        "follow_up_d3": "Leonidas, voltando aqui: um site com o estoque sincronizado e botão direto de WhatsApp costuma reduzir a distância entre quem vê o carro no feed e quem fecha negócio. Quer que eu te mostre um exemplo?",
+        "follow_up_d7": "Leonidas, fecho por aqui essa semana. Se fizer sentido olhar o site da Juá mais pra frente, me chama.",
+        "ligacao": "Perguntar pelo setor comercial; citar os 11 anos de empresa e a ausência de site nas buscas do Google."
+      },
+      "fontes": [
+        "https://www.econodata.com.br/consulta-empresa/21100725000121-jua-veiculos-e-multimarcas-ltda",
+        "https://www.instagram.com/juaveiculosmulti/",
+        "https://www.solutudo.com.br/empresas/ce/juazeiro-norte/concessionarias/jua-veiculos-multimarcas-22918712"
+      ]
+    },
+    {
+      "id": "exitus-veiculos-itabuna",
+      "nicho": "automotivo",
+      "nome_fantasia": "Exitus Veículos",
+      "bairro": "Centro, Itabuna/BA",
+      "prioridade": "B",
+      "score": 58,
+      "score_detalhe": { "dor": 13, "capacidade": 26, "acesso": 11, "timing": 8 },
+      "cnpj": {
+        "numero": "52.228.931/0001-45",
+        "razao_social": "MV Ribeiro Aboboreira Sociedade Ltda",
+        "situacao": "ATIVA",
+        "abertura": "2023-09-19",
+        "porte": "ME (optante pelo Simples Nacional)",
+        "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados",
+        "capital_social": 100000,
+        "endereco": "Avenida Inácio Tosta Filho, 435, Térreo, Centro, Itabuna/BA, 45600-150",
+        "fonte": "https://casadosdados.com.br/solucao/cnpj/mv-ribeiro-aboboreira-sociedade-ltda-52228931000145 ; endereço confirmado no site da loja e em diretórios"
+      },
+      "decisor": {
+        "nome": "Marcus Vinicius Ribeiro Aboboreira",
+        "primeiro_nome": "Marcus",
+        "qualificacao": "Sócio-Administrador",
+        "validado": false,
+        "fonte_validacao": "não encontrado fora do CNPJ; observação: a família Aboboreira opera a marca \"Exitus Veículos\" no mesmo endereço desde 1989 sob um CNPJ anterior (33.863.838/0001-68, sócios Epitacio Aboboreira Filho e Juarez Inacio Ribeiro Aboboreira) — o Instagram cita \"37 anos de credibilidade\", o que bate com 1989; a empresa atual (2023) parece ser uma reestruturação do mesmo negócio familiar, não uma empresa nova sem relação",
+        "instagram": "não encontrado"
+      },
+      "presenca": {
+        "site": { "url": "https://f0a9.sitewebmotors.com.br/home", "status": "ruim", "nota": "não é site próprio: é a página padrão/gratuita que a Webmotors oferece a lojas cadastradas no marketplace, sem domínio ou identidade visual próprios" },
+        "instagram": { "url": "https://www.instagram.com/exitusveiculos/", "seguidores": 8488, "publicacoes": 2169, "ultimo_post": "", "status": "ok", "nota": "bio \"Carros novos & seminovos\", \"37 anos de credibilidade\", localização Itabuna-BA" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta rodada" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "não verificado" }
+      },
+      "dores": [
+        "37 anos de história e mais de 8 mil seguidores no Instagram, mas a única página fora das redes sociais é o mini-site genérico oferecido pela Webmotors, sem identidade própria",
+        "quem busca \"Exitus Veículos\" no Google não encontra um site de verdade da loja"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000–1.500",
+        "justificativa": "37 anos de tradição e Instagram ativo merecem um site próprio, não só a página padrão de marketplace"
+      },
+      "gancho": "Outubro é temporada de revisão e troca de carro antes das férias — bom momento para reforçar a vitrine com um site de verdade",
+      "contato": { "whatsapp": "(73) 3212-3976", "instagram": "@exitusveiculos", "email": "exitusveiculos@hotmail.com", "melhor_horario": "14h–17h" },
+      "mensagens": {
+        "whatsapp": "Oi, Marcus! Aqui é o Vitor, da Adspot. Vi o Instagram da Exitus — \"37 anos de credibilidade\" e mais de 8 mil seguidores, história muito forte. Só que fui procurar a Exitus no Google e o único site que achei é a página padrão da Webmotors, sem a identidade de vocês. Um site próprio mostraria essa tradição toda. Posso te mandar 3 ideias?",
+        "instagram_dm": "Oi, Marcus! Vitor, da Adspot. Vi os 37 anos de história da Exitus no Instagram, mas só achei a página padrão da Webmotors no Google, não um site de vocês. Posso te mandar uma ideia?",
+        "follow_up_d3": "Marcus, voltando aqui: um site com a história da Exitus, o estoque e os contatos de vocês passaria muito mais confiança do que a página padrão do marketplace. Quer ver um exemplo de como ficaria?",
+        "follow_up_d7": "Marcus, fecho por aqui essa semana. Se fizer sentido olhar o site da Exitus mais pra frente, me chama.",
+        "ligacao": "Perguntar pelo setor comercial; citar os 37 anos de Itabuna e o fato de não ter site próprio fora da Webmotors."
+      },
+      "fontes": [
+        "https://casadosdados.com.br/solucao/cnpj/mv-ribeiro-aboboreira-sociedade-ltda-52228931000145",
+        "https://casadosdados.com.br/solucao/cnpj/comercial-e-corretora-de-veiculos-exitos-ltda-33863838000168",
+        "https://www.instagram.com/exitusveiculos/",
+        "https://f0a9.sitewebmotors.com.br/home"
+      ]
+    },
+    {
+      "id": "jk-veiculos-barreiras",
+      "nicho": "automotivo",
+      "nome_fantasia": "JK Veículos",
+      "bairro": "Jardim Ouro Branco, Barreiras/BA",
+      "prioridade": "B",
+      "score": 62,
+      "score_detalhe": { "dor": 17, "capacidade": 26, "acesso": 11, "timing": 8 },
+      "cnpj": {
+        "numero": "28.759.229/0001-23",
+        "razao_social": "Jk Veiculos Ltda",
+        "situacao": "ATIVA",
+        "abertura": "2017-09-28",
+        "porte": "ME (optante pelo Simples Nacional)",
+        "cnae": "4511-1/02 - Comércio a varejo de automóveis, camionetas e utilitários usados",
+        "capital_social": 60000,
+        "endereco": "Avenida Antônio Carlos Magalhães, 936, Jardim Ouro Branco, Barreiras/BA, 47802-147",
+        "fonte": "https://casadosdados.com.br/solucao/cnpj/jk-veiculos-ltda-28759229000123 ; endereço confirmado também no Econodata e no Mobiauto"
+      },
+      "decisor": {
+        "nome": "Hicaro Gaia Cunha",
+        "primeiro_nome": "Hicaro",
+        "qualificacao": "Sócio-Administrador",
+        "validado": false,
+        "fonte_validacao": "não encontrado fora do CNPJ (outro sócio-administrador: Rogerio Tavares do Carmo)",
+        "instagram": "não encontrado",
+        "outros_socios": [{ "nome": "Rogerio Tavares do Carmo", "qualificacao": "Sócio-Administrador" }]
+      },
+      "presenca": {
+        "site": { "url": "", "status": "inexistente", "nota": "3 buscas (nome + cidade, CNPJ, bio do Instagram) não encontraram site próprio" },
+        "instagram": { "url": "https://www.instagram.com/jkveiculoss/", "seguidores": 5795, "publicacoes": 476, "ultimo_post": "", "status": "ok", "nota": "bio anuncia compra, venda, troca e financiamento, com foco em qualidade e credibilidade" },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta rodada" },
+        "anuncios": { "ativos": null, "fonte": "", "observacao": "não verificado" }
+      },
+      "dores": [
+        "8 anos de empresa e quase 6 mil seguidores no Instagram, mas nenhum site próprio localizável",
+        "presença digital concentrada só no Instagram; marketplaces (Mobiauto) é o que aparece no Google"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000–1.500",
+        "justificativa": "Negócio de 8 anos com Instagram ativo; falta um site para captar quem pesquisa a loja direto no Google"
+      },
+      "gancho": "Outubro é temporada de revisão e troca de carro antes das férias — bom momento para reforçar a vitrine fora do Instagram",
+      "contato": { "whatsapp": "(77) 99137-1761", "instagram": "@jkveiculoss", "email": "", "melhor_horario": "9h–11h" },
+      "mensagens": {
+        "whatsapp": "Oi, Hicaro! Aqui é o Vitor, da Adspot. Vi o Instagram da JK Veículos — quase 6 mil seguidores e 476 publicações, 8 anos de loja. Fui procurar vocês no Google e não achei nenhum site, só um anúncio no Mobiauto. Um site próprio ajudaria quem pesquisa antes de ir até lá. Posso te mandar 3 ideias?",
+        "instagram_dm": "Oi, Hicaro! Vitor, da Adspot. Vi os quase 6 mil seguidores da JK Veículos, mas não achei site de vocês no Google. Posso te mandar uma ideia rápida?",
+        "follow_up_d3": "Hicaro, voltando aqui: um site com o estoque atualizado e botão de WhatsApp direto ajuda bastante quem já viu o carro no Instagram a fechar negócio. Quer ver um exemplo?",
+        "follow_up_d7": "Hicaro, fecho por aqui essa semana. Se fizer sentido olhar o site da JK mais pra frente, me chama.",
+        "ligacao": "Perguntar pelo setor comercial/decisor; citar os 8 anos de loja e a ausência de site próprio no Google."
+      },
+      "fontes": [
+        "https://casadosdados.com.br/solucao/cnpj/jk-veiculos-ltda-28759229000123",
+        "https://www.instagram.com/jkveiculoss/",
+        "https://www.mobiauto.com.br/comprar/estoque/jk-veiculos-33412"
+      ]
+    }
+  ],
+  "descartados": [
+    { "nome": "RBR Multimarcas (Serra/ES)", "nicho": "automotivo", "motivo": "capacidade de pagamento insuficiente — capital social de apenas R$ 10.000, CNPJ aberto há menos de 2 anos (out/2024) e sem outro sinal forte de capacidade além do timing de inauguração; Instagram ativo (15 mil seguidores) e endereço confirmados (Rod. Mário Covas 4710, Box C-07, Serra/ES), mas não entra por não bater com a seção 2.2 nesta rodada" },
+    { "nome": "Styllo Veículos (Mossoró/RN)", "nicho": "automotivo", "motivo": "Instagram forte (72 mil seguidores) e sem site localizável, mas não foi possível confirmar o endereço do CNPJ (07.684.687/0001-70, razão social pessoa física) contra nenhuma fonte de endereço físico — sem essa confirmação, o CNPJ não pode ser usado com segurança" },
+    { "nome": "PR Multimarcas (Caicó/RN)", "nicho": "automotivo", "motivo": "há dois CNPJs diferentes para a mesma marca no mesmo endereço (28.009.669/0001-63 aberto em 2017 e 58.971.659/0001-75 aberto em janeiro de 2025), sem confirmação de qual está realmente ativo nem do nome completo do decisor — risco de usar o CNPJ errado" },
+    { "nome": "4Rodas Veículos (Montes Claros/MG)", "nicho": "automotivo", "motivo": "CNAE principal registrado é lavagem/lubrificação de veículos, não comércio de veículos — incompatível com o negócio observado no Instagram e no Google, risco de CNPJ não ser o da revenda" },
+    { "nome": "Sinergia Multimarcas (Montes Claros/MG)", "nicho": "automotivo", "motivo": "situação cadastral divergente entre fontes (uma indica ATIVA, outra indica INAPTA) — sem confirmação segura, não entra" },
+    { "nome": "GVEL Garanhuns Veículos / Dvel Veículos (Garanhuns/PE)", "nicho": "automotivo", "motivo": "não foi possível confirmar se o CNPJ encontrado (GVEL, CNPJ 10.675.197/0001-12) corresponde ao Instagram ativo \"Dvel Veículos\" — nomes parecidos mas não idênticos" },
+    { "nome": "Wellington Veículos / Alves Veículos (Garanhuns/PE)", "nicho": "automotivo", "motivo": "Instagram ativo (9,9 mil seguidores), mas não foi possível localizar um CNPJ correspondente a esse nome fantasia em Garanhuns" },
+    { "nome": "WL Veículos (Teixeira de Freitas/BA) e Lider Multimarcas (Juazeiro do Norte/CE)", "nicho": "automotivo", "motivo": "Instagram ativo, mas existem várias empresas homônimas em outras cidades/estados e não foi possível confirmar com segurança qual CNPJ corresponde ao negócio local" },
+    { "nome": "Autoeste e Motoeste (Mossoró/RN)", "nicho": "automotivo", "motivo": "ambas já têm site próprio funcionando (autoestevw.com.br é concessionária VW, automoveis.motoeste.com.br) — sem dor de Site; Autoeste também é concessionária de marca, excluída pela regra do nicho" },
+    { "nome": "Aky Veículos, Homecar Veículos e Bello Veículos (Vitória da Conquista/BA)", "nicho": "automotivo", "motivo": "as três já têm site próprio (akyveiculos.com, homecarveiculos.com.br, belloveiculos.com.br) — sem dor de Site" },
+    { "nome": "Jua Veículos News / Graje Veículos (Juazeiro do Norte/CE)", "nicho": "automotivo", "motivo": "situação cadastral INAPTA na fonte consultada, ou duas empresas homônimas sem confirmação segura de qual opera o Instagram" }
+  ],
+  "proximo_passo": "Abordar hoje entre 9h e 11h: Auto Premium (Mossoró/RN) e Juá Veículos (Juazeiro do Norte/CE); entre 14h e 17h: Exitus Veículos (Itabuna/BA) e JK Veículos (Barreiras/BA); follow-up D+3 em 2026-10-12."
+}
