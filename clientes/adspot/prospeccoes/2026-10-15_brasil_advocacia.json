@@ -1,0 +1,259 @@
+{
+  "prospeccao": {
+    "id": "2026-10-15_brasil_advocacia",
+    "titulo": "Advocacia pelo Brasil - sem site bom, capacidade de pagamento alta",
+    "data": "2026-10-15",
+    "cidade": "Brasil (várias cidades)",
+    "regiao": "Divinópolis/MG, Ipatinga/MG, Itapetininga/SP",
+    "nichos": ["advocacia"],
+    "observacoes": "Pedido do Vitor: focar em escritórios sem site bom (inexistente, antigo ou confuso) com capacidade de pagamento alta - ME/EPP, ≥2 anos de atuação (ou tempo de casa autodeclarado fora do CNPJ) e ticket alto inerente à advocacia. Instagram ativo e genuinamente confirmado é eliminatório. Cuidado redobrado com homônimos de nome de escritório entre cidades (regra já documentada).",
+    "demonstracao": false
+  },
+  "leads": [
+    {
+      "id": "azevedo-souza-divinopolis-mg",
+      "nicho": "advocacia",
+      "nome_fantasia": "Azevedo & Souza Advogados",
+      "bairro": "Centro, Divinópolis/MG",
+      "prioridade": "B",
+      "score": 51,
+      "score_detalhe": { "dor": 12, "capacidade": 24, "acesso": 15, "timing": 0 },
+      "cnpj": {
+        "numero": "57.284.600/0001-46",
+        "razao_social": "AZEVEDO & SOUZA SOCIEDADE DE ADVOGADOS",
+        "situacao": "ATIVA",
+        "abertura": "2024-09-13",
+        "porte": "ME",
+        "cnae": "6911-7/01 - Serviços advocatícios",
+        "capital_social": 0,
+        "endereco": "Avenida Getúlio Vargas, 622, salas 113-115, Centro, Divinópolis - MG, CEP 35.500-024",
+        "fonte": "econodata.com.br/consulta-empresa/57284600000146-azevedo-souza-sociedade-de-advogados (consulta_cnpj.py retornou 403 nas 3 fontes - BrasilAPI, CNPJ.ws, ReceitaWS - bloqueio de política de rede da sessão)"
+      },
+      "decisor": {
+        "nome": "Frederico Azevedo",
+        "primeiro_nome": "Frederico",
+        "qualificacao": "Sócio-Administrador",
+        "validado": true,
+        "fonte_validacao": "Página 'O Escritório' do site azevedoesouza.com (azevedoesouza.com/?page_id=9), que nomeia Frederico Azevedo e João Paulo Souza Rodrigues como sócios fundadores do escritório desde 2011 - nomes batem com os dois sócios-administradores do CNPJ",
+        "instagram": "não encontrado (perfil pessoal do sócio não localizado nas 3 buscas; existe apenas o Instagram da empresa, ver presenca.instagram)",
+        "outros_socios": [
+          { "nome": "João Paulo Souza Rodrigues", "qualificacao": "Sócio-Administrador" }
+        ]
+      },
+      "presenca": {
+        "site": {
+          "url": "https://azevedoesouza.com/",
+          "status": "antigo",
+          "nota": "Site existe, mas todas as páginas usam URLs no padrão '?page_id=' (configuração padrão de WordPress nunca ajustada para links amigáveis) - sinal de site montado e abandonado sem manutenção, apesar do escritório se apresentar com 15 anos de atuação (desde 2011)"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/azevedoesouzaadvogados/",
+          "seguidores": 806,
+          "publicacoes": 74,
+          "ultimo_post": "",
+          "status": "fraco",
+          "nota": "Perfil ativo e confirmado (806 seguidores, 397 seguindo, 74 publicações, bio cita '15 anos' e Divinópolis/MG) - mas 74 posts em até 15 anos de escritório é um ritmo muito baixo; não foi possível confirmar a data do último post - confirmar atividade recente antes de abordar"
+        },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta rodada" },
+        "anuncios": { "ativos": null, "fonte": "facebook.com/ads/library", "observacao": "não verificado nesta rodada" }
+      },
+      "dores": [
+        "Site existe mas está preso em uma configuração antiga (URLs cruas tipo '?page_id=9'), sem nunca ter sido ajustado para um link amigável - não condiz com um escritório de até 15 anos",
+        "Instagram ativo, mas com apenas 74 publicações acumuladas em todo o tempo de casa - ritmo de postagem muito baixo para reforçar a história do escritório"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000-1.500",
+        "justificativa": "O escritório já tem Instagram com alguma atividade; a dor mais clara e isolada é o site datado, que precisa de uma reconstrução institucional simples"
+      },
+      "gancho": "Escritório que se apresenta com 15 anos de atuação em Divinópolis, mas o site ainda está numa estrutura de links crua, nunca atualizada",
+      "contato": {
+        "whatsapp": "(37) 4141-0356",
+        "instagram": "@azevedoesouzaadvogados",
+        "email": "",
+        "melhor_horario": "9h-11h ou 14h-17h"
+      },
+      "mensagens": {
+        "whatsapp": "Oi, Frederico! Aqui é o Vitor, da Adspot. Vi que o Azevedo & Souza já soma 15 anos em Divinópolis e tem um Instagram ativo - mas o site do escritório ainda está numa estrutura bem antiga, com links que nunca foram ajustados. A gente reconstrói isso de forma condizente com o tempo de casa de vocês. Posso te mandar 3 ideias de como ficaria?",
+        "instagram_dm": "Oi, Frederico! Vitor, da Adspot. Vi que o Azevedo & Souza tem 15 anos de atuação em Divinópolis, mas o site parece não acompanhar isso. Posso te mandar 3 ideias de como deixar a presença digital do escritório mais condizente com o tempo de casa?",
+        "follow_up_d3": "Frederico, voltando com uma ideia concreta: um site novo, com um link amigável e uma página só sobre o escritório e as áreas de atuação de vocês - hoje o link atual ainda usa a estrutura padrão de quando o site foi criado. Faz sentido eu te mostrar como ficaria?",
+        "follow_up_d7": "Frederico, fecho por aqui essa tentativa. Se em algum momento fizer sentido organizar a presença digital do escritório, é só me chamar.",
+        "ligacao": "Se não responder no WhatsApp comercial (37) 4141-0356, tentar o Direct do Instagram @azevedoesouzaadvogados. Perguntar por Frederico Azevedo, se apresentar como Vitor da Adspot."
+      },
+      "fontes": [
+        "https://azevedoesouza.com/",
+        "https://azevedoesouza.com/?page_id=9",
+        "https://www.instagram.com/azevedoesouzaadvogados/",
+        "https://www.econodata.com.br/consulta-empresa/57284600000146-azevedo-souza-sociedade-de-advogados"
+      ]
+    },
+    {
+      "id": "grimaldo-bruno-ipatinga-mg",
+      "nicho": "advocacia",
+      "nome_fantasia": "Grimaldo Bruno Advocacia",
+      "bairro": "Iguaçu, Ipatinga/MG",
+      "prioridade": "B",
+      "score": 55,
+      "score_detalhe": { "dor": 16, "capacidade": 24, "acesso": 15, "timing": 0 },
+      "cnpj": {
+        "numero": "26.572.947/0001-60",
+        "razao_social": "GRIMALDO BRUNO BOTELHO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+        "situacao": "ATIVA",
+        "abertura": "2016-10-14",
+        "porte": "ME (sociedade unipessoal de advocacia)",
+        "cnae": "6911-7/01 - Serviços advocatícios",
+        "capital_social": 0,
+        "endereco": "Rua dos Caetés, 570, Iguaçu, Ipatinga - MG, CEP 35.162-038 (ATENÇÃO: a página pública da marca no Facebook indica Rua Jaspe, 290, mesmo bairro Iguaçu - endereços diferentes na mesma rua/bairro, confirmar antes de abordar)",
+        "fonte": "econodata.com.br/consulta-empresa/26572947000160-grimaldo-bruno-botelho-sociedade-individual-de-advocacia (consulta_cnpj.py retornou 403 nas 3 fontes - bloqueio de política de rede da sessão)"
+      },
+      "decisor": {
+        "nome": "Grimaldo Bruno Fernandes Botelho",
+        "primeiro_nome": "Grimaldo",
+        "qualificacao": "Titular (Sociedade Individual de Advocacia)",
+        "validado": true,
+        "fonte_validacao": "Publicações do Diário de Justiça de Minas Gerais (DJMG, ex.: edição de 25/11/2024, página de Ipatinga) listando Grimaldo Bruno Fernandes Botelho como advogado atuante, mais a bio do Instagram/Facebook da marca que usa o mesmo nome",
+        "instagram": "mesmo perfil da empresa - instagram.com/grimaldobrunoadvocacia (sociedade individual, não há perfil pessoal separado)",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": {
+          "url": "",
+          "status": "inexistente",
+          "nota": "3 buscas dedicadas (nome fantasia + Ipatinga, nome do titular + site/CNPJ, domínio de e-mail advocaciagb.com) não encontraram nenhum site/domínio próprio - só Facebook e Instagram"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/grimaldobrunoadvocacia/",
+          "seguidores": 5260,
+          "publicacoes": 370,
+          "ultimo_post": "",
+          "status": "ok",
+          "nota": "Perfil ativo e confirmado (5.260 seguidores, 370 publicações) - foco em trabalhista, previdenciário e cível; não foi possível confirmar a data do último post - confirmar antes de enviar"
+        },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta rodada" },
+        "anuncios": { "ativos": null, "fonte": "facebook.com/ads/library", "observacao": "não verificado nesta rodada" }
+      },
+      "dores": [
+        "Sem nenhum site institucional, apesar de quase 10 anos de atuação (desde 2016) e de um Instagram com mais de 5 mil seguidores ativos",
+        "A única presença fora das redes sociais é o e-mail no domínio advocaciagb.com, que não hospeda nenhuma página própria"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.000-1.500",
+        "justificativa": "Instagram já tem audiência real; falta um canal institucional próprio condizente com quase uma década de atuação"
+      },
+      "gancho": "Escritório com quase 10 anos de atuação em Ipatinga e Instagram ativo com mais de 5 mil seguidores, mas sem nenhum site institucional",
+      "contato": {
+        "whatsapp": "(31) 3616-2247",
+        "instagram": "@grimaldobrunoadvocacia",
+        "email": "atendimento@advocaciagb.com",
+        "melhor_horario": "9h-11h ou 14h-17h"
+      },
+      "mensagens": {
+        "whatsapp": "Oi, Grimaldo! Aqui é o Vitor, da Adspot. Vi o Instagram de vocês ativo, com mais de 5 mil seguidores - mas fui procurar o site do escritório e não encontrei nenhum, nem institucional. Para quase 10 anos de atuação em Ipatinga, um canal próprio reforçaria essa seriedade. Posso te mandar 3 ideias de como seria esse site?",
+        "instagram_dm": "Oi, Grimaldo! Vitor, da Adspot. Seu Instagram tem presença ativa, mas não achei nenhum site do escritório. Posso te mandar uma ideia de como ficaria um site institucional simples pra vocês?",
+        "follow_up_d3": "Grimaldo, uma ideia concreta: um site de uma página só, com as áreas de atuação (trabalhista, previdenciário, cível) e contato direto - pra quem te encontra pelo Google e não só pelo Instagram. Quer que eu te mostre um modelo?",
+        "follow_up_d7": "Grimaldo, fecho por aqui essa tentativa. Se fizer sentido organizar isso depois, é só me chamar.",
+        "ligacao": "Se não responder no WhatsApp (31) 3616-2247, usar o Direct do Instagram @grimaldobrunoadvocacia. Confirmar o endereço certo (Rua Jaspe 290 ou Rua dos Caetés 570, ambos no Iguaçu) antes de qualquer visita presencial."
+      },
+      "fontes": [
+        "https://www.instagram.com/grimaldobrunoadvocacia/",
+        "https://www.facebook.com/grimaldobrunoadvocacia/",
+        "https://www.econodata.com.br/consulta-empresa/26572947000160-grimaldo-bruno-botelho-sociedade-individual-de-advocacia",
+        "https://www.escavador.com/diarios/5995649/DJMG/ipatinga/2024-11-25?page=17"
+      ]
+    },
+    {
+      "id": "tps-advogados-itapetininga-sp",
+      "nicho": "advocacia",
+      "nome_fantasia": "TPS Advogados (Tamura e Prestes Silvério Advogados Associados)",
+      "bairro": "Vila Barth, Itapetininga/SP (também Tatuí/SP e Sorocaba/SP)",
+      "prioridade": "B",
+      "score": 52,
+      "score_detalhe": { "dor": 12, "capacidade": 27, "acesso": 13, "timing": 0 },
+      "cnpj": {
+        "numero": "38.214.364/0001-47",
+        "razao_social": "TAMURA E PRESTES SILVERIO SOCIEDADE DE ADVOGADOS",
+        "situacao": "ATIVA",
+        "abertura": "2020-07-24",
+        "porte": "ME",
+        "cnae": "6911-7/01 - Serviços advocatícios",
+        "capital_social": 10000,
+        "endereco": "Rua Maestro Edmundo Caciacarro, 9, Andar 2 Sala 2, Vila Barth, Itapetininga - SP, CEP 18.205-330 (matriz; filial em Tatuí/SP, CNPJ 38.214.364/0002-28)",
+        "fonte": "econodata.com.br/consulta-empresa/38214364000147-tamura-e-prestes-silverio-sociedade-de-advogados (consulta_cnpj.py retornou 403 nas 3 fontes - bloqueio de política de rede da sessão)"
+      },
+      "decisor": {
+        "nome": "Cristiano Tamura Vieira Gomes",
+        "primeiro_nome": "Cristiano",
+        "qualificacao": "Sócio",
+        "validado": true,
+        "fonte_validacao": "RocketReach lista Cristiano Tamura como sócio do escritório e o sobrenome 'Tamura' dá nome à marca comercial (TPS/tamuraprestes) - validação mais fraca que o padrão da casa, confirmar diretamente antes de citar o nome com certeza",
+        "instagram": "não encontrado (perfil pessoal não localizado nas 3 buscas; existe apenas o Instagram da empresa, ver presenca.instagram)",
+        "outros_socios": [
+          { "nome": "Fernanda Maria Prestes Silverio", "qualificacao": "Sócia" },
+          { "nome": "Amanda Fernanda Oliveira Lao Costa", "qualificacao": "Sócia" },
+          { "nome": "Isabela Maria Soares Gomes", "qualificacao": "Sócia" },
+          { "nome": "Maria Christina Trielli Avila", "qualificacao": "Sócia" },
+          { "nome": "Maria Vitoria Maruca Saoncella", "qualificacao": "Sócia" }
+        ]
+      },
+      "presenca": {
+        "site": {
+          "url": "https://tpsadvogados.com.br/ e http://tamuraprestes.com.br/",
+          "status": "ruim",
+          "nota": "O escritório usa dois domínios diferentes para o mesmo nome: tpsadvogados.com.br (com página de equipe) e tamuraprestes.com.br, que uma captura mostrou com a mensagem 'site em manutenção' - quem busca pelo nome completo do escritório pode cair no domínio fora do ar"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/tpsadv/",
+          "seguidores": 1210,
+          "publicacoes": 228,
+          "ultimo_post": "",
+          "status": "ok",
+          "nota": "Perfil ativo e confirmado (1.210 seguidores, 228 publicações), bio lista unidades em Itapetininga, Tatuí e Sorocaba - não foi possível confirmar a data do último post"
+        },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta rodada" },
+        "anuncios": { "ativos": null, "fonte": "facebook.com/ads/library", "observacao": "não verificado nesta rodada" }
+      },
+      "dores": [
+        "Dois domínios diferentes para o mesmo escritório, um deles ('tamuraprestes.com.br') exibindo aviso de site em manutenção - risco real de quem procura o escritório no Google cair num link fora do ar",
+        "Presença dividida entre três cidades (Itapetininga, Tatuí, Sorocaba) sem um site único que reúna as três unidades com clareza"
+      ],
+      "produto": {
+        "recomendado": "Site",
+        "valor": "R$ 1.500",
+        "justificativa": "Escritório com 3 unidades precisa de um domínio único e atualizado que organize as três, em vez de dois domínios concorrendo entre si"
+      },
+      "gancho": "Escritório com unidades em três cidades, mas dois domínios diferentes - um deles aparece como 'em manutenção' para quem pesquisa pelo nome",
+      "contato": {
+        "whatsapp": "(15) 3272-6315",
+        "instagram": "@tpsadv",
+        "email": "contato@tamuraprestes.com.br",
+        "melhor_horario": "9h-11h ou 14h-17h"
+      },
+      "mensagens": {
+        "whatsapp": "Oi, Cristiano! Aqui é o Vitor, da Adspot. Vi o Instagram do TPS Advogados ativo em Itapetininga, Tatuí e Sorocaba, mas ao procurar o site do escritório encontrei dois domínios diferentes - um deles aparece como 'em manutenção'. Isso pode confundir quem busca vocês no Google. Posso te mandar 3 ideias de como organizar isso em um site só?",
+        "instagram_dm": "Oi, Cristiano! Vitor, da Adspot. Fui procurar o site do TPS Advogados e encontrei dois domínios diferentes, um em manutenção. Posso te mandar uma ideia de como consolidar isso?",
+        "follow_up_d3": "Cristiano, uma ideia concreta: unificar tudo em um domínio só, ativo, com as três unidades (Itapetininga, Tatuí, Sorocaba) bem apresentadas - hoje quem clica no link errado não acha nada. Quer ver como ficaria?",
+        "follow_up_d7": "Cristiano, fecho por aqui essa tentativa. Se fizer sentido organizar isso depois, é só chamar.",
+        "ligacao": "Se não responder no WhatsApp (15) 3272-6315, usar o Direct do Instagram @tpsadv. Confirmar com a equipe se quem administra o escritório é mesmo o Cristiano antes de insistir no nome."
+      },
+      "fontes": [
+        "https://tpsadvogados.com.br/",
+        "http://tamuraprestes.com.br/",
+        "https://www.instagram.com/tpsadv/",
+        "https://www.econodata.com.br/consulta-empresa/38214364000147-tamura-e-prestes-silverio-sociedade-de-advogados",
+        "https://linktr.ee/tamuraprestes"
+      ]
+    }
+  ],
+  "descartados": [
+    { "nome": "Botelho e Neves Advogados Associados (Varginha/MG)", "nicho": "advocacia", "motivo": "Instagram confirmado ativo (@botelhoenevesadvogados, ~490 seguidores, 39 publicações) e sem site localizado, mas não foi possível achar o CNPJ do escritório em nenhuma fonte (buscas por nome, endereço e OAB não retornaram registro empresarial) - sem CNPJ não há como identificar o decisor pelo QSA, e a metodologia proíbe inventar CNPJ" },
+    { "nome": "Cimino & Faria Advogados Associados (Barbacena/MG)", "nicho": "advocacia", "motivo": "Instagram confirmado ativo (~712 seguidores) e site próprio existente, mas não foi possível localizar o CNPJ do escritório em nenhuma fonte - sem CNPJ não há como identificar o decisor" },
+    { "nome": "Canuto Martins Advogados Associados (Arapiraca/AL)", "nicho": "advocacia", "motivo": "Instagram confirmado ativo (~2.865 seguidores), mas não foi possível localizar o CNPJ específico desse escritório (existem homônimos 'Canuto' na região) - descartado por cautela" },
+    { "nome": "Americo Advogados Associados (Anápolis/GO)", "nicho": "advocacia", "motivo": "CNPJ confirmado, ATIVA desde 1996, com filial em Jaraguá/GO, mas nenhum Instagram foi localizado (eliminatório) e há uma reclamação pública sobre cobrança indevida de terceiros, o que pesa contra a reputação do lead" },
+    { "nome": "Dourado Advogados Associados / MS Advogados Associados (Dourados/MS)", "nicho": "advocacia", "motivo": "Perfis de Instagram localizados, mas nenhum com vínculo de cidade confirmado com segurança (telefone com DDD de outro estado em um caso, site de outra cidade no outro) - risco de homônimo alto, não forçado" },
+    { "nome": "Medeiros & Medeiros Advogados (Dourados/MS)", "nicho": "advocacia", "motivo": "CNPJ confirmado e ATIVA desde 2013, mas o escritório já tem site próprio, Linktree, TikTok, Facebook e Instagram configurados de forma profissional - presença digital já forte, não é dor" },
+    { "nome": "Porfírio Advogados Associados (Araxá/MG)", "nicho": "advocacia", "motivo": "Escritório tradicional (fundado em 1960) com site próprio ativo - presença digital já estabelecida, não é dor" },
+    { "nome": "Ideriha Advogados Associados (Cascavel/PR)", "nicho": "advocacia", "motivo": "CNPJ e site próprios confirmados (desde 2000), mas nenhum Instagram foi localizado nas buscas - eliminatório" }
+  ],
+  "proximo_passo": "Abordar os 3 leads B hoje entre 9h e 11h ou entre 14h e 17h; follow-up D+3 em 2026-10-18."
+}

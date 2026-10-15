@@ -1,0 +1,177 @@
+{
+  "prospeccao": {
+    "id": "2026-10-15_brasil_estetica-alto-padrao",
+    "titulo": "Estética de Alto Padrão pelo Brasil - sem site bom, capacidade de pagamento alta",
+    "data": "2026-10-15",
+    "cidade": "Brasil (várias cidades)",
+    "regiao": "Vitória da Conquista/BA, Jequié/BA",
+    "nichos": ["estetica"],
+    "observacoes": "Pedido do Vitor: clínicas de estética de alto padrão (procedimentos avançados/ticket alto - botox, preenchimento, harmonização facial, laser) sem site bom, com capacidade de pagamento alta (ME/EPP, ≥2 anos, ticket alto inerente ao nicho). Instagram ativo e genuinamente confirmado é eliminatório. Nicho muito saturado de franquias (GiOlaser, Botoclinic, Royal Face, BotoEsthetic, Damaface, Espaço Facial, Estetic Face, Estudio Harmoni e outras) - descartadas por marketing centralizado.",
+    "demonstracao": false
+  },
+  "leads": [
+    {
+      "id": "botocare-conquista-vitoria-da-conquista-ba",
+      "nicho": "estetica",
+      "nome_fantasia": "Botocare Conquista",
+      "bairro": "Candeias, Vitória da Conquista/BA",
+      "prioridade": "B",
+      "score": 55,
+      "score_detalhe": { "dor": 16, "capacidade": 24, "acesso": 11, "timing": 4 },
+      "cnpj": {
+        "numero": "38.170.211/0001-45",
+        "razao_social": "BOTOCARE CONQUISTA LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2020-08-20",
+        "porte": "ME",
+        "cnae": "9602-5/02 - Atividades de estética e outros serviços de cuidados com a beleza",
+        "capital_social": 0,
+        "endereco": "Avenida Olívia Flores, loja 04, Candeias, Vitória da Conquista - BA, CEP 45.028-100",
+        "fonte": "casadosdados.com.br/solucao/cnpj/botocare-conquista-ltda-38170211000145 e cnpj.biz/38170211000145 (consulta_cnpj.py retornou 403 nas 3 fontes - bloqueio de política de rede da sessão)"
+      },
+      "decisor": {
+        "nome": "Alessandro Baddini Magalhães",
+        "primeiro_nome": "Alessandro",
+        "qualificacao": "Sócio-Administrador",
+        "validado": false,
+        "fonte_validacao": "Nome aparece como sócio-administrador em agregadores de CNPJ (cnpj.biz, Casa dos Dados); não foi encontrada uma fonte externa ao CNPJ (site, Instagram pessoal, imprensa) confirmando o vínculo - tratar como não validado até confirmar na abordagem. Observação de contexto: o mesmo nome aparece como sócio de outras 5 empresas, incluindo uma rede de estética ('Lisslaser Estetica') em outras cidades (Teresópolis/RJ, Salvador/BA) - pode ser um operador de mais de uma unidade, não necessariamente presente no dia a dia desta clínica",
+        "instagram": "não encontrado (perfil pessoal não localizado; existe apenas o Instagram da clínica, ver presenca.instagram)",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": {
+          "url": "",
+          "status": "inexistente",
+          "nota": "3 buscas dedicadas (nome fantasia + Vitória da Conquista, nome + site/CNPJ, domínio botocare.com.br) não encontraram nenhum site próprio - toda a vitrine é só o Instagram"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/botocare/",
+          "seguidores": 6342,
+          "publicacoes": 791,
+          "ultimo_post": "",
+          "status": "ok",
+          "nota": "Perfil ativo e confirmado (6.342 seguidores, 977 seguindo, 791 publicações), bio oferece avaliação gratuita e lista o endereço em Candeias - não foi possível confirmar a data do último post"
+        },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta rodada" },
+        "anuncios": { "ativos": null, "fonte": "facebook.com/ads/library", "observacao": "não verificado nesta rodada" }
+      },
+      "dores": [
+        "Nenhum site próprio - toda a presença digital da clínica depende de uma única conta do Instagram",
+        "Sem anúncio confirmado na Biblioteca de Anúncios da Meta (não verificado nesta rodada) - o alcance parece depender só do orgânico"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "Clínica de ticket alto (botox, preenchimento) com Instagram já ativo, mas dependente de um único canal - tráfego pago paga o mês com um cliente novo e reduz esse risco"
+      },
+      "gancho": "Mais de 6 mil seguidores ativos no Instagram, mas nenhum canal próprio fora dele - se a conta sair do ar, a clínica perde a única vitrine",
+      "contato": {
+        "whatsapp": "(77) 9101-4921",
+        "instagram": "@botocare",
+        "email": "",
+        "melhor_horario": "9h-11h ou 14h-17h"
+      },
+      "mensagens": {
+        "whatsapp": "Oi, Alessandro! Aqui é o Vitor, da Adspot. Vi que a Botocare tem mais de 6 mil seguidores ativos no Instagram em Vitória da Conquista - mas não encontrei nenhum site da clínica. Hoje toda a vitrine de vocês depende só dessa conta. Posso te mandar 3 ideias de como reforçar isso com tráfego pago direcionado pra região?",
+        "instagram_dm": "Oi, Alessandro! Vitor, da Adspot. A Botocare tem um Instagram forte, mas não achei nenhum site de vocês. Posso te mandar uma ideia de como reforçar essa presença?",
+        "follow_up_d3": "Alessandro, uma ideia concreta: um anúncio direcionado pra quem mora perto da Candeias buscando botox e preenchimento - hoje o alcance de vocês depende só do orgânico do Instagram. Quer que eu te mostre como funcionaria?",
+        "follow_up_d7": "Alessandro, fecho por aqui essa tentativa. Fica à disposição se fizer sentido depois.",
+        "ligacao": "Se não responder no WhatsApp (77) 9101-4921, usar o Direct do Instagram @botocare. Confirmar quem administra a clínica no dia a dia antes de insistir no nome do sócio, já que ele aparece em outras empresas do setor em outras cidades."
+      },
+      "fontes": [
+        "https://www.instagram.com/botocare/",
+        "https://casadosdados.com.br/solucao/cnpj/botocare-conquista-ltda-38170211000145",
+        "https://cnpj.biz/38170211000145",
+        "https://guia.agendarconsulta.com/bahia/vitoria-da-conquista/botocare-conquista-0455156"
+      ]
+    },
+    {
+      "id": "ihfc-jequie-ba",
+      "nicho": "estetica",
+      "nome_fantasia": "IHFC - Instituto de Harmonização Facial Corporal",
+      "bairro": "Jequiezinho, Jequié/BA",
+      "prioridade": "B",
+      "score": 59,
+      "score_detalhe": { "dor": 16, "capacidade": 24, "acesso": 15, "timing": 4 },
+      "cnpj": {
+        "numero": "39.698.984/0001-61",
+        "razao_social": "IHFC INSTITUTO DE HARMONIZACAO FACIAL CORPORAL LTDA",
+        "situacao": "ATIVA",
+        "abertura": "2020-11-06",
+        "porte": "ME",
+        "cnae": "9602-5/02 - Atividades de estética e outros serviços de cuidados com a beleza",
+        "capital_social": 0,
+        "endereco": "Rua Doutor João Braga, 640, Jequiezinho, Jequié - BA, CEP 45.208-201",
+        "fonte": "econodata.com.br/consulta-empresa/39698984000161-IHFC-INSTITUTO-DE-HARMONIZACAO-FACIAL-CORPORAL-LTDA (consulta_cnpj.py retornou 403 nas 3 fontes - bloqueio de política de rede da sessão)"
+      },
+      "decisor": {
+        "nome": "Glautium Gabriel Almeida Pinheiro",
+        "primeiro_nome": "Glautium",
+        "qualificacao": "Sócio",
+        "validado": true,
+        "fonte_validacao": "Diretórios de harmonização facial e Jusbrasil ('Glautium Gabriel - Processos') identificam 'Dr. Glautium' atuando com harmonização orofacial e estética avançada em Jequié - nome bate com o sócio do CNPJ",
+        "instagram": "mesmo perfil da empresa - instagram.com/ihfcjequie (não há perfil pessoal separado localizado)",
+        "outros_socios": []
+      },
+      "presenca": {
+        "site": {
+          "url": "https://linktr.ee/IHFC",
+          "status": "inexistente",
+          "nota": "Não existe site próprio - o único link encontrado é um Linktree, que só reúne contato e endereço, sem página institucional"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/ihfcjequie/",
+          "seguidores": 9413,
+          "publicacoes": 117,
+          "ultimo_post": "",
+          "status": "ok",
+          "nota": "Perfil ativo e confirmado (9.413 seguidores, 7.290 seguindo, 117 publicações) - não foi possível confirmar a data do último post"
+        },
+        "google": { "url": "", "nota": 0.0, "avaliacoes": 0, "observacao": "não verificado nesta rodada" },
+        "anuncios": { "ativos": null, "fonte": "facebook.com/ads/library", "observacao": "não verificado nesta rodada" }
+      },
+      "dores": [
+        "Sem site próprio - o único link fora do Instagram é um Linktree, sem nenhuma página institucional",
+        "Mais de 9 mil seguidores concentrados numa única conta, sem nenhum canal de conversão próprio (site, agendamento)"
+      ],
+      "produto": {
+        "recomendado": "Pacote Inicial",
+        "valor": "R$ 1.500/mês × 3",
+        "justificativa": "Instagram já forte (9,4 mil seguidores) é a base para intensificar tráfego pago local; o procedimento de ticket alto paga o investimento do mês"
+      },
+      "gancho": "Mais de 9 mil seguidores no Instagram, mas o único link de vocês é um Linktree - nenhuma página própria reforça isso",
+      "contato": {
+        "whatsapp": "(73) 8150-7715",
+        "instagram": "@ihfcjequie",
+        "email": "",
+        "melhor_horario": "9h-11h ou 14h-17h"
+      },
+      "mensagens": {
+        "whatsapp": "Oi, Glautium! Aqui é o Vitor, da Adspot. Vi que o IHFC tem mais de 9 mil seguidores ativos no Instagram em Jequié - só que o único link de vocês é um Linktree, sem site nem página própria. Posso te mandar 3 ideias de como fortalecer essa presença?",
+        "instagram_dm": "Oi, Glautium! Vitor, da Adspot. O IHFC tem um Instagram forte, mas vi que o único link é um Linktree. Posso te mandar uma ideia de como evoluir isso?",
+        "follow_up_d3": "Glautium, uma ideia concreta: um anúncio local pra Jequié e região, direcionado pra quem busca harmonização facial - o procedimento de ticket mais alto paga o investimento do mês. Quer ver como ficaria?",
+        "follow_up_d7": "Glautium, fecho por aqui essa tentativa. Se fizer sentido depois, é só chamar.",
+        "ligacao": "Se não responder no WhatsApp (73) 8150-7715, usar o Direct do Instagram @ihfcjequie."
+      },
+      "fontes": [
+        "https://www.instagram.com/ihfcjequie/",
+        "https://linktr.ee/IHFC",
+        "https://econodata.com.br/consulta-empresa/39698984000161-IHFC-INSTITUTO-DE-HARMONIZACAO-FACIAL-CORPORAL-LTDA"
+      ]
+    }
+  ],
+  "descartados": [
+    { "nome": "GiOlaser, Botoclinic, Royal Face, BotoEsthetic, Damaface, Espaço Facial, Estetic Face, Botopremium (várias cidades: Arapiraca/AL, Caruaru/PE, Vitória da Conquista/BA, Mossoró/RN, Jequié/BA, Uberaba/MG, Sobral/CE, Criciúma/SC, Caxias do Sul/RS)", "nicho": "estetica", "motivo": "Franquias/redes nacionais ou regionais com marketing centralizado e site próprio - mesma regra de rede já documentada" },
+    { "nome": "Estudio Harmoni (Marabá/PA)", "nicho": "estetica", "motivo": "CNPJ confirmado (capital R$ 150 mil, forte sinal de capacidade) e Instagram/Facebook próprios, mas a marca está em expansão por franquia (site institucional cita 'franqueado', há uma unidade irmã em Pinhais/PR) - rede, não independente" },
+    { "nome": "Clínica Caroline Rios Saúde e Estética Avançada (Feira de Santana/BA)", "nicho": "estetica", "motivo": "Situação cadastral conflitante entre fontes (Serasa/cnpj.biz dizem BAIXADA, outro diretório diz ATIVA) e nenhum Instagram confirmado - descartada por cautela" },
+    { "nome": "Clínica Estetic Plus (Feira de Santana/BA)", "nicho": "estetica", "motivo": "Instagram (@esteticplusfsa) citado no próprio site, mas não foi possível confirmar atividade real do perfil nem localizar o CNPJ da clínica" },
+    { "nome": "Perface Clínica de Estética Avançada (Uberaba/MG)", "nicho": "estetica", "motivo": "CNPJ confirmado como BAIXADA (extinção por encerramento de liquidação voluntária) - reprovado no filtro eliminatório" },
+    { "nome": "Doutora Renata Volpe Estética Avançada (Uberaba/MG)", "nicho": "estetica", "motivo": "CNPJ confirmado ATIVA desde 2017 e sem site (só Linktree), mas não foi possível confirmar genuinamente a atividade do Instagram (@renatavolpeestetica) - nenhuma busca trouxe seguidores, publicações ou indício de atividade recente, e o WebFetch direto ao Instagram está bloqueado nesta sessão" },
+    { "nome": "Sculpt Biomedicina Estética Avançada (Criciúma/SC)", "nicho": "estetica", "motivo": "CNPJ aberto em fevereiro de 2025 - menos de 2 anos e sem outro sinal de timing forte (não é inauguração recente dentro da janela de bônus) - capacidade insuficiente" },
+    { "nome": "Clínica Isadora Martins / Sant'Al Clínica Estética (Criciúma/SC e Boa Vista/RR)", "nicho": "estetica", "motivo": "Diretórios indicam presença só via Instagram (sem site), mas não foi possível localizar o CNPJ de nenhuma das duas em nenhuma fonte - sem CNPJ não há como identificar o decisor" },
+    { "nome": "Estética Kacia Veloso (Macapá/AP)", "nicho": "estetica", "motivo": "CNPJ localizado (37.550.071/0001-78) e Instagram confirmado ativo (7.554 seguidores), mas não foi possível confirmar a situação cadastral nem o porte, e há endereços conflitantes entre o Instagram e um diretório - descartada por cautela" },
+    { "nome": "Espaço Fernanda Engenheiro Estética (Volta Redonda/RJ)", "nicho": "estetica", "motivo": "O único CNPJ localizado com nome parecido está em Barra Mansa/RJ (cidade errada) e consta como baixado - não usado por risco de vincular o CNPJ errado" },
+    { "nome": "Vivant Estética, Instituto Auzira Rodrigues, Clínica Vivare, Clinispa (reaproveitados de rodadas anteriores)", "nicho": "estetica", "motivo": "Já descartados em 2026-09-28 por conflito de endereço, presença digital já forte ou situação cadastral não confirmável - não investigados de novo nesta rodada" }
+  ],
+  "proximo_passo": "Abordar os 2 leads B hoje entre 9h e 11h ou entre 14h e 17h; follow-up D+3 em 2026-10-18."
+}
